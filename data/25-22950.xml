@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2"
+                              xmlns:jo="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <cbc:TotalAmount currencyID="EUR">720000.00</cbc:TotalAmount>
+                           <efac:LotResult>
+                              <cbc:ID>RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                              <efac:DecisionReason>
+                                 <efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                              </efac:DecisionReason>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:TenderLot>
+                                 <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotResult>
+                              <cbc:ID>RES-0002</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">clos-nw</cbc:TenderResultCode>
+                              <efac:DecisionReason>
+                                 <efbc:DecisionReasonCode listName="non-award-justification">no-rece</efbc:DecisionReasonCode>
+                              </efac:DecisionReason>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>0</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:TenderLot>
+                                 <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Châlons-en-Champagne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>25, rue du Lycée</cbc:StreetName>
+                                    <cbc:CityName>Châlons-en-Champagne</cbc:CityName>
+                                    <cbc:PostalZone>51036</cbc:PostalZone>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>FRREC51036</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0326668687</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-chalons-en-champagne@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Châlons-en-Champagne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>25, rue du Lycée</cbc:StreetName>
+                                    <cbc:CityName>Châlons-en-Champagne</cbc:CityName>
+                                    <cbc:PostalZone>51036</cbc:PostalZone>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>FRINT51036</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0326668687</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-chalons-en-champagne@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Commune de Troyes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place Alexandre Israël</cbc:StreetName>
+                                    <cbc:CityName>TROYES</cbc:CityName>
+                                    <cbc:PostalZone>10000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRF22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21100374400011</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0325426845</cbc:Telephone>
+                                    <cbc:ElectronicMail>commande.publique@ville-troyes.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.7</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">7bb3d65a-2628-40bf-be1d-d749bfacd499</cbc:ID>
+            <cbc:ContractFolderID>ce4b8708-bf45-4028-8e12-598db7693ff2</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-27Z</cbc:IssueDate>
+            <cbc:IssueTime>15:06:12Z</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>vetements2024</cbc:ID>
+               <cbc:Name languageID="FRA">Fourniture de vêtements de travail, de tenues de travail, de chaussures de travail et des équipements de protection individualisés-.</cbc:Name>
+               <cbc:Description languageID="FRA">Cet accord-cadre est passé dans le cadre du groupement d'achat Groupement de commandes entre Troyes Champagne Métropole, le CMAS de Troyes et la Ville de Troyes, dont la VILLE DE TROYES assure la coordination au nom de l’ensemble des membres. Chaque membre du groupement s'assure de la bonne exécution de l'accord-cadre pour la partie qui le concerne, en application des dispositions des articles L. 2113-7 et L. 2113-8 du Code de la Commande Publique.
+
+Identification du coordonnateur du groupement : VILLE DE TROYES
+
+Les prestations concernent la fourniture de vêtements de travail, de tenues de travail, de chaussures de travail et des équipements de protection individualisés (EPI) tels que décrits dans le cahier des clauses particulières (CCP) et le bordereau de prix unitaires (B.P.U).
+
+A titre indicatif, les montants estimés annuels des besoins au titre de cet accord-cadre pour chaque membre du groupement se déclinent comme suit : 
+- Commune de Troyes : 130 000 € HT 
+- Troyes Champagne Métropole : 45 000 € HT 
+- Centre Municipal d’Action Sociale : 5 000 € HT 
+
+Conformément aux dispositions des articles L2125-1.1°, R. 2162-1 à R. 2162-6 et R. 2162-13 à R. 2162-14 du Code de la Commande Publique, chaque lot donnera lieu, à la conclusion d’un accord-cadre mono-attributaire à bons de commande.
+Le titulaire de l’accord-cadre sera consulté, à chaque survenance d’un besoin, par le biais de l’émission de bons de commande, conformément aux dispositions des articles R. 2162-13 et R. 2162-14 du Code de la Commande Publique. 
+En application de l’article R.2162-4-2° du Code de la Commande Publique, l’accord-cadre sera conclu avec un montant maximum de :
+
+Montant maximum annuel HT
+intitulé du lot                                                               Ville de Troyes 	    CMAS de Troyes             TCM 
+
+Lot nº 01 – Vêtements de travail personnalisés	      80 000 €	                2 000 €	                 40 000 €
+
+Lot n° 2 - Blouson, parkas et softshell haute visibilité	22 000 €	                2 000 €	                 12 000 €
+
+Lot nº 03 – Blouses et tabliers	                                  8 000 €	                 6 000 €	                   1 200 €
+
+Lot nº 04 – Vêtements divers	                                            20 000 €	           2 000 €	          10 000 €
+
+Lot nº 05 – Chaussures de sécurité femmes	                  15 000 €	           6 000 €	            2 000 €
+
+Lot nº 06 – Chaussures de sécurité mixte	                 55 000 €	           1 000 €	           25 000 €
+
+Lot nº 07 – Protections des mains	                                  40 000 €	           2 000 €	           16 000 €
+
+Lot nº 08 – Protections de la tête	                                  24 000 €	           2 000 €	             5 000 €
+
+Lot nº 09 – Protections diverses	                                    22 000 €	           1 000 €	            8 000 €
+
+Lot nº 10 – Tenues de la police municipale	                  60 000 €	                  0 €	           4 000 €
+
+Lot nº 11 – Tenues des gardes champêtres	                        4 000 €	                 0 €	                    1 000 €
+
+Lot nº 12 – Tenues de sports	                                             6 000 €	                1 000 €	             1 000 €
+
+Lot nº 13 – Tenues de sécurité	                                      10 000 €	              1 000 €	              2 000 €</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">18100000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Qualité</cbc:Name>
+                           <cbc:Description languageID="FRA">La valeur technique, notée sur 10 points, pondération 60%, jugée au regard du BPU concerné, des fich</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Cout</cbc:Name>
+                           <cbc:Description languageID="FRA">Le Prix des prestations, noté sur 10 points, pondération de 40%, jugé au regard du montant total Dét</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Délais de recours précontractuel : possibilité de l'introduire entre le début de la procédure de passation et la signature du marché et dans les quelques jours suivant la date de notification de la décision de rejet de la candidature ou de l'offre ;
+Délai applicable en cas de demande d'annulation d'un acte détachable du contrat : 2 mois à compter de la publication, de l'affichage ou de la notification de l'acte attaqué (articles L 521-1 et R 421-1 du Code de justice administrative) ;
+Délai applicable pour un candidat non retenu en cas de demande d'annulation du marché lui-même : 2 mois à compter de la publication ou de l'affichage de l'avis de signature de ce marché</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>11</cbc:ID>
+                  <cbc:Name languageID="FRA">Tenues des gardes champêtres</cbc:Name>
+                  <cbc:Description languageID="FRA">Tenues des gardes champêtres</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">18100000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">sans objet</cbc:OptionsDescription>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Pour chaque lot, le marché est conclu pour une durée d’un an à compter de sa date de notification.
+Conformément aux dispositions de l’article R2112-4 du Code de la Commande Publique, le marché est reconductible 3 fois, pour une période d’un an sans que la durée maximale du marché ne puisse excéder 4 ans. 
+En outre, le titulaire ne pourra refuser la reconduction de l’accord-cadre. Si l’entité déc</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Qualité</cbc:Name>
+                           <cbc:Description languageID="FRA">La valeur technique, notée sur 10 points, pondération 60%, jugée au regard du BPU concerné, des fich</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Cout</cbc:Name>
+                           <cbc:Description languageID="FRA">Le Prix des prestations, noté sur 10 points, pondération de 40%, jugé au regard du montant total Dét</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Délais de recours précontractuel : possibilité de l'introduire entre le début de la procédure de passation et la signature du marché et dans les quelques jours suivant la date de notification de la décision de rejet de la candidature ou de l'offre ;
+Délai applicable en cas de demande d'annulation d'un acte détachable du contrat : 2 mois à compter de la publication, de l'affichage ou de la notification de l'acte attaqué (articles L 521-1 et R 421-1 du Code de justice administrative) ;
+Délai applicable pour un candidat non retenu en cas de demande d'annulation du marché lui-même : 2 mois à compter de la publication ou de l'affichage de l'avis de signature de ce marché</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-mix</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>13</cbc:ID>
+                  <cbc:Name languageID="FRA">Tenues de sécurité</cbc:Name>
+                  <cbc:Description languageID="FRA">Tenues de sécurité</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">18100000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">sans objet</cbc:OptionsDescription>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Pour chaque lot, le marché est conclu pour une durée d’un an à compter de sa date de notification.
+Conformément aux dispositions de l’article R2112-4 du Code de la Commande Publique, le marché est reconductible 3 fois, pour une période d’un an sans que la durée maximale du marché ne puisse excéder 4 ans. 
+En outre, le titulaire ne pourra refuser la reconduction de l’accord-cadre. Si l’entité déc</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-22950</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Service commande publique</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-01</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-05-08</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>150</CODE>
+               <LIBELLE>Habillement</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <FOURNITURES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>10</DEP_PUBLICATION>
+         <RESUME_OBJET>Fourniture de vêtements de travail, de tenues de travail, de chaussures de travail et des équipements de protection individualisés-.</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-22950 du 27/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-22950 du 27/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>10</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-22950</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e254">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Troyes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e283">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Fourniture de vêtements de travail, de tenues de travail, de chaussures de travail et des équipements de protection individualisés-.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Cet accord-cadre est passé dans le cadre du groupement d'achat Groupement de commandes entre Troyes Champagne Métropole, le CMAS de Troyes et la Ville de Troyes, dont la VILLE DE TROYES assure la coordination au nom de l’ensemble des membres. Chaque membre du groupement s'assure de la bonne exécution de l'accord-cadre pour la partie qui le concerne, en application des dispositions des articles L. 2113-7 et L. 2113-8 du Code de la Commande Publique. Identification du coordonnateur du groupement : VILLE DE TROYES Les prestations concernent la fourniture de vêtements de travail, de tenues de travail, de chaussures de travail et des équipements de protection individualisés (EPI) tels que décrits dans le cahier des clauses particulières (CCP) et le bordereau de prix unitaires (B.P.U). A titre indicatif, les montants estimés annuels des besoins au titre de cet accord-cadre pour chaque membre du groupement se déclinent comme suit : - Commune de Troyes : 130 000 € HT - Troyes Champagne Métropole : 45 000 € HT - Centre Municipal d’Action Sociale : 5 000 € HT Conformément aux dispositions des articles L2125-1.1°, R. 2162-1 à R. 2162-6 et R. 2162-13 à R. 2162-14 du Code de la Commande Publique, chaque lot donnera lieu, à la conclusion d’un accord-cadre mono-attributaire à bons de commande. Le titulaire de l’accord-cadre sera consulté, à chaque survenance d’un besoin, par le biais de l’émission de bons de commande, conformément aux dispositions des articles R. 2162-13 et R. 2162-14 du Code de la Commande Publique. En application de l’article R.2162-4-2° du Code de la Commande Publique, l’accord-cadre sera conclu avec un montant maximum de : Montant maximum annuel HT intitulé du lot Ville de Troyes CMAS de Troyes TCM Lot nº 01 – Vêtements de travail personnalisés 80 000 € 2 000 € 40 000 € Lot n° 2 - Blouson, parkas et softshell haute visibilité 22 000 € 2 000 € 12 000 € Lot nº 03 – Blouses et tabliers 8 000 € 6 000 € 1 200 € Lot nº 04 – Vêtements divers 20 000 € 2 000 € 10 000 € Lot nº 05 – Chaussures de sécurité femmes 15 000 € 6 000 € 2 000 € Lot nº 06 – Chaussures de sécurité mixte 55 000 € 1 000 € 25 000 € Lot nº 07 – Protections des mains 40 000 € 2 000 € 16 000 € Lot nº 08 – Protections de la tête 24 000 € 2 000 € 5 000 € Lot nº 09 – Protections diverses 22 000 € 1 000 € 8 000 € Lot nº 10 – Tenues de la police municipale 60 000 € 0 € 4 000 € Lot nº 11 – Tenues des gardes champêtres 4 000 € 0 € 1 000 € Lot nº 12 – Tenues de sports 6 000 € 1 000 € 1 000 € Lot nº 13 – Tenues de sécurité 10 000 € 1 000 € 2 000 €</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>ce4b8708-bf45-4028-8e12-598db7693ff2</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>vetements2024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e283">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>18100000</span>
+                  <span/>
+                  <span>Vêtements professionnels, vêtements de travail spéciaux et accessoires</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e283">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e303">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Tenues des gardes champêtres</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Tenues des gardes champêtres</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>11</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e431">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>18100000</span>
+                  <span/>
+                  <span>Vêtements professionnels, vêtements de travail spéciaux et accessoires</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>sans objet</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e451">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>12</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e457">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Pour chaque lot, le marché est conclu pour une durée d’un an à compter de sa date de notification. Conformément aux dispositions de l’article R2112-4 du Code de la Commande Publique, le marché est reconductible 3 fois, pour une période d’un an sans que la durée maximale du marché ne puisse excéder 4 ans. En outre, le titulaire ne pourra refuser la reconduction de l’accord-cadre. Si l’entité déc</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e303">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché financé en totalité ou en partie par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e315">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique, notée sur 10 points, pondération 60%, jugée au regard du BPU concerné, des fich</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Coût</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Cout</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le Prix des prestations, noté sur 10 points, pondération de 40%, jugé au regard du montant total Dét</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e303">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Délais de recours précontractuel : possibilité de l'introduire entre le début de la procédure de passation et la signature du marché et dans les quelques jours suivant la date de notification de la décision de rejet de la candidature ou de l'offre ; Délai applicable en cas de demande d'annulation d'un acte détachable du contrat : 2 mois à compter de la publication, de l'affichage ou de la notification de l'acte attaqué (articles L 521-1 et R 421-1 du Code de justice administrative) ; Délai applicable pour un candidat non retenu en cas de demande d'annulation du marché lui-même : 2 mois à compter de la publication ou de l'affichage de l'avis de signature de ce marché</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e409">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e305">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Châlons-en-Champagne</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Châlons-en-Champagne</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e474">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Tenues de sécurité</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Tenues de sécurité</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>13</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e602">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>18100000</span>
+                  <span/>
+                  <span>Vêtements professionnels, vêtements de travail spéciaux et accessoires</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>sans objet</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e622">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>12</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e628">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Pour chaque lot, le marché est conclu pour une durée d’un an à compter de sa date de notification. Conformément aux dispositions de l’article R2112-4 du Code de la Commande Publique, le marché est reconductible 3 fois, pour une période d’un an sans que la durée maximale du marché ne puisse excéder 4 ans. En outre, le titulaire ne pourra refuser la reconduction de l’accord-cadre. Si l’entité déc</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e474">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché financé en totalité ou en partie par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e486">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique, notée sur 10 points, pondération 60%, jugée au regard du BPU concerné, des fich</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Coût</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Cout</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le Prix des prestations, noté sur 10 points, pondération de 40%, jugé au regard du montant total Dét</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e474">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Délais de recours précontractuel : possibilité de l'introduire entre le début de la procédure de passation et la signature du marché et dans les quelques jours suivant la date de notification de la décision de rejet de la candidature ou de l'offre ; Délai applicable en cas de demande d'annulation d'un acte détachable du contrat : 2 mois à compter de la publication, de l'affichage ou de la notification de l'acte attaqué (articles L 521-1 et R 421-1 du Code de justice administrative) ; Délai applicable pour un candidat non retenu en cas de demande d'annulation du marché lui-même : 2 mois à compter de la publication ou de l'affichage de l'avis de signature de ce marché</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e580">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, en partie sans remise en concurrence et en partie avec remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e476">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Châlons-en-Champagne</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Châlons-en-Champagne</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur de tous les contrats attribués dans cet avis</span>
+            <span>:</span>
+            <span>720,000</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e24">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Aucun lauréat n’a été choisi et le concours est clos.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La raison pour laquelle un lauréat n’a pas été choisi</span>
+               <span>:</span>
+               <span>Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu</span>
+            </div>
+            <div class="section" id="section_6.1.4_d1e24">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>0</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_6.1_d1e52">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span>Aucun lauréat n’a été choisi et le concours est clos.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La raison pour laquelle un lauréat n’a pas été choisi</span>
+               <span>:</span>
+               <span>Aucune offre, aucune demande de participation, ni aucun projet n’a été reçu</span>
+            </div>
+            <div class="section" id="section_6.1.4_d1e52">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>0</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e89">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>FRREC51036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>25, rue du Lycée</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>51036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-chalons-en-champagne@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0326668687</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e133">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>FRINT51036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>25, rue du Lycée</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>51036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-chalons-en-champagne@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0326668687</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e177">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Troyes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21100374400011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place Alexandre Israël</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>TROYES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>10000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Aube</span>
+               <span/>
+               <span>(</span>
+               <span>FRF22</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>commande.publique@ville-troyes.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0325426845</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>7bb3d65a-2628-40bf-be1d-d749bfacd499</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>27/02/2025</span>
+               <span/>
+               <span>à 15:06</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>27/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Commune de Troyes : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Place Alexandre Israël TROYES 10000 FRF22 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0325426845</li>
+                     <li><span class="fr-text--bold">Courriel : </span>commande.publique@ville-troyes.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Fourniture de vêtements de travail, de tenues de travail, de chaussures de travail
+            et des équipements de protection individualisés-.</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Cet accord-cadre est passé dans le cadre du groupement d'achat Groupement de commandes
+            entre Troyes Champagne Métropole, le CMAS de Troyes et la Ville de Troyes, dont la
+            VILLE DE TROYES assure la coordination au nom de l’ensemble des membres. Chaque membre
+            du groupement s'assure de la bonne exécution de l'accord-cadre pour la partie qui
+            le concerne, en application des dispositions des articles L. 2113-7 et L. 2113-8 du
+            Code de la Commande Publique. Identification du coordonnateur du groupement : VILLE
+            DE TROYES Les prestations concernent la fourniture de vêtements de travail, de tenues
+            de travail, de chaussures de travail et des équipements de protection individualisés
+            (EPI) tels que décrits dans le cahier des clauses particulières (CCP) et le bordereau
+            de prix unitaires (B.P.U). A titre indicatif, les montants estimés annuels des besoins
+            au titre de cet accord-cadre pour chaque membre du groupement se déclinent comme suit
+            : - Commune de Troyes : 130 000 € HT - Troyes Champagne Métropole : 45 000 € HT -
+            Centre Municipal d’Action Sociale : 5 000 € HT Conformément aux dispositions des articles
+            L2125-1.1°, R. 2162-1 à R. 2162-6 et R. 2162-13 à R. 2162-14 du Code de la Commande
+            Publique, chaque lot donnera lieu, à la conclusion d’un accord-cadre mono-attributaire
+            à bons de commande. Le titulaire de l’accord-cadre sera consulté, à chaque survenance
+            d’un besoin, par le biais de l’émission de bons de commande, conformément aux dispositions
+            des articles R. 2162-13 et R. 2162-14 du Code de la Commande Publique. En application
+            de l’article R.2162-4-2° du Code de la Commande Publique, l’accord-cadre sera conclu
+            avec un montant maximum de : Montant maximum annuel HT intitulé du lot Ville de Troyes
+            CMAS de Troyes TCM Lot nº 01 – Vêtements de travail personnalisés 80 000 € 2 000 €
+            40 000 € Lot n° 2 - Blouson, parkas et softshell haute visibilité 22 000 € 2 000 €
+            12 000 € Lot nº 03 – Blouses et tabliers 8 000 € 6 000 € 1 200 € Lot nº 04 – Vêtements
+            divers 20 000 € 2 000 € 10 000 € Lot nº 05 – Chaussures de sécurité femmes 15 000
+            € 6 000 € 2 000 € Lot nº 06 – Chaussures de sécurité mixte 55 000 € 1 000 € 25 000
+            € Lot nº 07 – Protections des mains 40 000 € 2 000 € 16 000 € Lot nº 08 – Protections
+            de la tête 24 000 € 2 000 € 5 000 € Lot nº 09 – Protections diverses 22 000 € 1 000
+            € 8 000 € Lot nº 10 – Tenues de la police municipale 60 000 € 0 € 4 000 € Lot nº 11
+            – Tenues des gardes champêtres 4 000 € 0 € 1 000 € Lot nº 12 – Tenues de sports 6
+            000 € 1 000 € 1 000 € Lot nº 13 – Tenues de sécurité 10 000 € 1 000 € 2 000 €</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Tenues des gardes champêtres</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Tenues de sécurité</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

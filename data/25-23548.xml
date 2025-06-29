@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <cbc:TotalAmount currencyID="EUR">2070000</cbc:TotalAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <cac:FinancingParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:FinancingParty>
+                              <cac:PayerParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:PayerParty>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>7</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <cac:LegalMonetaryTotal>
+                                 <cbc:PayableAmount currencyID="EUR">2070000</cbc:PayableAmount>
+                              </cac:LegalMonetaryTotal>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>OFFRE SOFTEAM</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:AwardDate>2024-11-21+02:00</cbc:AwardDate>
+                              <cbc:IssueDate>2024-12-09+02:00</cbc:IssueDate>
+                              <cbc:Title languageID="FRA">Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre</cbc:Title>
+                              <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+                              <cac:NoticeDocumentReference>
+                                 <cbc:ID>a7afeec9-e80a-4682-9a34-a2889274c0d5-01</cbc:ID>
+                              </cac:NoticeDocumentReference>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:ContractReference>
+                                 <cbc:ID>2400039</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <cbc:Name>OFFRE SOFTEAM</cbc:Name>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0003</cbc:ID>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Etablissement Public Territorial Grand-Orly Seine Bièvre</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>11 avenue Henri Farman</cbc:StreetName>
+                                    <cbc:CityName>Orly</cbc:CityName>
+                                    <cbc:PostalZone>94398</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR107</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>20005801400016</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Harouna NDIAYE</cbc:Name>
+                                    <cbc:Telephone>0178182442</cbc:Telephone>
+                                    <cbc:ElectronicMail>harounaamadou.ndiaye@grandorlyseinebievre.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Melun</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>43, Rue Général de Gaulle</cbc:StreetName>
+                                    <cbc:CityName>Melun</cbc:CityName>
+                                    <cbc:PostalZone>77000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR102</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17770704900017</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Tribunal Administratif de Melun</cbc:Name>
+                                    <cbc:Telephone>0164798400 </cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-melun@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SOFTEAM</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>IVRY SUR SEINE</cbc:CityName>
+                                    <cbc:PostalZone>94200</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR107</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>49324189700096</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0157984693</cbc:Telephone>
+                                    <cbc:ElectronicMail>ld-bu-software-bids@softeam.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">710e69fb-eab5-46f9-b992-5e0c72f46c2f</cbc:ID>
+            <cbc:ContractFolderID>1265a650-d0b8-4012-b94f-53a5f78fa624</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:35:26+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+               <cac:NoticeDocumentReference>
+                  <cbc:ID>a7afeec9-e80a-4682-9a34-a2889274c0d5-01</cbc:ID>
+               </cac:NoticeDocumentReference>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2400039</cbc:ID>
+               <cbc:Name languageID="FRA">Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations associées pour l?EPT Grand-Orly Seine Bièvre</cbc:Name>
+               <cbc:Description languageID="FRA">Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations associées pour l?EPT Grand-Orly Seine Bièvre</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:CityName>ORLY</cbc:CityName>
+                     <cbc:PostalZone>94398</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FR107</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Prix</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Accompagnement</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:NoticeDocumentReference>
+                     <cbc:ID>a7afeec9-e80a-4682-9a34-a2889274c0d5-01</cbc:ID>
+                  </cac:NoticeDocumentReference>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cac:SubsequentProcessTenderRequirement>
+                        <cbc:Name>buyer-categories</cbc:Name>
+                     </cac:SubsequentProcessTenderRequirement>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2400039</cbc:ID>
+                  <cbc:Name languageID="FRA">Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre.</cbc:Name>
+                  <cbc:Description languageID="FRA">Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">48000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>ORLY</cbc:CityName>
+                        <cbc:PostalZone>94398</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR107</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2024-12-09+02:00</cbc:StartDate>
+                     <cbc:EndDate>2028-12-08+02:00</cbc:EndDate>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23548</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-90314</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Etablissement Public Territorial Grand-Orly Seine Bièvre</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>SOFTEAM</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-05-14</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>163</CODE>
+               <LIBELLE>Informatique (prestations de services)</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <FOURNITURES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>91</DEP_PUBLICATION>
+         <RESUME_OBJET>Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations associées pour l?EPT Grand-Orly Seine Bièvre</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-23548 du 28/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-23548 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>91</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23548</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e337">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e373">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations associées pour l?EPT Grand-Orly Seine Bièvre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations associées pour l?EPT Grand-Orly Seine Bièvre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>1265a650-d0b8-4012-b94f-53a5f78fa624</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Avis précédent</span>
+               <span>:</span>
+               <span>a7afeec9-e80a-4682-9a34-a2889274c0d5-01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2400039</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e373">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>48000000</span>
+                  <span/>
+                  <span>Logiciels et systèmes d'information</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e395">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>ORLY</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>94398</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Val-de-Marne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR107</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e373">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e413">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2400039</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e580">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>48000000</span>
+                  <span/>
+                  <span>Logiciels et systèmes d'information</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e600">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>ORLY</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>94398</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Val-de-Marne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR107</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e619">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>09/12/2024</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date de fin de durée</span>
+                  <span>:</span>
+                  <span>08/12/2028</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e413">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux avis antérieurs</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’avis antérieur</span>
+                     <span>:</span>
+                     <span>a7afeec9-e80a-4682-9a34-a2889274c0d5-01</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e425">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Accompagnement</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>10</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>50</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e544">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e415">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Melun</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Melun</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Melun</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation dont le budget est utilisé pour payer le marché</span>
+                  <span>:</span>
+                  <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui exécute le paiement</span>
+                  <span>:</span>
+                  <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur de tous les contrats attribués dans cet avis</span>
+            <span>:</span>
+            <span>2,070,000</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e24">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section" id="section_6.1.2_d1e24">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>SOFTEAM</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>OFFRE SOFTEAM</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Valeur de l'offre</span>
+                     <span>:</span>
+                     <span>2,070,000</span>
+                     <span/>
+                     <span>Euro</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>2400039</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Titre</span>
+                        <span>:</span>
+                        <span>Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations associées pour l'EPT Grand-Orly Seine Bièvre</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date à laquelle le lauréat a été choisi</span>
+                        <span>:</span>
+                        <span>21/11/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>09/12/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">oui</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e24">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>7</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e161">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Etablissement Public Territorial Grand-Orly Seine Bièvre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>20005801400016</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>11 avenue Henri Farman</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Orly</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>94398</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-de-Marne</span>
+               <span/>
+               <span>(</span>
+               <span>FR107</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Harouna NDIAYE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>harounaamadou.ndiaye@grandorlyseinebievre.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0178182442</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation dont le budget est utilisé pour payer le marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui exécute le paiement</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e211">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Melun</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17770704900017</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>43, Rue Général de Gaulle</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Melun</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>77000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-et-Marne</span>
+               <span/>
+               <span>(</span>
+               <span>FR102</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Melun</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-melun@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0164798400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e261">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>SOFTEAM</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>49324189700096</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>IVRY SUR SEINE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>94200</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-de-Marne</span>
+               <span/>
+               <span>(</span>
+               <span>FR107</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>ld-bu-software-bids@softeam.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0157984693</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>710e69fb-eab5-46f9-b992-5e0c72f46c2f</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 15:35</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Etablissement Public Territorial Grand-Orly Seine Bièvre : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>11 avenue Henri Farman Orly 94398 FR107 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>Harouna NDIAYE</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0178182442</li>
+                     <li><span class="fr-text--bold">Courriel : </span>harounaamadou.ndiaye@grandorlyseinebievre.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do" target="_blank" title="Aller sur la page https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do - nouvelle fenêtre"><span>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations
+            associées pour l?EPT Grand-Orly Seine Bièvre</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Fourniture d?une solution de gestion de la relation usager (GRU) et des prestations
+            associées pour l?EPT Grand-Orly Seine Bièvre</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Fourniture d'une solution de gestion de la relation usager (GRU) et des prestations
+                  associées pour l'EPT Grand-Orly Seine Bièvre.</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

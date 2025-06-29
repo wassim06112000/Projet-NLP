@@ -1,0 +1,1581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">7000000</efbc:OverallMaximumFrameworkContractsAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <cac:FinancingParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:FinancingParty>
+                              <cac:PayerParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:PayerParty>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:FrameworkAgreementValues>
+                                 <cbc:MaximumValueAmount currencyID="EUR">7000000</cbc:MaximumValueAmount>
+                              </efac:FrameworkAgreementValues>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>20</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>OFFRE_SAS BASTILLE/4AOUT</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:AwardDate>2024-12-26+02:00</cbc:AwardDate>
+                              <cbc:IssueDate>2025-02-21+02:00</cbc:IssueDate>
+                              <cbc:Title languageID="FRA">AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS)</cbc:Title>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:ContractReference>
+                                 <cbc:ID>00A24157</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <cbc:Name>Groupement BASTILLE / 4AOUT</cbc:Name>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0003</cbc:ID>
+                              </efac:Tenderer>
+                              <efac:SubContractor>
+                                 <cbc:ID>ORG-0006</cbc:ID>
+                                 <efac:MainContractor>
+                                    <cbc:ID>ORG-0003</cbc:ID>
+                                 </efac:MainContractor>
+                              </efac:SubContractor>
+                              <efac:SubContractor>
+                                 <cbc:ID>ORG-0007</cbc:ID>
+                                 <efac:MainContractor>
+                                    <cbc:ID>ORG-0003</cbc:ID>
+                                 </efac:MainContractor>
+                              </efac:SubContractor>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Montreuil</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>7 rue Catherine PUIG</cbc:StreetName>
+                                    <cbc:CityName>Montreuil sous bois</cbc:CityName>
+                                    <cbc:PostalZone>93210</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000686900015</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 149202000</cbc:Telephone>
+                                    <cbc:ElectronicMail>Greffe.ta-montreuil@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.efs.sante.fr/</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://www.marches-publics.gouv.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Etablissement Français du Sang</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>20 avenue du Stade de France</cbc:StreetName>
+                                    <cbc:CityName>La Plaine Saint Denis cedex</cbc:CityName>
+                                    <cbc:PostalZone>93218</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>42882285202140</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Direction des achats, de l'immobilier et de la maintenance</cbc:Name>
+                                    <cbc:Telephone>+33155939500</cbc:Telephone>
+                                    <cbc:ElectronicMail>stde.marches.publics@efs.sante.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Société BASTILLE / 4AOUT</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>42 rue Sedaine</cbc:StreetName>
+                                    <cbc:CityName>PARIS</cbc:CityName>
+                                    <cbc:PostalZone>75011</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>824 161 517 00035</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>01 53 38 64 54</cbc:Telephone>
+                                    <cbc:ElectronicMail>infos@agencebastille.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">16Prod</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>4 bis rue Marceau</cbc:StreetName>
+                                    <cbc:CityName>Montreuil</cbc:CityName>
+                                    <cbc:PostalZone>93100</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR106</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>80019277500032</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>01 48 96 07 89</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact@16prod.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">POPSPIRIT</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>9 rue des Colonnes</cbc:StreetName>
+                                    <cbc:CityName>PARIS</cbc:CityName>
+                                    <cbc:PostalZone>75002</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>824 645 592 00059</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>01 42 93 44 56</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact@pop-spirit.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">a17a24f2-4eed-4c71-9569-f6e077ecb6fd</cbc:ID>
+            <cbc:ContractFolderID>01c921b5-9213-4067-befe-1bca0f3360bd</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>09:36:46+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.marches-publics.gouv.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">La consultation a été engagée sous la forme d'un dialogue compétitif ,procédure par laquelle l'acheteur dialogue avec les candidats admis à y participer en vue de définir ou développer les solutions de nature à répondre à ses besoins et sur la base desquelles ces candidats soumissionnaires sont invités à remettre une offre finale. 
+
+
+La consultation a été engagée sous la forme d'un dialogue compétitif, conformément aux dispositions des articles L.2124-1, L.2124-4, R.2124-1, R.2124-5 et R.2161-24 à R.2161-3 1° du code de la commande publique en vue de définir ou développer les solutions de nature à répondre à ses besoins et sur la base desquelles ces candidats soumissionnaires sont invités à remettre une offre finale. Outre l'adaptation des solutions immédiatement disponibles, l'EFS n'a également pas été en mesure de définir à l'avance les spécifications techniques avec une précision suffisante, à l'appui des arguments justifiant le recours au dialogue compétitif. 
+
+
+La procédure de dialogue compétitif s'est déroulée en trois phases et organisée selon une procédure restreinte : 
+- Une phase de sélection des candidatures : à l'issue de la phase candidature, le pouvoir adjudicateur sélectionne les candidats admis à participer au dialogue.
+- Une phase de dialogue avec les candidats sélectionnés dont l'objet est l'identification et la définition des moyens propres à satisfaire au mieux les besoins de l'acheteur : à l'issue de l'étape du dialogue, le pouvoir adjudicateur sélectionne, par application des critères d'attribution, les participants au dialogue sélectionnés pour la remise des offres finales. 
+- Une phase de remise des offres finales : à l'issue de la remise des offres finales, le pouvoir adjudicateur sélectionne, par application des critères d'attribution, le candidat ayant remis l'offre finale considérée comme l'offre économiquement la plus avantageuse. 
+
+La phase dialogue et la phase de remise des offres finales ont donné lieux à négociation(s) avec les candidats retenus sur chacune de ces phases.
+
+L'organisation et le déroulement de la procédure de dialogue compétitif étaient indiqués et développés aux articles 1.5 et 1.15.1 du règlement de la consultation.
+
+L'étape candidature  avait pour objet la sélection des candidats admis à participer au dialogue compétitif. Conformément aux exigences de l'article R.2142-17 du Code de la commande publique, le nombre minimum de candidats admis à participer au dialogue compétitif était de trois (3), sous réserve d'un nombre suffisant de candidatures. 
+Conformément aux exigences de l'article R.2142-18 du Code de la commande publique, lorsque le nombre de candidats satisfaisant aux critères de sélection est inférieur au nombre minimum indiqué ci-avant ou que le nombre de candidats à répondre à la procédure de dialogue compétitif est inférieur, l'acheteur pourra poursuivre la procédure avec ces candidats. 
+Le nombre maximum de candidats admis à participer au dialogue compétitif était de quatre (4).
+
+
+
+</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">comp-dial</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>EFS_SC2851</cbc:ID>
+               <cbc:Name languageID="FRA">AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS) </cbc:Name>
+               <cbc:Description languageID="FRA">Le marché a pour objet l'identification d'une agence ou d'un groupement d'agences en charge de la communication globale de l'Etablissement Français du Sang (EFS).
+La présente consultation recouvre les enjeux principaux suivants :
+- Développer le don de plasma
+- Recrutement et fidélisation de nouveaux donneurs jeunes
+- Recrutement de personnels médicotechniques/attractivité employeur 
+- Développer et améliorer l'expérience donneur 
+- Accroitre la visibilité des maisons du don et augmenter le volume de don dans les sites de collecte
+La présente consultation a pour objet d'identifier une agence de communication ou un groupement d'agences en charge de la communication globale de l'EFS à destination de toutes les cibles et sur tous les types d'expression et de prises de parole : stratégie, création, déploiement des actions de communication, de campagne d'activations, marketing relationnel et digital, stratégie et contenu digital et mobile, contenus éditoriaux, branding, dispositifs événementiels structurants en lien direct avec les actions de communication marque donneurs, production d'outils de communication divers.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Lieux d'exécution : France entière (métropole et DOM). 
+
+Le marché public issu de la présente consultation constitue un accord-cadre exécuté par l'émission de bons de commande, conformément à l'article L.2125-1 1° ainsi qu'aux articles R.2162-1 à R.2162-6, R.2162-13 et R.2162-14 du code de la commande publique.
+Il ne donnera pas lieu à la conclusion de marchés subséquents. 
+L'accord-cadre est mono-attributaire. 
+L'accord-cadre est conclu comme suit :
+- Sans minimum
+- Avec seulement un maximum de 7 millions euros HT valable pour toute la période de validité du présent accord-cadre (article R.2162-4 2° du code de la commande publique).
+Le Titulaire est engagé à concurrence des quantités/valeurs maximales
+
+
+
+Le mode de règlement du marché choisi par l'EFS est le virement. Les offres seront établies en euros.
+Le délai global de paiement est de 60 jours pour l'EFS conformément aux règles de la comptabilité publique et aux dispositions des articles R.2191-1 à R.2191-63 du Code de la commande publique.
+L'attention des candidats est attirée sur le fait que s'ils veulent renoncer aux bénéfices de l'avance prévue dans les pièces du marché, ils doivent le préciser à l'acte d'engagement.
+Le marché public est financé par les fonds propres de l'EFS. 
+</cbc:Note>
+               <cac:RequestedTenderTotal>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:FrameworkMaximumAmount currencyID="EUR">7000000</efbc:FrameworkMaximumAmount>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">2200000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79342000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">92111200</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79342321</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79415200</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79341400</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79822500</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">92400000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>70</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">VALEUR TECHNIQUE 70%
+
+Valeur ajoutée conseil/stratégie des moyens 30% 
+
+Pertinence de la réflexion et de la conception de la campagne plasma : 15%
+  - A recruter de nouveaux donneurs 
+  - A inscrire le don de plasma dans la pérennité 
+
+Pertinence de la réflexion et de la formalisation du positionnement sur de la stratégie employee advocacy : 15%
+  - A recruter plus de profils médicotechniques 
+  - A organiser sa montée en puissance 
+
+Valeur ajoutée créative : 20%
+
+Qualité du concept créatif et du territoire d'expression (potentiel impact, facilités d'utilisation et de déclinaison, exécution) identifiés pour la campagne plasma 10 %
+
+Qualité du concept créatif et du territoire d'expression identifiés pour la stratégie marque employeur : 10 % 
+
+Organisation et équipe : 20% 
+
+Profils et configuration de l'équipe (séniorité, expertise, couverture des besoins) : 10 % 
+
+Efficacité et réalisme du fonctionnement proposé : 10%
+- Pour assurer la supervision et le pilotage des budgets et des plannings 
+- Pour garantir agilité, couverture des prestations et réactivité face au volume et à la diversité des sujets </cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">PRIX 30%
+
+Prix des détails quantitatifs estimatifs DQE recommandations/cas pratiques : 15 %
+
+Appréciation de la qualité et rigueur de l'optimisation, l'exploitation et équilibre budgétaire des recommandations des candidats en fonction des budgets alloués et proposés : 15 %
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Le candidat peut, s'il le souhaite, exercer : 
+- Un référé contractuel conformément à l'article L.551-13 et suivants du Code de justice administrative dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat au JOUE/ de la notification de la conclusion du contrat pour les marchés fondés sur un accord-cadre, ou à compter de 6 mois à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié ou si aucune notification de la conclusion du contrat n'a été effectuée ;
+- Dans un délai de 2 mois après accomplissement des mesures de publicité appropriées, un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles.
+- Dans un délai de 2 mois à compter de sa notification du présent courrier, un recours pour excès de pouvoir contre les clauses réglementaires des pièces contractuelles sur le fondement des articles R. 421-1 et R. 421-7 du Code de justice administrative.
+- A titre accessoire, un recours au fond, un référé suspension peut être formé, dans les conditions prévues à l'article L.521-1 CJA.
+Les pièces du marché public, objet du présent avis d'attribution, sont consultables dans le cadre des secrets protégés par loi, auprès de la Direction Juridique et de la Conformité (DJC) de l'EFS, tél. : 0155939500.
+</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cac:SubsequentProcessTenderRequirement>
+                        <cbc:Name>buyer-categories</cbc:Name>
+                     </cac:SubsequentProcessTenderRequirement>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>EFS_SC2851</cbc:ID>
+                  <cbc:Name languageID="FRA">AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS) </cbc:Name>
+                  <cbc:Description languageID="FRA">La présente consultation a pour objet l'identification d'une agence ou d'un groupement d'agences en charge de la communication globale de l'Etablissement Français du Sang (EFS).
+La présente consultation recouvre les enjeux principaux suivants :
+- Développer le don de plasma
+- Recrutement et fidélisation de nouveaux donneurs jeunes
+- Recrutement de personnels médicotechniques/attractivité employeur 
+- Développer et améliorer l'expérience donneur 
+- Accroitre la visibilité des maisons du don et augmenter le volume de don dans les sites de collecte
+Le marché a pour objet d'identifier une agence de communication ou un groupement d'agences en charge de la communication globale de l'EFS à destination de toutes les cibles et sur tous les types d'expression et de prises de parole : stratégie, création, déploiement des actions de communication, de campagne d'activations, marketing relationnel et digital, stratégie et contenu digital et mobile, contenus éditoriaux, branding, dispositifs événementiels structurants en lien direct avec les actions de communication marque donneurs, production d'outils de communication divers.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Estimation sur la durée totale de validité du marché
+(4 ans - incluant toutes les prestations ) : 2 200 000 euros HT.
+Estimation prestations similaires éventuelles (1 an) : 550 000 euros HT.
+</cbc:Note>
+                  <cac:RequestedTenderTotal>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efbc:FrameworkMaximumAmount currencyID="EUR">7000000</efbc:FrameworkMaximumAmount>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">2200000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79342000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le présent marché public prend effet à compter de sa notification au titulaire pour une durée ferme de vingt-quatre (24) mois. 
+Il est reconductible deux fois selon les modalités administratives prévues à cet effet dans le CCAP. 
+En tout état de cause, la durée maximum de validité du présent marché public ne pourra pas excéder 48 mois à compter de sa notification au titulaire. 
+</cbc:OptionsDescription>
+                     <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le présent marché public pourra faire l'objet d'une procédure sans publicité ni mise en concurrence préalables pour la réalisation de prestations similaires, en application et dans les conditions prévues aux articles L.2122-1 et R.2122-7 du Code de la commande publique. </cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23239</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-45555</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-46659</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Etablissement Français du Sang</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>Société BASTILLE / 4AOUT</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <DIALOGUE_COMPETITIF/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-04-30</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>285</CODE>
+               <LIBELLE>Publicité, Communication</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>93</DEP_PUBLICATION>
+         <RESUME_OBJET>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS) </RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-23239 du 28/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-23239 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>93</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23239</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e457">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Etablissement Français du Sang</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Santé</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e491">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le marché a pour objet l'identification d'une agence ou d'un groupement d'agences en charge de la communication globale de l'Etablissement Français du Sang (EFS). La présente consultation recouvre les enjeux principaux suivants : - Développer le don de plasma - Recrutement et fidélisation de nouveaux donneurs jeunes - Recrutement de personnels médicotechniques/attractivité employeur - Développer et améliorer l'expérience donneur - Accroitre la visibilité des maisons du don et augmenter le volume de don dans les sites de collecte La présente consultation a pour objet d'identifier une agence de communication ou un groupement d'agences en charge de la communication globale de l'EFS à destination de toutes les cibles et sur tous les types d'expression et de prises de parole : stratégie, création, déploiement des actions de communication, de campagne d'activations, marketing relationnel et digital, stratégie et contenu digital et mobile, contenus éditoriaux, branding, dispositifs événementiels structurants en lien direct avec les actions de communication marque donneurs, production d'outils de communication divers.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>01c921b5-9213-4067-befe-1bca0f3360bd</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>EFS_SC2851</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Dialogue compétitif</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>La consultation a été engagée sous la forme d'un dialogue compétitif ,procédure par laquelle l'acheteur dialogue avec les candidats admis à y participer en vue de définir ou développer les solutions de nature à répondre à ses besoins et sur la base desquelles ces candidats soumissionnaires sont invités à remettre une offre finale. La consultation a été engagée sous la forme d'un dialogue compétitif, conformément aux dispositions des articles L.2124-1, L.2124-4, R.2124-1, R.2124-5 et R.2161-24 à R.2161-3 1° du code de la commande publique en vue de définir ou développer les solutions de nature à répondre à ses besoins et sur la base desquelles ces candidats soumissionnaires sont invités à remettre une offre finale. Outre l'adaptation des solutions immédiatement disponibles, l'EFS n'a également pas été en mesure de définir à l'avance les spécifications techniques avec une précision suffisante, à l'appui des arguments justifiant le recours au dialogue compétitif. La procédure de dialogue compétitif s'est déroulée en trois phases et organisée selon une procédure restreinte : - Une phase de sélection des candidatures : à l'issue de la phase candidature, le pouvoir adjudicateur sélectionne les candidats admis à participer au dialogue. - Une phase de dialogue avec les candidats sélectionnés dont l'objet est l'identification et la définition des moyens propres à satisfaire au mieux les besoins de l'acheteur : à l'issue de l'étape du dialogue, le pouvoir adjudicateur sélectionne, par application des critères d'attribution, les participants au dialogue sélectionnés pour la remise des offres finales. - Une phase de remise des offres finales : à l'issue de la remise des offres finales, le pouvoir adjudicateur sélectionne, par application des critères d'attribution, le candidat ayant remis l'offre finale considérée comme l'offre économiquement la plus avantageuse. La phase dialogue et la phase de remise des offres finales ont donné lieux à négociation(s) avec les candidats retenus sur chacune de ces phases. L'organisation et le déroulement de la procédure de dialogue compétitif étaient indiqués et développés aux articles 1.5 et 1.15.1 du règlement de la consultation. L'étape candidature avait pour objet la sélection des candidats admis à participer au dialogue compétitif. Conformément aux exigences de l'article R.2142-17 du Code de la commande publique, le nombre minimum de candidats admis à participer au dialogue compétitif était de trois (3), sous réserve d'un nombre suffisant de candidatures. Conformément aux exigences de l'article R.2142-18 du Code de la commande publique, lorsque le nombre de candidats satisfaisant aux critères de sélection est inférieur au nombre minimum indiqué ci-avant ou que le nombre de candidats à répondre à la procédure de dialogue compétitif est inférieur, l'acheteur pourra poursuivre la procédure avec ces candidats. Le nombre maximum de candidats admis à participer au dialogue compétitif était de quatre (4).</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e491">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79342000</span>
+                  <span/>
+                  <span>Services de marketing</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>92111200</span>
+                  <span/>
+                  <span>Production de films et de vidéos publicitaires, de propagande et d'information</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79342321</span>
+                  <span/>
+                  <span>Programme de fidélisation du client</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79415200</span>
+                  <span/>
+                  <span>Services de conseil en conception</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79341400</span>
+                  <span/>
+                  <span>Services de campagne publicitaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79822500</span>
+                  <span/>
+                  <span>Services de conception graphique</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>92400000</span>
+                  <span/>
+                  <span>Services d'agences de presse</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e491">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>2,200,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>7,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e491">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Lieux d'exécution : France entière (métropole et DOM). Le marché public issu de la présente consultation constitue un accord-cadre exécuté par l'émission de bons de commande, conformément à l'article L.2125-1 1° ainsi qu'aux articles R.2162-1 à R.2162-6, R.2162-13 et R.2162-14 du code de la commande publique. Il ne donnera pas lieu à la conclusion de marchés subséquents. L'accord-cadre est mono-attributaire. L'accord-cadre est conclu comme suit : - Sans minimum - Avec seulement un maximum de 7 millions euros HT valable pour toute la période de validité du présent accord-cadre (article R.2162-4 2° du code de la commande publique). Le Titulaire est engagé à concurrence des quantités/valeurs maximales Le mode de règlement du marché choisi par l'EFS est le virement. Les offres seront établies en euros. Le délai global de paiement est de 60 jours pour l'EFS conformément aux règles de la comptabilité publique et aux dispositions des articles R.2191-1 à R.2191-63 du Code de la commande publique. L'attention des candidats est attirée sur le fait que s'ils veulent renoncer aux bénéfices de l'avance prévue dans les pièces du marché, ils doivent le préciser à l'acte d'engagement. Le marché public est financé par les fonds propres de l'EFS.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e573">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La présente consultation a pour objet l'identification d'une agence ou d'un groupement d'agences en charge de la communication globale de l'Etablissement Français du Sang (EFS). La présente consultation recouvre les enjeux principaux suivants : - Développer le don de plasma - Recrutement et fidélisation de nouveaux donneurs jeunes - Recrutement de personnels médicotechniques/attractivité employeur - Développer et améliorer l'expérience donneur - Accroitre la visibilité des maisons du don et augmenter le volume de don dans les sites de collecte Le marché a pour objet d'identifier une agence de communication ou un groupement d'agences en charge de la communication globale de l'EFS à destination de toutes les cibles et sur tous les types d'expression et de prises de parole : stratégie, création, déploiement des actions de communication, de campagne d'activations, marketing relationnel et digital, stratégie et contenu digital et mobile, contenus éditoriaux, branding, dispositifs événementiels structurants en lien direct avec les actions de communication marque donneurs, production d'outils de communication divers.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>EFS_SC2851</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e727">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79342000</span>
+                  <span/>
+                  <span>Services de marketing</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le présent marché public prend effet à compter de sa notification au titulaire pour une durée ferme de vingt-quatre (24) mois. Il est reconductible deux fois selon les modalités administratives prévues à cet effet dans le CCAP. En tout état de cause, la durée maximum de validité du présent marché public ne pourra pas excéder 48 mois à compter de sa notification au titulaire.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e771">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>2</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le présent marché public pourra faire l'objet d'une procédure sans publicité ni mise en concurrence préalables pour la réalisation de prestations similaires, en application et dans les conditions prévues aux articles L.2122-1 et R.2122-7 du Code de la commande publique.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e744">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>2,200,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>7,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e573">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Estimation sur la durée totale de validité du marché (4 ans - incluant toutes les prestations ) : 2 200 000 euros HT. Estimation prestations similaires éventuelles (1 an) : 550 000 euros HT.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e585">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>VALEUR TECHNIQUE 70% Valeur ajoutée conseil/stratégie des moyens 30% Pertinence de la réflexion et de la conception de la campagne plasma : 15% - A recruter de nouveaux donneurs - A inscrire le don de plasma dans la pérennité Pertinence de la réflexion et de la formalisation du positionnement sur de la stratégie employee advocacy : 15% - A recruter plus de profils médicotechniques - A organiser sa montée en puissance Valeur ajoutée créative : 20% Qualité du concept créatif et du territoire d'expression (potentiel impact, facilités d'utilisation et de déclinaison, exécution) identifiés pour la campagne plasma 10 % Qualité du concept créatif et du territoire d'expression identifiés pour la stratégie marque employeur : 10 % Organisation et équipe : 20% Profils et configuration de l'équipe (séniorité, expertise, couverture des besoins) : 10 % Efficacité et réalisme du fonctionnement proposé : 10% - Pour assurer la supervision et le pilotage des budgets et des plannings - Pour garantir agilité, couverture des prestations et réactivité face au volume et à la diversité des sujets</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>70</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>PRIX 30% Prix des détails quantitatifs estimatifs DQE recommandations/cas pratiques : 15 % Appréciation de la qualité et rigueur de l'optimisation, l'exploitation et équilibre budgétaire des recommandations des candidats en fonction des budgets alloués et proposés : 15 %</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>30</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e573">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Le candidat peut, s'il le souhaite, exercer : - Un référé contractuel conformément à l'article L.551-13 et suivants du Code de justice administrative dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat au JOUE/ de la notification de la conclusion du contrat pour les marchés fondés sur un accord-cadre, ou à compter de 6 mois à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié ou si aucune notification de la conclusion du contrat n'a été effectuée ; - Dans un délai de 2 mois après accomplissement des mesures de publicité appropriées, un recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses non réglementaires qui en sont divisibles. - Dans un délai de 2 mois à compter de sa notification du présent courrier, un recours pour excès de pouvoir contre les clauses réglementaires des pièces contractuelles sur le fondement des articles R. 421-1 et R. 421-7 du Code de justice administrative. - A titre accessoire, un recours au fond, un référé suspension peut être formé, dans les conditions prévues à l'article L.521-1 CJA. Les pièces du marché public, objet du présent avis d'attribution, sont consultables dans le cadre des secrets protégés par loi, auprès de la Direction Juridique et de la Conformité (DJC) de l'EFS, tél. : 0155939500.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e697">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e575">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Montreuil</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Montreuil</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Etablissement Français du Sang</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Etablissement Français du Sang</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Montreuil</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation dont le budget est utilisé pour payer le marché</span>
+                  <span>:</span>
+                  <span>Etablissement Français du Sang</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui exécute le paiement</span>
+                  <span>:</span>
+                  <span>Etablissement Français du Sang</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>Etablissement Français du Sang</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur maximale des accords-cadres dans cette procédure</span>
+            <span>:</span>
+            <span>7,000,000</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e24">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Accord-cadre</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>7,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.2_d1e24">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>Société BASTILLE / 4AOUT</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Sous-traitants du lauréat</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nom officiel</span>
+                        <span>:</span>
+                        <span>16Prod, POPSPIRIT</span>
+                     </div>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>OFFRE_SAS BASTILLE/4AOUT</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre a été classée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>00A24157</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Titre</span>
+                        <span>:</span>
+                        <span>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG (EFS)</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date à laquelle le lauréat a été choisi</span>
+                        <span>:</span>
+                        <span>26/12/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>21/02/2025</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">non</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>Etablissement Français du Sang</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e24">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>20</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e176">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Montreuil</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000686900015</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>7 rue Catherine PUIG</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Montreuil sous bois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>93210</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-Saint-Denis</span>
+               <span/>
+               <span>(</span>
+               <span>FR106</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>Greffe.ta-montreuil@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 149202000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e224">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Etablissement Français du Sang</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>42882285202140</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>20 avenue du Stade de France</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>La Plaine Saint Denis cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>93218</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-Saint-Denis</span>
+               <span/>
+               <span>(</span>
+               <span>FR106</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Direction des achats, de l'immobilier et de la maintenance</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>stde.marches.publics@efs.sante.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33155939500</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.efs.sante.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation dont le budget est utilisé pour payer le marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui exécute le paiement</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e279">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Société BASTILLE / 4AOUT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>824 161 517 00035</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>42 rue Sedaine</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>PARIS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>infos@agencebastille.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>01 53 38 64 54</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e327">
+            <span>8.1</span>
+            <span>ORG-0006</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>16Prod</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>80019277500032</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>4 bis rue Marceau</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Montreuil</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>93100</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-Saint-Denis</span>
+               <span/>
+               <span>(</span>
+               <span>FR106</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact@16prod.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>01 48 96 07 89</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Sous-traitant</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e377">
+            <span>8.1</span>
+            <span>ORG-0007</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>POPSPIRIT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>824 645 592 00059</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>9 rue des Colonnes</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>PARIS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75002</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact@pop-spirit.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>01 42 93 44 56</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Sous-traitant</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>a17a24f2-4eed-4c71-9569-f6e077ecb6fd</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 09:36</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Etablissement Français du Sang : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>20 avenue du Stade de France La Plaine Saint Denis cedex 93218 FR106 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>Direction des achats, de l'immobilier et de la maintenance</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33155939500</li>
+                     <li><span class="fr-text--bold">Courriel : </span>stde.marches.publics@efs.sante.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.efs.sante.fr/" target="_blank" title="Aller sur la page https://www.efs.sante.fr/ - nouvelle fenêtre"><span>https://www.efs.sante.fr/</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.marches-publics.gouv.fr" target="_blank" title="Aller sur la page https://www.marches-publics.gouv.fr - nouvelle fenêtre"><span>https://www.marches-publics.gouv.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG
+            (EFS)</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le marché a pour objet l'identification d'une agence ou d'un groupement d'agences
+            en charge de la communication globale de l'Etablissement Français du Sang (EFS). La
+            présente consultation recouvre les enjeux principaux suivants : - Développer le don
+            de plasma - Recrutement et fidélisation de nouveaux donneurs jeunes - Recrutement
+            de personnels médicotechniques/attractivité employeur - Développer et améliorer l'expérience
+            donneur - Accroitre la visibilité des maisons du don et augmenter le volume de don
+            dans les sites de collecte La présente consultation a pour objet d'identifier une
+            agence de communication ou un groupement d'agences en charge de la communication globale
+            de l'EFS à destination de toutes les cibles et sur tous les types d'expression et
+            de prises de parole : stratégie, création, déploiement des actions de communication,
+            de campagne d'activations, marketing relationnel et digital, stratégie et contenu
+            digital et mobile, contenus éditoriaux, branding, dispositifs événementiels structurants
+            en lien direct avec les actions de communication marque donneurs, production d'outils
+            de communication divers.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>AGENCE DE COMMUNICATION GLOBALE 360° AU BENEFICE DE L'ETABLISSEMENT FRANÇAIS DU SANG
+                  (EFS)</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

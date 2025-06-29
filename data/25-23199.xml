@@ -1,0 +1,1383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <cbc:TotalAmount currencyID="EUR">75400</cbc:TotalAmount>
+                           <efbc:OverallApproximateFrameworkContractsAmount currencyID="EUR">75400</efbc:OverallApproximateFrameworkContractsAmount>
+                           <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">360000</efbc:OverallMaximumFrameworkContractsAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:FrameworkAgreementValues>
+                                 <cbc:MaximumValueAmount currencyID="EUR">90000</cbc:MaximumValueAmount>
+                                 <efbc:ReestimatedValueAmount currencyID="EUR">75400</efbc:ReestimatedValueAmount>
+                              </efac:FrameworkAgreementValues>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>8</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                              <cac:LegalMonetaryTotal>
+                                 <cbc:PayableAmount currencyID="EUR">75400</cbc:PayableAmount>
+                              </cac:LegalMonetaryTotal>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>OFFRE EURL TRUILHE TP</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:AwardDate>2025-01-20+02:00</cbc:AwardDate>
+                              <cbc:IssueDate>2025-02-12+02:00</cbc:IssueDate>
+                              <efbc:ContractFrameworkIndicator>true</efbc:ContractFrameworkIndicator>
+                              <cac:NoticeDocumentReference>
+                                 <cbc:ID>a689b704-94b0-441d-9ff9-d1ef1f77c6c3-01</cbc:ID>
+                              </cac:NoticeDocumentReference>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:ContractReference>
+                                 <cbc:ID>2024 010 2025 001 00 00</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <cbc:Name>EURL TRUILHE TP</cbc:Name>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0004</cbc:ID>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://www.marches-publics.gouv.fr</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">MINARM/EMA/SCA/PFC SUD/DIVAP
+</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>BCRM BP42
+</cbc:StreetName>
+                                    <cbc:CityName>TOULON CEDEX 9
+</cbc:CityName>
+                                    <cbc:PostalZone>83000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13001537000017</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 4 22 43 41 90</cbc:Telephone>
+                                    <cbc:ElectronicMail>pfc-sud-esp-ext.ach.fct@intradef.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:ListedOnRegulatedMarketIndicator>true</efbc:ListedOnRegulatedMarketIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">EURL TRUILHE TP</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>557 ROUTE D'EMBIDALET</cbc:StreetName>
+                                    <cbc:CityName>BRUGNENS</cbc:CityName>
+                                    <cbc:PostalZone>32500</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRJ24</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>90189914600012</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0679897335</cbc:Telephone>
+                                    <cbc:ElectronicMail>thierry.truilhe@orange.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">MINARM/EMA/SCA/PFC SUD
+Bureau expertise juridique</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>brcm Toulon - bp 42</cbc:StreetName>
+                                    <cbc:CityName>Toulon cedex 09</cbc:CityName>
+                                    <cbc:PostalZone>83800</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>130015370</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 4 22 43 59 21</cbc:Telephone>
+                                    <cbc:ElectronicMail>olivier.delvaux@intradef.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Toulon
+</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>TOULON</cbc:CityName>
+                                    <cbc:PostalZone>83000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL05</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000525900010</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 494427930</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-toulon@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">d49eb6c2-763d-428f-8754-7a1e653a699d</cbc:ID>
+            <cbc:ContractFolderID>482ac0b4-4f5a-457e-a52e-550d1feff02e</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>08:31:56+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:ProcurementLegislationDocumentReference>
+                  <cbc:ID>Code de la Commande Publique</cbc:ID>
+                  <cbc:DocumentDescription languageID="FRA">Accord-cadre organisé selon la procédure d'appel d'offres ouvert, exécuté au moyen de bon de commande, conformément aux articles :
+L. 2124-2, R. 2124-2 1° CCP - AOO 
+L. 2125-1-1°, R. 2162-1 à R. 2162-6 CCP - Accord-cadre 
+R. 2162-13, R. 2162-14 CCP - Bon de commande
+</cbc:DocumentDescription>
+               </cac:ProcurementLegislationDocumentReference>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">Les besoins d'entretien forestier du site de Fonsorbes comprennent majoritairement du défrichement/débroussaillage de zones boisées non entretenues depuis plusieurs années, mais également les prestations suivantes : 
+- Entretien de zones boisées ; 
+- Curage de cours d'eau ; 
+- Entretien de haies sauvages ; 
+- Abattage et évacuation d'arbres ; 
+- Élagage d'arbres.
+
+</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+               <cac:NoticeDocumentReference>
+                  <cbc:ID>a689b704-94b0-441d-9ff9-d1ef1f77c6c3-01</cbc:ID>
+               </cac:NoticeDocumentReference>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReason languageID="FRA">Non</cbc:ProcessReason>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>DAF_2024_000641</cbc:ID>
+               <cbc:Name languageID="FRA">Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne) au profit de DGA Techniques Aérospatiales (DGA TA).
+
+</cbc:Name>
+               <cbc:Description languageID="FRA">Accord-cadre mono-attributaire, comportant des prestations ponctuelles dites à la demande, exécutées au moyen de bons de commande à la survenance des besoins et à prix unitaires.
+L'accord-cadre est conclu sans montant minimum et avec montant maximum annuel de 90 000,00 Euros HT soit 360 000,00 Euros HT sur la durée totale (toutes reconductions comprises).
+  
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:RequestedTenderTotal>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:FrameworkMaximumAmount currencyID="EUR">360000</efbc:FrameworkMaximumAmount>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">220000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">77211300</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:StreetName>Fonsorbes sis Route de Tarbes - D 632</cbc:StreetName>
+                     <cbc:CityName>FONSORBES</cbc:CityName>
+                     <cbc:PostalZone>31830</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FRJ23</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>80</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le critère C1 prix est apprécié à partir du montant total du Détail Quantitatif Estimatif (DQE), en € TTC, renseigné par l'acheteur avec les prix figurant dans l'annexe financière BPU de l'acte d'engagement. 
+Pour information, le DQE est un scénario de commande estimé sur une année qui est fourni à titre indicatif. Il sert uniquement à juger l'offre de prix et n'est pas contractuel. 
+La note prix (NP) est calculée de la manière suivante : 
+L'offre la moins disante obtient le nombre maximal de points, soit 80/80, les autres offres sont notées proportionnellement selon la formule suivante : 
+NP = (Montant le moins disant/Montant analysé) x 80
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">En lien avec l'exécution de l'accord-cadre, le critère « Responsabilité Sociétale des Entreprises » est apprécié au regard des éléments développés dans le cadre de réponse (ou du mémoire technique), fourni en annexe 1 du RC. 
+
+Le critère « Responsabilité Sociétale des Entreprises » (RSE) est noté sur 20 points, répartis comme suit : 4 points maximum sont attribués pour chaque question.
+La note RSE (NRSE) est déterminée en additionnant les points obtenus à chaque question posée, pour parvenir à un total sur 20 points maximum.
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- référé précontractuel avant la signature du contrat (articles L.551-1 et s. du CJA),
+- référé contractuel (articles L.551-13 et s. du CJA), pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA.
+- recours en contestation de la validité du contrat (Arrêt CE du 04/04/2014 "Département Tarn et Garonne") qui peut être exercé par les tiers au contrat dans les deux mois qui suivent la publication de l'avis d'attribution du marché.
+
+Le contrat est consultable conformément à l'arrêt Tarn et Garonne (CE Ass 4/4/2014 n°358994) après rendez-vous pris par écrit à l'adresse suivantes : 
+Ministère des armées
+Service du Commissariat des Armées
+Plate-forme Commissariat Sud (PFC Sud)
+Division achats publics
+BP 42 - 83 800 Toulon cedex 9
+
+</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cac:SubsequentProcessTenderRequirement>
+                        <cbc:Name>buyer-categories</cbc:Name>
+                     </cac:SubsequentProcessTenderRequirement>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>Lot unique</cbc:ID>
+                  <cbc:Name languageID="FRA">Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne) au profit de DGA Techniques Aérospatiales (DGA TA)</cbc:Name>
+                  <cbc:Description languageID="FRA">Accord-cadre à bons de commandes visant à satisfaire les besoins d'entretien forestier du site de Fonsorbes comprenant majoritairement du défrichement/débroussaillage de zones boisées non entretenues depuis plusieurs années, mais également les prestations suivantes : 
+- Entretien de zones boisées ; 
+- Curage de cours d'eau ; 
+- Entretien de haies sauvages ; 
+- Abattage et évacuation d'arbres ; 
+- Élagage d'arbres.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">La valeur estimée de l'accord-cadre (220 000,00 Euros H.T) est calculé sur sa durée totale (toutes reconductions confondues)
+</cbc:Note>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">220000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">77211300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Fonsorbes sis Route de Tarbes - D 632</cbc:StreetName>
+                        <cbc:CityName>FONSORBES</cbc:CityName>
+                        <cbc:PostalZone>31830</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRJ23</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-02-12+02:00</cbc:StartDate>
+                     <cbc:EndDate>2026-02-11+02:00</cbc:EndDate>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23199</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-86168</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>MINARM/EMA/SCA/PFC SUD/DIVAP
+</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>EURL TRUILHE TP</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-04-07</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>274</CODE>
+               <LIBELLE>Prestations de services</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>31</DEP_PUBLICATION>
+         <DEP_PUBLICATION>32</DEP_PUBLICATION>
+         <RESUME_OBJET>Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne) au profit de DGA Techniques Aérospatiales (DGA TA).
+
+</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-23199 du 28/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-23199 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>31, 32</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23199</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e386">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MINARM/EMA/SCA/PFC SUD/DIVAP</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Défense</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e442">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne) au profit de DGA Techniques Aérospatiales (DGA TA).</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Accord-cadre mono-attributaire, comportant des prestations ponctuelles dites à la demande, exécutées au moyen de bons de commande à la survenance des besoins et à prix unitaires. L'accord-cadre est conclu sans montant minimum et avec montant maximum annuel de 90 000,00 Euros HT soit 360 000,00 Euros HT sur la durée totale (toutes reconductions comprises).</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>482ac0b4-4f5a-457e-a52e-550d1feff02e</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Avis précédent</span>
+               <span>:</span>
+               <span>a689b704-94b0-441d-9ff9-d1ef1f77c6c3-01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>DAF_2024_000641</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>Les besoins d'entretien forestier du site de Fonsorbes comprennent majoritairement du défrichement/débroussaillage de zones boisées non entretenues depuis plusieurs années, mais également les prestations suivantes : - Entretien de zones boisées ; - Curage de cours d'eau ; - Entretien de haies sauvages ; - Abattage et évacuation d'arbres ; - Élagage d'arbres.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e442">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>77211300</span>
+                  <span/>
+                  <span>Services de défrichement</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e485">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Fonsorbes sis Route de Tarbes - D 632</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>FONSORBES</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>31830</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Haute-Garonne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRJ23</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e442">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>220,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>360,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e442">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+               <div class="section">
+                  <span>Code de la Commande Publique</span>
+                  <span/>
+                  <span>-</span>
+                  <span>Accord-cadre organisé selon la procédure d'appel d'offres ouvert, exécuté au moyen de bon de commande, conformément aux articles : L. 2124-2, R. 2124-2 1° CCP - AOO L. 2125-1-1°, R. 2162-1 à R. 2162-6 CCP - Accord-cadre R. 2162-13, R. 2162-14 CCP - Bon de commande</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e505">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne) au profit de DGA Techniques Aérospatiales (DGA TA)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Accord-cadre à bons de commandes visant à satisfaire les besoins d'entretien forestier du site de Fonsorbes comprenant majoritairement du défrichement/débroussaillage de zones boisées non entretenues depuis plusieurs années, mais également les prestations suivantes : - Entretien de zones boisées ; - Curage de cours d'eau ; - Entretien de haies sauvages ; - Abattage et évacuation d'arbres ; - Élagage d'arbres.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Lot unique</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e635">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>77211300</span>
+                  <span/>
+                  <span>Services de défrichement</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e664">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Fonsorbes sis Route de Tarbes - D 632</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>FONSORBES</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>31830</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Haute-Garonne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRJ23</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e685">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>12/02/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date de fin de durée</span>
+                  <span>:</span>
+                  <span>11/02/2026</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e692">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>3</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e652">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>220,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e505">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La valeur estimée de l'accord-cadre (220 000,00 Euros H.T) est calculé sur sa durée totale (toutes reconductions confondues)</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e517">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le critère C1 prix est apprécié à partir du montant total du Détail Quantitatif Estimatif (DQE), en € TTC, renseigné par l'acheteur avec les prix figurant dans l'annexe financière BPU de l'acte d'engagement. Pour information, le DQE est un scénario de commande estimé sur une année qui est fourni à titre indicatif. Il sert uniquement à juger l'offre de prix et n'est pas contractuel. La note prix (NP) est calculée de la manière suivante : L'offre la moins disante obtient le nombre maximal de points, soit 80/80, les autres offres sont notées proportionnellement selon la formule suivante : NP = (Montant le moins disant/Montant analysé) x 80</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>80</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>En lien avec l'exécution de l'accord-cadre, le critère « Responsabilité Sociétale des Entreprises » est apprécié au regard des éléments développés dans le cadre de réponse (ou du mémoire technique), fourni en annexe 1 du RC. Le critère « Responsabilité Sociétale des Entreprises » (RSE) est noté sur 20 points, répartis comme suit : 4 points maximum sont attribués pour chaque question. La note RSE (NRSE) est déterminée en additionnant les points obtenus à chaque question posée, pour parvenir à un total sur 20 points maximum.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>20</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e505">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- référé précontractuel avant la signature du contrat (articles L.551-1 et s. du CJA), - référé contractuel (articles L.551-13 et s. du CJA), pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA. - recours en contestation de la validité du contrat (Arrêt CE du 04/04/2014 "Département Tarn et Garonne") qui peut être exercé par les tiers au contrat dans les deux mois qui suivent la publication de l'avis d'attribution du marché. Le contrat est consultable conformément à l'arrêt Tarn et Garonne (CE Ass 4/4/2014 n°358994) après rendez-vous pris par écrit à l'adresse suivantes : Ministère des armées Service du Commissariat des Armées Plate-forme Commissariat Sud (PFC Sud) Division achats publics BP 42 - 83 800 Toulon cedex 9</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e605">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e507">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Toulon</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>MINARM/EMA/SCA/PFC SUD Bureau expertise juridique</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>MINARM/EMA/SCA/PFC SUD/DIVAP</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur de tous les contrats attribués dans cet avis</span>
+            <span>:</span>
+            <span>75,400</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section">
+            <span class="fr-text--bold">Valeur maximale des accords-cadres dans cette procédure</span>
+            <span>:</span>
+            <span>360,000</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section">
+            <span class="fr-text--bold">Valeur approximative des accords-cadres</span>
+            <span>:</span>
+            <span>75,400</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e30">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Accord-cadre</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>90,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur réestimée de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>75,400</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.2_d1e30">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>EURL TRUILHE TP</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>OFFRE EURL TRUILHE TP</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Valeur de l'offre</span>
+                     <span>:</span>
+                     <span>75,400</span>
+                     <span/>
+                     <span>Euro</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre est une variante</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>2024 010 2025 001 00 00</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date à laquelle le lauréat a été choisi</span>
+                        <span>:</span>
+                        <span>20/01/2025</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>12/02/2025</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">oui</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>MINARM/EMA/SCA/PFC SUD/DIVAP</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e30">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>8</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e161">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MINARM/EMA/SCA/PFC SUD/DIVAP</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13001537000017</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>BCRM BP42</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>TOULON CEDEX 9</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>83000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Var</span>
+               <span/>
+               <span>(</span>
+               <span>FRL05</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>pfc-sud-esp-ext.ach.fct@intradef.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 4 22 43 41 90</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e212">
+            <span>8.1</span>
+            <span>ORG-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>EURL TRUILHE TP</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>90189914600012</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>557 ROUTE D'EMBIDALET</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>BRUGNENS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>32500</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Gers</span>
+               <span/>
+               <span>(</span>
+               <span>FRJ24</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>thierry.truilhe@orange.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0679897335</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le lauréat est coté sur un marché réglementé</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e262">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MINARM/EMA/SCA/PFC SUD Bureau expertise juridique</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>130015370</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>brcm Toulon - bp 42</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Toulon cedex 09</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>83800</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Var</span>
+               <span/>
+               <span>(</span>
+               <span>FRL05</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>olivier.delvaux@intradef.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 4 22 43 59 21</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e310">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Toulon</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000525900010</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>TOULON</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>83000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Var</span>
+               <span/>
+               <span>(</span>
+               <span>FRL05</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-toulon@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 494427930</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>d49eb6c2-763d-428f-8754-7a1e653a699d</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 08:31</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">MINARM/EMA/SCA/PFC SUD/DIVAP : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>BCRM BP42 TOULON CEDEX 9 83000 FRL05 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 4 22 43 41 90</li>
+                     <li><span class="fr-text--bold">Courriel : </span>pfc-sud-esp-ext.ach.fct@intradef.gouv.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="http://www.marches-publics.gouv.fr" target="_blank" title="Aller sur la page http://www.marches-publics.gouv.fr - nouvelle fenêtre"><span>http://www.marches-publics.gouv.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do" target="_blank" title="Aller sur la page https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do - nouvelle fenêtre"><span>https://marchesonline.achatpublic.com/sdm/ent/gen/ent_recherche.do</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne)
+            au profit de DGA Techniques Aérospatiales (DGA TA).</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Accord-cadre mono-attributaire, comportant des prestations ponctuelles dites à la
+            demande, exécutées au moyen de bons de commande à la survenance des besoins et à prix
+            unitaires. L'accord-cadre est conclu sans montant minimum et avec montant maximum
+            annuel de 90 000,00 Euros HT soit 360 000,00 Euros HT sur la durée totale (toutes
+            reconductions comprises).</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Prestations d'entretien forestier du site de Fonsorbes (département de Haute-Garonne)
+                  au profit de DGA Techniques Aérospatiales (DGA TA)</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

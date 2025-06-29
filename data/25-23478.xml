@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.departement13.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://marches.departement13.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Conseil départemental 13</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>52 avenue saint just</cbc:StreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13256</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>22130001500247</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0413313206</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact.sammg@departement13.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Marseille</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>31 rue Jean-François Leca</cbc:StreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13002</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17130005600024</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0491134813</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-marseille@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">8c627dfc-7239-4357-a010-13ec81ef89aa</cbc:ID>
+            <cbc:ContractFolderID>ded168f9-5df9-4e2b-90db-0fd9502f2e01</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>14:25:04+02:00</cbc:IssueTime>
+            <cbc:VersionID>02</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">l'intégralité des motifs d'exclusion sont indiqués dans le DCE.</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025-0032</cbc:ID>
+               <cbc:Name languageID="FRA">Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</cbc:Name>
+               <cbc:Description languageID="FRA">Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:RequestedTenderTotal>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:FrameworkMaximumAmount currencyID="EUR">800000</efbc:FrameworkMaximumAmount>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">188000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79920000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cbc:Description languageID="FRA">Envoi de la publicité le 27/02/2025. Le marché sera lancé de manière différée avec un montant minimun annuel de 25000 euros HT et un montant maximum annuel  de 200000 euros HT.</cbc:Description>
+                  <cac:Address>
+                     <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">
+Le candidat doit indiquer être inscrit sur un registre professionnel 
+</cbc:Name>
+                                 <cbc:Description languageID="FRA">Formulaire DC1 (lettre de candidature) et Formulaire DC2 (déclaration du candidat)
+ou
+Document Unique de Marché Européen (D.U.M.E.)</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement au cours des trois dernières années
+Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, l'année et le destinataire.
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cbc:RecurringProcurementDescription languageID="FRA">Le marché peut être relancé en 2029.</cbc:RecurringProcurementDescription>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>2025-0032</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://marches.departement13.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">res-ws</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>80</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le critère 1 est pondéré à 80%
+Pour le détail, se référer au RC.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le critère 1 est pondéré à 20%
+Pour le détail, se référer au RC.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://marches.departement13.fr/?page=Entreprise.Ent</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- référé précontractuel (articles L. 551-1 et suivants du code de justice administrative);- référé contractuel (articles L. 551-13 et suivants du code de justice administrative);- le recours en contestation de validité du contrat, issu de la jurisprudence "Tarn-Et-Garonne" qui peut être exercé par les tiers au contrat, sans considération de leur qualité, dans un délai de deux mois à compter des mesures de publicité appropriées. En vue de permettre aux candidats et aux tiers l'exercice du recours de plein contentieux reconnu par le Conseil d'état le 16.7.2007 (Société Tropic Signalisation nº 291545) et complété par l'arrêt du Conseil d'état du 4.4.2014, Département du Tarn-Et-Garonne nº 358994, un avis de publicité comportant l'indication du jour de conclusion du contrat, de l'identité de l'attributaire et des lieux et horaires où pourra être consulté le contrat, sera publié sur la plate-forme de dématérialisation du département à l'adresse suivante: https://marchés.departement13.fr - cet avis sera consultable sous la référence 2025-0032</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-31+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:OpenTenderEvent>
+                     <cbc:OccurrenceDate>2025-04-01+02:00</cbc:OccurrenceDate>
+                     <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+                     <cbc:Description languageID="FRA">Les dates et heures d'ouverture des plis sont indicatives . La séance n'est pas ouverte au public.</cbc:Description>
+                     <cac:OccurenceLocation>
+                        <cbc:Description languageID="FRA">Hôtel du Département des Bouches du Rhône</cbc:Description>
+                     </cac:OccurenceLocation>
+                  </cac:OpenTenderEvent>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>LOT1</cbc:ID>
+                  <cbc:Name languageID="FRA">Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</cbc:Name>
+                  <cbc:Description languageID="FRA">Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Montants globaux minimum de 100 000 euros Ht et  800 000 euros HT maximum en cas de 3 reconductions.</cbc:Note>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="social-objective">opp</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efbc:FrameworkMaximumAmount currencyID="EUR">800000</efbc:FrameworkMaximumAmount>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">188000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79800000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-05-18+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23478</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Conseil départemental 13</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-31T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-03-31</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>67</CODE>
+               <LIBELLE>Conditionnement</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>13</DEP_PUBLICATION>
+         <RESUME_OBJET>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'obje</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23478 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23478 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>13</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23478</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e158">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Conseil départemental 13</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e202">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>ded168f9-5df9-4e2b-90db-0fd9502f2e01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025-0032</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e202">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79920000</span>
+                  <span/>
+                  <span>Services de conditionnement et services connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e248">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Bouches-du-Rhône</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRL04</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Envoi de la publicité le 27/02/2025. Le marché sera lancé de manière différée avec un montant minimun annuel de 25000 euros HT et un montant maximum annuel de 200000 euros HT.</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e202">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>188,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>800,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e202">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e181">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Manquement aux obligations dans le domaine du droit du travail</span>
+                  <span>:</span>
+                  <span>l'intégralité des motifs d'exclusion sont indiqués dans le DCE.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e262">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage, le colisage de brochures ou d'objets et leur livraison.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>LOT1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e526">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79800000</span>
+                  <span/>
+                  <span>Services d'impression et services connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e578">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>18/05/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>12</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e586">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>3</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e551">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>188,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>800,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e262">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Description</span>
+                  <span>:</span>
+                  <span>Le marché peut être relancé en 2029.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation est réservée à des ateliers protégés et à des opérateurs économiques dont l’objet principal est l’intégration sociale et professionnelle de personnes handicapées ou défavorisées.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Montants globaux minimum de 100 000 euros Ht et 800 000 euros HT maximum en cas de 3 reconductions.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e526">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Objectif social promu</span>
+                  <span>:</span>
+                  <span>Possibilités d’emploi des chômeurs de longue durée, des personnes défavorisées et/ou des personnes handicapées</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e267">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisées au cours des trois derniers exercices disponibles.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Le candidat doit indiquer être inscrit sur un registre professionnel</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Formulaire DC1 (lettre de candidature) et Formulaire DC2 (déclaration du candidat) ou Document Unique de Marché Européen (D.U.M.E.)</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement au cours des trois dernières années Liste des principales prestations effectuées au cours des trois dernières années, indiquant le montant, l'année et le destinataire.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e374">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le critère 1 est pondéré à 80% Pour le détail, se référer au RC.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>80</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le critère 1 est pondéré à 20% Pour le détail, se référer au RC.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>20</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e264">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://marches.departement13.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e262">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://marches.departement13.fr/?page=Entreprise.Ent</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>31/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>6</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives à l’ouverture publique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d'ouverture</span>
+                     <span>:</span>
+                     <span>01/04/2025</span>
+                     <span/>
+                     <span>à 14:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Lieu</span>
+                     <span>:</span>
+                     <span>Hôtel du Département des Bouches du Rhône</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations complémentaires</span>
+                     <span>:</span>
+                     <span>Les dates et heures d'ouverture des plis sont indicatives . La séance n'est pas ouverte au public.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- référé précontractuel (articles L. 551-1 et suivants du code de justice administrative);- référé contractuel (articles L. 551-13 et suivants du code de justice administrative);- le recours en contestation de validité du contrat, issu de la jurisprudence "Tarn-Et-Garonne" qui peut être exercé par les tiers au contrat, sans considération de leur qualité, dans un délai de deux mois à compter des mesures de publicité appropriées. En vue de permettre aux candidats et aux tiers l'exercice du recours de plein contentieux reconnu par le Conseil d'état le 16.7.2007 (Société Tropic Signalisation nº 291545) et complété par l'arrêt du Conseil d'état du 4.4.2014, Département du Tarn-Et-Garonne nº 358994, un avis de publicité comportant l'indication du jour de conclusion du contrat, de l'identité de l'attributaire et des lieux et horaires où pourra être consulté le contrat, sera publié sur la plate-forme de dématérialisation du département à l'adresse suivante: https://marchés.departement13.fr - cet avis sera consultable sous la référence 2025-0032</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e477">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e264">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Marseille</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Conseil départemental 13</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>22130001500247</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>52 avenue saint just</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13256</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact.sammg@departement13.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0413313206</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.departement13.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://marches.departement13.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e80">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17130005600024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>31 rue Jean-François Leca</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13002</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-marseille@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0491134813</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>8c627dfc-7239-4357-a010-13ec81ef89aa</span>
+               <span/>
+               <span>-</span>
+               <span>02</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 14:25</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Conseil départemental 13 : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>52 avenue saint just Marseille 13256 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0413313206</li>
+                     <li><span class="fr-text--bold">Courriel : </span>contact.sammg@departement13.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.departement13.fr" target="_blank" title="Aller sur la page https://www.departement13.fr - nouvelle fenêtre"><span>https://www.departement13.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents
+            et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage,
+            le colisage de brochures ou d'objets et leur livraison.</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents
+            et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage,
+            le colisage de brochures ou d'objets et leur livraison.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Le présent accord-cadre à bons de commande porte sur la mise sous pli de documents
+                  et de magazines, l'étiquetage (pose d'étiquettes sur les enveloppes), l'adressage,
+                  le colisage de brochures ou d'objets et leur livraison.</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

@@ -1,0 +1,2676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">OPPIC</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Departement des marchés 30 RUE DU CHATEAU DES RENTIERS</cbc:StreetName>
+                                    <cbc:CityName>Paris 13</cbc:CityName>
+                                    <cbc:PostalZone>75647</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>18009208200023</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33144977809</cbc:Telephone>
+                                    <cbc:ElectronicMail>departement.marches@oppic.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Paris</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>7 rue de Jouy</cbc:StreetName>
+                                    <cbc:CityName>Paris</cbc:CityName>
+                                    <cbc:PostalZone>75004</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17750005500013</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0144594400</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-paris@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">9eb96494-b433-4386-a116-49540f74e4f7</cbc:ID>
+            <cbc:ContractFolderID>abe6b03d-ae0f-4da7-98b5-15bfc0859afd</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>17:29:45+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">rcr</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsAwardedNumeric>4</cbc:MaximumLotsAwardedNumeric>
+                  <cbc:MaximumLotsSubmittedNumeric>4</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">S'agissant d'une procédure restreinte, les candidats doivent présenter un dossier de candidature. Seuls les candidats présélectionnés seront admis à présenter une offre. A ce stade, le DCE est donc communiqué à titre indicatif.</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Opération de réhabilitation d'un bâtiment au coeur de Paris en espace culturel - Marché de travaux - Lots 1, 2, 4 et 5</cbc:Name>
+               <cbc:Description languageID="FRA">Le projet relatif au présent avis d'appel public à candidature concerne la création d'un établissement culturel par la réhabilitation d'un site au coeur de Paris ayant vocation à accueillir sur une surface totale de plancher estimée à environ 1 500 m² des espaces d'expositions d'environ 500 m², un lieu de rencontres, des fonctions d'accueil et des espaces de logistique associés.
+
+Ce projet revêt un important volet lié à la sûreté des personnes et des biens, ainsi qu'un caractère de confidentialité.
+
+Ce projet compte deux jalons principaux :   
+1- Fin des travaux du RDC (y compris les trois cours) et du R+1 en novembre 2026 pour une inauguration ponctuelle début 2027. Les espaces resteront sous la responsabilité du chantier jusqu'à la fin de l'opération (prévue pour avril 2027)
+2- Fin des travaux de l'ouvrage dans sa globalité en avril 2027, pour une ouverture au public
+
+Le présent AAPC concerne les lots 1, 2, 4 et 5 qui sont passés en appel d'offres restreint.
+
+Les lots 3 et 6 sont lancés en parallèle par le biais d'une procédure MAPA restreinte, qui fait l'objet d'un AAPC distinct.
+
+La consultation pour le lot 7 - Scénographie sera lancée ultérieurement.
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Des visites des lieux sont organisées dans les conditions présentées à l'article 7.3 du règlement de la consultation. La visite des lieux est obligatoire sous peine de rejet de l'offre pour irrégularité.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">45000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:StreetName>Confidentiel</cbc:StreetName>
+                     <cbc:CityName>Paris</cbc:CityName>
+                     <cbc:PostalZone>Confidentiel</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ;     
+ 
+Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;
+ 
+Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ;
+ 
+Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;    
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ;
+
+Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; 
+ 
+Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>https://www.marchespublics.gouv.fr</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marchespublics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La valeur technique notée sur 50 points - selon mémoire technique du candidat
+
+1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice.
+
+2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier.
+
+3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marchespublics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ;
+- Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ;
+- Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ;
+- Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>5</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Lot n°01</cbc:Name>
+                  <cbc:Description languageID="FRA">Installation de chantier - Curage - Démolition - Dépollution - Gros oeuvre - Charpente métal et bois - VRD - Pierre neuve - Nettoyage des façades - Etanchéité - Sols dur - Carrelage - Chape - Ragréage - Toiture tuile et zinc - Bardage zinc vertical - Cloisons - Doublages - Faux plafonds - Plâtre - Sols souples - Peinture de sol</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45223220</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45111100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">44142000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45261420</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45430000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45262650</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45421141</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45410000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Confidentiel</cbc:StreetName>
+                        <cbc:CityName>Paris</cbc:CityName>
+                        <cbc:PostalZone>Confidentiel</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">17</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ;     
+ 
+Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;
+ 
+Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ;
+ 
+Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;    
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ;
+
+Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; 
+ 
+Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>https://www.marchespublics.gouv.fr</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marchespublics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La valeur technique notée sur 50 points - selon mémoire technique du candidat
+
+1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice.
+
+2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier.
+
+3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marchespublics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ;
+- Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ;
+- Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ;
+- Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>5</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Lot n°02</cbc:Name>
+                  <cbc:Description languageID="FRA">Courant fort - Courant faible - Sureté - Eclairage</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45311000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Confidentiel</cbc:StreetName>
+                        <cbc:CityName>Paris</cbc:CityName>
+                        <cbc:PostalZone>Confidentiel</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">17</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ;     
+ 
+Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;
+ 
+Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ;
+ 
+Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;    
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ;
+
+Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; 
+ 
+Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>https://www.marchespublics.gouv.fr</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marchespublics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La valeur technique notée sur 50 points - selon mémoire technique du candidat
+
+1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice.
+
+2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier.
+
+3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marchespublics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ;
+- Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ;
+- Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ;
+- Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>5</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Lot n°04</cbc:Name>
+                  <cbc:Description languageID="FRA">Menuiserie extérieure - Menuiserie intérieure - Agencements - Porte intérieures - Parquet
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45421000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45432113</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Confidentiel</cbc:StreetName>
+                        <cbc:CityName>Paris</cbc:CityName>
+                        <cbc:PostalZone>Confidentiel</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">17</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ;     
+ 
+Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;
+ 
+Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ;
+ 
+Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;    
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ;
+
+Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; 
+ 
+Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>https://www.marchespublics.gouv.fr</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marchespublics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La valeur technique notée sur 50 points - selon mémoire technique du candidat
+
+1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice.
+
+2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier.
+
+3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marchespublics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ;
+- Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ;
+- Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ;
+- Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>5</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>5</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Lot n°05</cbc:Name>
+                  <cbc:Description languageID="FRA">Chauffage, ventilation, climatisation - Plomberie</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45331000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45232460</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45330000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Confidentiel</cbc:StreetName>
+                        <cbc:CityName>Paris</cbc:CityName>
+                        <cbc:PostalZone>Confidentiel</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">17</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>1</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24187</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>OPPIC</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-04-07</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>345</CODE>
+               <LIBELLE>Tous corps d'état</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <TRAVAUX/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>75</DEP_PUBLICATION>
+         <RESUME_OBJET>Opération de réhabilitation d'un bâtiment au coeur de Paris en espace culturel - Marché de travaux - Lots 1, 2, 4 et 5</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-24187 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-24187 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>75</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24187</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e153">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>OPPIC</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Loisirs, culture et culte</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e204">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Opération de réhabilitation d'un bâtiment au coeur de Paris en espace culturel - Marché de travaux - Lots 1, 2, 4 et 5</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le projet relatif au présent avis d'appel public à candidature concerne la création d'un établissement culturel par la réhabilitation d'un site au coeur de Paris ayant vocation à accueillir sur une surface totale de plancher estimée à environ 1 500 m² des espaces d'expositions d'environ 500 m², un lieu de rencontres, des fonctions d'accueil et des espaces de logistique associés. Ce projet revêt un important volet lié à la sûreté des personnes et des biens, ainsi qu'un caractère de confidentialité. Ce projet compte deux jalons principaux : 1- Fin des travaux du RDC (y compris les trois cours) et du R+1 en novembre 2026 pour une inauguration ponctuelle début 2027. Les espaces resteront sous la responsabilité du chantier jusqu'à la fin de l'opération (prévue pour avril 2027) 2- Fin des travaux de l'ouvrage dans sa globalité en avril 2027, pour une ouverture au public Le présent AAPC concerne les lots 1, 2, 4 et 5 qui sont passés en appel d'offres restreint. Les lots 3 et 6 sont lancés en parallèle par le biais d'une procédure MAPA restreinte, qui fait l'objet d'un AAPC distinct. La consultation pour le lot 7 - Scénographie sera lancée ultérieurement.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>abe6b03d-ae0f-4da7-98b5-15bfc0859afd</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>S'agissant d'une procédure restreinte, les candidats doivent présenter un dossier de candidature. Seuls les candidats présélectionnés seront admis à présenter une offre. A ce stade, le DCE est donc communiqué à titre indicatif.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e204">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45000000</span>
+                  <span/>
+                  <span>Travaux de construction</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e227">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e204">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Des visites des lieux sont organisées dans les conditions présentées à l'article 7.3 du règlement de la consultation. La visite des lieux est obligatoire sous peine de rejet de l'offre pour irrégularité.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>4</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pouvant être attribués à un soumissionnaire dans le cadre de marchés</span>
+                     <span>:</span>
+                     <span>4</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e176">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e247">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Installation de chantier - Curage - Démolition - Dépollution - Gros oeuvre - Charpente métal et bois - VRD - Pierre neuve - Nettoyage des façades - Etanchéité - Sols dur - Carrelage - Chape - Ragréage - Toiture tuile et zinc - Bardage zinc vertical - Cloisons - Doublages - Faux plafonds - Plâtre - Sols souples - Peinture de sol</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e454">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45223220</span>
+                  <span/>
+                  <span>Travaux de gros œuvre</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45111100</span>
+                  <span/>
+                  <span>Travaux de démolition</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>44142000</span>
+                  <span/>
+                  <span>Charpentes</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45261420</span>
+                  <span/>
+                  <span>Travaux d'étanchéification</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45430000</span>
+                  <span/>
+                  <span>Revêtement de sols et de murs</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45262650</span>
+                  <span/>
+                  <span>Travaux de bardage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45421141</span>
+                  <span/>
+                  <span>Travaux de cloisonnement</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45410000</span>
+                  <span/>
+                  <span>Travaux de plâtrerie</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e515">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e536">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>17</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e542">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>1</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e247">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e252">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ; Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ; Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ; Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e345">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique notée sur 50 points - selon mémoire technique du candidat 1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice. 2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier. 3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e249">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>28/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marchespublics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e247">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marchespublics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ; - Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ; - Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ; - Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e403">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e249">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e558">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°02</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Courant fort - Courant faible - Sureté - Eclairage</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e765">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45311000</span>
+                  <span/>
+                  <span>Travaux de câblage et d'installations électriques</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e782">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e804">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>17</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e810">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>1</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e558">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e563">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ; Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ; Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ; Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e656">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique notée sur 50 points - selon mémoire technique du candidat 1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice. 2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier. 3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e560">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>28/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marchespublics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e558">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marchespublics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ; - Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ; - Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ; - Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e714">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e560">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e827">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°04</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Menuiserie extérieure - Menuiserie intérieure - Agencements - Porte intérieures - Parquet</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1034">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45421000</span>
+                  <span/>
+                  <span>Travaux de menuiserie</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45432113</span>
+                  <span/>
+                  <span>Pose de parquets</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e1058">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1079">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>17</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e1085">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>1</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e827">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e832">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ; Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ; Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ; Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e925">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique notée sur 50 points - selon mémoire technique du candidat 1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice. 2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier. 3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e829">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>28/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marchespublics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e827">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marchespublics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ; - Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ; - Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ; - Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e983">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e829">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1101">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°05</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Chauffage, ventilation, climatisation - Plomberie</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1308">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45331000</span>
+                  <span/>
+                  <span>Travaux d'installation de matériel de chauffage, de ventilation et de climatisation</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45232460</span>
+                  <span/>
+                  <span>Travaux d'installations sanitaires</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45330000</span>
+                  <span/>
+                  <span>Travaux de plomberie</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e1338">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>Confidentiel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1359">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>17</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e1365">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>1</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le maître d'ouvrage se réserve la possibilité de passer un marché négocié sans publicité ni mise en concurrence avec le titulaire pour l'achat de prestation similaires aux prestations décrites au présent marché, dans les conditions prévues à l'article R. 2122-7 du Code de la commande publique.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1101">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1106">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Une présentation d'une liste de travaux similaires à l'objet du marché, 5 références au minimum, effectués au cours des 5 dernières années, sous forme d'attestations de bonne exécution délivrées par des maîtres d'ouvrage ou Maîtres d'OEuvre. Ces attestations indiquent le montant, la date et le lieu d'exécution des travaux ainsi que les destinataires de ces travaux (maîtres d'ouvrage et/ou maîtres d'oeuvre avec l'indication des coordonnées téléphoniques de personnes à contacter) et précisent s'ils ont été effectués selon les règles de l'art et menés régulièrement à bonne fin ; Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du marché public ; Des certificats de qualification professionnelle. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Les certificats demandés sont détaillés dans le tableau fourni en annexe 1 du Règlement de la consultation ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché public, portant au maximum sur les trois derniers exercices disponibles. Dans le cas d'un groupement, le C.A de chacun des membres sera présenté ; Formulaire DC1, Lettre de candidature - Habilitation du mandataire par ses co-traitants (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ; Formulaire DC2, Déclaration du candidat individuel ou du membre du groupement (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) ;</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>5</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e1199">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le prix sera noté sur 50 points. La formule est présentée dans le règlement de consultation.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique notée sur 50 points - selon mémoire technique du candidat 1er sous-critère noté sur 15 points : moyens et aptitude de de l'équipe dédiée au chantier, notamment au regard de la nature de l'édifice. 2ème sous-critère noté sur 10 points : principes d'organisation fonctionnelle du chantier. 3ème sous-critère noté sur 25 points : mode opératoire de l'intervention en rapport avec la spécificité de l'ouvrage et du chantier.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1103">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>28/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marchespublics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1101">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marchespublics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- Référé précontractuel : avant la conclusion du marché (articles L5511 à 12 et R5511 à 6 du code de justice administrative) ; - Référé contractuel : à défaut de publication d'un avis d'intention de conclure et du respect du délai de suspension de signature de 11 jours, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (articles L55113 à 23 et R5517 à 10 du code de justice administrative) ou 31 jours après la publication de l'avis d'attribution ; - Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R4211 et R4213 du Code de justice administrative) ; - Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1257">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1103">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>OPPIC</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>18009208200023</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Departement des marchés 30 RUE DU CHATEAU DES RENTIERS</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Paris 13</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75647</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>departement.marches@oppic.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33144977809</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e75">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Paris</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17750005500013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>7 rue de Jouy</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Paris</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75004</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-paris@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0144594400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>9eb96494-b433-4386-a116-49540f74e4f7</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 17:29</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">OPPIC : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Departement des marchés 30 RUE DU CHATEAU DES RENTIERS Paris 13 75647 FR101 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33144977809</li>
+                     <li><span class="fr-text--bold">Courriel : </span>departement.marches@oppic.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Opération de réhabilitation d'un bâtiment au coeur de Paris en espace culturel - Marché
+            de travaux - Lots 1, 2, 4 et 5</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le projet relatif au présent avis d'appel public à candidature concerne la création
+            d'un établissement culturel par la réhabilitation d'un site au coeur de Paris ayant
+            vocation à accueillir sur une surface totale de plancher estimée à environ 1 500 m²
+            des espaces d'expositions d'environ 500 m², un lieu de rencontres, des fonctions d'accueil
+            et des espaces de logistique associés. Ce projet revêt un important volet lié à la
+            sûreté des personnes et des biens, ainsi qu'un caractère de confidentialité. Ce projet
+            compte deux jalons principaux : 1- Fin des travaux du RDC (y compris les trois cours)
+            et du R+1 en novembre 2026 pour une inauguration ponctuelle début 2027. Les espaces
+            resteront sous la responsabilité du chantier jusqu'à la fin de l'opération (prévue
+            pour avril 2027) 2- Fin des travaux de l'ouvrage dans sa globalité en avril 2027,
+            pour une ouverture au public Le présent AAPC concerne les lots 1, 2, 4 et 5 qui sont
+            passés en appel d'offres restreint. Les lots 3 et 6 sont lancés en parallèle par le
+            biais d'une procédure MAPA restreinte, qui fait l'objet d'un AAPC distinct. La consultation
+            pour le lot 7 - Scénographie sera lancée ultérieurement.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Lot n°01</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Lot n°02</li>
+               <li><span class="fr-text--bold">Lot 3 : </span>Lot n°04</li>
+               <li><span class="fr-text--bold">Lot 4 : </span>Lot n°05</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

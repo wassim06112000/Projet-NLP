@@ -1,0 +1,3169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.suisse-normande.com/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">CDC Cingal-Suisse Normande</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>4 RUE DU DOCTEUR GOURDIN</cbc:StreetName>
+                                    <cbc:CityName>THURY HARCOURT LE HOM</cbc:CityName>
+                                    <cbc:PostalZone>14220</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRD11</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>20006671000019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 231576952</cbc:Telephone>
+                                    <cbc:ElectronicMail>c.amyot@cingal-suissenormande.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">TRIBUNAL ADMINISTRATIF DE CAEN</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>CAEN</cbc:CityName>
+                                    <cbc:PostalZone>14000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRD11</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>171400054 00010</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">d3ce5e25-1629-4fe9-a18e-b394172c11f1</cbc:ID>
+            <cbc:ContractFolderID>d06bb68e-1ec6-4780-9343-b42cd9c7363e</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+01:00</cbc:IssueDate>
+            <cbc:IssueTime>12:10:25+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://cdc-suissenormande.e-marchespublics.com</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Se référer aux documents de la consultation</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsAwardedNumeric>9</cbc:MaximumLotsAwardedNumeric>
+                  <cbc:MaximumLotsSubmittedNumeric>9</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">MARCHE DE DENREES ALIMENTAIRES</cbc:Name>
+               <cbc:Description languageID="FRA">MARCHE DE DENREES ALIMENTAIRES</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT1 CREMERIE (BEURRE OEUFS FROMAGES)</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT1 CREMERIE (BEURRE OEUFS FROMAGES)</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 2 FRUITS, LEGUMES FRAIS ET 4IE GAMME</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 2 : FRUITS, LEGUMES FRAIS ET 4IE GAMME</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 3 PRODUITS D'EPICERIE</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 3 PRODUITS D'EPICERIE</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0004</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 4 PRODUITS SURGELES</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 4 PRODUITS SURGELES</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0005</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 5 PATISSERIES SURGELES</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 5 PATISSERIES SURGELES</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0006</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 6 VIANDES FRAICHES (BOVINS ET OVINS)</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 6 VIANDES FRAICHES (BOVINS ET OVINS)</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0007</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 7 VIANDES FRAICHES DE PORC</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 7 VIANDES FRAICHES DE PORC</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0008</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 8 CHARCUTERIE</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 8 CHARCUTERIE</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0009</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://cdc-suissenormande.e-marchespublics.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">120</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">LOT 9 VIANDES FRAICHES DE VOLAILLE</cbc:Name>
+                  <cbc:Description languageID="FRA">LOT 9 VIANDES FRAICHES DE VOLAILLE</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23944</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>CDC Cingal-Suisse Normande</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-04</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-11T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-11</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>88</CODE>
+               <LIBELLE>Denrées alimentaires</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <FOURNITURES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>14</DEP_PUBLICATION>
+         <RESUME_OBJET>MARCHE DE DENREES ALIMENTAIRES</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23944 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23944 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>14</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23944</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e147">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CDC Cingal-Suisse Normande</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e200">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>MARCHE DE DENREES ALIMENTAIRES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>MARCHE DE DENREES ALIMENTAIRES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>d06bb68e-1ec6-4780-9343-b42cd9c7363e</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e200">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e200">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>9</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pouvant être attribués à un soumissionnaire dans le cadre de marchés</span>
+                     <span>:</span>
+                     <span>9</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e172">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>Se référer aux documents de la consultation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e218">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT1 CREMERIE (BEURRE OEUFS FROMAGES)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT1 CREMERIE (BEURRE OEUFS FROMAGES)</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e380">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e397">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e218">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e223">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e220">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e218">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e347">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e220">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e405">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 2 FRUITS, LEGUMES FRAIS ET 4IE GAMME</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 2 : FRUITS, LEGUMES FRAIS ET 4IE GAMME</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e567">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e584">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e405">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e410">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e407">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e405">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e534">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e407">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e593">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 3 PRODUITS D'EPICERIE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 3 PRODUITS D'EPICERIE</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e755">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e772">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e593">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e598">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e595">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e593">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e722">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e595">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e780">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 4 PRODUITS SURGELES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 4 PRODUITS SURGELES</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e942">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e959">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e780">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e785">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e782">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e780">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e909">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e782">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e967">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 5 PATISSERIES SURGELES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 5 PATISSERIES SURGELES</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1129">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1146">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e967">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e972">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e969">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e967">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1096">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e969">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1154">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0006</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 6 VIANDES FRAICHES (BOVINS ET OVINS)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 6 VIANDES FRAICHES (BOVINS ET OVINS)</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1316">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1333">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1154">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1159">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1156">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1154">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1283">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1156">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1341">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0007</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 7 VIANDES FRAICHES DE PORC</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 7 VIANDES FRAICHES DE PORC</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1503">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1520">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1341">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1346">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1343">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1341">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1470">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1343">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1528">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0008</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 8 CHARCUTERIE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 8 CHARCUTERIE</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1690">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1707">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1528">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1533">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1530">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1528">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1657">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1530">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1716">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0009</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>LOT 9 VIANDES FRAICHES DE VOLAILLE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>LOT 9 VIANDES FRAICHES DE VOLAILLE</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1878">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15000000</span>
+                  <span/>
+                  <span>Produits alimentaires, boissons, tabac et produits connexes</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1895">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1716">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1721">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1718">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://cdc-suissenormande.e-marchespublics.com/pack/annonce_marche_public_26575_1079039.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1716">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://cdc-suissenormande.e-marchespublics.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>120</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1845">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1718">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>CDC Cingal-Suisse Normande</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CDC Cingal-Suisse Normande</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>20006671000019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>4 RUE DU DOCTEUR GOURDIN</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>THURY HARCOURT LE HOM</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>14220</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Calvados</span>
+               <span/>
+               <span>(</span>
+               <span>FRD11</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>c.amyot@cingal-suissenormande.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 231576952</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.suisse-normande.com/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://cdc-suissenormande.e-marchespublics.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e78">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>TRIBUNAL ADMINISTRATIF DE CAEN</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>171400054 00010</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>CAEN</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>14000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Calvados</span>
+               <span/>
+               <span>(</span>
+               <span>FRD11</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>d3ce5e25-1629-4fe9-a18e-b394172c11f1</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 12:10</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">CDC Cingal-Suisse Normande : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>4 RUE DU DOCTEUR GOURDIN THURY HARCOURT LE HOM 14220 FRD11 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 231576952</li>
+                     <li><span class="fr-text--bold">Courriel : </span>c.amyot@cingal-suissenormande.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.suisse-normande.com/" target="_blank" title="Aller sur la page https://www.suisse-normande.com/ - nouvelle fenêtre"><span>https://www.suisse-normande.com/</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://cdc-suissenormande.e-marchespublics.com" target="_blank" title="Aller sur la page https://cdc-suissenormande.e-marchespublics.com - nouvelle fenêtre"><span>https://cdc-suissenormande.e-marchespublics.com</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>MARCHE DE DENREES ALIMENTAIRES</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>MARCHE DE DENREES ALIMENTAIRES</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>LOT1 CREMERIE (BEURRE OEUFS FROMAGES)</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>LOT 2 FRUITS, LEGUMES FRAIS ET 4IE GAMME</li>
+               <li><span class="fr-text--bold">Lot 3 : </span>LOT 3 PRODUITS D'EPICERIE</li>
+               <li><span class="fr-text--bold">Lot 4 : </span>LOT 4 PRODUITS SURGELES</li>
+               <li><span class="fr-text--bold">Lot 5 : </span>LOT 5 PATISSERIES SURGELES</li>
+               <li><span class="fr-text--bold">Lot 6 : </span>LOT 6 VIANDES FRAICHES (BOVINS ET OVINS)</li>
+               <li><span class="fr-text--bold">Lot 7 : </span>LOT 7 VIANDES FRAICHES DE PORC</li>
+               <li><span class="fr-text--bold">Lot 8 : </span>LOT 8 CHARCUTERIE</li>
+               <li><span class="fr-text--bold">Lot 9 : </span>LOT 9 VIANDES FRAICHES DE VOLAILLE</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

@@ -1,0 +1,974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">19</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.saint-die-des-vosges.fr</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Ville de Saint Dié des Vosges</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place Jules Ferry</cbc:StreetName>
+                                    <cbc:CityName>SAINT-DIE-DES-VOSGES</cbc:CityName>
+                                    <cbc:PostalZone>88100</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRF34</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>218 804 136 00016</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 329526666</cbc:Telephone>
+                                    <cbc:ElectronicMail>marches@ca-saintdie.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Nancy</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>5, Place de la Carrière</cbc:StreetName>
+                                    <cbc:CityName>NANCY</cbc:CityName>
+                                    <cbc:PostalZone>54036</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRF31</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>175 400 050 00019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Greffe du Tribunal</cbc:Name>
+                                    <cbc:Telephone>+33 3 83 17 43 43</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-nancy@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">4c294640-ef5a-46d9-8dea-dd11cd1fedee</cbc:ID>
+            <cbc:ContractFolderID>40d7e546-e1c0-4af9-9add-8155b793410b</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+01:00</cbc:IssueDate>
+            <cbc:IssueTime>10:50:06+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0023</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>http://ca-saintdie.e-marchespublics.com</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Se référer aux documents de la consultation</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <ext:UBLExtensions>
+                  <ext:UBLExtension>
+                     <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                           <efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                     </ext:ExtensionContent>
+                  </ext:UBLExtension>
+               </ext:UBLExtensions>
+               <cbc:Description languageID="FRA">La présente consultation est régie par les dispositions du Code de la Commande Publique (CCP) relatives aux contrats de concession, notamment ses articles L. 3100-1 à L. 3137-5 et R. 3111-1 à R. 3135-10, et par les dispositions du Code Général des collectivités territoriales.&#xD;
+La procédure est passée en application de l'article R.3126-1, 2°, b) du Code de la commande publique.&#xD;
+Il s'agit d'une procédure ouverte avec remise simultanée des candidatures et des offres.</cbc:Description>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>DSPRESTAU2025</cbc:ID>
+               <cbc:Name languageID="FRA">DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION SCOLAIRE ET ACCUEIL DE LOISIRS</cbc:Name>
+               <cbc:Description languageID="FRA">La présente consultation porte sur l'attribution d'un contrat de délégation de service public relatif à la gestion et l'exploitation de la restauration scolaire et accueil de loisirs pour la Ville de Saint-Dié-des-Vosges. 
+La prestation s'adresse :
+- Aux enfants scolarisés dans les écoles publiques maternelles, élémentaires et des adultes encadrants ; 
+- Aux enfants fréquentant les accueils de loisirs et des adultes encadrants.
+Le futur Délégataire est notamment tenu d'assurer les prestations telles que définies ci-dessous :
+- Elaboration des menus conformément au respect des règles nutritionnelles et décisions prises dans les instances de validation des menus, au sein desquelles le Délégataire est obligatoirement représenté
+- Sélection et approvisionnement des denrées nécessaires à la fabrication des repas selon les prescriptions quantitatives, qualitatives et nutritionnelles définies au contrat et suivant les normes de sécurité et d'hygiène alimentaires en vigueur 
+- Production de repas suivant le principe de la liaison froide à partir de l'outil de production du Délégataire et leur conditionnement
+- Transport et livraison des repas dans les points de livraison prévus au contrat 
+- Contrôle de l'hygiène sur le site de production et sur les offices par la réalisation de contrôles bactériologiques
+- L'information de la Ville sur l'évolution de la réglementation en matière d'hygiène, de sécurité alimentaire et de nutrition 
+- L'accompagnement des personnels de la Ville dans la mise en place des procédures en termes d'hygiène et de sécurité alimentaire
+- La maintenance et le renouvellement de l'ensemble des équipements de restauration des offices
+- L'assistance opérationnelle auprès des personnels municipaux affectés sur les offices pour les techniques de dressage et la présentation des plats
+- La facturation et le recouvrement auprès des usagers scolaires, y compris la prise en charge pleine et entière des impayés.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:RequestedTenderTotal>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">3700000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55521200</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55512000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Références détaillées (date et durée du contrat, destinataire public ou privé) sur les trois (3) dernières années dont le candidat peut se prévoir concernant des activités présentant des caractéristiques similaires à celles objet de la concession</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.e-marchespublics.com/appel-offre/1077844</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.e-marchespublics.com/appel-offre/1077844</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>DSPRESTAU2025</cbc:ID>
+                  <cbc:Name languageID="FRA">DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION SCOLAIRE ET ACCUEIL DE LOISIRS</cbc:Name>
+                  <cbc:Description languageID="FRA">Voir description au point 2.1</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Visite des offices de restauration, possible mais non obligatoire. Dans le cadre de la mise en place des bacs gastronormes inox, la visite est recommandée. Prendre rendez-vous avec Mme PAVIN Delphine, tél : 03 29 52 66 36 / 03 29 52 66 71 / 06 48 34 65 96 / dpavin@ville-saintdie.fr. Deux dates possible : vendredi 14 mars 2025 à 14h00 ou  mardi 18 mars 2025 à 14h00.</cbc:Note>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">3700000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55521200</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55512000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>SAINT DIE DES VOSGES</cbc:CityName>
+                        <cbc:PostalZone>88100</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRF34</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-08-01+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="YEAR">6</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23329</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-23/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCESSION/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Ville de Saint Dié des Vosges</NOMORGANISME>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-07T17:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-07</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>66</CODE>
+               <LIBELLE>Restauration collective</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>88</DEP_PUBLICATION>
+         <RESUME_OBJET>DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION SCOLAIRE ET EXTRA-SCOLAIRE</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché de concession - Avis n° 25-23329 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché de concession"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché de concession - Avis n° 25-23329 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché de concession</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>88</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23329</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e158">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville de Saint Dié des Vosges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e224">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION SCOLAIRE ET ACCUEIL DE LOISIRS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La présente consultation porte sur l'attribution d'un contrat de délégation de service public relatif à la gestion et l'exploitation de la restauration scolaire et accueil de loisirs pour la Ville de Saint-Dié-des-Vosges. La prestation s'adresse : - Aux enfants scolarisés dans les écoles publiques maternelles, élémentaires et des adultes encadrants ; - Aux enfants fréquentant les accueils de loisirs et des adultes encadrants. Le futur Délégataire est notamment tenu d'assurer les prestations telles que définies ci-dessous : - Elaboration des menus conformément au respect des règles nutritionnelles et décisions prises dans les instances de validation des menus, au sein desquelles le Délégataire est obligatoirement représenté - Sélection et approvisionnement des denrées nécessaires à la fabrication des repas selon les prescriptions quantitatives, qualitatives et nutritionnelles définies au contrat et suivant les normes de sécurité et d'hygiène alimentaires en vigueur - Production de repas suivant le principe de la liaison froide à partir de l'outil de production du Délégataire et leur conditionnement - Transport et livraison des repas dans les points de livraison prévus au contrat - Contrôle de l'hygiène sur le site de production et sur les offices par la réalisation de contrôles bactériologiques - L'information de la Ville sur l'évolution de la réglementation en matière d'hygiène, de sécurité alimentaire et de nutrition - L'accompagnement des personnels de la Ville dans la mise en place des procédures en termes d'hygiène et de sécurité alimentaire - La maintenance et le renouvellement de l'ensemble des équipements de restauration des offices - L'assistance opérationnelle auprès des personnels municipaux affectés sur les offices pour les techniques de dressage et la présentation des plats - La facturation et le recouvrement auprès des usagers scolaires, y compris la prise en charge pleine et entière des impayés.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>40d7e546-e1c0-4af9-9add-8155b793410b</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>DSPRESTAU2025</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>La présente consultation est régie par les dispositions du Code de la Commande Publique (CCP) relatives aux contrats de concession, notamment ses articles L. 3100-1 à L. 3137-5 et R. 3111-1 à R. 3135-10, et par les dispositions du Code Général des collectivités territoriales. La procédure est passée en application de l'article R.3126-1, 2°, b) du Code de la commande publique. Il s'agit d'une procédure ouverte avec remise simultanée des candidatures et des offres.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e224">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55521200</span>
+                  <span/>
+                  <span>Services de livraison de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55512000</span>
+                  <span/>
+                  <span>Services de gestion de cantine</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e224">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>3,700,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e224">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Si la procédure est annulée ou infructueuse, elle sera relancée</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/23/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e189">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>Se référer aux documents de la consultation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e263">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION SCOLAIRE ET ACCUEIL DE LOISIRS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Voir description au point 2.1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>DSPRESTAU2025</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e397">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55521200</span>
+                  <span/>
+                  <span>Services de livraison de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55512000</span>
+                  <span/>
+                  <span>Services de gestion de cantine</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e440">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>SAINT DIE DES VOSGES</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>88100</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Vosges</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRF34</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e460">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>01/08/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>6</span>
+                  <span/>
+                  <span class="fr-text--bold">An</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e416">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>3,700,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e263">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Visite des offices de restauration, possible mais non obligatoire. Dans le cadre de la mise en place des bacs gastronormes inox, la visite est recommandée. Prendre rendez-vous avec Mme PAVIN Delphine, tél : 03 29 52 66 36 / 03 29 52 66 71 / 06 48 34 65 96 / dpavin@ville-saintdie.fr. Deux dates possible : vendredi 14 mars 2025 à 14h00 ou mardi 18 mars 2025 à 14h00.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e268">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Références détaillées (date et durée du contrat, destinataire public ou privé) sur les trois (3) dernières années dont le candidat peut se prévoir concernant des activités présentant des caractéristiques similaires à celles objet de la concession</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e265">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.e-marchespublics.com/appel-offre/1077844</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e263">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.e-marchespublics.com/appel-offre/1077844</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les soumissionnaires peuvent présenter plusieurs offres</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 17:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e265">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Nancy</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Ville de Saint Dié des Vosges</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Nancy</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville de Saint Dié des Vosges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>218 804 136 00016</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place Jules Ferry</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>SAINT-DIE-DES-VOSGES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>88100</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Vosges</span>
+               <span/>
+               <span>(</span>
+               <span>FRF34</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches@ca-saintdie.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 329526666</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.saint-die-des-vosges.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>http://ca-saintdie.e-marchespublics.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e78">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Nancy</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>175 400 050 00019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>5, Place de la Carrière</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>NANCY</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>54036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Meurthe-et-Moselle</span>
+               <span/>
+               <span>(</span>
+               <span>FRF31</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Greffe du Tribunal</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-nancy@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 3 83 17 43 43</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>4c294640-ef5a-46d9-8dea-dd11cd1fedee</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 10:50</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Ville de Saint Dié des Vosges : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Place Jules Ferry SAINT-DIE-DES-VOSGES 88100 FRF34 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 329526666</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches@ca-saintdie.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.saint-die-des-vosges.fr" target="_blank" title="Aller sur la page https://www.saint-die-des-vosges.fr - nouvelle fenêtre"><span>https://www.saint-die-des-vosges.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="http://ca-saintdie.e-marchespublics.com" target="_blank" title="Aller sur la page http://ca-saintdie.e-marchespublics.com - nouvelle fenêtre"><span>http://ca-saintdie.e-marchespublics.com</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION
+            SCOLAIRE ET ACCUEIL DE LOISIRS</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La présente consultation porte sur l'attribution d'un contrat de délégation de service
+            public relatif à la gestion et l'exploitation de la restauration scolaire et accueil
+            de loisirs pour la Ville de Saint-Dié-des-Vosges. La prestation s'adresse : - Aux
+            enfants scolarisés dans les écoles publiques maternelles, élémentaires et des adultes
+            encadrants ; - Aux enfants fréquentant les accueils de loisirs et des adultes encadrants.
+            Le futur Délégataire est notamment tenu d'assurer les prestations telles que définies
+            ci-dessous : - Elaboration des menus conformément au respect des règles nutritionnelles
+            et décisions prises dans les instances de validation des menus, au sein desquelles
+            le Délégataire est obligatoirement représenté - Sélection et approvisionnement des
+            denrées nécessaires à la fabrication des repas selon les prescriptions quantitatives,
+            qualitatives et nutritionnelles définies au contrat et suivant les normes de sécurité
+            et d'hygiène alimentaires en vigueur - Production de repas suivant le principe de
+            la liaison froide à partir de l'outil de production du Délégataire et leur conditionnement
+            - Transport et livraison des repas dans les points de livraison prévus au contrat
+            - Contrôle de l'hygiène sur le site de production et sur les offices par la réalisation
+            de contrôles bactériologiques - L'information de la Ville sur l'évolution de la réglementation
+            en matière d'hygiène, de sécurité alimentaire et de nutrition - L'accompagnement des
+            personnels de la Ville dans la mise en place des procédures en termes d'hygiène et
+            de sécurité alimentaire - La maintenance et le renouvellement de l'ensemble des équipements
+            de restauration des offices - L'assistance opérationnelle auprès des personnels municipaux
+            affectés sur les offices pour les techniques de dressage et la présentation des plats
+            - La facturation et le recouvrement auprès des usagers scolaires, y compris la prise
+            en charge pleine et entière des impayés.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>DELEGATION DE SERVICE PUBLIC POUR LA GESTION ET L'EXPLOITATION DE LA RESTAURATION
+                  SCOLAIRE ET ACCUEIL DE LOISIRS</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

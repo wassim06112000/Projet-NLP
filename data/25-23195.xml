@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">18</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:EndpointID>https://www.marches-publics.gouv.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Plate-forme commissariat Sud-Ouest (Bordeaux)</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>PFC SO
+Caserne Nansouty
+223 rue de Bègles - CS 21152</cbc:StreetName>
+                                    <cbc:Department>33068</cbc:Department>
+                                    <cbc:CityName>Bordeaux cedex</cbc:CityName>
+                                    <cbc:PostalZone>33068</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRI12</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>11000201100044</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>PFC SO</cbc:Name>
+                                    <cbc:Telephone>0557852592</cbc:Telephone>
+                                    <cbc:ElectronicMail>pfc-sud-ouest-bap-sm1.contact.fct@intradef.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:EndpointID>https://versailles.tribunal-administratif.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Versailles</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>56 avenue de Saint-Cloud</cbc:StreetName>
+                                    <cbc:Department>YVELINES</cbc:Department>
+                                    <cbc:CityName>Versailles</cbc:CityName>
+                                    <cbc:PostalZone>78011</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17780005900012</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 139205400</cbc:Telephone>
+                                    <cbc:Telefax>+33 139205487</cbc:Telefax>
+                                    <cbc:ElectronicMail>greffe.ta-versailles@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">103402a5-17b7-4be2-aa3f-b476401fd441</cbc:ID>
+            <cbc:ContractFolderID>79f02bcd-b6b1-425a-8364-e5cd25365022</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>07:48:10+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32009L0081</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-contracting-type">cont-ent</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:ProcurementLegislationDocumentReference>
+                  <cbc:ID>LocalLegalBasis</cbc:ID>
+                  <cbc:DocumentDescription languageID="FRA">"Application de la directive 2009/81/CE relative au marchés de défense et de sécurité"</cbc:DocumentDescription>
+               </cac:ProcurementLegislationDocumentReference>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">cf Réglement de consultation</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>PFCSO-DAF-2024-001708-S1-MM</cbc:ID>
+               <cbc:Name languageID="FRA">Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</cbc:Name>
+               <cbc:Description languageID="FRA">Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Le marché est passé en application du livre III de la partie 2 du code de la commande publique (défense ou sécurité), par procédure négociée avec publicité préalable (art R2361-8 à R2361-12 du code).
+Cette procédure se déroule en 2 étapes: le présent avis concerne la 1ère phase à savoir uniquement un appel à candidature (phase 1-candidature). Un dossier de consultation (DCE) sera envoyé ultérieurement et UNIQUEMENT aux candidats admis à soumissionner (phase 2-offre).</cbc:Note>
+               <cac:RequestedTenderTotal>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">8200000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">75250000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:StreetName>DGA
+10 rue Jean Rostand</cbc:StreetName>
+                     <cbc:CityName>SACLAY</cbc:CityName>
+                     <cbc:PostalZone>91400</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Sélection des candidatures</cbc:Name>
+                                 <cbc:Description languageID="FRA">DC1
+DC2
+Demande d'habilitation de la personne morale
+Annexe à la candidature</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:TenderSubcontractingRequirements>
+                                 <efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">none</efbc:TenderSubcontractingRequirementsCode>
+                              </efac:TenderSubcontractingRequirements>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cac:RequiredFinancialGuarantee>
+                     <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+                  </cac:RequiredFinancialGuarantee>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>PFCSO-DAF-2024-001708-S1-MM</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://marches-publics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Montant total maximum : 8 200 000 Euros HT
+Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des armées.
+Le régime des paiements est conforme aux dispositions de la section 3 du chapitre I du titre IX du livre III de la deuxième partie du code de la commande publique.</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+                     <cbc:CompanyLegalForm languageID="FRA">Groupement solidaire</cbc:CompanyLegalForm>
+                  </cac:TendererQualificationRequest>
+                  <cac:AllowedSubcontractTerms>
+                     <cbc:SubcontractingConditionsCode listName="subcontracting-obligation">none</cbc:SubcontractingConditionsCode>
+                  </cac:AllowedSubcontractTerms>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                     <cbc:Description languageID="FRA">Les conditions seront indiquées au DCE</cbc:Description>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://marches-publics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>11:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>PFCSO-DAF-2024-001708-S1-MM</cbc:ID>
+                  <cbc:Name languageID="FRA">Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</cbc:Name>
+                  <cbc:Description languageID="FRA">Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention.
+Détail des prestations:
+-Prestation n°0 : Fonction de commandant des opérations internes
+-Prestation n°1 : Prestations générales de surveillance et prévention de sécurité incendie du site ;
+-Prestation n°2 : Prestations de premiers secours d'urgence et d'assistance aux personnes en sauveteur isolé ou en équipe ; 
+-Prestation n°3 : Prestations de première intervention incendie ; 
+-Prestation n°4 : Prestations d'intervention sur alarmes techniques ; 
+-Prestation n°5 : Prestations d'exploitation et de maintenance préventive des installations de sécurité et protection incendie du site.
+-Prestation n°6 : Prestations d'intervention pour la protection de l'Environnement et la lutte contre la pollution.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">a) Durée du marché: 1 tranche ferme de 36 mois et 3 tranches optionnelles de 12 mois. Marché classé avec accès à des informations et support classifiés ("MAISC").
+b) Conditions de participation : afin de permettre d'apprécier la situation juridique et la capacité économique, financière, technique et professionnelle minimale requise en vue de la sélection des candidatures, il est impérativement demandé de fournir les DC1 et DC2, une copie des certificats délivrés par les administrations et organismes compétents prouvant que les obligations fiscales et sociales ont été satisfaites [copie des certificats fiscaux (liasse 3666) et sociaux (URSSAF)], l'habilitation de la personne morale ainsi que le document "annexe à la candidature".
+Ce projet de marché étant classé MAISC, seule une personne morale habilitée au niveau requis peut prétendre à attribution. Si habilitation du niveau : les informations marquées « spécial France » (SF) ne peuvent être transmises qu'à des personnes physiques ayant la nationalité française et à des personnes morales établies en France ayant le besoin d'en connaître.
+Les dossiers ne présentant pas l'ensemble des pièces/informations demandées seront rejetés sauf si l'acheteur use de sa faculté de demander aux candidats concernés de compléter son dossier.
+Le candidat qui ne dispose pas des capacités minimales requises sera rejeté.
+La recevabilité de la candidature est subordonnée à l'habilitation de la personne morale. Seul un candidat dont la personne morale sera habilitée pourra prétendre à participer à la phase 2-offre et recevra le DCE.
+
+c) Information sur la sous-traitance : les capacités demandées au sous-traitant, rendues objectivement nécessaires par la nature des prestations à réaliser et objet du sous-traité, sont celles exigées du candidat au projet, capacités en matière de sécurité des informations comprises."
+
+d) Modalités d'envoi du pli électronique : Le candidat transmet obligatoirement son pli dématérialisé par voie électronique (art. R2332-11). Le pli électronique contient les renseignements relatifs à la candidature (constituée des documents énumérés). Le dépôt du pli électronique s'effectue exclusivement sur le profil d'acheteur gratuit PLateforme des AChats de l'Etat (PLACE)  www.marches-publics.gouv.fr. Le candidat trouvera sur le site tous les renseignements nécessaires pour transmettre son pli par voie électronique, notamment les modalités d'obtention d'un certificat numérique nécessaire pour la signature électronique s'il est attributaire. Des manuels utilisateurs sont également disponibles sur ce site, ainsi qu'une assistance téléphonique. Lorsque le candidat envoie son pli, il reçoit en retour quasi immédiat un accusé de réception électronique de son dépôt. Echanges électroniques : la PFC-SO communique par messagerie sécurisée via PLACE, aussi le candidat est invité à s'identifier et à fournir une adresse courriel valide pour toute la durée de la procédure ; à défaut et en cas de téléchargement anonyme, l'Administration (service acheteur) ne pourra l'informer des éventuelles modifications du DCE. Pour être informé des échanges avec l'Administration (service acheteur), vérifier que l'adresse des échanges avec PLACE soit accessible ou mise sur liste blanche pour passer les filtres des serveurs proxy. Formats pour la transmission électronique : à choisir parmi les formats courants et largement disponibles. Les plus communs et les plus largement répandus sont par exemple pris dans la liste figurant dans le référentiel général d'interopérabilité : Open office, Word2003, Excel2003, zip ou équivalents, tous compatibles PC. Ne pas utiliser de code actif (ni format exécutable type .exe, .com ou .scr / ni macro, ni scripts ou applets ou ActiveX). Le pli électronique doit parvenir impérativement aux date et heure limites indiquées sur l'avis d'appel public à la concurrence (disponible sur le JOUE, le BOAMP et PLACE). Les date et heure d'arrivée faisant foi sont celles de la réception effective du pli par l'Administration : le candidat est invité à anticiper le temps de téléchargement et les aléas potentiels et donc prévoir un laps de temps minimum de sécurité permettant de garantir son envoi et laisser les moyens de remédier à un éventuel problème technique (= ne pas attendre le dernier moment pour transmettre son pli électronique).
+Il est recommandé de transmettre une copie de sauvegarde sur support physique électronique ou sur support papier, dans les mêmes délais. Ce pli sera ouvert si le pli transmis électroniquement est parvenu hors délai suite à aléa de transmission, ou sans pouvoir être ouvert.
+Modalités d'envoi de la copie de sauvegarde :
+- si envoi par voie postale contre accusé de réception : envoyer par tout moyen permettant de déterminer de façon certaine les date et heure de sa réception et de garantir sa confidentialité à : Plate-forme commissariat sud-ouest - BAP / Section achat synthèse sourcing - CS 21152 - 33068 Bordeaux cedex
+- si dépôt par coursier/porteur contre récépissé : se rendre exclusivement du lundi au jeudi de 08h30 à 16h00 à :
+Plate-forme commissariat sud-ouest - BAP / Section soutien synthèse sourcing  (0557852170 ou -3023) - B.024 2e étage pièce 2021 - Caserne Xaintrailles - 112 bd du Mal Leclerc - 33000 Bordeaux
+Le pli est portable et non quérable : le candidat veille à ce que son coursier/porteur tienne compte des délais de filtrage à la réception, et dépose le pli contre récépissé. Veiller aux conditions générales de vente des sociétés prestataires de services de transport de documents (type Chronopost) qui ne prennent pas toutes en charge ce type de pli.
+Nota concernant le pli cacheté, quel que soit son mode de transmission : sur cette enveloppe cachetée, sont mentionnées de manière lisible les mentions suivantes : NE PAS OUVRIR PAR LE BUREAU COURRIER / n°de la procédure et son objet / cachet de la société, ou toute autre indication permettant de distinguer objet de la soumission et candidat ; à défaut le pli sera rejeté."
+Aucun pli électronique reçu après l'heure limite de dépôt ne sera pris en compte. En cas d'ambiguïté, sur quelque document que ce soit, le candidat est invité à poser ses questions (via PLACE) bien avant la date limite de remise des candidatures, afin que l'Administration (service acheteur) puisse y répondre, au terme duquel les renseignements complémentaires sont envoyés aux candidats au plus tard six (6) jours avant la date limite de réception des candidatures.</cbc:Note>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">75250000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>DGA
+10 RUE JEAN ROSTAND</cbc:StreetName>
+                        <cbc:CityName>SACLAY</cbc:CityName>
+                        <cbc:PostalZone>91400</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR104</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-11-30+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="MONTH">72</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23195</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-81/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Plate-forme commissariat Sud-Ouest (Bordeaux)</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <NEGOCIE/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-28T11:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-05-24</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>331</CODE>
+               <LIBELLE>Surveillance</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>91</DEP_PUBLICATION>
+         <RESUME_OBJET>Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un v</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23195 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23195 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>91</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23195</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e169">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Plate-forme commissariat Sud-Ouest (Bordeaux)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité publique centrale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">L’acheteur est une entité adjudicatrice</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Défense</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e227">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>79f02bcd-b6b1-425a-8364-e5cd25365022</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>PFCSO-DAF-2024-001708-S1-MM</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e227">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>75250000</span>
+                  <span/>
+                  <span>Services d'incendie et de secours</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e258">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>DGA 10 rue Jean Rostand</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>SACLAY</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>91400</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Essonne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR104</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e227">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>8,200,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e227">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le marché est passé en application du livre III de la partie 2 du code de la commande publique (défense ou sécurité), par procédure négociée avec publicité préalable (art R2361-8 à R2361-12 du code). Cette procédure se déroule en 2 étapes: le présent avis concerne la 1ère phase à savoir uniquement un appel à candidature (phase 1-candidature). Un dossier de consultation (DCE) sera envoyé ultérieurement et UNIQUEMENT aux candidats admis à soumissionner (phase 2-offre).</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2009/81/CE</span>
+               </div>
+               <div class="section">
+                  <span>"Application de la directive 2009/81/CE relative au marchés de défense et de sécurité"</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e198">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>cf Réglement de consultation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e278">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Exécution de prestations de surveillance et de protection des biens, des personnes et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay (91) avec mise en place d'un véhicule d'intervention. Détail des prestations: -Prestation n°0 : Fonction de commandant des opérations internes -Prestation n°1 : Prestations générales de surveillance et prévention de sécurité incendie du site ; -Prestation n°2 : Prestations de premiers secours d'urgence et d'assistance aux personnes en sauveteur isolé ou en équipe ; -Prestation n°3 : Prestations de première intervention incendie ; -Prestation n°4 : Prestations d'intervention sur alarmes techniques ; -Prestation n°5 : Prestations d'exploitation et de maintenance préventive des installations de sécurité et protection incendie du site. -Prestation n°6 : Prestations d'intervention pour la protection de l'Environnement et la lutte contre la pollution.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>PFCSO-DAF-2024-001708-S1-MM</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e467">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>75250000</span>
+                  <span/>
+                  <span>Services d'incendie et de secours</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e492">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>DGA 10 RUE JEAN ROSTAND</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>SACLAY</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>91400</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Essonne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR104</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e513">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>30/11/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>72</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e521">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>0</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e278">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>a) Durée du marché: 1 tranche ferme de 36 mois et 3 tranches optionnelles de 12 mois. Marché classé avec accès à des informations et support classifiés ("MAISC"). b) Conditions de participation : afin de permettre d'apprécier la situation juridique et la capacité économique, financière, technique et professionnelle minimale requise en vue de la sélection des candidatures, il est impérativement demandé de fournir les DC1 et DC2, une copie des certificats délivrés par les administrations et organismes compétents prouvant que les obligations fiscales et sociales ont été satisfaites [copie des certificats fiscaux (liasse 3666) et sociaux (URSSAF)], l'habilitation de la personne morale ainsi que le document "annexe à la candidature". Ce projet de marché étant classé MAISC, seule une personne morale habilitée au niveau requis peut prétendre à attribution. Si habilitation du niveau : les informations marquées « spécial France » (SF) ne peuvent être transmises qu'à des personnes physiques ayant la nationalité française et à des personnes morales établies en France ayant le besoin d'en connaître. Les dossiers ne présentant pas l'ensemble des pièces/informations demandées seront rejetés sauf si l'acheteur use de sa faculté de demander aux candidats concernés de compléter son dossier. Le candidat qui ne dispose pas des capacités minimales requises sera rejeté. La recevabilité de la candidature est subordonnée à l'habilitation de la personne morale. Seul un candidat dont la personne morale sera habilitée pourra prétendre à participer à la phase 2-offre et recevra le DCE. c) Information sur la sous-traitance : les capacités demandées au sous-traitant, rendues objectivement nécessaires par la nature des prestations à réaliser et objet du sous-traité, sont celles exigées du candidat au projet, capacités en matière de sécurité des informations comprises." d) Modalités d'envoi du pli électronique : Le candidat transmet obligatoirement son pli dématérialisé par voie électronique (art. R2332-11). Le pli électronique contient les renseignements relatifs à la candidature (constituée des documents énumérés). Le dépôt du pli électronique s'effectue exclusivement sur le profil d'acheteur gratuit PLateforme des AChats de l'Etat (PLACE) www.marches-publics.gouv.fr. Le candidat trouvera sur le site tous les renseignements nécessaires pour transmettre son pli par voie électronique, notamment les modalités d'obtention d'un certificat numérique nécessaire pour la signature électronique s'il est attributaire. Des manuels utilisateurs sont également disponibles sur ce site, ainsi qu'une assistance téléphonique. Lorsque le candidat envoie son pli, il reçoit en retour quasi immédiat un accusé de réception électronique de son dépôt. Echanges électroniques : la PFC-SO communique par messagerie sécurisée via PLACE, aussi le candidat est invité à s'identifier et à fournir une adresse courriel valide pour toute la durée de la procédure ; à défaut et en cas de téléchargement anonyme, l'Administration (service acheteur) ne pourra l'informer des éventuelles modifications du DCE. Pour être informé des échanges avec l'Administration (service acheteur), vérifier que l'adresse des échanges avec PLACE soit accessible ou mise sur liste blanche pour passer les filtres des serveurs proxy. Formats pour la transmission électronique : à choisir parmi les formats courants et largement disponibles. Les plus communs et les plus largement répandus sont par exemple pris dans la liste figurant dans le référentiel général d'interopérabilité : Open office, Word2003, Excel2003, zip ou équivalents, tous compatibles PC. Ne pas utiliser de code actif (ni format exécutable type .exe, .com ou .scr / ni macro, ni scripts ou applets ou ActiveX). Le pli électronique doit parvenir impérativement aux date et heure limites indiquées sur l'avis d'appel public à la concurrence (disponible sur le JOUE, le BOAMP et PLACE). Les date et heure d'arrivée faisant foi sont celles de la réception effective du pli par l'Administration : le candidat est invité à anticiper le temps de téléchargement et les aléas potentiels et donc prévoir un laps de temps minimum de sécurité permettant de garantir son envoi et laisser les moyens de remédier à un éventuel problème technique (= ne pas attendre le dernier moment pour transmettre son pli électronique). Il est recommandé de transmettre une copie de sauvegarde sur support physique électronique ou sur support papier, dans les mêmes délais. Ce pli sera ouvert si le pli transmis électroniquement est parvenu hors délai suite à aléa de transmission, ou sans pouvoir être ouvert. Modalités d'envoi de la copie de sauvegarde : - si envoi par voie postale contre accusé de réception : envoyer par tout moyen permettant de déterminer de façon certaine les date et heure de sa réception et de garantir sa confidentialité à : Plate-forme commissariat sud-ouest - BAP / Section achat synthèse sourcing - CS 21152 - 33068 Bordeaux cedex - si dépôt par coursier/porteur contre récépissé : se rendre exclusivement du lundi au jeudi de 08h30 à 16h00 à : Plate-forme commissariat sud-ouest - BAP / Section soutien synthèse sourcing (0557852170 ou -3023) - B.024 2e étage pièce 2021 - Caserne Xaintrailles - 112 bd du Mal Leclerc - 33000 Bordeaux Le pli est portable et non quérable : le candidat veille à ce que son coursier/porteur tienne compte des délais de filtrage à la réception, et dépose le pli contre récépissé. Veiller aux conditions générales de vente des sociétés prestataires de services de transport de documents (type Chronopost) qui ne prennent pas toutes en charge ce type de pli. Nota concernant le pli cacheté, quel que soit son mode de transmission : sur cette enveloppe cachetée, sont mentionnées de manière lisible les mentions suivantes : NE PAS OUVRIR PAR LE BUREAU COURRIER / n°de la procédure et son objet / cachet de la société, ou toute autre indication permettant de distinguer objet de la soumission et candidat ; à défaut le pli sera rejeté." Aucun pli électronique reçu après l'heure limite de dépôt ne sera pris en compte. En cas d'ambiguïté, sur quelque document que ce soit, le candidat est invité à poser ses questions (via PLACE) bien avant la date limite de remise des candidatures, afin que l'Administration (service acheteur) puisse y répondre, au terme duquel les renseignements complémentaires sont envoyés aux candidats au plus tard six (6) jours avant la date limite de réception des candidatures.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e283">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Sélection des candidatures</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>DC1 DC2 Demande d'habilitation de la personne morale Annexe à la candidature</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e280">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://marches-publics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e278">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Indication obligatoire de la sous-traitance</span>
+                     <span>:</span>
+                     <span>Pas d’indication sur la sous-traitance</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://marches-publics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>28/03/2025</span>
+                     <span/>
+                     <span>à 11:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Conditions relatives à l’exécution du contrat</span>
+                     <span>:</span>
+                     <span>Les conditions seront indiquées au DCE</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué</span>
+                     <span>:</span>
+                     <span>Groupement solidaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Montant total maximum : 8 200 000 Euros HT Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des armées. Le régime des paiements est conforme aux dispositions de la section 3 du chapitre I du titre IX du livre III de la deuxième partie du code de la commande publique.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Sous-traitance</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span>Il n’y a pas d’obligation de sous-traitance.</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e437">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e280">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Versailles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Versailles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Plate-forme commissariat Sud-Ouest (Bordeaux)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Plate-forme commissariat Sud-Ouest (Bordeaux)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Versailles</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Plate-forme commissariat Sud-Ouest (Bordeaux)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>11000201100044</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>33068</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>PFC SO Caserne Nansouty 223 rue de Bègles - CS 21152</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Bordeaux cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>33068</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Gironde</span>
+               <span/>
+               <span>(</span>
+               <span>FRI12</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>PFC SO</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>pfc-sud-ouest-bap-sm1.contact.fct@intradef.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0557852592</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e83">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Versailles</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17780005900012</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>YVELINES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>56 avenue de Saint-Cloud</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Versailles</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>78011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Yvelines</span>
+               <span/>
+               <span>(</span>
+               <span>FR103</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-versailles@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 139205400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>+33 139205487</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://versailles.tribunal-administratif.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>103402a5-17b7-4be2-aa3f-b476401fd441</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 07:48</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Plate-forme commissariat Sud-Ouest (Bordeaux) : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>PFC SO Caserne Nansouty 223 rue de Bègles - CS 21152 33068 Bordeaux cedex 33068 FRI12
+                        FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>PFC SO</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0557852592</li>
+                     <li><span class="fr-text--bold">Courriel : </span>pfc-sud-ouest-bap-sm1.contact.fct@intradef.gouv.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Exécution de prestations de surveillance et de protection des biens, des personnes
+            et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay
+            (91) avec mise en place d'un véhicule d'intervention</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Exécution de prestations de surveillance et de protection des biens, des personnes
+            et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay
+            (91) avec mise en place d'un véhicule d'intervention</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Exécution de prestations de surveillance et de protection des biens, des personnes
+                  et de l'environnement, de protection incendie du site DGA essais propulseurs de Saclay
+                  (91) avec mise en place d'un véhicule d'intervention</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

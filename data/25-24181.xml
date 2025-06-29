@@ -1,0 +1,2885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                                    <cbc:PostalZone>38170</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">A043B274-EA0C-5571-BD1F151D6862A11A</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33480041260</cbc:Telephone>
+                                    <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://www.ville-levallois.fr</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Ville de Levallois</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Hôtel de Ville</cbc:StreetName>
+                                    <cbc:AdditionalStreetName>Place de la République</cbc:AdditionalStreetName>
+                                    <cbc:CityName>Levallois</cbc:CityName>
+                                    <cbc:PostalZone>92300</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">4238</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>le Maire</cbc:Name>
+                                    <cbc:Telephone>0149683000</cbc:Telephone>
+                                    <cbc:Telefax>0147590396</cbc:Telefax>
+                                    <cbc:ElectronicMail>marches@ville-levallois.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://cergy-pontoise.tribunal-administratif.fr/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Cergy-Pontoise</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:Postbox>30322</cbc:Postbox>
+                                    <cbc:StreetName>2-4 bd de l'Hautil</cbc:StreetName>
+                                    <cbc:CityName>Cergy-Pontoise</cbc:CityName>
+                                    <cbc:PostalZone>95027</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR108</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">A043B2CA-EF45-F464-E8E9F21977EFA833</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0130173400</cbc:Telephone>
+                                    <cbc:Telefax>0130173459</cbc:Telefax>
+                                    <cbc:ElectronicMail>greffe.ta-cergy-pontoise@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">CCAS de Levallois</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place de la République</cbc:StreetName>
+                                    <cbc:CityName>Levallois</cbc:CityName>
+                                    <cbc:PostalZone>92300</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">A043B2FE-0D91-501D-916CA8B30FD54716</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>014983000</cbc:Telephone>
+                                    <cbc:ElectronicMail>marches@ville-levallois.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Caisse des Ecoles de Levallois</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place de la République</cbc:StreetName>
+                                    <cbc:CityName>Levallois</cbc:CityName>
+                                    <cbc:PostalZone>92300</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">A043B318-F5F9-2D77-35BEE176AAB611B1</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>014983000</cbc:Telephone>
+                                    <cbc:ElectronicMail>marches@ville-levallois.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">29867920-0322-4a3a-93cb-8acc6938b1ed</cbc:ID>
+            <cbc:ContractFolderID>8157327e-d45a-4d84-9723-06dadd62ba44</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+01:00</cbc:IssueDate>
+            <cbc:IssueTime>17:25:24+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>http://www.ville-levallois.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:ServiceProviderParty>
+                     <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                     <cac:Party>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:Party>
+                  </cac:ServiceProviderParty>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>http://www.ville-levallois.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>http://www.ville-levallois.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">« Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l’un des cas d’exclusion de la procédure de passation prévus par le code de la commande publique.</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">open</cbc:ProcedureCode>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>SE2502</cbc:ID>
+               <cbc:Name languageID="FRA">MARCHES DE PRÉPARATION ET LIVRAISON DE REPAS</cbc:Name>
+               <cbc:Description languageID="FRA">Les marchés ont pour objet d'assurer la fourniture de repas pour la ville, le CCAS et la Caisse des Ecoles de LEVALLOIS, comprenant :
+-  repas pour les structures de la petite enfance ;
+- repas pour la restauration scolaire et périscolaire ;
+- repas pour les personnes âgées et exploitation du Club de la Planchette en production de repas sur place.
+La procédure est organisée par la ville de Levallois, coordonnateur du groupement de commandes constitué avec la Caisse des Ecoles et le Centre Communal d'Action Sociale (CCAS) de Levallois.
+Les marchés sont soumis au Code de la Commande Publique, désigné par les termes « le Code »..
+Qualifiés de marchés de services, ils sont soumis aux dispositions du CCAG « Fournitures Courantes et Services » approuvé par Arrêté du 30 mars 2021.
+Ils sont passés selon une procédure adaptée ouverte, soumise aux dispositions des articles L. 2123-1 et R.2123-1 3° du Code.
+Ils constituent des accords-cadres à bons de commande soumis aux dispositions des articles  L.2125-1-1°, R2162-1 à R2162-6, R2162-13 et R2162-14 du Cod
+Chacun des marchés sera attribué à un unique titulaire pour une durée maximale de quatre (4) années, reconductions comprises.
+La valeur totale maximale des marchés est fixée à 58 000 000  euro(s)  HTVA compte tenu de leur durée et des éventuelles reconductions.
+S'agissant d'une procédure ouverte, le nombre maximal de participants n'est pas limité</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Une visite des lieux obligatoire est organisée, sur Rdv. Cf. article 15 du Rc
+Les candidats peuvent télécharger gratuitement les documents de la consultation aux adresses suivantes :
+- https://www.ville-levallois.fr/municipalite/marches-publics/
+- www.marches-publics.info
+Les candidats qui souhaitent retirer le dossier de consultation de façon dématérialisée en anonyme sont informés que la Ville ne pourra leur transmettre les éventuelles modifications ou précisions qui pourraient affecter les documents en cours de consultation.
+Toutes les questions doivent être posées par le biais de la plateforme de dématérialisation, après téléchargement identifié du Dce, via la rubrique « Poser une nouvelle question ».
+Date limite de questions : 02/04/2025-12h00
+Date limite de réponse : 08/04/2025
+Les entreprises pourront soumissionner soit en qualité de candidats individuels soit sous forme de groupement solidaire ou conjoint.
+Toutefois, en cas de présentation sous la forme d'un groupement conjoint, le mandataire devra se constituer solidaire de chacun des membres du groupement pour ses obligations contractuelles avec l'acheteur.
+Les critères de jugement des offres comportent des sous-critères, cf. article du Rc</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55320000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">o Déclaration indiquant les effectifs du candidat ;
+o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cbc:RecurringProcurementDescription languageID="FRA">Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</cbc:RecurringProcurementDescription>
+                  <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>1606501</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cbc:LanguageID>FRA</cbc:LanguageID>
+                     <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur environnementale</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur financière</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-15+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:OpenTenderEvent>
+                     <cbc:OccurrenceDate>2025-04-15+02:00</cbc:OccurrenceDate>
+                     <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+                  </cac:OpenTenderEvent>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID schemeName="InternalID">1</cbc:ID>
+                  <cbc:Name languageID="FRA">Confection et livraison de repas en liaison froide pour les structures de la petite enfance</cbc:Name>
+                  <cbc:Description languageID="FRA">Le montant maximum annuel du marché est fixé à 2 500 000 euro(s)  HTVA, dont 200 000 euro(s)  HTVA réservés à la Caisse des Écoles</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Le marché comporte une tranche optionnelle obligatoire : - Modification des modes de production - conformément aux dispositions du Cctp article 1.4</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">2500000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55320000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-08-25+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</cbc:OptionsDescription>
+                     <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le marché prendra effet à compter de sa date de notification.
+Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">o Déclaration indiquant les effectifs du candidat ;
+o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cbc:RecurringProcurementDescription languageID="FRA">Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</cbc:RecurringProcurementDescription>
+                  <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>1606501</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cbc:LanguageID>FRA</cbc:LanguageID>
+                     <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur environnementale</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur financière</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-15+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:OpenTenderEvent>
+                     <cbc:OccurrenceDate>2025-04-15+02:00</cbc:OccurrenceDate>
+                     <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+                  </cac:OpenTenderEvent>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID schemeName="InternalID">2</cbc:ID>
+                  <cbc:Name languageID="FRA">Confection et livraison de repas en liaison froide en restauration scolaire et accueils de loisirs</cbc:Name>
+                  <cbc:Description languageID="FRA">Le montant maximum annuel du marché est fixé à 10 000 000 euro(s)  HTVA, dont 3 000 000 euro(s)  HTVA réservés à la Caisse des Écoles</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Le marché comporte une tranche optionnelle facultative : - Mise en place d'une alternative au conditionnement plastique s'agissant de la bouteille d'eau pour les pique-niques</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">10000000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55320000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-08-25+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</cbc:OptionsDescription>
+                     <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le marché prendra effet à compter de sa date de notification.
+Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">o Déclaration indiquant les effectifs du candidat ;
+o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cbc:RecurringProcurementDescription languageID="FRA">Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</cbc:RecurringProcurementDescription>
+                  <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>1606501</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cbc:LanguageID>FRA</cbc:LanguageID>
+                     <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cbc:NoFurtherNegotiationIndicator>false</cbc:NoFurtherNegotiationIndicator>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>20</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur environnementale</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur financière</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">4</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-15+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:OpenTenderEvent>
+                     <cbc:OccurrenceDate>2025-04-15+02:00</cbc:OccurrenceDate>
+                     <cbc:OccurrenceTime>14:00:00+02:00</cbc:OccurrenceTime>
+                  </cac:OpenTenderEvent>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cbc:MaximumOperatorQuantity>1</cbc:MaximumOperatorQuantity>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID schemeName="InternalID">3</cbc:ID>
+                  <cbc:Name languageID="FRA">Portage de repas à domicile et service à table en restaurant</cbc:Name>
+                  <cbc:Description languageID="FRA">Le montant maximum annuel du marché est fixé à 2 000 000 euro(s)  HTVA, dont 1 999 000 euro(s)  HTVA réservés au CCAS</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">2000000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55321000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55320000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55320000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">55523100</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-08-25+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</cbc:OptionsDescription>
+                     <cbc:MaximumNumberNumeric>2</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Le marché prendra effet à compter de sa date de notification.
+Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24181</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Ville de Levallois</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-15T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-15</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>66</CODE>
+               <LIBELLE>Restauration collective</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <CRITERES_SOCIAUX_ENV>
+            <ENVIRONNEMENTAUX/>
+         </CRITERES_SOCIAUX_ENV>
+         <DEP_PUBLICATION>92</DEP_PUBLICATION>
+         <RESUME_OBJET>MARCHES DE PRÉPARATION ET LIVRAISON DE REPAS</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-24181 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-24181 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>92</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24181</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e196">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+         <div class="section" id="section_1.1_d1e219">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CCAS de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+         <div class="section" id="section_1.1_d1e231">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Caisse des Ecoles de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e261">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>MARCHES DE PRÉPARATION ET LIVRAISON DE REPAS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les marchés ont pour objet d'assurer la fourniture de repas pour la ville, le CCAS et la Caisse des Ecoles de LEVALLOIS, comprenant : - repas pour les structures de la petite enfance ; - repas pour la restauration scolaire et périscolaire ; - repas pour les personnes âgées et exploitation du Club de la Planchette en production de repas sur place. La procédure est organisée par la ville de Levallois, coordonnateur du groupement de commandes constitué avec la Caisse des Ecoles et le Centre Communal d'Action Sociale (CCAS) de Levallois. Les marchés sont soumis au Code de la Commande Publique, désigné par les termes « le Code ».. Qualifiés de marchés de services, ils sont soumis aux dispositions du CCAG « Fournitures Courantes et Services » approuvé par Arrêté du 30 mars 2021. Ils sont passés selon une procédure adaptée ouverte, soumise aux dispositions des articles L. 2123-1 et R.2123-1 3° du Code. Ils constituent des accords-cadres à bons de commande soumis aux dispositions des articles L.2125-1-1°, R2162-1 à R2162-6, R2162-13 et R2162-14 du Cod Chacun des marchés sera attribué à un unique titulaire pour une durée maximale de quatre (4) années, reconductions comprises. La valeur totale maximale des marchés est fixée à 58 000 000 euro(s) HTVA compte tenu de leur durée et des éventuelles reconductions. S'agissant d'une procédure ouverte, le nombre maximal de participants n'est pas limité</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>8157327e-d45a-4d84-9723-06dadd62ba44</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>SE2502</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La procédure est accélérée</span>
+               <span>:</span>
+               <span class="fr-text--bold">non</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e261">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55321000</span>
+                  <span/>
+                  <span>Services de préparation de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55320000</span>
+                  <span/>
+                  <span>Services de distribution de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e261">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Une visite des lieux obligatoire est organisée, sur Rdv. Cf. article 15 du Rc Les candidats peuvent télécharger gratuitement les documents de la consultation aux adresses suivantes : - https://www.ville-levallois.fr/municipalite/marches-publics/ - www.marches-publics.info Les candidats qui souhaitent retirer le dossier de consultation de façon dématérialisée en anonyme sont informés que la Ville ne pourra leur transmettre les éventuelles modifications ou précisions qui pourraient affecter les documents en cours de consultation. Toutes les questions doivent être posées par le biais de la plateforme de dématérialisation, après téléchargement identifié du Dce, via la rubrique « Poser une nouvelle question ». Date limite de questions : 02/04/2025-12h00 Date limite de réponse : 08/04/2025 Les entreprises pourront soumissionner soit en qualité de candidats individuels soit sous forme de groupement solidaire ou conjoint. Toutefois, en cas de présentation sous la forme d'un groupement conjoint, le mandataire devra se constituer solidaire de chacun des membres du groupement pour ses obligations contractuelles avec l'acheteur. Les critères de jugement des offres comportent des sous-critères, cf. article du Rc</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e243">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>« Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l’un des cas d’exclusion de la procédure de passation prévus par le code de la commande publique.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e280">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Confection et livraison de repas en liaison froide pour les structures de la petite enfance</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le montant maximum annuel du marché est fixé à 2 500 000 euro(s) HTVA, dont 200 000 euro(s) HTVA réservés à la Caisse des Écoles</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e468">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55321000</span>
+                  <span/>
+                  <span>Services de préparation de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55321000</span>
+                  <span/>
+                  <span>Services de préparation de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55320000</span>
+                  <span/>
+                  <span>Services de distribution de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e499">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>25/08/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e504">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>2</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le marché prendra effet à compter de sa date de notification. Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e483">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>2,500,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e280">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Description</span>
+                  <span>:</span>
+                  <span>Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le marché comporte une tranche optionnelle obligatoire : - Modification des modes de production - conformément aux dispositions du Cctp article 1.4</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e468">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e283">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>o Déclaration indiquant les effectifs du candidat ; o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e357">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur environnementale</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>20</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur financière</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e281">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>AW Solutions</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e280">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les soumissionnaires peuvent présenter plusieurs offres</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>4</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives à l’ouverture publique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d'ouverture</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 14:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e437">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de participants</span>
+                     <span>:</span>
+                     <span>1</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e281">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Cergy-Pontoise</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+                  <span>:</span>
+                  <span>Avenue-Web Systèmes</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e516">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Confection et livraison de repas en liaison froide en restauration scolaire et accueils de loisirs</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le montant maximum annuel du marché est fixé à 10 000 000 euro(s) HTVA, dont 3 000 000 euro(s) HTVA réservés à la Caisse des Écoles</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e704">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55321000</span>
+                  <span/>
+                  <span>Services de préparation de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55320000</span>
+                  <span/>
+                  <span>Services de distribution de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e735">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>25/08/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e740">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>2</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le marché prendra effet à compter de sa date de notification. Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e719">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>10,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e516">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Description</span>
+                  <span>:</span>
+                  <span>Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le marché comporte une tranche optionnelle facultative : - Mise en place d'une alternative au conditionnement plastique s'agissant de la bouteille d'eau pour les pique-niques</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e704">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e519">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>o Déclaration indiquant les effectifs du candidat ; o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e593">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur environnementale</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>20</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur financière</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e517">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>AW Solutions</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e516">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les soumissionnaires peuvent présenter plusieurs offres</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>4</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives à l’ouverture publique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d'ouverture</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 14:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e673">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de participants</span>
+                     <span>:</span>
+                     <span>1</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e517">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Cergy-Pontoise</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+                  <span>:</span>
+                  <span>Avenue-Web Systèmes</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e751">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Portage de repas à domicile et service à table en restaurant</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le montant maximum annuel du marché est fixé à 2 000 000 euro(s) HTVA, dont 1 999 000 euro(s) HTVA réservés au CCAS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>3</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e939">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55321000</span>
+                  <span/>
+                  <span>Services de préparation de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55320000</span>
+                  <span/>
+                  <span>Services de distribution de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55320000</span>
+                  <span/>
+                  <span>Services de distribution de repas</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>55523100</span>
+                  <span/>
+                  <span>Services de restauration scolaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le marché ne fait pas l'objet de prestations supplémentaires éventuelles. Il pourra faire l'objet de prestations similaires</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e967">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>25/08/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e973">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>2</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Le marché prendra effet à compter de sa date de notification. Les prestations débuteront à compter du lundi 25 août 2025 et prendront fin 8 jours avant la rentrée scolaire 2027. Le marché pourra ensuite être reconduit tacitement, dans la limite de deux fois, pour une année. Son échéance est fixée, chaque année, 8 jours avant la rentrée scolaire</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e952">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>2,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e751">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Description</span>
+                  <span>:</span>
+                  <span>Une nouvelle consultation sere relancée au plus tard dans le curant du 2ème trimestre 2029</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e939">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e754">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Un Dc1, ou une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-11 du Code et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du Code du Travail concernant l'emploi des travailleurs handicapés</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Déclaration concernant le chiffre d'affaires global du candidat réalisé au cours des trois derniers exercices. La capacité financière du candidat pourra être prouvée par tout autre moyen équivalent</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>o Déclaration indiquant les effectifs du candidat ; o Présentation d'une liste des principaux services significatifs effectués au cours des trois dernières années (au moins 3 références sur les 3 dernières années), indiquant notamment le montant, la date et le destinataire public ou privé. La liste précitée doit attester de la capacité du candidat à assurer des prestations de même nature que celles objet du présent marché</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e828">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur environnementale</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>20</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur financière</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e752">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1606501</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>AW Solutions</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e751">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1606501</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les soumissionnaires peuvent présenter plusieurs offres</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>4</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives à l’ouverture publique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d'ouverture</span>
+                     <span>:</span>
+                     <span>15/04/2025</span>
+                     <span/>
+                     <span>à 14:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Recours en référé précontractuel pouvant être exercé depuis le début de la procédure de passation jusqu'à la signature du marché ; Recours de pleine juridiction formé contre la validité du contrat ou certaines de ses clauses qui en sont divisibles, dans le délai de 2 mois à compter de la parution de l'avis d'attribution. Un recours en référé contractuel peut être exercé dans les 31 jours suivant la publication de l'avis d'attribution. S'il n'y a pas eu de publication d'un tel avis, la juridiction pourra être saisie jusqu'à l'expiration d'un délai de six mois à compter du lendemain du jour de la conclusion du contrat</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e908">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de participants</span>
+                     <span>:</span>
+                     <span>1</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e752">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Cergy-Pontoise</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+                  <span>:</span>
+                  <span>Avenue-Web Systèmes</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e23">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Avenue-Web Systèmes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>A043B274-EA0C-5571-BD1F151D6862A11A</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Seyssinet-Pariset</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>38170</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Isère</span>
+               <span/>
+               <span>(</span>
+               <span>FRK24</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>publications-joue@aws-france.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33480041260</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e51">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>4238</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Hôtel de Ville</span>
+               <span/>
+               <span>Place de la République</span>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>92300</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Hauts-de-Seine</span>
+               <span/>
+               <span>(</span>
+               <span>FR105</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>le Maire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches@ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0149683000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>0147590396</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://www.ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>http://www.ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Chef de groupe</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e85">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Cergy-Pontoise</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>A043B2CA-EF45-F464-E8E9F21977EFA833</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2-4 bd de l'Hautil</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Cergy-Pontoise</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>95027</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-d’Oise</span>
+               <span/>
+               <span>(</span>
+               <span>FR108</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-cergy-pontoise@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0130173400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>0130173459</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://cergy-pontoise.tribunal-administratif.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e117">
+            <span>8.1</span>
+            <span>ORG-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CCAS de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>A043B2FE-0D91-501D-916CA8B30FD54716</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place de la République</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>92300</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Hauts-de-Seine</span>
+               <span/>
+               <span>(</span>
+               <span>FR105</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches@ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>014983000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>http://www.ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e147">
+            <span>8.1</span>
+            <span>ORG-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Caisse des Ecoles de Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>A043B318-F5F9-2D77-35BEE176AAB611B1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place de la République</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Levallois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>92300</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Hauts-de-Seine</span>
+               <span/>
+               <span>(</span>
+               <span>FR105</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches@ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>014983000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>http://www.ville-levallois.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>29867920-0322-4a3a-93cb-8acc6938b1ed</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 17:25</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Ville de Levallois : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Hôtel de VillePlace de la RépubliqueLevallois92300FR105FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>le Maire</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0149683000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches@ville-levallois.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="http://www.ville-levallois.fr" target="_blank" title="Aller sur la page http://www.ville-levallois.fr - nouvelle fenêtre"><span>http://www.ville-levallois.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="http://www.ville-levallois.fr" target="_blank" title="Aller sur la page http://www.ville-levallois.fr - nouvelle fenêtre"><span>http://www.ville-levallois.fr</span></a></li>
+                  </ul>
+               </li>
+               <li><span class="fr-text--bold">CCAS de Levallois : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Place de la RépubliqueLevallois92300FR105FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>014983000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches@ville-levallois.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="http://www.ville-levallois.fr" target="_blank" title="Aller sur la page http://www.ville-levallois.fr - nouvelle fenêtre"><span>http://www.ville-levallois.fr</span></a></li>
+                  </ul>
+               </li>
+               <li><span class="fr-text--bold">Caisse des Ecoles de Levallois : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Place de la RépubliqueLevallois92300FR105FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>014983000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches@ville-levallois.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="http://www.ville-levallois.fr" target="_blank" title="Aller sur la page http://www.ville-levallois.fr - nouvelle fenêtre"><span>http://www.ville-levallois.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>MARCHES DE PRÉPARATION ET LIVRAISON DE REPAS</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Les marchés ont pour objet d'assurer la fourniture de repas pour la ville, le CCAS
+            et la Caisse des Ecoles de LEVALLOIS, comprenant : - repas pour les structures de
+            la petite enfance ; - repas pour la restauration scolaire et périscolaire ; - repas
+            pour les personnes âgées et exploitation du Club de la Planchette en production de
+            repas sur place. La procédure est organisée par la ville de Levallois, coordonnateur
+            du groupement de commandes constitué avec la Caisse des Ecoles et le Centre Communal
+            d'Action Sociale (CCAS) de Levallois. Les marchés sont soumis au Code de la Commande
+            Publique, désigné par les termes « le Code ».. Qualifiés de marchés de services, ils
+            sont soumis aux dispositions du CCAG « Fournitures Courantes et Services » approuvé
+            par Arrêté du 30 mars 2021. Ils sont passés selon une procédure adaptée ouverte, soumise
+            aux dispositions des articles L. 2123-1 et R.2123-1 3° du Code. Ils constituent des
+            accords-cadres à bons de commande soumis aux dispositions des articles L.2125-1-1°,
+            R2162-1 à R2162-6, R2162-13 et R2162-14 du Cod Chacun des marchés sera attribué à
+            un unique titulaire pour une durée maximale de quatre (4) années, reconductions comprises.
+            La valeur totale maximale des marchés est fixée à 58 000 000 euro(s) HTVA compte tenu
+            de leur durée et des éventuelles reconductions. S'agissant d'une procédure ouverte,
+            le nombre maximal de participants n'est pas limité</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Confection et livraison de repas en liaison froide pour les structures de la petite
+                  enfance</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Confection et livraison de repas en liaison froide en restauration scolaire et accueils
+                  de loisirs</li>
+               <li><span class="fr-text--bold">Lot 3 : </span>Portage de repas à domicile et service à table en restaurant</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

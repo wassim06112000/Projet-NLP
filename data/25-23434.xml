@@ -1,0 +1,1329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <cbc:TotalAmount currencyID="EUR">1</cbc:TotalAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <efbc:DPSTerminationIndicator>false</efbc:DPSTerminationIndicator>
+                              <efac:LotTender>
+                                 <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">tenders</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>95</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                              <cac:LegalMonetaryTotal>
+                                 <cbc:PayableAmount currencyID="EUR">1</cbc:PayableAmount>
+                              </cac:LegalMonetaryTotal>
+                              <efac:SubcontractingTerm>
+                                 <efbc:TermCode listName="applicability">not-known</efbc:TermCode>
+                              </efac:SubcontractingTerm>
+                              <efac:TenderingParty>
+                                 <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>Sans suite</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:IssueDate>2025-02-27+01:00</cbc:IssueDate>
+                              <cbc:Title languageID="FRA">Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</cbc:Title>
+                              <efac:ContractReference>
+                                 <cbc:ID>2024mo04</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <efac:Tenderer>
+                                 <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                                    <cbc:PostalZone>38170</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">FC28E532-0679-886F-4B36AC8CD034837E</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33480041260</cbc:Telephone>
+                                    <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://www.lamayenne.fr</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Conseil Départemental de la Mayenne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>39 rue Mazagran</cbc:StreetName>
+                                    <cbc:AdditionalStreetName>Cs 21429</cbc:AdditionalStreetName>
+                                    <cbc:CityName>Laval</cbc:CityName>
+                                    <cbc:PostalZone>53014</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">45768</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>le Président</cbc:Name>
+                                    <cbc:Telephone>0243665419</cbc:Telephone>
+                                    <cbc:ElectronicMail>sjmpa@lamayenne.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Conseil Départemental de la Mayenne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:Postbox>Cs21429</cbc:Postbox>
+                                    <cbc:CityName>Laval</cbc:CityName>
+                                    <cbc:PostalZone>53014</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">1673978</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0243665212</cbc:Telephone>
+                                    <cbc:Telefax>0243665422</cbc:Telefax>
+                                    <cbc:ElectronicMail>sjmpa@lamayenne.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Nantes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:Postbox>24111</cbc:Postbox>
+                                    <cbc:StreetName>6 allée de l'Ile-Gloriette</cbc:StreetName>
+                                    <cbc:CityName>Nantes</cbc:CityName>
+                                    <cbc:PostalZone>44041</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">FC28E55A-9D40-AD86-CFBE5B418DF16F03</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0255101002</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-nantes@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efbc:ListedOnRegulatedMarketIndicator>false</efbc:ListedOnRegulatedMarketIndicator>
+                              <efac:UltimateBeneficialOwner>
+                                 <cbc:ID schemeName="ubo">UBO-0005</cbc:ID>
+                              </efac:UltimateBeneficialOwner>
+                              <efac:Company>
+                                 <efbc:CompanySizeCode listName="economic-operator-size">large</efbc:CompanySizeCode>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Sans suite</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Laval</cbc:CityName>
+                                    <cbc:PostalZone>53000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">1451529-2-0-1</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0243665422</cbc:Telephone>
+                                    <cbc:ElectronicMail>sjmpa@lamayenne.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:UltimateBeneficialOwner>
+                              <cbc:ID schemeName="ubo">UBO-0005</cbc:ID>
+                              <efac:Nationality>
+                                 <cbc:NationalityID>FRA</cbc:NationalityID>
+                              </efac:Nationality>
+                           </efac:UltimateBeneficialOwner>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">aac4de34-1455-424e-a072-b93ffe1056c8</cbc:ID>
+            <cbc:ContractFolderID>f0f5561f-0e22-4312-a4c7-417f0bd4b8a6</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+01:00</cbc:IssueDate>
+            <cbc:IssueTime>12:56:42+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.lamayenne.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:ServiceProviderParty>
+                     <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                     <cac:Party>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:Party>
+                  </cac:ServiceProviderParty>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2024MO04</cbc:ID>
+               <cbc:Name languageID="FRA">Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</cbc:Name>
+               <cbc:Description languageID="FRA">La présente consultation concerne une mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin.
+La technique d'achat retenue est celle du concours restreint sur Esquisse + en application des articles L. 2172-1, R2162-15 à R2162-26 et R2122-6 du code de la commande publique.
+La mission confiée au maître d'oeuvre sera une mission de maîtrise d'oeuvre déterminée en application des dispositions législatives et réglementaires en vigueur afférentes à la maîtrise d'ouvrage publique et ses rapports avec la maîtrise d'oeuvre privée (articles L2430-1 et suivants du Code de la commande publique). Les missions sont détaillées dans le règlement de concours - phase candidature.
+La partie de l'enveloppe financière prévisionnelle affectée aux travaux est de 10,5 millions  euro(s)  H.T. dont env. 7,8 millions  euro(s)  H.T. pour l'enveloppe travaux bâtiment et 2,7 millions  euro(s)  HT pour les interventions sur les espaces extérieurs dans le périmètre d'intervention.
+La durée globale d'exécution du marché de maîtrise d'oeuvre s'étend jusqu'à la fin de l'année de parfait achèvement, soit 2031.
+Le concours est organisé en deux phases :
+- Première phase : les candidats remettent un dossier de candidature complet permettant de vérifier les conditions de participation. Au terme de cette première phase, 3 candidats, 4 maximum seront invités à participer à la seconde phase.
+- Deuxième phase : les participants remettent anonymement un dossier de projet de niveau Esquisse+.
+Le candidat réunira impérativement les compétences suivantes :
+- Architecte diplômé d'Etat disposant notamment de références en contexte patrimonial, obligatoirement mandataire ;
+- Un architecte paysagiste ayant une sensibilité vis-à-vis des parcs ou de contextes patrimoniaux,
+- Un ou des bureau(x) d'études techniques spécialisés dans les domaines du bâtiment suivants : VRD, structure, études thermiques, fluides, électricité, système de sécurité incendie (SSI),
+- Un bureau d'étude acoustique avec des compétences en matière d'équipements culturels (musée, salle de diffusion) ;
+- Un économiste de la construction dans les domaines cités précédemment (T.C.E.) ;
+- Une compétence en ingénierie des systèmes d'information multimédia ;
+- Une compétence en conception graphique avec des compétences en signalétique intérieure et extérieure ;
+- Une compétence lumière appliquée à l'exposition ;
+- Un ordonnateur planificateur coordonnateur (OPC).
+L'équipe devra avoir les capacités à mener une démarche de type HQE, sans exigence de certification.
+Etant précisé en cas de groupement, que l'un des membres peut réunir plusieurs compétences</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">La procédure a été déclarée sans suite</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critere 1 : Qualité architecturale, paysagère et environnementale, inscription du projet dans l'existant et dans son environnement</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critere 3 : Respect du programme architectural, paysager et fonctionnel et d'organisation des espaces</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>30</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critere 2 : Caractéristiques techniques et compatibilité financière du projet</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID schemeName="touchpoint">ORG-0003</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Les voies de recours ouvertes aux candidats sont les suivantes :
+- Avant la signature du marché pour le référé pré-contractuel.
+- 31 jours à compter de la publication de l'avis d'attribution ou 6 mois à compter du lendemain de la conclusion du contrat pour le référé contractuel.
+- Deux mois à compter de la publicité relative à la signature et à la consultation du contrat pour le recours en contestation de la validité du contrat.
+Le tribunal administratif peut être saisi par courrier, ou par l'application Télérecours citoyens accessible à partir du site www.telerecours.fr</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID schemeName="InternalID">S-PF-1451529</cbc:ID>
+                  <cbc:Name languageID="FRA">Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</cbc:Name>
+                  <cbc:Description languageID="FRA">La présente consultation concerne une mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin.
+La technique d'achat retenue est celle du concours restreint sur Esquisse + en application des articles L. 2172-1, R2162-15 à R2162-26 et R2122-6 du code de la commande publique.
+La mission confiée au maître d'oeuvre sera une mission de maîtrise d'oeuvre déterminée en application des dispositions législatives et réglementaires en vigueur afférentes à la maîtrise d'ouvrage publique et ses rapports avec la maîtrise d'oeuvre privée (articles L2430-1 et suivants du Code de la commande publique). Les missions sont détaillées dans le règlement de concours - phase candidature.
+La partie de l'enveloppe financière prévisionnelle affectée aux travaux est de 10,5 millions  euro(s)  H.T. dont env. 7,8 millions  euro(s)  H.T. pour l'enveloppe travaux bâtiment et 2,7 millions  euro(s)  HT pour les interventions sur les espaces extérieurs dans le périmètre d'intervention.
+La durée globale d'exécution du marché de maîtrise d'oeuvre s'étend jusqu'à la fin de l'année de parfait achèvement, soit 2031.
+Le concours est organisé en deux phases :
+- Première phase : les candidats remettent un dossier de candidature complet permettant de vérifier les conditions de participation. Au terme de cette première phase, 3 candidats, 4 maximum seront invités à participer à la seconde phase.
+- Deuxième phase : les participants remettent anonymement un dossier de projet de niveau Esquisse+.
+Le candidat réunira impérativement les compétences suivantes :
+- Architecte diplômé d'Etat disposant notamment de références en contexte patrimonial, obligatoirement mandataire ;
+- Un architecte paysagiste ayant une sensibilité vis-à-vis des parcs ou de contextes patrimoniaux,
+- Un ou des bureau(x) d'études techniques spécialisés dans les domaines du bâtiment suivants : VRD, structure, études thermiques, fluides, électricité, système de sécurité incendie (SSI),
+- Un bureau d'étude acoustique avec des compétences en matière d'équipements culturels (musée, salle de diffusion) ;
+- Un économiste de la construction dans les domaines cités précédemment (T.C.E.) ;
+- Une compétence en ingénierie des systèmes d'information multimédia ;
+- Une compétence en conception graphique avec des compétences en signalétique intérieure et extérieure ;
+- Une compétence lumière appliquée à l'exposition ;
+- Un ordonnateur planificateur coordonnateur (OPC).
+L'équipe devra avoir les capacités à mener une démarche de type HQE, sans exigence de certification.
+Etant précisé en cas de groupement, que l'un des membres peut réunir plusieurs compétences</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23434</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-56088</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-59873</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Conseil Départemental de la Mayenne</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>Sans suite</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-05-28</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>274</CODE>
+               <LIBELLE>Prestations de services</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>53</DEP_PUBLICATION>
+         <RESUME_OBJET>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-23434 du 28/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-23434 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>53</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23434</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e265">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Conseil Départemental de la Mayenne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e295">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La présente consultation concerne une mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin. La technique d'achat retenue est celle du concours restreint sur Esquisse + en application des articles L. 2172-1, R2162-15 à R2162-26 et R2122-6 du code de la commande publique. La mission confiée au maître d'oeuvre sera une mission de maîtrise d'oeuvre déterminée en application des dispositions législatives et réglementaires en vigueur afférentes à la maîtrise d'ouvrage publique et ses rapports avec la maîtrise d'oeuvre privée (articles L2430-1 et suivants du Code de la commande publique). Les missions sont détaillées dans le règlement de concours - phase candidature. La partie de l'enveloppe financière prévisionnelle affectée aux travaux est de 10,5 millions euro(s) H.T. dont env. 7,8 millions euro(s) H.T. pour l'enveloppe travaux bâtiment et 2,7 millions euro(s) HT pour les interventions sur les espaces extérieurs dans le périmètre d'intervention. La durée globale d'exécution du marché de maîtrise d'oeuvre s'étend jusqu'à la fin de l'année de parfait achèvement, soit 2031. Le concours est organisé en deux phases : - Première phase : les candidats remettent un dossier de candidature complet permettant de vérifier les conditions de participation. Au terme de cette première phase, 3 candidats, 4 maximum seront invités à participer à la seconde phase. - Deuxième phase : les participants remettent anonymement un dossier de projet de niveau Esquisse+. Le candidat réunira impérativement les compétences suivantes : - Architecte diplômé d'Etat disposant notamment de références en contexte patrimonial, obligatoirement mandataire ; - Un architecte paysagiste ayant une sensibilité vis-à-vis des parcs ou de contextes patrimoniaux, - Un ou des bureau(x) d'études techniques spécialisés dans les domaines du bâtiment suivants : VRD, structure, études thermiques, fluides, électricité, système de sécurité incendie (SSI), - Un bureau d'étude acoustique avec des compétences en matière d'équipements culturels (musée, salle de diffusion) ; - Un économiste de la construction dans les domaines cités précédemment (T.C.E.) ; - Une compétence en ingénierie des systèmes d'information multimédia ; - Une compétence en conception graphique avec des compétences en signalétique intérieure et extérieure ; - Une compétence lumière appliquée à l'exposition ; - Un ordonnateur planificateur coordonnateur (OPC). L'équipe devra avoir les capacités à mener une démarche de type HQE, sans exigence de certification. Etant précisé en cas de groupement, que l'un des membres peut réunir plusieurs compétences</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>f0f5561f-0e22-4312-a4c7-417f0bd4b8a6</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2024MO04</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La procédure est accélérée</span>
+               <span>:</span>
+               <span class="fr-text--bold">non</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e295">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e295">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La procédure a été déclarée sans suite</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e311">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0000</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La présente consultation concerne une mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin. La technique d'achat retenue est celle du concours restreint sur Esquisse + en application des articles L. 2172-1, R2162-15 à R2162-26 et R2122-6 du code de la commande publique. La mission confiée au maître d'oeuvre sera une mission de maîtrise d'oeuvre déterminée en application des dispositions législatives et réglementaires en vigueur afférentes à la maîtrise d'ouvrage publique et ses rapports avec la maîtrise d'oeuvre privée (articles L2430-1 et suivants du Code de la commande publique). Les missions sont détaillées dans le règlement de concours - phase candidature. La partie de l'enveloppe financière prévisionnelle affectée aux travaux est de 10,5 millions euro(s) H.T. dont env. 7,8 millions euro(s) H.T. pour l'enveloppe travaux bâtiment et 2,7 millions euro(s) HT pour les interventions sur les espaces extérieurs dans le périmètre d'intervention. La durée globale d'exécution du marché de maîtrise d'oeuvre s'étend jusqu'à la fin de l'année de parfait achèvement, soit 2031. Le concours est organisé en deux phases : - Première phase : les candidats remettent un dossier de candidature complet permettant de vérifier les conditions de participation. Au terme de cette première phase, 3 candidats, 4 maximum seront invités à participer à la seconde phase. - Deuxième phase : les participants remettent anonymement un dossier de projet de niveau Esquisse+. Le candidat réunira impérativement les compétences suivantes : - Architecte diplômé d'Etat disposant notamment de références en contexte patrimonial, obligatoirement mandataire ; - Un architecte paysagiste ayant une sensibilité vis-à-vis des parcs ou de contextes patrimoniaux, - Un ou des bureau(x) d'études techniques spécialisés dans les domaines du bâtiment suivants : VRD, structure, études thermiques, fluides, électricité, système de sécurité incendie (SSI), - Un bureau d'étude acoustique avec des compétences en matière d'équipements culturels (musée, salle de diffusion) ; - Un économiste de la construction dans les domaines cités précédemment (T.C.E.) ; - Une compétence en ingénierie des systèmes d'information multimédia ; - Une compétence en conception graphique avec des compétences en signalétique intérieure et extérieure ; - Une compétence lumière appliquée à l'exposition ; - Un ordonnateur planificateur coordonnateur (OPC). L'équipe devra avoir les capacités à mener une démarche de type HQE, sans exigence de certification. Etant précisé en cas de groupement, que l'un des membres peut réunir plusieurs compétences</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>S-PF-1451529</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e405">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e311">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e318">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critere 1 : Qualité architecturale, paysagère et environnementale, inscription du projet dans l'existant et dans son environnement</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critere 3 : Respect du programme architectural, paysager et fonctionnel et d'organisation des espaces</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>30</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Coût</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critere 2 : Caractéristiques techniques et compatibilité financière du projet</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>30</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e311">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Les voies de recours ouvertes aux candidats sont les suivantes : - Avant la signature du marché pour le référé pré-contractuel. - 31 jours à compter de la publication de l'avis d'attribution ou 6 mois à compter du lendemain de la conclusion du contrat pour le référé contractuel. - Deux mois à compter de la publicité relative à la signature et à la consultation du contrat pour le recours en contestation de la validité du contrat. Le tribunal administratif peut être saisi par courrier, ou par l'application Télérecours citoyens accessible à partir du site www.telerecours.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e392">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e312">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Nantes</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Conseil Départemental de la Mayenne</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+                  <span>:</span>
+                  <span>Avenue-Web Systèmes</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur de tous les contrats attribués dans cet avis</span>
+            <span>:</span>
+            <span>1</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e22">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0000</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section" id="section_6.1.2_d1e22">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>Sans suite</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>Sans suite</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0000</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Valeur de l'offre</span>
+                     <span>:</span>
+                     <span>1</span>
+                     <span/>
+                     <span>Euro</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre est une variante</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Sous-traitance</span>
+                     <span>:</span>
+                     <span>Pas encore connu</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>2024mo04</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Titre</span>
+                        <span>:</span>
+                        <span>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert Tatin</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>27/02/2025</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">non</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e22">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>95</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e85">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Avenue-Web Systèmes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>FC28E532-0679-886F-4B36AC8CD034837E</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Seyssinet-Pariset</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>38170</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Isère</span>
+               <span/>
+               <span>(</span>
+               <span>FRK24</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>publications-joue@aws-france.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33480041260</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e113">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Conseil Départemental de la Mayenne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>45768</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>39 rue Mazagran</span>
+               <span/>
+               <span>Cs 21429</span>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Laval</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>53014</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Mayenne</span>
+               <span/>
+               <span>(</span>
+               <span>FRG03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>le Président</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>sjmpa@lamayenne.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0243665419</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://www.lamayenne.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.lamayenne.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e145">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Conseil Départemental de la Mayenne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>1673978</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Laval</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>53014</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Mayenne</span>
+               <span/>
+               <span>(</span>
+               <span>FRG03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>sjmpa@lamayenne.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0243665212</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>0243665422</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e175">
+            <span>8.1</span>
+            <span>ORG-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Nantes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>FC28E55A-9D40-AD86-CFBE5B418DF16F03</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>6 allée de l'Ile-Gloriette</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nantes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>44041</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Loire-Atlantique</span>
+               <span/>
+               <span>(</span>
+               <span>FRG01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-nantes@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0255101002</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e205">
+            <span>8.1</span>
+            <span>ORG-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Sans suite</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Taille de l’opérateur économique</span>
+               <span>:</span>
+               <span class="fr-text--bold">Grande</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>1451529-2-0-1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Laval</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>53000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Mayenne</span>
+               <span/>
+               <span>(</span>
+               <span>FRG03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>sjmpa@lamayenne.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0243665422</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Bénéficiaire effectif</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nationalité du propriétaire</span>
+                     <span>:</span>
+                     <span>France</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0000</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>aac4de34-1455-424e-a072-b93ffe1056c8</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 12:56</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Conseil Départemental de la Mayenne : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>39 rue MazagranCs 21429Laval53014FRG03FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>le Président</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0243665419</li>
+                     <li><span class="fr-text--bold">Courriel : </span>sjmpa@lamayenne.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="http://www.lamayenne.fr" target="_blank" title="Aller sur la page http://www.lamayenne.fr - nouvelle fenêtre"><span>http://www.lamayenne.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.lamayenne.fr" target="_blank" title="Aller sur la page https://www.lamayenne.fr - nouvelle fenêtre"><span>https://www.lamayenne.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert
+            Tatin</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La présente consultation concerne une mission de maîtrise d'oeuvre pour la réhabilitation
+            - extension du site et Musée Robert Tatin. La technique d'achat retenue est celle
+            du concours restreint sur Esquisse + en application des articles L. 2172-1, R2162-15
+            à R2162-26 et R2122-6 du code de la commande publique. La mission confiée au maître
+            d'oeuvre sera une mission de maîtrise d'oeuvre déterminée en application des dispositions
+            législatives et réglementaires en vigueur afférentes à la maîtrise d'ouvrage publique
+            et ses rapports avec la maîtrise d'oeuvre privée (articles L2430-1 et suivants du
+            Code de la commande publique). Les missions sont détaillées dans le règlement de concours
+            - phase candidature. La partie de l'enveloppe financière prévisionnelle affectée aux
+            travaux est de 10,5 millions euro(s) H.T. dont env. 7,8 millions euro(s) H.T. pour
+            l'enveloppe travaux bâtiment et 2,7 millions euro(s) HT pour les interventions sur
+            les espaces extérieurs dans le périmètre d'intervention. La durée globale d'exécution
+            du marché de maîtrise d'oeuvre s'étend jusqu'à la fin de l'année de parfait achèvement,
+            soit 2031. Le concours est organisé en deux phases : - Première phase : les candidats
+            remettent un dossier de candidature complet permettant de vérifier les conditions
+            de participation. Au terme de cette première phase, 3 candidats, 4 maximum seront
+            invités à participer à la seconde phase. - Deuxième phase : les participants remettent
+            anonymement un dossier de projet de niveau Esquisse+. Le candidat réunira impérativement
+            les compétences suivantes : - Architecte diplômé d'Etat disposant notamment de références
+            en contexte patrimonial, obligatoirement mandataire ; - Un architecte paysagiste ayant
+            une sensibilité vis-à-vis des parcs ou de contextes patrimoniaux, - Un ou des bureau(x)
+            d'études techniques spécialisés dans les domaines du bâtiment suivants : VRD, structure,
+            études thermiques, fluides, électricité, système de sécurité incendie (SSI), - Un
+            bureau d'étude acoustique avec des compétences en matière d'équipements culturels
+            (musée, salle de diffusion) ; - Un économiste de la construction dans les domaines
+            cités précédemment (T.C.E.) ; - Une compétence en ingénierie des systèmes d'information
+            multimédia ; - Une compétence en conception graphique avec des compétences en signalétique
+            intérieure et extérieure ; - Une compétence lumière appliquée à l'exposition ; - Un
+            ordonnateur planificateur coordonnateur (OPC). L'équipe devra avoir les capacités
+            à mener une démarche de type HQE, sans exigence de certification. Etant précisé en
+            cas de groupement, que l'un des membres peut réunir plusieurs compétences</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Mission de maîtrise d'oeuvre pour la réhabilitation - extension du site et Musée Robert
+                  Tatin</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

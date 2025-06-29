@@ -1,0 +1,1661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>3</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <cbc:RankCode>1</cbc:RankCode>
+                              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>2024-008- villa-battesti</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:AwardDate>2024-12-17+01:00</cbc:AwardDate>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0004</cbc:ID>
+                                 <efbc:GroupLeadIndicator>true</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0005</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0006</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0007</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0008</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0009</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0010</cbc:ID>
+                                 <efbc:GroupLeadIndicator>false</efbc:GroupLeadIndicator>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">36</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.prunellidifiumorbu.fr/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Mairie de Prunelli di Fiumorbo</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Migliacciaru</cbc:StreetName>
+                                    <cbc:CityName>PRUNELLI DI FIUMORBO</cbc:CityName>
+                                    <cbc:PostalZone>20243</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM02</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21200251300019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 495565112</cbc:Telephone>
+                                    <cbc:ElectronicMail>marchespublics@prunellidifiumorbu.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Bastia</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Villa Montepiano</cbc:StreetName>
+                                    <cbc:CityName>BASTIA CEDEX</cbc:CityName>
+                                    <cbc:PostalZone>20407</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM02</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>172 000 051 00026</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0495328866</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-bastia@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Comité consultatif interrégional règlement amiable des différends et litiges  Préfecture de la région Provence - Alpes - Côte d'Azur</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place Félix Baret CS 80001</cbc:StreetName>
+                                    <cbc:CityName>Marseille Cedex 06</cbc:CityName>
+                                    <cbc:PostalZone>13282</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17130000700019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0484354554</cbc:Telephone>
+                                    <cbc:ElectronicMail>catherine.pietri@paca.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Villa Battesti Architectes et associés</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>6, quai Napoléon</cbc:StreetName>
+                                    <cbc:CityName>Ajaccio</cbc:CityName>
+                                    <cbc:PostalZone>20000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>38345880900027</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0495512300</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact@villabattesti.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">ANDREANI architectes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Les Terrasses du Levant Route de Palombaggia</cbc:StreetName>
+                                    <cbc:CityName>Porto-vecchio</cbc:CityName>
+                                    <cbc:PostalZone>20137</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>94856315000010</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>07 82 66 94 93</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact@andreaniarchitectes.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">INGE-CO Structure SAS</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>515 route de la mer</cbc:StreetName>
+                                    <cbc:CityName>Ghisonaccia</cbc:CityName>
+                                    <cbc:PostalZone>20240</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM02</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>88285480500018</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>04 95 47 31 05</cbc:Telephone>
+                                    <cbc:ElectronicMail>asisti@inge-co.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0007</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Ingénieurs concepteurs SASU</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>515 Rte de la mer</cbc:StreetName>
+                                    <cbc:CityName>Ghisonaccia</cbc:CityName>
+                                    <cbc:PostalZone>20240</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM02</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>84387983400029</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>04 95 47 31 05</cbc:Telephone>
+                                    <cbc:ElectronicMail>asisti@inge-co.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0008</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">MC2A INGENIERIE</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Rue 1er bataillon de choc</cbc:StreetName>
+                                    <cbc:CityName>Ajaccio</cbc:CityName>
+                                    <cbc:PostalZone>20090</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>89903459900014</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0624643527</cbc:Telephone>
+                                    <cbc:ElectronicMail>n.appietto@mc2a-ingenierie.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0009</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">IGETEC</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>2 Boulevard des Alisiers</cbc:StreetName>
+                                    <cbc:AdditionalStreetName>Les Roches d'Or bâtiment le CHAMBLY III</cbc:AdditionalStreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13009</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>40409065600012</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0465580516</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact@igetec-acoustique.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0010</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">ECCI</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>31 rue Paul Préboist</cbc:StreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13013</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>53202849500028</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0982243205</cbc:Telephone>
+                                    <cbc:ElectronicMail>bet@ecci-cuisine.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">eab02175-62c6-4180-9845-df7b8cd8c45f</cbc:ID>
+            <cbc:ContractFolderID>faab5135-1ea7-49cb-b5dd-88f7dd5837f6</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+01:00</cbc:IssueDate>
+            <cbc:IssueTime>16:40:18+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://mairie-prunellidifiumorbo.e-marchespublics.com/pack/annonce_marche_public_29751_1008718.html</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+               <cac:NoticeDocumentReference>
+                  <cbc:ID>ca951a82-4ba9-425f-b246-b5c1834e92db-01</cbc:ID>
+               </cac:NoticeDocumentReference>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2024-008</cbc:ID>
+               <cbc:Name languageID="FRA">Concours restreint de Maîtrise d'oeuvre pour l'opération de reconstruction de l'EHPAD A Ziglia</cbc:Name>
+               <cbc:Description languageID="FRA">Mission de maîtrise d'oeuvre : Base + EXE partielle (établissement des DQE TCE, EXE structure, synthèse) + OPC + CSSI pour l'opération de reconstruction de l'EHPAD A Ziglia sur la commune de Prunelli-di-Fiumorbu.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cbc:Description languageID="FRA">Concours de Maîtrise d'oeuvre</cbc:Description>
+                        <cbc:CalculationExpression languageID="FRA">Les projets des participants seront classés par le jury en tenant compte des éléments suivants (énoncés par ordre d'importance) dans le règlement de concours : - Qualité architecturale du projet - Qualité de la réponse au programme - Qualité et adéquation de l'organisation proposée par l'équipe - Délais d'exécution</cbc:CalculationExpression>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Un recours en référé précontractuel peut être exercé contre les manquements aux obligations de publicité et de mise en concurrence devant le juge des référés du TA depuis le début de la procédure de passation jusqu'à la signature du marché. 
+Un recours en référé contractuel peut être exercé contre les manquements aux obligations de publicité et de mise en concurrence devant le juge des référés du TA, à compter de la date de signature du marché et ce jusqu'à l'expiration d'un délai d'un mois si un avis d'attribution est publié au JOUE, à défaut d'une telle publication jusqu'à l'expiration d'un délai de six mois à compter de la signature du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:ProcurementProject>
+                  <cbc:ID>LOT0001</cbc:ID>
+                  <cbc:Name languageID="FRA">Mission de Maîtrise d'oeuvre pour la reconstruction de l'EHPAD A Ziglia</cbc:Name>
+                  <cbc:Description languageID="FRA">Mission de maîtrise d'oeuvre : base + EXE partielle (établissement des DQE TCE, EXE structure, synthèse) + OPC + CSSI pour la reconstruction de l'EHPAD A Ziglia sur la commune de Prunelli-di-Fiumorbu.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Migliacciaru</cbc:StreetName>
+                        <cbc:CityName>Prunelli-di-Fiumorbu</cbc:CityName>
+                        <cbc:PostalZone>20243</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRM02</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>1970-01-01+01:00</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24155</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <CONCOURS/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>25-15562</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>25-22268</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-37669</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Mairie de Prunelli di Fiumorbo</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>Villa Battesti Architectes et associés</DENOMINATION>
+            <DENOMINATION>ANDREANI architectes</DENOMINATION>
+            <DENOMINATION>INGE-CO Structure SAS</DENOMINATION>
+            <DENOMINATION>Ingénieurs concepteurs SASU</DENOMINATION>
+            <DENOMINATION>MC2A INGENIERIE</DENOMINATION>
+            <DENOMINATION>IGETEC</DENOMINATION>
+            <DENOMINATION>ECCI</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-03-28</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>274</CODE>
+               <LIBELLE>Prestations de services</LIBELLE>
+            </DESCRIPTEUR>
+            <DESCRIPTEUR>
+               <CODE>118</CODE>
+               <LIBELLE>Etude</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>20B</DEP_PUBLICATION>
+         <RESUME_OBJET>Concours restreint de Maîtrise d'oeuvre pour l'opération de reconstruction de l'EHPAD A Ziglia</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de résultats de concours - Avis n° 25-24155 du 03/03/2025</title>
+      <meta name="subject" content="Avis de résultats de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de résultats de concours - Avis n° 25-24155 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de résultats de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>20B</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24155</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e683">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Mairie de Prunelli di Fiumorbo</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e719">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours restreint de Maîtrise d'oeuvre pour l'opération de reconstruction de l'EHPAD A Ziglia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre : Base + EXE partielle (établissement des DQE TCE, EXE structure, synthèse) + OPC + CSSI pour l'opération de reconstruction de l'EHPAD A Ziglia sur la commune de Prunelli-di-Fiumorbu.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>faab5135-1ea7-49cb-b5dd-88f7dd5837f6</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Avis précédent</span>
+               <span>:</span>
+               <span>ca951a82-4ba9-425f-b246-b5c1834e92db-01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2024-008</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e719">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e719">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e739">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de Maîtrise d'oeuvre pour la reconstruction de l'EHPAD A Ziglia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre : base + EXE partielle (établissement des DQE TCE, EXE structure, synthèse) + OPC + CSSI pour la reconstruction de l'EHPAD A Ziglia sur la commune de Prunelli-di-Fiumorbu.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>LOT0001</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e803">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e823">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Migliacciaru</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Prunelli-di-Fiumorbu</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>20243</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Haute-Corse</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRM02</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e739">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e751">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères</span>
+                  <span>:</span>
+                  <span>Les projets des participants seront classés par le jury en tenant compte des éléments suivants (énoncés par ordre d'importance) dans le règlement de concours : - Qualité architecturale du projet - Qualité de la réponse au programme - Qualité et adéquation de l'organisation proposée par l'équipe - Délais d'exécution</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Justification de l’absence d’indication de la pondération des critères d’attribution</span>
+                  <span>:</span>
+                  <span>Concours de Maîtrise d'oeuvre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e739">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Un recours en référé précontractuel peut être exercé contre les manquements aux obligations de publicité et de mise en concurrence devant le juge des référés du TA depuis le début de la procédure de passation jusqu'à la signature du marché. Un recours en référé contractuel peut être exercé contre les manquements aux obligations de publicité et de mise en concurrence devant le juge des référés du TA, à compter de la date de signature du marché et ce jusqu'à l'expiration d'un délai d'un mois si un avis d'attribution est publié au JOUE, à défaut d'une telle publication jusqu'à l'expiration d'un délai de six mois à compter de la signature du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e741">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Comité consultatif interrégional règlement amiable des différends et litiges Préfecture de la région Provence - Alpes - Côte d'Azur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Bastia</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Mairie de Prunelli di Fiumorbo</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Bastia</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>Mairie de Prunelli di Fiumorbo</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section" id="section_6.1_d1e21">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section" id="section_6.1.2_d1e21">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Chef de file du soumissionnaire</span>
+                     <span>:</span>
+                     <span>Villa Battesti Architectes et associés</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>ANDREANI architectes, INGE-CO Structure SAS, Ingénieurs concepteurs SASU, MC2A INGENIERIE, IGETEC, ECCI</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>2024-008- villa-battesti</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre a été classée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Place sur la liste des lauréats</span>
+                     <span>:</span>
+                     <span>1</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Date à laquelle le lauréat a été choisi</span>
+                        <span>:</span>
+                        <span>17/12/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>Mairie de Prunelli di Fiumorbo</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e21">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>3</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e166">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Mairie de Prunelli di Fiumorbo</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21200251300019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Migliacciaru</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>PRUNELLI DI FIUMORBO</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20243</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Haute-Corse</span>
+               <span/>
+               <span>(</span>
+               <span>FRM02</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marchespublics@prunellidifiumorbu.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 495565112</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.prunellidifiumorbu.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://mairie-prunellidifiumorbo.e-marchespublics.com/pack/annonce_marche_public_29751_1008718.html</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e217">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Bastia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>172 000 051 00026</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Villa Montepiano</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>BASTIA CEDEX</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20407</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Haute-Corse</span>
+               <span/>
+               <span>(</span>
+               <span>FRM02</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-bastia@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0495328866</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e265">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Comité consultatif interrégional règlement amiable des différends et litiges Préfecture de la région Provence - Alpes - Côte d'Azur</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17130000700019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place Félix Baret CS 80001</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille Cedex 06</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13282</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>catherine.pietri@paca.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0484354554</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e313">
+            <span>8.1</span>
+            <span>ORG-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Villa Battesti Architectes et associés</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>38345880900027</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>6, quai Napoléon</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Ajaccio</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corse-du-Sud</span>
+               <span/>
+               <span>(</span>
+               <span>FRM01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact@villabattesti.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0495512300</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Chef de groupe</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e361">
+            <span>8.1</span>
+            <span>ORG-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>ANDREANI architectes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>94856315000010</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Les Terrasses du Levant Route de Palombaggia</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Porto-vecchio</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20137</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corse-du-Sud</span>
+               <span/>
+               <span>(</span>
+               <span>FRM01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact@andreaniarchitectes.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>07 82 66 94 93</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e410">
+            <span>8.1</span>
+            <span>ORG-0006</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>INGE-CO Structure SAS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>88285480500018</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>515 route de la mer</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Ghisonaccia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20240</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Haute-Corse</span>
+               <span/>
+               <span>(</span>
+               <span>FRM02</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>asisti@inge-co.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>04 95 47 31 05</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e458">
+            <span>8.1</span>
+            <span>ORG-0007</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ingénieurs concepteurs SASU</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>84387983400029</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>515 Rte de la mer</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Ghisonaccia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20240</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Haute-Corse</span>
+               <span/>
+               <span>(</span>
+               <span>FRM02</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>asisti@inge-co.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>04 95 47 31 05</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e506">
+            <span>8.1</span>
+            <span>ORG-0008</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MC2A INGENIERIE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>89903459900014</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Rue 1er bataillon de choc</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Ajaccio</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20090</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corse-du-Sud</span>
+               <span/>
+               <span>(</span>
+               <span>FRM01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>n.appietto@mc2a-ingenierie.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0624643527</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e554">
+            <span>8.1</span>
+            <span>ORG-0009</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>IGETEC</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>40409065600012</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2 Boulevard des Alisiers</span>
+               <span/>
+               <span>Les Roches d'Or bâtiment le CHAMBLY III</span>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13009</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact@igetec-acoustique.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0465580516</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e605">
+            <span>8.1</span>
+            <span>ORG-0010</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>ECCI</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>53202849500028</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>31 rue Paul Préboist</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>bet@ecci-cuisine.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0982243205</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>eab02175-62c6-4180-9845-df7b8cd8c45f</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de résultats de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 16:40</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Mairie de Prunelli di Fiumorbo : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Migliacciaru PRUNELLI DI FIUMORBO 20243 FRM02 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 495565112</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marchespublics@prunellidifiumorbu.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.prunellidifiumorbu.fr/" target="_blank" title="Aller sur la page https://www.prunellidifiumorbu.fr/ - nouvelle fenêtre"><span>https://www.prunellidifiumorbu.fr/</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://mairie-prunellidifiumorbo.e-marchespublics.com/pack/annonce_marche_public_29751_1008718.html" target="_blank" title="Aller sur la page https://mairie-prunellidifiumorbo.e-marchespublics.com/pack/annonce_marche_public_29751_1008718.html - nouvelle fenêtre"><span>https://mairie-prunellidifiumorbo.e-marchespublics.com/pack/annonce_marche_public_29751_1008718.html</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Concours restreint de Maîtrise d'oeuvre pour l'opération de reconstruction de l'EHPAD
+            A Ziglia</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Mission de maîtrise d'oeuvre : Base + EXE partielle (établissement des DQE TCE, EXE
+            structure, synthèse) + OPC + CSSI pour l'opération de reconstruction de l'EHPAD A
+            Ziglia sur la commune de Prunelli-di-Fiumorbu.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Mission de Maîtrise d'oeuvre pour la reconstruction de l'EHPAD A Ziglia</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

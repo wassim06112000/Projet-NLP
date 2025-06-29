@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">France travail corse</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Boulevard louis campi Résidence opéra Cs521</cbc:StreetName>
+                                    <cbc:CityName>Ajaccio cedex 9</cbc:CityName>
+                                    <cbc:PostalZone>20700</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000548124549</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0495293030</cbc:Telephone>
+                                    <cbc:ElectronicMail>marlene.folacci@pole-emploi.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Bastia</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Bastia</cbc:CityName>
+                                    <cbc:PostalZone>20200</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRM01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17200005100026</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-bastia@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">2334741e-b8f9-46e0-94c5-05f0636f3fda</cbc:ID>
+            <cbc:ContractFolderID>cfd1ab05-64b5-459c-b1e4-f1e27a363183</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>09:22:15+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:ContractingParty>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">: Les marchés sont passés selon une procédure adaptée selon des modalités librement définies par l'acheteur. Sous réserve de la recevabilité des offres, les marchés sont attribués, le cas échéant après conduite de négociations, sur la base des critères d'attribution fixés au Règlement de la consultation. La consultation se compose de 2 lots géographiques.</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre en charge fixés au présent avis pour chaque lot.   </cbc:Name>
+               <cbc:Description languageID="FRA">Le Titulaire est également tenu d'exécuter des prestations dans des locaux affectés en cours d'exécution du marché conformément à l'article V.4.1.4. c) du Contrat, dans les locaux mis à disposition par France Travail ou à distance.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:Name languageID="FRA">ATC - Corse du sud</cbc:Name>
+                  <cbc:Description languageID="FRA">: 1/ Niveau minimum de capacité financière 222 000 ? 2/ Pour la période ferme d?exécution du marché, nombre maximum de sessions susceptibles d?être prises en charge 1400  3/Lieux d?intervention obligatoire : Ajaccio ? Porto-Vecchio - Propriano ; 4/ Adresse des locaux mis à disposition par France Travail  : cf. annexe 1 du contrat 5/ Nombre d?heures de travail pour la période ferme d?exécution à réaliser au titre de l?engagement d?insertion sociale : 126</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">: 1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot. France Travail s'assure par ailleurs de la capacité de</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès  de la directrice régionale de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</cbc:Description>
+                     </cac:PresentationPeriod>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2</cbc:ID>
+                  <cbc:Name languageID="FRA">ATC - Haute Corse</cbc:Name>
+                  <cbc:Description languageID="FRA">1/ Niveau minimum de capacité financière 222 000 ? 2/ Pour la période ferme d?exécution du marché, nombre maximum de sessions susceptibles d?être prises en charge 1400  3/Lieux d?intervention obligatoire : Bastia ? Ile-Rousse ? Ghisonaccia - Corte ; 4/ Adresse des locaux mis à disposition par France Travail  : cf. annexe 1 du contrat 5/ Nombre d?heures de travail pour la période ferme d?exécution à réaliser au titre de l?engagement d?insertion sociale : 126</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23221</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE/>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>France travail corse</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-28T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-07</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>410</CODE>
+               <LIBELLE>Formation</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>20A</DEP_PUBLICATION>
+         <RESUME_OBJET>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi de type « Ateliers conseil ». L</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23221 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23221 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>20A</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23221</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e151">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>France travail corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+         <div class="section" id="section_1.1_d1e174">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Bastia</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e194">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre en charge fixés au présent avis pour chaque lot.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le Titulaire est également tenu d'exécuter des prestations dans des locaux affectés en cours d'exécution du marché conformément à l'article V.4.1.4. c) du Contrat, dans les locaux mis à disposition par France Travail ou à distance.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>cfd1ab05-64b5-459c-b1e4-f1e27a363183</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>: Les marchés sont passés selon une procédure adaptée selon des modalités librement définies par l'acheteur. Sous réserve de la recevabilité des offres, les marchés sont attribués, le cas échéant après conduite de négociations, sur la base des critères d'attribution fixés au Règlement de la consultation. La consultation se compose de 2 lots géographiques.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e194">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e194">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e212">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>ATC - Corse du sud</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>: 1/ Niveau minimum de capacité financière 222 000 ? 2/ Pour la période ferme d?exécution du marché, nombre maximum de sessions susceptibles d?être prises en charge 1400 3/Lieux d?intervention obligatoire : Ajaccio ? Porto-Vecchio - Propriano ; 4/ Adresse des locaux mis à disposition par France Travail : cf. annexe 1 du contrat 5/ Nombre d?heures de travail pour la période ferme d?exécution à réaliser au titre de l?engagement d?insertion sociale : 126</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e274">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e212">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e217">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e212">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>28/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e295">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>ATC - Haute Corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>1/ Niveau minimum de capacité financière 222 000 ? 2/ Pour la période ferme d?exécution du marché, nombre maximum de sessions susceptibles d?être prises en charge 1400 3/Lieux d?intervention obligatoire : Bastia ? Ile-Rousse ? Ghisonaccia - Corte ; 4/ Adresse des locaux mis à disposition par France Travail : cf. annexe 1 du contrat 5/ Nombre d?heures de travail pour la période ferme d?exécution à réaliser au titre de l?engagement d?insertion sociale : 126</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e363">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e295">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e300">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>: 1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot. France Travail s'assure par ailleurs de la capacité de</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e295">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>28/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès de la directrice régionale de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>France travail corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000548124549</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Boulevard louis campi Résidence opéra Cs521</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Ajaccio cedex 9</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20700</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corse-du-Sud</span>
+               <span/>
+               <span>(</span>
+               <span>FRM01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marlene.folacci@pole-emploi.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0495293030</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e75">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Bastia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17200005100026</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Bastia</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>20200</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corse-du-Sud</span>
+               <span/>
+               <span>(</span>
+               <span>FRM01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-bastia@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0000000000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>2334741e-b8f9-46e0-94c5-05f0636f3fda</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché – régime assoupli</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 09:22</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">France travail corse : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Boulevard louis campi Résidence opéra Cs521 Ajaccio cedex 9 20700 FRM01 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0495293030</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marlene.folacci@pole-emploi.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+               <li><span class="fr-text--bold">Tribunal administratif de Bastia : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Bastia 20200 FRM01 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0000000000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>greffe.ta-bastia@juradm.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre
+            de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi
+            de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus
+            avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre
+            en charge fixés au présent avis pour chaque lot.</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le Titulaire est également tenu d'exécuter des prestations dans des locaux affectés
+            en cours d'exécution du marché conformément à l'article V.4.1.4. c) du Contrat, dans
+            les locaux mis à disposition par France Travail ou à distance.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>ATC - Corse du sud</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>ATC - Haute Corse</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

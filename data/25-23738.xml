@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Rectorat Division Scus</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Rectorat de l'académie de Nantes /SCUS BP 72616 8 rue du Général Margueritte</cbc:StreetName>
+                                    <cbc:CityName>Nantes cedex 03</cbc:CityName>
+                                    <cbc:PostalZone>44326</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17440430100015</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0251863077</cbc:Telephone>
+                                    <cbc:ElectronicMail>ce.scus@ac-nantes.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">1de2f105-fd5e-4561-b081-da4299505f3c</cbc:ID>
+            <cbc:ContractFolderID>905fea8e-a4ab-4f80-99de-26aa203160b3</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>22:53:37+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">ra</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>AC-NANTES_SCUS_25-009</cbc:ID>
+               <cbc:Name languageID="FRA">Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire et maison des étudiants au Mans</cbc:Name>
+               <cbc:Description languageID="FRA">Le présent concours vise à sélectionner un projet pour la construction d'un restaurant universitaire et maison des étudiants au Mans et à attribuer un marché de maîtrise d'oeuvre au lauréat pour sa réalisation.
+
+Le projet consiste à construire au coeur du campus du Mans un bâtiment d'environ 3200 m² SDP, réunissant d'une part, un restaurant - cuisine centrale du CROUS (4500 repas / jour) en remplacement de l'actuel RU Vaurouzé, et d'autre part, une maison des étudiants pour Le Mans Université, incluant foyer, espace de vie associatif, studio radio, épicerie solidaire et ressourcerie.  
+
+L'opération est inscrite au CPER 2021-2027 avec une maîtrise d'ouvrage assurée par le Rectorat de la région académique Pays de la Loire. L'enveloppe travaux est établie à 8,8 MEuros HT (cis matériel de restaurant collective). À titre indicatif, un objectif de démarrage des travaux est fixé à l'automne 2026.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>AC-NANTES_SCUS_25-009</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.gouv.fr/app.php/entreprise/consultation/2717663?orgAcronyme=f0g</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;id=2717663&amp;orgAcronyme=f0g</cbc:EndpointID>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderEvaluationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderEvaluationParty>
+                  <cac:AppealTerms>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-01+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>2</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>AC-NANTES_SCUS_25-009</cbc:ID>
+                  <cbc:Name languageID="FRA">Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire et maison des étudiants au Mans</cbc:Name>
+                  <cbc:Description languageID="FRA">Le présent concours vise à sélectionner un projet pour la construction d'un restaurant universitaire et maison des étudiants au Mans et à attribuer un marché de maîtrise d'oeuvre au lauréat pour sa réalisation.
+
+Le projet consiste à construire au coeur du campus du Mans un bâtiment d'environ 3200 m² SDP, réunissant d'une part, un restaurant - cuisine centrale du CROUS (4500 repas / jour) en remplacement de l'actuel RU Vaurouzé, et d'autre part, une maison des étudiants pour Le Mans Université, incluant foyer, espace de vie associatif, studio radio, épicerie solidaire et ressourcerie.  
+
+L'opération est inscrite au CPER 2021-2027 avec une maîtrise d'ouvrage assurée par le Rectorat de la région académique Pays de la Loire. L'enveloppe travaux est établie à 8,8 M Euros HT (cis matériel de restaurant collective). À titre indicatif, un objectif de démarrage des travaux est fixé à l'automne 2026.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CountrySubentityCode listName="nuts">FRG04</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23738</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Rectorat Division Scus</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-01T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-01</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+            <DESCRIPTEUR>
+               <CODE>234</CODE>
+               <LIBELLE>Mission d'ordonnancement, pilotage, coordination (OPC)</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>72</DEP_PUBLICATION>
+         <DEP_PUBLICATION>44</DEP_PUBLICATION>
+         <RESUME_OBJET>Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire et maison des étudiants au Mans</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-23738 du 28/02/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-23738 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>72, 44</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23738</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e105">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Rectorat Division Scus</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité régionale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Enseignement</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e158">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire et maison des étudiants au Mans</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent concours vise à sélectionner un projet pour la construction d'un restaurant universitaire et maison des étudiants au Mans et à attribuer un marché de maîtrise d'oeuvre au lauréat pour sa réalisation. Le projet consiste à construire au coeur du campus du Mans un bâtiment d'environ 3200 m² SDP, réunissant d'une part, un restaurant - cuisine centrale du CROUS (4500 repas / jour) en remplacement de l'actuel RU Vaurouzé, et d'autre part, une maison des étudiants pour Le Mans Université, incluant foyer, espace de vie associatif, studio radio, épicerie solidaire et ressourcerie. L'opération est inscrite au CPER 2021-2027 avec une maîtrise d'ouvrage assurée par le Rectorat de la région académique Pays de la Loire. L'enveloppe travaux est établie à 8,8 MEuros HT (cis matériel de restaurant collective). À titre indicatif, un objectif de démarrage des travaux est fixé à l'automne 2026.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>905fea8e-a4ab-4f80-99de-26aa203160b3</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>AC-NANTES_SCUS_25-009</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e158">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e158">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e128">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Conflit d’intérêt créé par sa participation à la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Participation à une organisation criminelle</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e178">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire et maison des étudiants au Mans</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent concours vise à sélectionner un projet pour la construction d'un restaurant universitaire et maison des étudiants au Mans et à attribuer un marché de maîtrise d'oeuvre au lauréat pour sa réalisation. Le projet consiste à construire au coeur du campus du Mans un bâtiment d'environ 3200 m² SDP, réunissant d'une part, un restaurant - cuisine centrale du CROUS (4500 repas / jour) en remplacement de l'actuel RU Vaurouzé, et d'autre part, une maison des étudiants pour Le Mans Université, incluant foyer, espace de vie associatif, studio radio, épicerie solidaire et ressourcerie. L'opération est inscrite au CPER 2021-2027 avec une maîtrise d'ouvrage assurée par le Rectorat de la région académique Pays de la Loire. L'enveloppe travaux est établie à 8,8 M Euros HT (cis matériel de restaurant collective). À titre indicatif, un objectif de démarrage des travaux est fixé à l'automne 2026.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>AC-NANTES_SCUS_25-009</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e288">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e308">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Sarthe</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRG04</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e178">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e183">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e180">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.gouv.fr/app.php/entreprise/consultation/2717663?orgAcronyme=f0g</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e178">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;id=2717663&amp;orgAcronyme=f0g</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>01/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e180">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Rectorat Division Scus</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+                  <span>:</span>
+                  <span>Rectorat Division Scus</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+                  <span>:</span>
+                  <span>Rectorat Division Scus</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Rectorat Division Scus</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17440430100015</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Rectorat de l'académie de Nantes /SCUS BP 72616 8 rue du Général Margueritte</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nantes cedex 03</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>44326</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Loire-Atlantique</span>
+               <span/>
+               <span>(</span>
+               <span>FRG01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>ce.scus@ac-nantes.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0251863077</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>1de2f105-fd5e-4561-b081-da4299505f3c</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 22:53</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Rectorat Division Scus : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Rectorat de l'académie de Nantes /SCUS BP 72616 8 rue du Général Margueritte Nantes
+                        cedex 03 44326 FRG01 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0251863077</li>
+                     <li><span class="fr-text--bold">Courriel : </span>ce.scus@ac-nantes.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire
+            et maison des étudiants au Mans</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le présent concours vise à sélectionner un projet pour la construction d'un restaurant
+            universitaire et maison des étudiants au Mans et à attribuer un marché de maîtrise
+            d'oeuvre au lauréat pour sa réalisation. Le projet consiste à construire au coeur
+            du campus du Mans un bâtiment d'environ 3200 m² SDP, réunissant d'une part, un restaurant
+            - cuisine centrale du CROUS (4500 repas / jour) en remplacement de l'actuel RU Vaurouzé,
+            et d'autre part, une maison des étudiants pour Le Mans Université, incluant foyer,
+            espace de vie associatif, studio radio, épicerie solidaire et ressourcerie. L'opération
+            est inscrite au CPER 2021-2027 avec une maîtrise d'ouvrage assurée par le Rectorat
+            de la région académique Pays de la Loire. L'enveloppe travaux est établie à 8,8 MEuros
+            HT (cis matériel de restaurant collective). À titre indicatif, un objectif de démarrage
+            des travaux est fixé à l'automne 2026.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Concours restreint de maîtrise d'oeuvre pour la construction d'un restaurant universitaire
+                  et maison des étudiants au Mans</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

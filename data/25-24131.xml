@@ -1,0 +1,1488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <efbc:OverallMaximumFrameworkContractsAmount currencyID="EUR">540000</efbc:OverallMaximumFrameworkContractsAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:FrameworkAgreementValues>
+                                 <cbc:MaximumValueAmount currencyID="EUR">540000</cbc:MaximumValueAmount>
+                              </efac:FrameworkAgreementValues>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>5</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <efbc:TenderRankedIndicator>true</efbc:TenderRankedIndicator>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>Offre soumissionnaire El.2</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:ContractReference>
+                                 <cbc:ID>2025S400AO0018</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <cbc:Name>Offre soumissionnaire El.2</cbc:Name>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0006</cbc:ID>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">29</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Aix-Marseille Université </cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>58, boulevard Charles Livon</cbc:StreetName>
+                                    <cbc:CityName>Marseille cedex 7</cbc:CityName>
+                                    <cbc:PostalZone>13284</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13001533200013</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0491396533</cbc:Telephone>
+                                    <cbc:ElectronicMail>delphine.moya@univ-amu.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE
+Délégation Régionale PACA et Corse</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>18, avenue Mozart, CS 20172</cbc:StreetName>
+                                    <cbc:CityName>Marseille cedex 09</cbc:CityName>
+                                    <cbc:PostalZone>13276 </cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>18003604801674</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 491827000</cbc:Telephone>
+                                    <cbc:ElectronicMail>achats.dr-marseille@inserm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE
+Délégation Régionale Provence et Corse</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>31 chemin Joseph Aiguier
+CS 70071
+</cbc:StreetName>
+                                    <cbc:CityName>Marseille cedex 09</cbc:CityName>
+                                    <cbc:PostalZone>13402</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>180 089 013 01724</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 491164000</cbc:Telephone>
+                                    <cbc:ElectronicMail>Appel.offres@dr12.cnrs.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0004</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Marseille</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>31 rue Jean François Leca</cbc:StreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13002</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17130005600024</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 491134813</cbc:Telephone>
+                                    <cbc:Telefax>+33 491811387</cbc:Telefax>
+                                    <cbc:ElectronicMail>greffe.ta-marseille@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Comité Consultatif Inter Régional de Règlement Amiable 
+Préfecture de la région Provence - Alpes - Côte d'Azur
+Secrétariat général pour les affaires régionales
+</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place Félix-Baret, CS 80001
+</cbc:StreetName>
+                                    <cbc:CityName>MARSEILLE Cedex 06</cbc:CityName>
+                                    <cbc:PostalZone>13282</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17130000700019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 484354554  </cbc:Telephone>
+                                    <cbc:ElectronicMail>catherine.pietri@paca.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0006</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">CSD &amp; Associés - Agence PACA/CORSE</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>BUILDING DE LA BOURSE Services aux bureaux
+2 rue du Beausset </cbc:StreetName>
+                                    <cbc:CityName>MARSEILLE</cbc:CityName>
+                                    <cbc:PostalZone>13001 </cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>48800590100084</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:ElectronicMail>paca@csd-associes.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">4481651f-3617-4d3d-a2f6-8ba4e9672243</cbc:ID>
+            <cbc:ContractFolderID>9c950dfd-cdb4-478d-875d-269e0545447d</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>16:36:26+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0003</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">education</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+               <cac:NoticeDocumentReference>
+                  <cbc:ID>7e3a154c-a004-4df3-956e-e8f4e7c8b055-01</cbc:ID>
+               </cac:NoticeDocumentReference>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>AMU106-2024</cbc:ID>
+               <cbc:Name languageID="FRA">Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH) du groupement de commande AMU/DR CNRS/DR INSERM</cbc:Name>
+               <cbc:Description languageID="FRA">Le présent accord-cadre a pour objet de définir les termes contractuels généraux entre les pouvoirs adjudicateurs membres du groupement de commande à savoir :
+- Aix-Marseille Université (AMU)
+- La Délégation Régionale CNRS Provence et Corse
+- La Délégation Régionale INSERM PACA et Corse
+et le titulaire de l'accord-cadre dans le cadre de la passation des futurs marchés subséquents relatifs aux prestations de mandataire sécurité incendie pour les Immeubles de Grande Hauteur (IGH).
+
+Aix-Marseille Université est l'entité coordonnatrice du groupement de commande.
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71317100</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>2</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critère 1 : Valeur technique de l'offre (sur 60 points)
+
+Sous critère n°1 - Qualification et expérience du mandataire et du suppléant affectés à la mission
+Pondération : 25 points
+
+Sous critère n°2 - Méthodologie et organisation mise en place pour réaliser les missions.
+Pondération : 35 points
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>3</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critère 2 : Prix des prestations (sur 40 points)
+
+Sous critère n°1 : Prix plafonds du BP de l'accord-cadre
+Pondération : 10 points
+
+Sous critère n°2 : Prix total du marché subséquent n°1
+Pondération : 15 points.
+
+Sous critère n°3 : Prix total du marché subséquent n°2
+Pondération : 15 points.
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">-Instance chargée des procédures de recours : Tribunal Administratif de Marseille, 31 rue Jean François Leca, 13002, Marseille, Tél : +33 491134813, Courriel : greffe.ta-marseille@juradm.fr, Fax : +33 491811387, internet : http://www.marseille.tribunal-administratif.fr/
+
+-Introduction de recours : Conformément à l'ordonnance no 2009-515 du 7 mai 2009 relative aux procédures de recours applicables aux contrats de la commande publique, les recours juridictionnels propres aux contrats administratifs sont :
+-Le référé contractuel (CJA, art. L. 551-13 et suivant.)
+-Le recours en contestation de validité du contrat, issu de la jurisprudence " Tarn-et-Garonne " dans un délai de 2 mois à compter des mesures de publicité appropriée (CE, 4 avril 2014, Département du Tarn-et-Garonne, no 358994).
+ 
+-Modalités de consultation du contrat : Tout intéressé peut prendre connaissance du contrat * en le consultant sur place à l'Université en prenant préalablement rendez-vous (mel : xxxx@univ-amu.fr)
+* sauf les éléments/informations considérés comme confidentielles en vertu des dispositions de l'article L2132-1 du code de la commande publique. Le droit d'accès aux informations/documents doit s'exercer dans le respect du secret en matière industrielle et commerciale conformément à l'article L. 311-6 du Code des relations entre le public et l'administration (CRPA).
+</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0004</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:FrameworkAgreement>
+                     <cac:SubsequentProcessTenderRequirement>
+                        <cbc:Name>buyer-categories</cbc:Name>
+                     </cac:SubsequentProcessTenderRequirement>
+                  </cac:FrameworkAgreement>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>AMU106-2024</cbc:ID>
+                  <cbc:Name languageID="FRA">Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH) du groupement de commande AMU/DR CNRS/DR INSERM</cbc:Name>
+                  <cbc:Description languageID="FRA">Le présent accord-cadre a pour objet de définir les termes contractuels généraux entre les pouvoirs adjudicateurs membres du groupement de commande à savoir :
+- Aix-Marseille Université (AMU)
+- La Délégation Régionale CNRS Provence et Corse
+- La Délégation Régionale INSERM PACA et Corse
+et le titulaire de l'accord-cadre dans le cadre de la passation des futurs marchés subséquents relatifs aux prestations de mandataire sécurité incendie pour les Immeubles de Grande Hauteur (IGH).
+
+Aix-Marseille Université est l'entité coordonnatrice du groupement de commande.
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">L'accord cadre comporte un seuil minimum et un seuil maximum : 
+Seuil minimum :  quantité minimum contractuelle correspondant à la passation des deux premiers marchés subséquents, qui seront notifiés en même temps que la notification de l'accord-cadre.
+Seuil maximum :  135 000 HT/par an
+Ce seuil maximum correspond au budget maximum de l'Université sur l'année.
+
+Marché subséquent n°1, pour Aix-Marseille Université (AMU) seulement, IGH Saint-Charles et Timone :
+L'accord cadre ne comporte pas de seuil minimum mais comporte un seuil maximum :
+Seuil maximum :  68 000 Euros HT/par an
+Ce seuil maximum correspond au budget maximum de l'Université sur l'année.
+
+Marché subséquent n°2, pour AMU/ CNRS/ INSERM, IGH Luminy :
+L'accord cadre ne comporte pas de seuil minimum mais comporte un seuil maximum :
+Seuil maximum :  33 200 Euros HT/par an
+Ce seuil maximum correspond au budget maximum de l'Université sur l'année.
+</cbc:Note>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">202400</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71317100</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Conformément à l'article R2122-7 du Code de la Commande Publique, des marchés de services ayant pour objet la réalisation de prestations similaires à celles qui ont été confiées au titre du marché subséquent initial pourront être passés auprès du titulaire du marché subséquent concerné.
+
+Il s'agit d'un accord-cadre reconductible 
+(Article R2112-4 du Code de la Commande Publique)
+
+L'accord-cadre prend effet à la date de réception de sa notification par le titulaire pour une période initiale de 24 mois fermes. Il pourra ensuite être reconduit par période de 24 mois par tacite reconduction de l'université sans que sa durée totale n'excède 48 mois.
+</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24131</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <STANDARD/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-112448</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-110439</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Aix-Marseille Université </NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>CSD &amp; Associés - Agence PACA/CORSE</DENOMINATION>
+         </TITULAIRES>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-05-03</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>332</CODE>
+               <LIBELLE>Sécurité incendie</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>13</DEP_PUBLICATION>
+         <RESUME_OBJET>Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH) du groupement de commande AMU/DR CNRS/DR INSERM</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de marché - Avis n° 25-24131 du 03/03/2025</title>
+      <meta name="subject" content="Avis d’attribution de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de marché - Avis n° 25-24131 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>13</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24131</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e453">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Aix-Marseille Université</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Enseignement</span>
+            </div>
+         </div>
+         <div class="section" id="section_1.1_d1e476">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE Délégation Régionale PACA et Corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Enseignement</span>
+            </div>
+         </div>
+         <div class="section" id="section_1.1_d1e499">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE Délégation Régionale Provence et Corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Enseignement</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e533">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH) du groupement de commande AMU/DR CNRS/DR INSERM</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent accord-cadre a pour objet de définir les termes contractuels généraux entre les pouvoirs adjudicateurs membres du groupement de commande à savoir : - Aix-Marseille Université (AMU) - La Délégation Régionale CNRS Provence et Corse - La Délégation Régionale INSERM PACA et Corse et le titulaire de l'accord-cadre dans le cadre de la passation des futurs marchés subséquents relatifs aux prestations de mandataire sécurité incendie pour les Immeubles de Grande Hauteur (IGH). Aix-Marseille Université est l'entité coordonnatrice du groupement de commande.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>9c950dfd-cdb4-478d-875d-269e0545447d</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Avis précédent</span>
+               <span>:</span>
+               <span>7e3a154c-a004-4df3-956e-e8f4e7c8b055-01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>AMU106-2024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e533">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71317100</span>
+                  <span/>
+                  <span>Services de conseil en protection et contrôle en matière d'incendie et d'explosion</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e533">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e553">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH) du groupement de commande AMU/DR CNRS/DR INSERM</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le présent accord-cadre a pour objet de définir les termes contractuels généraux entre les pouvoirs adjudicateurs membres du groupement de commande à savoir : - Aix-Marseille Université (AMU) - La Délégation Régionale CNRS Provence et Corse - La Délégation Régionale INSERM PACA et Corse et le titulaire de l'accord-cadre dans le cadre de la passation des futurs marchés subséquents relatifs aux prestations de mandataire sécurité incendie pour les Immeubles de Grande Hauteur (IGH). Aix-Marseille Université est l'entité coordonnatrice du groupement de commande.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>AMU106-2024</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e699">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71317100</span>
+                  <span/>
+                  <span>Services de conseil en protection et contrôle en matière d'incendie et d'explosion</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Conformément à l'article R2122-7 du Code de la Commande Publique, des marchés de services ayant pour objet la réalisation de prestations similaires à celles qui ont été confiées au titre du marché subséquent initial pourront être passés auprès du titulaire du marché subséquent concerné. Il s'agit d'un accord-cadre reconductible (Article R2112-4 du Code de la Commande Publique) L'accord-cadre prend effet à la date de réception de sa notification par le titulaire pour une période initiale de 24 mois fermes. Il pourra ensuite être reconduit par période de 24 mois par tacite reconduction de l'université sans que sa durée totale n'excède 48 mois.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e728">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>24</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e716">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>202,400</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e553">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>L'accord cadre comporte un seuil minimum et un seuil maximum : Seuil minimum : quantité minimum contractuelle correspondant à la passation des deux premiers marchés subséquents, qui seront notifiés en même temps que la notification de l'accord-cadre. Seuil maximum : 135 000 HT/par an Ce seuil maximum correspond au budget maximum de l'Université sur l'année. Marché subséquent n°1, pour Aix-Marseille Université (AMU) seulement, IGH Saint-Charles et Timone : L'accord cadre ne comporte pas de seuil minimum mais comporte un seuil maximum : Seuil maximum : 68 000 Euros HT/par an Ce seuil maximum correspond au budget maximum de l'Université sur l'année. Marché subséquent n°2, pour AMU/ CNRS/ INSERM, IGH Luminy : L'accord cadre ne comporte pas de seuil minimum mais comporte un seuil maximum : Seuil maximum : 33 200 Euros HT/par an Ce seuil maximum correspond au budget maximum de l'Université sur l'année.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e565">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critère 1 : Valeur technique de l'offre (sur 60 points) Sous critère n°1 - Qualification et expérience du mandataire et du suppléant affectés à la mission Pondération : 25 points Sous critère n°2 - Méthodologie et organisation mise en place pour réaliser les missions. Pondération : 35 points</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critère 2 : Prix des prestations (sur 40 points) Sous critère n°1 : Prix plafonds du BP de l'accord-cadre Pondération : 10 points Sous critère n°2 : Prix total du marché subséquent n°1 Pondération : 15 points. Sous critère n°3 : Prix total du marché subséquent n°2 Pondération : 15 points.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e553">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>-Instance chargée des procédures de recours : Tribunal Administratif de Marseille, 31 rue Jean François Leca, 13002, Marseille, Tél : +33 491134813, Courriel : greffe.ta-marseille@juradm.fr, Fax : +33 491811387, internet : http://www.marseille.tribunal-administratif.fr/ -Introduction de recours : Conformément à l'ordonnance no 2009-515 du 7 mai 2009 relative aux procédures de recours applicables aux contrats de la commande publique, les recours juridictionnels propres aux contrats administratifs sont : -Le référé contractuel (CJA, art. L. 551-13 et suivant.) -Le recours en contestation de validité du contrat, issu de la jurisprudence " Tarn-et-Garonne " dans un délai de 2 mois à compter des mesures de publicité appropriée (CE, 4 avril 2014, Département du Tarn-et-Garonne, no 358994). -Modalités de consultation du contrat : Tout intéressé peut prendre connaissance du contrat * en le consultant sur place à l'Université en prenant préalablement rendez-vous (mel : xxxx@univ-amu.fr) * sauf les éléments/informations considérés comme confidentielles en vertu des dispositions de l'article L2132-1 du code de la commande publique. Le droit d'accès aux informations/documents doit s'exercer dans le respect du secret en matière industrielle et commerciale conformément à l'article L. 311-6 du Code des relations entre le public et l'administration (CRPA).</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e669">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e555">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Comité Consultatif Inter Régional de Règlement Amiable Préfecture de la région Provence - Alpes - Côte d'Azur Secrétariat général pour les affaires régionales</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Marseille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Aix-Marseille Université</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Aix-Marseille Université</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>Aix-Marseille Université</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur maximale des accords-cadres dans cette procédure</span>
+            <span>:</span>
+            <span>540,000</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e24">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Accord-cadre</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>540,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.2_d1e24">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>CSD &amp; Associés - Agence PACA/CORSE</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>Offre soumissionnaire El.2</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre a été classée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>2025S400AO0018</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>03/03/2025</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">non</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>Aix-Marseille Université</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e24">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>5</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e134">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Aix-Marseille Université</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13001533200013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>58, boulevard Charles Livon</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille cedex 7</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13284</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>delphine.moya@univ-amu.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0491396533</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e182">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE Délégation Régionale PACA et Corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>18003604801674</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>18, avenue Mozart, CS 20172</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille cedex 09</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13276</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>achats.dr-marseille@inserm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 491827000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e230">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE Délégation Régionale Provence et Corse</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>180 089 013 01724</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>31 chemin Joseph Aiguier CS 70071</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille cedex 09</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13402</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>Appel.offres@dr12.cnrs.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 491164000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e278">
+            <span>8.1</span>
+            <span>ORG-0004</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17130005600024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>31 rue Jean François Leca</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13002</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-marseille@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 491134813</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>+33 491811387</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e328">
+            <span>8.1</span>
+            <span>ORG-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Comité Consultatif Inter Régional de Règlement Amiable Préfecture de la région Provence - Alpes - Côte d'Azur Secrétariat général pour les affaires régionales</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17130000700019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place Félix-Baret, CS 80001</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>MARSEILLE Cedex 06</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13282</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>catherine.pietri@paca.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 484354554</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e377">
+            <span>8.1</span>
+            <span>ORG-0006</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>CSD &amp; Associés - Agence PACA/CORSE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>48800590100084</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>BUILDING DE LA BOURSE Services aux bureaux 2 rue du Beausset</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>MARSEILLE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13001</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>paca@csd-associes.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>4481651f-3617-4d3d-a2f6-8ba4e9672243</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 16:36</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Aix-Marseille Université : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>58, boulevard Charles Livon Marseille cedex 7 13284 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0491396533</li>
+                     <li><span class="fr-text--bold">Courriel : </span>delphine.moya@univ-amu.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+               <li><span class="fr-text--bold">INSTITUT NATIONAL DE LA SANTE ET DE LA RECHERCHE MEDICALE Délégation Régionale PACA
+                     et Corse : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>18, avenue Mozart, CS 20172 Marseille cedex 09 13276 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 491827000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>achats.dr-marseille@inserm.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+               <li><span class="fr-text--bold">CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE Délégation Régionale Provence et Corse : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>31 chemin Joseph Aiguier CS 70071 Marseille cedex 09 13402 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 491164000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>Appel.offres@dr12.cnrs.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH)
+            du groupement de commande AMU/DR CNRS/DR INSERM</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le présent accord-cadre a pour objet de définir les termes contractuels généraux entre
+            les pouvoirs adjudicateurs membres du groupement de commande à savoir : - Aix-Marseille
+            Université (AMU) - La Délégation Régionale CNRS Provence et Corse - La Délégation
+            Régionale INSERM PACA et Corse et le titulaire de l'accord-cadre dans le cadre de
+            la passation des futurs marchés subséquents relatifs aux prestations de mandataire
+            sécurité incendie pour les Immeubles de Grande Hauteur (IGH). Aix-Marseille Université
+            est l'entité coordonnatrice du groupement de commande.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Mission de mandataire sécurité incendie pour les immeubles de grande hauteur (IGH)
+                  du groupement de commande AMU/DR CNRS/DR INSERM</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

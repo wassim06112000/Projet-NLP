@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractAwardNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                              xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                              xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                              xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                              xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                              xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeResult>
+                           <cbc:TotalAmount currencyID="EUR">239057122</cbc:TotalAmount>
+                           <efac:LotResult>
+                              <cbc:ID schemeName="result">RES-0001</cbc:ID>
+                              <cbc:TenderResultCode listName="winner-selection-status">selec-w</cbc:TenderResultCode>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                              <efac:ReceivedSubmissionsStatistics>
+                                 <efbc:StatisticsCode listName="received-submission-type">t-esubm</efbc:StatisticsCode>
+                                 <efbc:StatisticsNumeric>2</efbc:StatisticsNumeric>
+                              </efac:ReceivedSubmissionsStatistics>
+                              <efac:SettledContract>
+                                 <cbc:ID>CON-0001</cbc:ID>
+                              </efac:SettledContract>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                           </efac:LotResult>
+                           <efac:LotTender>
+                              <cbc:ID schemeName="tender">TEN-0001</cbc:ID>
+                              <efbc:TenderVariantIndicator>false</efbc:TenderVariantIndicator>
+                              <cac:LegalMonetaryTotal>
+                                 <cbc:PayableAmount currencyID="EUR">239057122</cbc:PayableAmount>
+                              </cac:LegalMonetaryTotal>
+                              <efac:TenderingParty>
+                                 <cbc:ID>TPA-0001</cbc:ID>
+                              </efac:TenderingParty>
+                              <efac:TenderLot>
+                                 <cbc:ID>LOT-0001</cbc:ID>
+                              </efac:TenderLot>
+                              <efac:TenderReference>
+                                 <cbc:ID>Offre 1</cbc:ID>
+                              </efac:TenderReference>
+                           </efac:LotTender>
+                           <efac:SettledContract>
+                              <cbc:ID schemeName="contract">CON-0001</cbc:ID>
+                              <cbc:AwardDate>2024-12-09+02:00</cbc:AwardDate>
+                              <cbc:IssueDate>2024-12-13+02:00</cbc:IssueDate>
+                              <cbc:Title languageID="FRA">Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.) et du Pôle de Valorisation des Biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé.</cbc:Title>
+                              <cac:SignatoryParty>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                              </cac:SignatoryParty>
+                              <efac:ContractReference>
+                                 <cbc:ID>273532-2024</cbc:ID>
+                              </efac:ContractReference>
+                              <efac:LotTender>
+                                 <cbc:ID>TEN-0001</cbc:ID>
+                              </efac:LotTender>
+                           </efac:SettledContract>
+                           <efac:TenderingParty>
+                              <cbc:ID schemeName="tendering-party">TPA-0001</cbc:ID>
+                              <cbc:Name>Offre PAPREC</cbc:Name>
+                              <efac:Tenderer>
+                                 <cbc:ID>ORG-0002</cbc:ID>
+                              </efac:Tenderer>
+                           </efac:TenderingParty>
+                        </efac:NoticeResult>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">32</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>www.sevadec.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>www.marches-securises.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>583 rue Jacques Monod
+B.P. 20</cbc:StreetName>
+                                    <cbc:Department>Pas-de-Calais</cbc:Department>
+                                    <cbc:CityName>Calais cedex</cbc:CityName>
+                                    <cbc:PostalZone>62101</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRE12</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>25620393600024</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>sevadec@wanadoo.fr</cbc:Name>
+                                    <cbc:Telephone>0321195830</cbc:Telephone>
+                                    <cbc:ElectronicMail>sevadec@wanadoo.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Lille</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>5 RUE GEOFFROY SAINT-HILAIRE</cbc:StreetName>
+                                    <cbc:CityName>LILLE</cbc:CityName>
+                                    <cbc:PostalZone>59000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRE11</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>175 900 034 00026</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">PAPREC ENERGIES France</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>7 rue du Docteur Lancereaux</cbc:StreetName>
+                                    <cbc:CityName>PARIS</cbc:CityName>
+                                    <cbc:PostalZone>75008</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>912 443 751 00017</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">9703beab-2701-4daf-9e04-82aabd8f138a</cbc:ID>
+            <cbc:ContractFolderID>43b6bf63-0493-4cbd-886c-749bcddcdd46</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:59:25+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>other</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="result">can-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-contracting-type">not-cont-ent</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:ProcurementLegislationDocumentReference>
+                  <cbc:ID>LocalLegalBasis</cbc:ID>
+                  <cbc:DocumentDescription languageID="FRA">Code de la commande publique. (articles L. 3000-1 et R.3000-1 et suivants). Code général des collectivités territoriales (articles L. 1411-1 et suivants)</cbc:DocumentDescription>
+               </cac:ProcurementLegislationDocumentReference>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cac:NoticeDocumentReference>
+                  <cbc:ID>ff85e8a5-0009-46e5-b5ba-f912d389f656-02</cbc:ID>
+               </cac:NoticeDocumentReference>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.) et du Pôle de Valorisation des Biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé. </cbc:Name>
+               <cbc:Description languageID="FRA">La procédure concerne l'attribution d'un contrat de concession sous forme de délégation de service public, au sens de l'article L. 1411-1 du CGCT et L. 1121-1 du Code de la commande publique. Il porte sur (i) le financement, la conception et la réalisation de travaux concernant les deux Ouvrages ; (ii) l'exploitation des Ouvrages pour le compte du SEVADEC et la gestion du service public de traitement des déchets y étant associée ; (iii) l'accueil et le traitement en priorité des déchets des membres du SEVADEC, en conformité avec les autorisations d'exploitation ; (iv) le respect des conditions et performances d'exploitation fixées dans le cahier des charges techniques ; (v) l'entretien et la maintenance des Ouvrages ; la conception, le financement et la réalisation d'un plan de G.E.R.  des Ouvrages.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:ProcurementAdditionalType>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+               </cac:ProcurementAdditionalType>
+               <cac:RequestedTenderTotal>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">365000000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">90513000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cbc:CalculationExpression languageID="FRA">Les critères et les pondérations sont décrits dans la section BT-540-Lot ainsi que dans le règlement de la consultation.</cbc:CalculationExpression>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Qualité des travaux sur les ouvrages (25 points)
+Qualité du service rendu à travers les conditions d'exploitation et de maintenance des Ouvrages (15 points)
+Performances techniques et environnementales des Ouvrages (15 points)
+Qualité des propositions contractuelles (10 points)</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Coût global de l'offre (35 points)</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">L'instance chargée des procédures de recours et service auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours est : Tribunal Administratif de Lille, 5 rue Geoffroy Saint-Hilaire, CS62039 59014 Lille Cedex Téléphone : 03 59 54 23 42. Télécopie : 03 59 54 24 45. Courriel : greffe.ta-lille@juradm.fr Les voies de recours ouvertes sont les suivantes : - Référé précontractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat ; - Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA ; - Recours pour excès de pouvoir contre une 3/54/5 décision administrative prévu aux articles R. 421-1 à R.421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme ; - Recours en contestation de la validité du contrat dans un délai de deux mois à compter de l'accomplissement des mesures de publicité appropriées, dans les conditions prévues par l'arrêt du Conseil d'Etat du 4 avril 2014, Département du Tarn et Garonne.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2024-01</cbc:ID>
+                  <cbc:Name languageID="FRA">Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du pôle de valorisation des déchets résiduels (P.V.D.R.) et du pôle de valorisation des biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé.</cbc:Name>
+                  <cbc:Description languageID="FRA">La procédure concerne l'attribution d'un contrat de concession sous forme de délégation de service public, au sens de l'article L. 1411-1 du CGCT et L. 1121-1 du Code de la commande publique. Il porte sur (i) le financement, la conception et la réalisation de travaux concernant les deux Ouvrages ; (ii) l'exploitation des Ouvrages pour le compte du SEVADEC et la gestion du service public de traitement des déchets y étant associée ; (iii) l'accueil et le traitement en priorité des déchets des membres du SEVADEC, en conformité avec les autorisations d'exploitation ; (iv) le respect des conditions et performances d'exploitation fixées dans le cahier des charges technique ; (v) l'entretien et la maintenance des Ouvrages ; la conception, le financement et la réalisation d'un plan de GER  des Ouvrages.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">outre le contrat de concession déjà conclu, le SEVADEC va conclure un Acte d'Acceptation de créances P.V.B et un Acte d'Acceptation de créances P.V.D.R ainsi qu'une convention tripartite avec le concessionnaire et l'agent des prêteurs. Les actes d'acceptation, en application des dispositions de l'article L. 313-29 du Code monétaire et financier, ont pour objet de prévoir la cession des créances détenues par le concessionnaire à l'égard du SEVADEC au titre des Redevances R1, au bénéfice des établissements de crédit qui financent le concessionnaire. La convention tripartite vise quant à elle à décrire certaines conditions et modalités de financement du Projet, à définir certains droits et obligations des Parties, notamment de convenir des modalités de paiement des créances faisant l'objet de la cession de créances ainsi que le montant des sommes dues par le SEVADEC en cas de résiliation du contrat de concession. Le contrat de concession a été signé le 13 décembre 2024. Il est communicable à toute personne qui en fera la demande, par courriel ou par courrier postal, sous réserve de l'occultation des mentions protégées par les dispositions de l'article L.311-6 du Code des relations entre le public et l'administration. Les autres documents seront communicables une fois leur conclusion intervenue. par toute personne qui en fera la demande, par courriel ou par courrier postal, sous les mêmes réserves. Le délai de recours en contestation de la validité du contrat de concession est de deux mois à compter de la publication du présent avis. </cbc:Note>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">365000000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">90513000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:TenderResult>
+               <cbc:AwardDate>2000-01-01Z</cbc:AwardDate>
+            </cac:TenderResult>
+         </ContractAwardNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23576</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <AUTRE>other</AUTRE>
+            </PERIMETRE>
+            <NATURE>
+               <ATTRIBUTION>
+                  <CONCESSION/>
+               </ATTRIBUTION>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-23584</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-44912</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>24-54062</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</NOMORGANISME>
+         <TITULAIRES>
+            <DENOMINATION>PAPREC ENERGIES France</DENOMINATION>
+         </TITULAIRES>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-06-01</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>406</CODE>
+               <LIBELLE>Délégation de service public</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>62</DEP_PUBLICATION>
+         <RESUME_OBJET>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.) et du Pôle de Va</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis d’attribution de concession - Avis n° 25-23576 du 28/02/2025</title>
+      <meta name="subject" content="Avis d’attribution de concession"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis d’attribution de concession - Avis n° 25-23576 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis d’attribution de concession</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>62</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23576</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e311">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public, contrôlé par une autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Protection de l’environnement</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e359">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.) et du Pôle de Valorisation des Biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La procédure concerne l'attribution d'un contrat de concession sous forme de délégation de service public, au sens de l'article L. 1411-1 du CGCT et L. 1121-1 du Code de la commande publique. Il porte sur (i) le financement, la conception et la réalisation de travaux concernant les deux Ouvrages ; (ii) l'exploitation des Ouvrages pour le compte du SEVADEC et la gestion du service public de traitement des déchets y étant associée ; (iii) l'accueil et le traitement en priorité des déchets des membres du SEVADEC, en conformité avec les autorisations d'exploitation ; (iv) le respect des conditions et performances d'exploitation fixées dans le cahier des charges techniques ; (v) l'entretien et la maintenance des Ouvrages ; la conception, le financement et la réalisation d'un plan de G.E.R. des Ouvrages.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>43b6bf63-0493-4cbd-886c-749bcddcdd46</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Avis précédent</span>
+               <span>:</span>
+               <span>ff85e8a5-0009-46e5-b5ba-f912d389f656-02</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e359">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nature supplémentaire du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>90513000</span>
+                  <span/>
+                  <span>Services de traitement et d'élimination des ordures ménagères et des déchets non dangereux</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e359">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>365,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e359">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Autre</span>
+               </div>
+               <div class="section">
+                  <span>Code de la commande publique. (articles L. 3000-1 et R.3000-1 et suivants). Code général des collectivités territoriales (articles L. 1411-1 et suivants)</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e390">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du pôle de valorisation des déchets résiduels (P.V.D.R.) et du pôle de valorisation des biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La procédure concerne l'attribution d'un contrat de concession sous forme de délégation de service public, au sens de l'article L. 1411-1 du CGCT et L. 1121-1 du Code de la commande publique. Il porte sur (i) le financement, la conception et la réalisation de travaux concernant les deux Ouvrages ; (ii) l'exploitation des Ouvrages pour le compte du SEVADEC et la gestion du service public de traitement des déchets y étant associée ; (iii) l'accueil et le traitement en priorité des déchets des membres du SEVADEC, en conformité avec les autorisations d'exploitation ; (iv) le respect des conditions et performances d'exploitation fixées dans le cahier des charges technique ; (v) l'entretien et la maintenance des Ouvrages ; la conception, le financement et la réalisation d'un plan de GER des Ouvrages.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2024-01</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e466">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>90513000</span>
+                  <span/>
+                  <span>Services de traitement et d'élimination des ordures ménagères et des déchets non dangereux</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e483">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>365,000,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e390">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>outre le contrat de concession déjà conclu, le SEVADEC va conclure un Acte d'Acceptation de créances P.V.B et un Acte d'Acceptation de créances P.V.D.R ainsi qu'une convention tripartite avec le concessionnaire et l'agent des prêteurs. Les actes d'acceptation, en application des dispositions de l'article L. 313-29 du Code monétaire et financier, ont pour objet de prévoir la cession des créances détenues par le concessionnaire à l'égard du SEVADEC au titre des Redevances R1, au bénéfice des établissements de crédit qui financent le concessionnaire. La convention tripartite vise quant à elle à décrire certaines conditions et modalités de financement du Projet, à définir certains droits et obligations des Parties, notamment de convenir des modalités de paiement des créances faisant l'objet de la cession de créances ainsi que le montant des sommes dues par le SEVADEC en cas de résiliation du contrat de concession. Le contrat de concession a été signé le 13 décembre 2024. Il est communicable à toute personne qui en fera la demande, par courriel ou par courrier postal, sous réserve de l'occultation des mentions protégées par les dispositions de l'article L.311-6 du Code des relations entre le public et l'administration. Les autres documents seront communicables une fois leur conclusion intervenue. par toute personne qui en fera la demande, par courriel ou par courrier postal, sous les mêmes réserves. Le délai de recours en contestation de la validité du contrat de concession est de deux mois à compter de la publication du présent avis.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e402">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Qualité des travaux sur les ouvrages (25 points) Qualité du service rendu à travers les conditions d'exploitation et de maintenance des Ouvrages (15 points) Performances techniques et environnementales des Ouvrages (15 points) Qualité des propositions contractuelles (10 points)</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Coût</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Coût global de l'offre (35 points)</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Description de la méthode à utiliser si la pondération ne peut être exprimée par des critères</span>
+                  <span>:</span>
+                  <span>Les critères et les pondérations sont décrits dans la section BT-540-Lot ainsi que dans le règlement de la consultation.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e390">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>L'instance chargée des procédures de recours et service auprès duquel des renseignements peuvent être obtenus concernant l'introduction des recours est : Tribunal Administratif de Lille, 5 rue Geoffroy Saint-Hilaire, CS62039 59014 Lille Cedex Téléphone : 03 59 54 23 42. Télécopie : 03 59 54 24 45. Courriel : greffe.ta-lille@juradm.fr Les voies de recours ouvertes sont les suivantes : - Référé précontractuel prévu aux articles L.551-1 à L.551-12 du Code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat ; - Référé contractuel prévu aux articles L.551-13 à L.551-23 du CJA, et pouvant être exercé dans les délais prévus à l'article R. 551-7 du CJA ; - Recours pour excès de pouvoir contre une 3/54/5 décision administrative prévu aux articles R. 421-1 à R.421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme ; - Recours en contestation de la validité du contrat dans un délai de deux mois à compter de l'accomplissement des mesures de publicité appropriées, dans les conditions prévues par l'arrêt du Conseil d'Etat du 4 avril 2014, Département du Tarn et Garonne.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e392">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Lille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+                  <span>:</span>
+                  <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_6_d1e19">
+         <span class="fr-h5">Section 6 -</span>
+         <span class="fr-text--bold">Résultats</span>
+         <div class="section">
+            <span class="fr-text--bold">Valeur de tous les contrats attribués dans cet avis</span>
+            <span>:</span>
+            <span>239,057,122</span>
+            <span/>
+            <span class="fr-text--bold">Euro</span>
+         </div>
+         <div class="section" id="section_6.1_d1e24">
+            <span>6.1</span>
+            <span class="fr-text--bold">Résultat – Identifiants des lots</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span>Au moins un lauréat a été choisi.</span>
+            </div>
+            <div class="section" id="section_6.1.2_d1e24">
+               <span>6.1.2</span>
+               <span class="fr-text--bold">Informations sur les lauréats</span>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom officiel</span>
+                     <span>:</span>
+                     <span>PAPREC ENERGIES France</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Offre</span>
+                     <span>:</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant de l’offre</span>
+                     <span>:</span>
+                     <span>Offre 1</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Identifiant du lot ou groupe de lots</span>
+                     <span>:</span>
+                     <span>LOT-0001</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Valeur de l'offre</span>
+                     <span>:</span>
+                     <span>239,057,122</span>
+                     <span/>
+                     <span>Euro</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">L’offre est une variante</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations relatives au marché</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Identifiant du marché</span>
+                        <span>:</span>
+                        <span>273532-2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Titre</span>
+                        <span>:</span>
+                        <span>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation, au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.) et du Pôle de Valorisation des Biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion du service public associé.</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date à laquelle le lauréat a été choisi</span>
+                        <span>:</span>
+                        <span>09/12/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Date de conclusion du marché</span>
+                        <span>:</span>
+                        <span>13/12/2024</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Le marché est attribué dans le contexte d’un accord-cadre</span>
+                        <span>:</span>
+                        <span class="fr-text--bold">non</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Organisation qui signe le marché</span>
+                        <span>:</span>
+                        <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_6.1.4_d1e24">
+               <span>6.1.4</span>
+               <span class="fr-text--bold">Informations statistiques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Offres ou demandes de participation reçues</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type de soumissions reçues</span>
+                     <span>:</span>
+                     <span>Offres présentées par voie électronique</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Nombre d’offres ou de demandes de participation reçues</span>
+                        <span>:</span>
+                        <span>2</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e141">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>25620393600024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>Pas-de-Calais</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>583 rue Jacques Monod B.P. 20</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Calais cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>62101</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Pas-de-Calais</span>
+               <span/>
+               <span>(</span>
+               <span>FRE12</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>sevadec@wanadoo.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>sevadec@wanadoo.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0321195830</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>www.sevadec.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>www.marches-securises.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui signe le marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e199">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Lille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>175 900 034 00026</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>5 RUE GEOFFROY SAINT-HILAIRE</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>LILLE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>59000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Nord</span>
+               <span/>
+               <span>(</span>
+               <span>FRE11</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e240">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>PAPREC ENERGIES France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>912 443 751 00017</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>7 rue du Docteur Lancereaux</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>PARIS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75008</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Soumissionnaire</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Lauréat de ces lots</span>
+                  <span>:</span>
+                  <span>LOT-0001</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>9703beab-2701-4daf-9e04-82aabd8f138a</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Résultats</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis d’attribution de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 15:59</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">SEVADEC (Syndicat d'Elimination et de VAlorisation des DEchets du Calaisis) : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>583 rue Jacques Monod B.P. 20 Pas-de-Calais Calais cedex 62101 FRE12 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>sevadec@wanadoo.fr</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0321195830</li>
+                     <li><span class="fr-text--bold">Courriel : </span>sevadec@wanadoo.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="www.sevadec.fr" target="_blank" title="Aller sur la page www.sevadec.fr - nouvelle fenêtre"><span>www.sevadec.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation,
+            au développement, à l'exploitation du Pôle de Valorisation des Déchets Résiduels (P.V.D.R.)
+            et du Pôle de Valorisation des Biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion
+            du service public associé.</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La procédure concerne l'attribution d'un contrat de concession sous forme de délégation
+            de service public, au sens de l'article L. 1411-1 du CGCT et L. 1121-1 du Code de
+            la commande publique. Il porte sur (i) le financement, la conception et la réalisation
+            de travaux concernant les deux Ouvrages ; (ii) l'exploitation des Ouvrages pour le
+            compte du SEVADEC et la gestion du service public de traitement des déchets y étant
+            associée ; (iii) l'accueil et le traitement en priorité des déchets des membres du
+            SEVADEC, en conformité avec les autorisations d'exploitation ; (iv) le respect des
+            conditions et performances d'exploitation fixées dans le cahier des charges techniques
+            ; (v) l'entretien et la maintenance des Ouvrages ; la conception, le financement et
+            la réalisation d'un plan de G.E.R. des Ouvrages.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Contrat de concession, sous forme de délégation de service public, relatif à la rénovation,
+                  au développement, à l'exploitation du pôle de valorisation des déchets résiduels (P.V.D.R.)
+                  et du pôle de valorisation des biodéchets (P.V.B.) du SEVADEC ainsi qu'à la gestion
+                  du service public associé.</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

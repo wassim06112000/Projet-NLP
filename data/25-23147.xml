@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">DIR-NORD-OUEST</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Batiment Abaquesne - 97 Boulevard de l'Europe - CS 61141</cbc:StreetName>
+                                    <cbc:CityName>Rouen cedex</cbc:CityName>
+                                    <cbc:PostalZone>76175</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>11000201100044</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>027600047</cbc:Telephone>
+                                    <cbc:ElectronicMail>passation-marches.ppgm.spt.dirno@developpement-durable.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Rouen</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>53, avenue Gustave Flaubert</cbc:StreetName>
+                                    <cbc:CityName>Rouen</cbc:CityName>
+                                    <cbc:PostalZone>76000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRD22</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17760005300025</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0232081270</cbc:Telephone>
+                                    <cbc:Telefax>0232081271</cbc:Telefax>
+                                    <cbc:ElectronicMail>greffe.ta-rouen@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">efdeed53-a05d-42de-aa97-a7a6905b2a94</cbc:ID>
+            <cbc:ContractFolderID>7f38dbb9-f160-4149-937e-13f479c48e7b</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-27+02:00</cbc:IssueDate>
+            <cbc:IssueTime>17:46:52+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>3MT-2025-001</cbc:ID>
+               <cbc:Name languageID="FRA">Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</cbc:Name>
+               <cbc:Description languageID="FRA">Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">* Unité monétaire utilisée, l'euro ;
+* Les candidatures et les prestations seront entièrement rédigées ou traduites en langue française ainsi que tous les documents de présentation associés ;
+* Les candidatures qui ne peuvent être admises en application des dispositions des articles R.2144-1 à R.2144-7 du CCP sont éliminées par le RPA ;
+* À titre indicatif, le démarrage de la mission est souhaité pour  mai -juin 2025 ;
+* Les prestations ne sont pas réservées à une profession particulière ;
+* Les personnes morales seront tenues d'indiquer les noms et les qualifications professionnelles des membres du personnel chargés de l'exécution du marché ;
+* Il ne s'agit pas d'un marché à caractère périodique ;</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71330000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Situation juridique - références requises :</cbc:Name>
+                                 <cbc:Description languageID="FRA">Si le candidat utilise le DUME :
+* Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec l'inscription sur le registre professionnel ou le registre du commerce (partie IV A 1).
+Si le candidat n'utilise pas le DUME :
+* Les documents et renseignements mentionnés à l'article R.2143-3 du CCP, à cet effet le candidat pourra utiliser les formulaires DC1 et DC2 téléchargeables sur le site http://www.economie.gouv.fr (DAJ / Formulaires - Marchés publics) ;
+* La forme juridique du candidat ;
+* En cas de groupement, sa nature et le nom du mandataire ;
+* La composition de l'équipe, répartition des tâches et compétences des différents intervenants ;
+* L'inscription sur le registre professionnel.
+* Les candidats entrant dans les cas des interdictions de soumissionner prévues aux articles L.2141-1 à L.2141-6 du CCP seront exclus.
+* Les candidats entrant dans les cas des interdictions de soumissionner prévues aux articles L.2141-7 à L.2141-11 du CCP pourront être exclus.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Capacité économique et financière - références requises :</cbc:Name>
+                                 <cbc:Description languageID="FRA">Si le candidat utilise le DUME :
+* Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec :
+- le chiffre d'affaires annuel des 3 derniers exercices (partie IV B 1a) ;
+- le chiffre d'affaires annuel des 3 derniers exercices dans le domaine d'activités couvert par le marché (partie IV B 2a) ;
+- le montant couvert par l'assurance contre les risques professionnels (partie IV B 5).
+Si le candidat n'utilise pas le DUME :
+* Une déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des 3 derniers exercices disponibles ;
+
+Le candidat peut prouver sa capacité par tout autre document considéré comme équivalent par le pouvoir adjudicateur.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Capacité économique et financière - niveau(x) spécifique(s) minimal(aux) :</cbc:Name>
+                                 <cbc:Description languageID="FRA">Le chiffre d'affaires annuel des 3 dernières années devra être supérieur à 300 000 Euros.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Référence professionnelle et capacité technique - références requises :</cbc:Name>
+                                 <cbc:Description languageID="FRA">Si le candidat utilise le DUME :
+* Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec :
+- les informations concernant l'opérateur économique (partie II à remplir en totalité) ;
+- la présentation d'un dossier de références pertinentes, indiquant la nature de l'opération, l'identité du maître d'ouvrage, la mission de maîtrise d'oeuvre et le rôle tenu par le candidat, l'importance de l'opération et la date de sa réalisation. Cette présentation pourra être accompagnée d'attestations de l'acheteur (partie IV C 1b) ;
+- le nom des techniciens ou des organismes techniques auxquels il fera appel (partie IV C 2) ;
+- la liste des équipements techniques et des mesures pour s'assurer de la qualité et celle des moyens d'études et de recherches (partie IV C 3).
+Si le candidat n'utilise pas le DUME :
+A - Expérience :
+* La présentation d'un dossier de références pertinentes, indiquant la nature de l'opération, l'identité du maître d'ouvrage, la mission de maîtrise d'oeuvre et le rôle tenu par le candidat, l'importance de l'opération et la date de sa réalisation. Cette présentation pourra être accompagnée d'attestations de l'acheteur.
+B - Capacités professionnelles :
+* L'indication des titres d'études et/ou de l'expérience professionnelle du ou des responsables et des exécutants de la prestation de service envisagée :
+* Les attestations de participation à des formations thématiques en lien avec l'inspection et le diagnostic des ouvrages d'art, délivrées par un organisme agréé ;
+* Les certificats de qualifications professionnelles suivants :
+- OPQIBI 0331 Direction de l'exécution des travaux ou équivalents ;
+- OPQIBI 2202 Maîtrise des coûts en phase de conception et de réalisation ou équivalents ;
+- OPQIBI 1418 Étude de systèmes de signalisation et de gestion d'ouvrages d'infrastructure ou équivalents ;
+- OPQIBI 1103 Étude de voiries courantes ou équivalents.
+La preuve de ces capacités peut être apportée par tout autre moyen notamment par des certificats d'identité professionnelle ou des références de maîtrise d'oeuvre attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat.
+C - Capacités techniques :
+* Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement, pour chacune des 3 dernières années ;
+* La désignation d'un chef de projet ;
+* La liste des personnels nécessaires à la bonne réalisation des missions et de conception d'ouvrages de génie civil ;
+* Un organigramme de l'équipe projet, faisant apparaître les personnes précitées ;
+* Les CV des personnes précités ;
+* Une déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du marché public ;
+* Une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise.
+
+Pour justifier de ses capacités professionnelles, techniques et financières, le candidat, même s'il s'agit d'un groupement, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques quelle que soit la nature juridique des liens existant entre ces opérateurs et lui (notamment en cas de sous-traitance). En outre, pour justifier qu'il dispose des capacités des opérateurs économiques pour l'exécution du marché, le candidat produit un engagement écrit de ceux-ci.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Référence professionnelle et capacité technique - niveau(x) spécifique(s) minimal(aux) :</cbc:Name>
+                                 <cbc:Description languageID="FRA">* 3 attestations de bonne exécution de la mission maîtrise d'oeuvre (références pertinentes) sur des opérations de travaux de même envergure que celle objet du présent marché ;
+
+* La désignation du chef de projet et son CV ;
+* Un organigramme de l'équipe projet ;</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>3MT-2025-001</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.gouv.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critère prix</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>50</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critère technique</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>10</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Critère environnemental</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Précisions concernant le(s) délai(s) d'introduction des recours :
+* Référé précontractuel : depuis le début de la procédure de passation jusqu'à la signature du contrat (article L551-1 du Code de Justice Administrative) ;
+* Référé contractuel : 31 jours à compter de la date de publication de l'avis d'attribution du marché (article L551-13 à L551-23 et R551-7 à R551-10 du Code de Justice Administrative) ;
+* Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R421-1 à R421-3 du Code de Justice Administrative) ;
+* Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-31+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</cbc:Name>
+                  <cbc:Description languageID="FRA">Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Modalités essentielles de financement et de paiement et / ou références aux textes qui les réglementent :
+* Origine du financement : 100 % État ;
+* Une avance sera accordée au titulaire selon les conditions fixées dans le cahier des charges ;
+* Les prix seront révisables ;
+* Les comptes seront réglés sous la forme d'acomptes et d'un solde ;
+* Le délai global de paiement du règlement des comptes sera fixé à 30 jours ;</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71330000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:StreetName>Route nationale 814 (boulevard périphérique nord de Caen)</cbc:StreetName>
+                        <cbc:CityName>Caen</cbc:CityName>
+                        <cbc:PostalZone>14000</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRD11</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">24</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Possibilité de confier au titulaire du marché la réalisation de prestations similaires après passation d'un ou de plusieurs marchés négociés en application de l'article R2122-7 du CCP.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23147</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>DIR-NORD-OUEST</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-01</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-31T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-07</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>14</DEP_PUBLICATION>
+         <DEP_PUBLICATION>27</DEP_PUBLICATION>
+         <DEP_PUBLICATION>50</DEP_PUBLICATION>
+         <DEP_PUBLICATION>75</DEP_PUBLICATION>
+         <DEP_PUBLICATION>76</DEP_PUBLICATION>
+         <DEP_PUBLICATION>77</DEP_PUBLICATION>
+         <DEP_PUBLICATION>91</DEP_PUBLICATION>
+         <DEP_PUBLICATION>92</DEP_PUBLICATION>
+         <DEP_PUBLICATION>93</DEP_PUBLICATION>
+         <RESUME_OBJET>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23147 du 27/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23147 du 27/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>14, 27, 50, 75, 76, 77, 91, 92, 93</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23147</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e155">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>DIR-NORD-OUEST</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité publique centrale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e196">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>7f38dbb9-f160-4149-937e-13f479c48e7b</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>3MT-2025-001</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e196">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71330000</span>
+                  <span/>
+                  <span>Services divers d'ingénierie</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e196">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>* Unité monétaire utilisée, l'euro ; * Les candidatures et les prestations seront entièrement rédigées ou traduites en langue française ainsi que tous les documents de présentation associés ; * Les candidatures qui ne peuvent être admises en application des dispositions des articles R.2144-1 à R.2144-7 du CCP sont éliminées par le RPA ; * À titre indicatif, le démarrage de la mission est souhaité pour mai -juin 2025 ; * Les prestations ne sont pas réservées à une profession particulière ; * Les personnes morales seront tenues d'indiquer les noms et les qualifications professionnelles des membres du personnel chargés de l'exécution du marché ; * Il ne s'agit pas d'un marché à caractère périodique ;</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e178">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e220">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e522">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71330000</span>
+                  <span/>
+                  <span>Services divers d'ingénierie</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Possibilité de confier au titulaire du marché la réalisation de prestations similaires après passation d'un ou de plusieurs marchés négociés en application de l'article R2122-7 du CCP.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e543">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Route nationale 814 (boulevard périphérique nord de Caen)</span>
+                  <span/>
+                  <span/>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Caen</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>14000</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Calvados</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRD11</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e564">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>24</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e220">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Modalités essentielles de financement et de paiement et / ou références aux textes qui les réglementent : * Origine du financement : 100 % État ; * Une avance sera accordée au titulaire selon les conditions fixées dans le cahier des charges ; * Les prix seront révisables ; * Les comptes seront réglés sous la forme d'acomptes et d'un solde ; * Le délai global de paiement du règlement des comptes sera fixé à 30 jours ;</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e225">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Situation juridique - références requises :</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Si le candidat utilise le DUME : * Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec l'inscription sur le registre professionnel ou le registre du commerce (partie IV A 1). Si le candidat n'utilise pas le DUME : * Les documents et renseignements mentionnés à l'article R.2143-3 du CCP, à cet effet le candidat pourra utiliser les formulaires DC1 et DC2 téléchargeables sur le site http://www.economie.gouv.fr (DAJ / Formulaires - Marchés publics) ; * La forme juridique du candidat ; * En cas de groupement, sa nature et le nom du mandataire ; * La composition de l'équipe, répartition des tâches et compétences des différents intervenants ; * L'inscription sur le registre professionnel. * Les candidats entrant dans les cas des interdictions de soumissionner prévues aux articles L.2141-1 à L.2141-6 du CCP seront exclus. * Les candidats entrant dans les cas des interdictions de soumissionner prévues aux articles L.2141-7 à L.2141-11 du CCP pourront être exclus.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière - références requises :</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Si le candidat utilise le DUME : * Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec : - le chiffre d'affaires annuel des 3 derniers exercices (partie IV B 1a) ; - le chiffre d'affaires annuel des 3 derniers exercices dans le domaine d'activités couvert par le marché (partie IV B 2a) ; - le montant couvert par l'assurance contre les risques professionnels (partie IV B 5). Si le candidat n'utilise pas le DUME : * Une déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du marché, réalisés au cours des 3 derniers exercices disponibles ; Le candidat peut prouver sa capacité par tout autre document considéré comme équivalent par le pouvoir adjudicateur.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière - niveau(x) spécifique(s) minimal(aux) :</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le chiffre d'affaires annuel des 3 dernières années devra être supérieur à 300 000 Euros.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Référence professionnelle et capacité technique - références requises :</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Si le candidat utilise le DUME : * Les documents et renseignements mentionnés à l'article R.2143-3 du CCP en complétant le DUME rédigé en français avec : - les informations concernant l'opérateur économique (partie II à remplir en totalité) ; - la présentation d'un dossier de références pertinentes, indiquant la nature de l'opération, l'identité du maître d'ouvrage, la mission de maîtrise d'oeuvre et le rôle tenu par le candidat, l'importance de l'opération et la date de sa réalisation. Cette présentation pourra être accompagnée d'attestations de l'acheteur (partie IV C 1b) ; - le nom des techniciens ou des organismes techniques auxquels il fera appel (partie IV C 2) ; - la liste des équipements techniques et des mesures pour s'assurer de la qualité et celle des moyens d'études et de recherches (partie IV C 3). Si le candidat n'utilise pas le DUME : A - Expérience : * La présentation d'un dossier de références pertinentes, indiquant la nature de l'opération, l'identité du maître d'ouvrage, la mission de maîtrise d'oeuvre et le rôle tenu par le candidat, l'importance de l'opération et la date de sa réalisation. Cette présentation pourra être accompagnée d'attestations de l'acheteur. B - Capacités professionnelles : * L'indication des titres d'études et/ou de l'expérience professionnelle du ou des responsables et des exécutants de la prestation de service envisagée : * Les attestations de participation à des formations thématiques en lien avec l'inspection et le diagnostic des ouvrages d'art, délivrées par un organisme agréé ; * Les certificats de qualifications professionnelles suivants : - OPQIBI 0331 Direction de l'exécution des travaux ou équivalents ; - OPQIBI 2202 Maîtrise des coûts en phase de conception et de réalisation ou équivalents ; - OPQIBI 1418 Étude de systèmes de signalisation et de gestion d'ouvrages d'infrastructure ou équivalents ; - OPQIBI 1103 Étude de voiries courantes ou équivalents. La preuve de ces capacités peut être apportée par tout autre moyen notamment par des certificats d'identité professionnelle ou des références de maîtrise d'oeuvre attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. C - Capacités techniques : * Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement, pour chacune des 3 dernières années ; * La désignation d'un chef de projet ; * La liste des personnels nécessaires à la bonne réalisation des missions et de conception d'ouvrages de génie civil ; * Un organigramme de l'équipe projet, faisant apparaître les personnes précitées ; * Les CV des personnes précités ; * Une déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour la réalisation du marché public ; * Une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise. Pour justifier de ses capacités professionnelles, techniques et financières, le candidat, même s'il s'agit d'un groupement, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques quelle que soit la nature juridique des liens existant entre ces opérateurs et lui (notamment en cas de sous-traitance). En outre, pour justifier qu'il dispose des capacités des opérateurs économiques pour l'exécution du marché, le candidat produit un engagement écrit de ceux-ci.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Référence professionnelle et capacité technique - niveau(x) spécifique(s) minimal(aux) :</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>* 3 attestations de bonne exécution de la mission maîtrise d'oeuvre (références pertinentes) sur des opérations de travaux de même envergure que celle objet du présent marché ; * La désignation du chef de projet et son CV ; * Un organigramme de l'équipe projet ;</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e356">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critère prix</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critère technique</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>50</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Critère environnemental</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>10</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e222">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.gouv.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e220">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>31/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>180</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Précisions concernant le(s) délai(s) d'introduction des recours : * Référé précontractuel : depuis le début de la procédure de passation jusqu'à la signature du contrat (article L551-1 du Code de Justice Administrative) ; * Référé contractuel : 31 jours à compter de la date de publication de l'avis d'attribution du marché (article L551-13 à L551-23 et R551-7 à R551-10 du Code de Justice Administrative) ; * Recours pour excès de pouvoir : dans un délai de 2 mois à compter de la notification de la décision de rejet (articles R421-1 à R421-3 du Code de Justice Administrative) ; * Recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e489">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e222">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Rouen</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>DIR-NORD-OUEST</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>11000201100044</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Batiment Abaquesne - 97 Boulevard de l'Europe - CS 61141</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Rouen cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>76175</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-Maritime</span>
+               <span/>
+               <span>(</span>
+               <span>FRD22</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>passation-marches.ppgm.spt.dirno@developpement-durable.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>027600047</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e75">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Rouen</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17760005300025</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>53, avenue Gustave Flaubert</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Rouen</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>76000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Seine-Maritime</span>
+               <span/>
+               <span>(</span>
+               <span>FRD22</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-rouen@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0232081270</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>0232081271</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>efdeed53-a05d-42de-aa97-a7a6905b2a94</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>27/02/2025</span>
+               <span/>
+               <span>à 17:46</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>27/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">DIR-NORD-OUEST : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Batiment Abaquesne - 97 Boulevard de l'Europe - CS 61141 Rouen cedex 76175 FRD22 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>027600047</li>
+                     <li><span class="fr-text--bold">Courriel : </span>passation-marches.ppgm.spt.dirno@developpement-durable.gouv.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Maitrise d'oeuvre sécurisation accès RN814 viaduc de Calix - Phase 1</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

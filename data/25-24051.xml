@@ -1,0 +1,979 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">17</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">RTM - Régie des Transports Métropolitains</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>80, Boulevard du Métro</cbc:StreetName>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13013</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>05980406200087</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0491105280</cbc:Telephone>
+                                    <cbc:ElectronicMail>marchespublics@rtm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">9971cd41-e0f1-4678-a828-50e1a389c513</cbc:ID>
+            <cbc:ContractFolderID>a6381c49-e5c3-420f-823b-5a3edfcd930a</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:16:37+02:00</cbc:IssueTime>
+            <cbc:VersionID>03</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">spec-rights-entity</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="entity-activity">urttb</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025014</cbc:ID>
+               <cbc:Name languageID="FRA">Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</cbc:Name>
+               <cbc:Description languageID="FRA">La présente consultation vise la passation d'un marché public ayant pour objet les prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">La durée de l'accord-cadre est de 60 mois, à compter de sa date de notification.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79311100</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cbc:Description languageID="FRA">Le présent marché public concerne une procédure avec négociation en application des articles R2161-21 à R2161-23 du Code de la Commande publique.
+Il s'agit d'un accord-cadre au sens des articles L2125-1.1° et R2162-1 et suivants du Code.
+L'accord-cadre est conclu avec un seul opérateur économique et exécuté par l'émission de bons de commande, pour les prestations décrites dans les documents contractuels (dans les conditions fixées aux articles R2162-13 et R2162-14 du Code).
+En application de l'article R2162-4 du Code, l'accord-cadre est conclu sans montant minimum d'engagement et avec un montant maximum d'engagement, à savoir 1 000 000 euros HT. 
+</cbc:Description>
+                  <cac:Address>
+                     <cbc:CityName>Marseille</cbc:CityName>
+                     <cbc:PostalZone>13006</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Formulaire DC1 (ou équivalent)
+- Formulaire DC2 (ou équivalent)
+- Chiffre d'affaires annuel des 3 derniers exercices
+- Liste de références significatives au cours des 3 dernières années
+- Déclaration des effectifs moyens annuels</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                                 <efac:CriterionParameter>
+                                    <efbc:ParameterCode listName="number-weight">dec-exa</efbc:ParameterCode>
+                                    <efbc:ParameterNumeric>1</efbc:ParameterNumeric>
+                                 </efac:CriterionParameter>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:RequiredFinancialGuarantee>
+                     <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+                  </cac:RequiredFinancialGuarantee>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:OfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:OfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>DCE</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.achatpublic.com/</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Les prestations objet de la présente consultation sont financées par le budget d'investissement de la RTM.
+
+Les prestations relatives au présent marché ouvrent droit au versement d'une avance, en application de l'article R.2191-16 du Code. 
+Les modalités de règlement des prestations figurent dans le Cahier des Clauses Administratives Particulières. 
+
+Le paiement est effectué en vertu des articles L 2192-11, R 2192-10 et s, R2191-23 à R2191-26 du Code. Le paiement, par virement, interviendra dans un délai de 30 jours compté à partir de la date de réception de la facture constitutive de la demande de paiement. 
+En vertu de l'article D 2192-35 du Code de la commande publique, le montant de l'indemnité forfaitaire pour frais de recouvrement est fixé à 40 euros.</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+                     <cbc:CompanyLegalForm languageID="FRA">Groupement solidaire</cbc:CompanyLegalForm>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                     <cbc:Description languageID="FRA">Pas de code d'obligation d'exécution</cbc:Description>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La valeur technique, analysée et appréciée à partir des sous-critères suivants, au vu du mémoire technique remis par le candidat à l'appui de son offre, dont les éléments pondérés suivants représentent 100 % de la valeur technique :
+. Sous-Critère 1 (30%) : Qualité des moyens humains et pertinence du dimensionnement de l'équipe proposée notamment en ce qui concerne le nombre d'architectes et de projeteurs ;
+. Sous-critère 2 (40%) :  Qualité de l'organisation et de la gouvernance proposées ;
+. Sous-Critère 3 (30%) : Optimisation du délai d'étude total pour une station (somme des 4 objectifs du §1.6.2.1 du CCAP)
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Les Prix, analysés au vu du Bordereau de Prix Unitaires (BPU) figurant en annexe 1 de l'Acte d'engagement, et compte tenu du montant du Devis Descriptif Estimatif Détaillé (DDED), annexe 1 de l'invitation à soumissionner (document qui servira de base à l'analyse des offres et n'aura par la suite aucune valeur contractuelle).</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.achatpublic.com/</cbc:EndpointID>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderEvaluationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderEvaluationParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Un différend peut être soumis à l'avis du Comité Consultatif Interrégional
+de Règlement Amiable des Différends ou des Litiges relatifs aux Marchés Publics de Marseille, dont les coordonnées
+sont les suivantes : Préfecture de la région PACA Secrétariat général pour les affaires régionales Place Félix Baret CS 80001 13282 MARSEILLE Cedex 06.
+ Le tribunal administratif compétent est celui dans le ressort duquel siège l'entité adjudicatrice, à savoir : Tribunal Administratif de Marseille 22 rue Breteuil 13281 MARSEILLE CEDEX 06</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-03-19+02:00</cbc:EndDate>
+                     <cbc:EndTime>16:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>false</cbc:LimitationDescription>
+                  </cac:EconomicOperatorShortList>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>Lot unique</cbc:ID>
+                  <cbc:Name languageID="FRA">Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</cbc:Name>
+                  <cbc:Description languageID="FRA">Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Le présent marché est un marché de prestations intellectuelles. Il se réfère au Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG/PI), approuvé par l'arrêté du 30 mars 2021.</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79311100</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">60</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24051</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>RTM - Régie des Transports Métropolitains</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <NEGOCIE/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-03-19</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>433</CODE>
+               <LIBELLE>Assistance à maîtrise d'ouvrage</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>13</DEP_PUBLICATION>
+         <RESUME_OBJET>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-24051 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-24051 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>13</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24051</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e105">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>RTM - Régie des Transports Métropolitains</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Entité disposant de droits spéciaux ou exclusifs</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité de l’entité adjudicatrice</span>
+               <span>:</span>
+               <span>Services de chemin de fer urbain, de tramway, de trolleybus ou d’autobus</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e140">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La présente consultation vise la passation d'un marché public ayant pour objet les prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>a6381c49-e5c3-420f-823b-5a3edfcd930a</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025014</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La procédure est accélérée</span>
+               <span>:</span>
+               <span class="fr-text--bold">non</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e140">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79311100</span>
+                  <span/>
+                  <span>Services de conception d'études</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e168">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Marseille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>13006</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Bouches-du-Rhône</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRL04</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le présent marché public concerne une procédure avec négociation en application des articles R2161-21 à R2161-23 du Code de la Commande publique. Il s'agit d'un accord-cadre au sens des articles L2125-1.1° et R2162-1 et suivants du Code. L'accord-cadre est conclu avec un seul opérateur économique et exécuté par l'émission de bons de commande, pour les prestations décrites dans les documents contractuels (dans les conditions fixées aux articles R2162-13 et R2162-14 du Code). En application de l'article R2162-4 du Code, l'accord-cadre est conclu sans montant minimum d'engagement et avec un montant maximum d'engagement, à savoir 1 000 000 euros HT.</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e140">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La durée de l'accord-cadre est de 60 mois, à compter de sa date de notification.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e186">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux de rénovation de stations de métro de la RTM, à Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Lot unique</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e490">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79311100</span>
+                  <span/>
+                  <span>Services de conception d'études</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e519">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>60</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e525">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>0</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e186">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le présent marché est un marché de prestations intellectuelles. Il se réfère au Cahier des Clauses Administratives Générales applicables aux marchés publics de prestations intellectuelles (CCAG/PI), approuvé par l'arrêté du 30 mars 2021.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e490">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e191">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Formulaire DC1 (ou équivalent) - Formulaire DC2 (ou équivalent) - Chiffre d'affaires annuel des 3 derniers exercices - Liste de références significatives au cours des 3 dernières années - Déclaration des effectifs moyens annuels</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (décimal, valeur exacte)</span>
+                     <span>:</span>
+                     <span>1</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e331">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La valeur technique, analysée et appréciée à partir des sous-critères suivants, au vu du mémoire technique remis par le candidat à l'appui de son offre, dont les éléments pondérés suivants représentent 100 % de la valeur technique : . Sous-Critère 1 (30%) : Qualité des moyens humains et pertinence du dimensionnement de l'équipe proposée notamment en ce qui concerne le nombre d'architectes et de projeteurs ; . Sous-critère 2 (40%) : Qualité de l'organisation et de la gouvernance proposées ; . Sous-Critère 3 (30%) : Optimisation du délai d'étude total pour une station (somme des 4 objectifs du §1.6.2.1 du CCAP)</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les Prix, analysés au vu du Bordereau de Prix Unitaires (BPU) figurant en annexe 1 de l'Acte d'engagement, et compte tenu du montant du Devis Descriptif Estimatif Détaillé (DDED), annexe 1 de l'invitation à soumissionner (document qui servira de base à l'analyse des offres et n'aura par la suite aucune valeur contractuelle).</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e188">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché sont officiellement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.achatpublic.com/</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e186">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.achatpublic.com/</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>19/03/2025</span>
+                     <span/>
+                     <span>à 16:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Conditions relatives à l’exécution du contrat</span>
+                     <span>:</span>
+                     <span>Pas de code d'obligation d'exécution</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué</span>
+                     <span>:</span>
+                     <span>Groupement solidaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Les prestations objet de la présente consultation sont financées par le budget d'investissement de la RTM. Les prestations relatives au présent marché ouvrent droit au versement d'une avance, en application de l'article R.2191-16 du Code. Les modalités de règlement des prestations figurent dans le Cahier des Clauses Administratives Particulières. Le paiement est effectué en vertu des articles L 2192-11, R 2192-10 et s, R2191-23 à R2191-26 du Code. Le paiement, par virement, interviendra dans un délai de 30 jours compté à partir de la date de réception de la facture constitutive de la demande de paiement. En vertu de l'article D 2192-35 du Code de la commande publique, le montant de l'indemnité forfaitaire pour frais de recouvrement est fixé à 40 euros.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Un différend peut être soumis à l'avis du Comité Consultatif Interrégional de Règlement Amiable des Différends ou des Litiges relatifs aux Marchés Publics de Marseille, dont les coordonnées sont les suivantes : Préfecture de la région PACA Secrétariat général pour les affaires régionales Place Félix Baret CS 80001 13282 MARSEILLE Cedex 06. Le tribunal administratif compétent est celui dans le ressort duquel siège l'entité adjudicatrice, à savoir : Tribunal Administratif de Marseille 22 rue Breteuil 13281 MARSEILLE CEDEX 06</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e450">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e188">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>RTM - Régie des Transports Métropolitains</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>RTM - Régie des Transports Métropolitains</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+                  <span>:</span>
+                  <span>RTM - Régie des Transports Métropolitains</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+                  <span>:</span>
+                  <span>RTM - Régie des Transports Métropolitains</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>RTM - Régie des Transports Métropolitains</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>05980406200087</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>80, Boulevard du Métro</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marchespublics@rtm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0491105280</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>9971cd41-e0f1-4678-a828-50e1a389c513</span>
+               <span/>
+               <span>-</span>
+               <span>03</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 15:16</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">RTM - Régie des Transports Métropolitains : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>80, Boulevard du Métro Marseille 13013 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0491105280</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marchespublics@rtm.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux
+            de rénovation de stations de métro de la RTM, à Marseille</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La présente consultation vise la passation d'un marché public ayant pour objet les
+            prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux
+            de rénovation de stations de métro de la RTM, à Marseille</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Prestations d'assistance à maîtrise d'ouvrage relatives à la réalisation des travaux
+                  de rénovation de stations de métro de la RTM, à Marseille</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.ville-cormeilles95.fr/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Commune de Cormeilles en Parisis</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>3 avenue Maurice Berteaux</cbc:StreetName>
+                                    <cbc:CityName>CORMEILLES EN PARISIS</cbc:CityName>
+                                    <cbc:PostalZone>95240</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR108</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21950176400019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 134504430</cbc:Telephone>
+                                    <cbc:ElectronicMail>juridique-marchespublics@ville-cormeilles95.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Cergy-Pontoise</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>2-4 BOULEVARD DE L'HAUTIL</cbc:StreetName>
+                                    <cbc:CityName>CERGY</cbc:CityName>
+                                    <cbc:PostalZone>95000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR108</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17950702500015</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0130173400</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-cergy-pontoise@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">0f5c14b4-6631-46eb-b444-96cb2dba1991</cbc:ID>
+            <cbc:ContractFolderID>49c815ec-410e-427a-aef4-ae0bd6ce4562</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+01:00</cbc:IssueDate>
+            <cbc:IssueTime>18:50:06+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://ville-cormeilles95.e-marchespublics.com</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Se référer aux documents de la consultation</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <ext:UBLExtensions>
+                  <ext:UBLExtension>
+                     <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                           <efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                     </ext:ExtensionContent>
+                  </ext:UBLExtension>
+               </ext:UBLExtensions>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025-05</cbc:ID>
+               <cbc:Name languageID="FRA">CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS SANS HEBERGEMENT</cbc:Name>
+               <cbc:Description languageID="FRA">Le concours porte sur la construction neuve avec aménagement d'espaces extérieurs d'un Centre de Loisirs Sans Hébergement (CLSH) entrant dans la catégorie des bâtiments d'équipements publics.&#xD;
+&#xD;
+*Adresse &#xD;
+ZAC des Bois Rochefort, Secteur des Battiers Ouest &#xD;
+Rue Riera et Christy ou rue du Verdun&#xD;
+95240 - CORMEILLES-EN-PARISIS&#xD;
+&#xD;
+* Montant des travaux : 8 500 000 euros HT&#xD;
+* Date de livraison souhaitée : juillet 2027</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Qualification et qualité technique du candidat ou de l'équipe candidate</cbc:Name>
+                                 <cbc:Description languageID="FRA">Ce critère est apprécié au regard des compétences, de l'expérience, des moyens techniques et humains présentés. &#xD;
+En cas de groupement, l'appréciation portera également sur la cohérence et la complémentarité des membres du groupement entre eux. &#xD;
+Ces éléments sont évalués de manière transversale d'après l'ensemble des éléments fournis dans le dossier de candidature, et notamment le cadre de réponse de candidature comprenant la justification des compétences et des expériences, incluant la motivation du candidat</cbc:Description>
+                                 <efac:CriterionParameter>
+                                    <efbc:ParameterNumeric>2</efbc:ParameterNumeric>
+                                 </efac:CriterionParameter>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Qualité des références</cbc:Name>
+                                 <cbc:Description languageID="FRA">Ce critère esr apprécié au regard du document de présentation des 4 références spécifiques et évalué selon la qualité architecturale et technique des réalisations présentées.</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://ville-cormeilles95.e-marchespublics.com/pack/annonce_marche_public_14341_1078907.html</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:AppealTerms>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:InvitationSubmissionPeriod>
+                     <cbc:StartDate>2025-05-09+02:00</cbc:StartDate>
+                  </cac:InvitationSubmissionPeriod>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-03-31+02:00</cbc:EndDate>
+                     <cbc:EndTime>14:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>Lot unique</cbc:ID>
+                  <cbc:Name languageID="FRA">CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS SANS HEBERGEMENT</cbc:Name>
+                  <cbc:Description languageID="FRA">Le concours porte sur la construction neuve avec aménagement d'espaces extérieurs d'un Centre de Loisirs Sans Hébergement (CLSH) entrant dans la catégorie des bâtiments d'équipements publics.&#xD;
+- Adresse &#xD;
+ZAC des Bois Rochefort, Secteur des Battiers Ouest &#xD;
+Rue Riera et Christy ou rue du Verdun&#xD;
+95240 - CORMEILLES-EN-PARISIS&#xD;
+- Le coût prévisionnel des travaux HT - bâti et espaces extérieurs est estimé à 8?500 000 euros HT, y compris aléas et révisions de prix éventuels,  valeur septembre 2024.&#xD;
+- L'équipement devra être livré en juillet 2027.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24244</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Commune de Cormeilles en Parisis</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-04-01</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+            <DESCRIPTEUR>
+               <CODE>455</CODE>
+               <LIBELLE>Ingénierie</LIBELLE>
+            </DESCRIPTEUR>
+            <DESCRIPTEUR>
+               <CODE>33</CODE>
+               <LIBELLE>Bâtiment</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>95</DEP_PUBLICATION>
+         <DEP_PUBLICATION>75</DEP_PUBLICATION>
+         <DEP_PUBLICATION>78</DEP_PUBLICATION>
+         <DEP_PUBLICATION>77</DEP_PUBLICATION>
+         <DEP_PUBLICATION>92</DEP_PUBLICATION>
+         <DEP_PUBLICATION>93</DEP_PUBLICATION>
+         <DEP_PUBLICATION>94</DEP_PUBLICATION>
+         <DEP_PUBLICATION>91</DEP_PUBLICATION>
+         <RESUME_OBJET>CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS SANS HEBERGEMENT</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-24244 du 03/03/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-24244 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>95, 75, 78, 77, 92, 93, 94, 91</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24244</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e156">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Cormeilles en Parisis</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e216">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS SANS HEBERGEMENT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le concours porte sur la construction neuve avec aménagement d'espaces extérieurs d'un Centre de Loisirs Sans Hébergement (CLSH) entrant dans la catégorie des bâtiments d'équipements publics. *Adresse ZAC des Bois Rochefort, Secteur des Battiers Ouest Rue Riera et Christy ou rue du Verdun 95240 - CORMEILLES-EN-PARISIS * Montant des travaux : 8 500 000 euros HT * Date de livraison souhaitée : juillet 2027</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>49c815ec-410e-427a-aef4-ae0bd6ce4562</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025-05</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e216">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e216">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Si la procédure est annulée ou infructueuse, elle sera relancée</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e181">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>Se référer aux documents de la consultation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e236">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS SANS HEBERGEMENT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le concours porte sur la construction neuve avec aménagement d'espaces extérieurs d'un Centre de Loisirs Sans Hébergement (CLSH) entrant dans la catégorie des bâtiments d'équipements publics. - Adresse ZAC des Bois Rochefort, Secteur des Battiers Ouest Rue Riera et Christy ou rue du Verdun 95240 - CORMEILLES-EN-PARISIS - Le coût prévisionnel des travaux HT - bâti et espaces extérieurs est estimé à 8?500 000 euros HT, y compris aléas et révisions de prix éventuels, valeur septembre 2024. - L'équipement devra être livré en juillet 2027.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Lot unique</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e353">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e236">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e241">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualification et qualité technique du candidat ou de l'équipe candidate</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Ce critère est apprécié au regard des compétences, de l'expérience, des moyens techniques et humains présentés. En cas de groupement, l'appréciation portera également sur la cohérence et la complémentarité des membres du groupement entre eux. Ces éléments sont évalués de manière transversale d'après l'ensemble des éléments fournis dans le dossier de candidature, et notamment le cadre de réponse de candidature comprenant la justification des compétences et des expériences, incluant la motivation du candidat</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualité des références</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Ce critère esr apprécié au regard du document de présentation des 4 références spécifiques et évalué selon la qualité architecturale et technique des réalisations présentées.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e238">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://ville-cormeilles95.e-marchespublics.com/pack/annonce_marche_public_14341_1078907.html</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e236">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de la procédure</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d’envoi estimée des invitations à soumissionner</span>
+                     <span>:</span>
+                     <span>09/05/2025</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>31/03/2025</span>
+                     <span/>
+                     <span>à 14:00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e238">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Cergy-Pontoise</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Commune de Cormeilles en Parisis</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Cormeilles en Parisis</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21950176400019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>3 avenue Maurice Berteaux</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>CORMEILLES EN PARISIS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>95240</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-d’Oise</span>
+               <span/>
+               <span>(</span>
+               <span>FR108</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>juridique-marchespublics@ville-cormeilles95.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 134504430</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.ville-cormeilles95.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://ville-cormeilles95.e-marchespublics.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e78">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Cergy-Pontoise</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17950702500015</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2-4 BOULEVARD DE L'HAUTIL</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>CERGY</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>95000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-d’Oise</span>
+               <span/>
+               <span>(</span>
+               <span>FR108</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-cergy-pontoise@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0130173400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>0f5c14b4-6631-46eb-b444-96cb2dba1991</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 18:50</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Commune de Cormeilles en Parisis : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>3 avenue Maurice Berteaux CORMEILLES EN PARISIS 95240 FR108 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 134504430</li>
+                     <li><span class="fr-text--bold">Courriel : </span>juridique-marchespublics@ville-cormeilles95.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.ville-cormeilles95.fr/" target="_blank" title="Aller sur la page https://www.ville-cormeilles95.fr/ - nouvelle fenêtre"><span>https://www.ville-cormeilles95.fr/</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://ville-cormeilles95.e-marchespublics.com" target="_blank" title="Aller sur la page https://ville-cormeilles95.e-marchespublics.com - nouvelle fenêtre"><span>https://ville-cormeilles95.e-marchespublics.com</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS
+            SANS HEBERGEMENT</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Le concours porte sur la construction neuve avec aménagement d'espaces extérieurs
+            d'un Centre de Loisirs Sans Hébergement (CLSH) entrant dans la catégorie des bâtiments
+            d'équipements publics. *Adresse ZAC des Bois Rochefort, Secteur des Battiers Ouest
+            Rue Riera et Christy ou rue du Verdun 95240 - CORMEILLES-EN-PARISIS * Montant des
+            travaux : 8 500 000 euros HT * Date de livraison souhaitée : juillet 2027</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>CONCOURS RESTREINT DE MAITRISE D'OeUVRE POUR LA CONSTRUCTION D'UN CENTRE DE LOISIRS
+                  SANS HEBERGEMENT</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

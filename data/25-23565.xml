@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.vernsurseiche.fr/accueil</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://www.vernsurseiche.fr/accueil</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Commune de Vern-sur-Seiche</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>22 RUE DE CHATEAUBRIANT</cbc:StreetName>
+                                    <cbc:Department>iLLE-ET-VILAINE</cbc:Department>
+                                    <cbc:CityName>VERN-SUR-SEICHE</cbc:CityName>
+                                    <cbc:PostalZone>35770</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRH03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21350352700011</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0299048204</cbc:Telephone>
+                                    <cbc:ElectronicMail>agata.collet@vernsurseiche.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">6fe689b5-e55b-454c-a431-8603fc111674</cbc:ID>
+            <cbc:ContractFolderID>71971de3-94dc-4b17-a9e7-42b7ac4c1200</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:49:27+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.megalis.bretagne.bzh/</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</cbc:Name>
+               <cbc:Description languageID="FRA">Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Capacités technique et professionnelle du candidat, adéquation et qualité des références</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:NonOfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:NonOfficialLanguages>
+                                 <efac:OfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:OfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>Règlement de concours</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>http://www.e-megalisbretagne.org</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                     <cac:TechnicalCommitteePerson>
+                        <cbc:FamilyName> Le jury est composé de 9 membres à voix délibérative</cbc:FamilyName>
+                     </cac:TechnicalCommitteePerson>
+                     <cac:Prize>
+                        <cbc:RankCode>3</cbc:RankCode>
+                        <cbc:ValueAmount currencyID="EUR">15000</cbc:ValueAmount>
+                        <cbc:Description languageID="FRA">Le montant de la prime à verser aux participants admis à présenter une esquisse qui n'auront pas été retenus est 
+de 15 000 Euros HT correspondant à des prestations de niveau esquisse+</cbc:Description>
+                     </cac:Prize>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>http://www.e-megalisbretagne.org</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-01+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-21+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</cbc:Name>
+                  <cbc:Description languageID="FRA">Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23565</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Commune de Vern-sur-Seiche</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-01T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-01</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>35</DEP_PUBLICATION>
+         <DEP_PUBLICATION>44</DEP_PUBLICATION>
+         <DEP_PUBLICATION>22</DEP_PUBLICATION>
+         <DEP_PUBLICATION>29</DEP_PUBLICATION>
+         <DEP_PUBLICATION>56</DEP_PUBLICATION>
+         <RESUME_OBJET>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-23565 du 28/02/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-23565 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>35, 44, 22, 29, 56</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23565</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e113">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Vern-sur-Seiche</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e144">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>71971de3-94dc-4b17-a9e7-42b7ac4c1200</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e144">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71200000</span>
+                  <span/>
+                  <span>Services d'architecture</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e144">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e162">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle familiale</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e334">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71200000</span>
+                  <span/>
+                  <span>Services d'architecture</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e162">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e167">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Capacités technique et professionnelle du candidat, adéquation et qualité des références</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e164">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché sont officiellement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché (ou leurs parties) sont officieusement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>21/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>http://www.e-megalisbretagne.org</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e162">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Membres du jury</span>
+                     <span>:</span>
+                     <span>Le jury est composé de 9 membres à voix délibérative</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Prix</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Valeur de la prime</span>
+                        <span>:</span>
+                        <span>15,000</span>
+                        <span/>
+                        <span class="fr-text--bold">Euro</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Lieu de réception de la prime</span>
+                        <span>:</span>
+                        <span>3</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Informations complémentaires</span>
+                        <span>:</span>
+                        <span>Le montant de la prime à verser aux participants admis à présenter une esquisse qui n'auront pas été retenus est de 15 000 Euros HT correspondant à des prestations de niveau esquisse+</span>
+                     </div>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>http://www.e-megalisbretagne.org</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>01/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e164">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Commune de Vern-sur-Seiche</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Commune de Vern-sur-Seiche</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Commune de Vern-sur-Seiche</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Commune de Vern-sur-Seiche</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21350352700011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>iLLE-ET-VILAINE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>22 RUE DE CHATEAUBRIANT</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>VERN-SUR-SEICHE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>35770</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Ille-et-Vilaine</span>
+               <span/>
+               <span>(</span>
+               <span>FRH03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>agata.collet@vernsurseiche.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0299048204</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.vernsurseiche.fr/accueil</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://www.vernsurseiche.fr/accueil</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.megalis.bretagne.bzh/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>6fe689b5-e55b-454c-a431-8603fc111674</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 15:49</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Commune de Vern-sur-Seiche : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>22 RUE DE CHATEAUBRIANT iLLE-ET-VILAINE VERN-SUR-SEICHE 35770 FRH03 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0299048204</li>
+                     <li><span class="fr-text--bold">Courriel : </span>agata.collet@vernsurseiche.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.vernsurseiche.fr/accueil" target="_blank" title="Aller sur la page https://www.vernsurseiche.fr/accueil - nouvelle fenêtre"><span>https://www.vernsurseiche.fr/accueil</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.megalis.bretagne.bzh/" target="_blank" title="Aller sur la page https://www.megalis.bretagne.bzh/ - nouvelle fenêtre"><span>https://www.megalis.bretagne.bzh/</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle
+            familiale</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle
+            familiale</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Reconstruction de la Maison des sports, de la Maison des associations et d'une salle
+                  familiale</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

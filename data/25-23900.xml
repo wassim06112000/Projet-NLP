@@ -1,0 +1,1245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Côte d'Azur Habitat</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>53, boulevard René Cassin</cbc:StreetName>
+                                    <cbc:CityName>Nice</cbc:CityName>
+                                    <cbc:PostalZone>06200</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>49271391200011</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0493187502</cbc:Telephone>
+                                    <cbc:ElectronicMail>mc.borderes@cotedazurhabitat.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Nice</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>18, avenue des Fleurs</cbc:StreetName>
+                                    <cbc:CityName>Nice</cbc:CityName>
+                                    <cbc:PostalZone>06000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17060005000026</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0489978600</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.tanice@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">05fed738-3da8-4ea1-bfb2-c5610aa273bd</cbc:ID>
+            <cbc:ContractFolderID>a97c11fb-23bc-4819-b115-1538971b46ae</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>11:43:23+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">hc-am</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Se référer au cas mentionnés dans le règlement de la consultation.</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <ext:UBLExtensions>
+                  <ext:UBLExtension>
+                     <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                           <efbc:ProcedureRelaunchIndicator>true</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                     </ext:ExtensionContent>
+                  </ext:UBLExtension>
+               </ext:UBLExtensions>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025 MOE Saint Georges</cbc:ID>
+               <cbc:Name languageID="FRA">Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000</cbc:Name>
+               <cbc:Description languageID="FRA">Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000.
+Elle comprend les éléments de mission suivants : 
+Mission de base : 
+-Études d'Avant-Projet AVP (APS+APD)
+-Études de Projet (PRO)
+-Assistance à la Passation des Contrats de Travaux (ACT)
+-Visa des Etudes d'Exécution et Synthèse (VISA)
+-Direction de l'Exécution des Travaux (DET)
+-Assistance aux Opérations de Réception et pendant la Garantie de Parfait Achèvement (AOR)
+Missions complémentaires :
+-Diagnostic (DIA)
+-Coordonnateur chantier vert (CCV).
+Le présent marché est passé selon la procédure d'appel d'offres ouvert, en application des articles L.2124-1 et L.2124-2 de l'ordonnance n° 2018-1074 du 26 novembre 2018 portant partie législative du Code de Commande Publique et des articles R.2124-1 et R.2124-2, R.2161-2 à 5 et R.2172-2 5° du décret n° 2018-1075 du 3 décembre 2018 portant partie réglementaire du Code de la Commande Publique.
+Les opérateurs économiques ont été expressément informés que l'acheteur a décidé de recourir à la procédure d'appel d'offres ouvert qui ne permet pas la négociation et donc sur le fait que l'offre remise ne pourra pas être améliorée en cours de procédure. Les opérateurs ont été invités à formuler leur meilleure offre.
+
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:RequestedTenderTotal>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">272160</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:CityName>Nice</cbc:CityName>
+                     <cbc:CountrySubentityCode listName="nuts">FRL03</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">1.Habilitation à exercer l'activité professionnelle, y compris exigences relatives à l'inscription au registre du commerce ou de la profession :
+1)Déclaration sur l'honneur (modèle recommandé : déclaration jointe au Règlement de Consultation, datée et signée, ou formulaire DC1 joint au dossier de consultation, ou équivalent):
+(Article R.2143-3 du décret n° 2018-1075 du 3 décembre 2018 relatif aux marchés publics - Une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 de l'ordonnance n° 2018-1074 du 26 novembre 2018 portant partie législative du Code de la Commande Publique susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés.)
+2)Lettre de candidature (DC1 dans sa dernière version en vigueur, ou équivalent) (en cas de candidature en groupement, cette lettre est commune) ;  
+3)En cas de sous-traitant, une déclaration de sous-traitance (modèle recommandé : formulaire DC4 joint au dossier de consultation) : les noms des sous-traitants susceptibles d'intervenir dans le cadre de l'exécution du marché, ainsi que la nature et le volume sous-traité doivent être précisés.
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">2.Capacité économique et financière (formulaire DC2 ou équivalent)
+1)Une déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisés au cours des trois dernières années. 
+2)La preuve d'une assurance des risques professionnels pertinents. 
+
+Conformément à l'article 2-II de l'arrêté du 22 mars 2019 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics, si, pour une raison justifiée, l'opérateur économique n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur.
+En outre, une société créée récemment peut, pour justifier de ses capacités financières, demander que soient également prises en compte les capacités financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens qui existent entre elle et ces opérateurs (sous-traitant, filiale, société mère, entreprise tierce...). La société candidate doit alors justifier des capacités financières des opérateurs sur lesquels elle compte s'appuyer, en produisant les mêmes renseignements ou documents que ceux exigés d'elle et apporter la preuve qu'elle en disposera pour toute l'exécution du marché.
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">1)Références principales de services similaires :   
+Une liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique.
+2)Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années (tableau fourni en annexe au RC) ;
+3)Certificats de qualifications professionnelles :   Des certificats de qualification professionnelle établis par des organismes indépendants attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Dans ce cas, l'acheteur accepte tout moyen de preuve ainsi que les certificats équivalents d'organismes établis dans d'autres Etats membres.
+Conformément à l'article 4 du RC, il est rappelé que l'équipe de Maitrise d'OEuvre doit être composée a minima d'un Architecte diplômé inscrit à l'Ordre des Architectes (avec attestation de l'Ordre des Architectes, ou équivalent pour les candidats étrangers), et d'un ou plusieurs Bureaux d'Etudes Techniques regroupant les compétences suivantes : Gros OEuvre, Second OEuvre, Thermique, Fluides, Electricité, pour être en mesure d'assurer l'ensemble de ses missions. Les candidats devront présenter ces compétences, justifiées au sein du candidat (qu'il s'agisse d'un candidat individuel ou en groupement) ou en sous-traitance
+NB : Pour les entreprises dont la création est récente, et qui sont dans l'impossibilité objective de produire certains de ces renseignements, le pouvoir adjudicateur admet que celles-ci justifient de leurs références professionnelles par tout autre moyen.
+Si, pour justifier de ses capacités, le candidat souhaite faire prévaloir les capacités professionnelles, techniques et financières d'un autre intervenant quel qu'il soit (sous-traitant notamment), il devra produire les pièces visées ci-dessus relatives à cet intervenant. Il devra également justifier qu'il disposera des capacités de cet intervenant pour l'exécution du présent marché.
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cbc:MultipleTendersCode listName="permission">not-allowed</cbc:MultipleTendersCode>
+                  <cac:RequiredFinancialGuarantee>
+                     <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+                  </cac:RequiredFinancialGuarantee>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:OfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:OfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>2025 AMO SAINT GEORGES</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Le prix de l'offre sera évalué pour 40% de la note totale (40 points/100).
+Il sera apprécié sur le montant total de la proposition financière, indiquée dans l'Acte d'Engagement.
+La note maximale pouvant être obtenue sur ce critère est de 40.  
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">La qualité de l'offre : la valeur technique ou qualité de l'offre qui sera évaluée pour 60% (ramené à 60 points / 100) de la note totale et jugée sur la base du mémoire technique donnant l'ensemble des précisions permettant à CAH d'évaluer les points ci-dessous. La note maximale pouvant être obtenue sur ce critère est de 60. 
+La qualité de l'offre sera évaluée au vu des éléments fournis et du contenu du mémoire technique explicatif à fournir :
+1.Moyens humains dédiés à la réalisation de la mission et expérience du candidat évalués pour 20% de la note totale :
+-Moyens humains de l'équipe de Maîtrise d'OEuvre (architecte et bureau d'étude) dédiée à la réalisation du projet : CV, diplômes, qualifications et expériences
+-Au moins 4 références similaires au projet de réhabilitation, réalisées ou en cours d'achèvement, par l'équipe dédiée (architecte et bureau d'étude confondus), pour le compte de bailleurs sociaux.
+
+CAH appréciera la pertinence et de la suffisance des moyens humains et références tels que présentés dans la note méthodologique, pour répondre à ses besoins définis dans le CCTP et la note de programme.
+2.L'approche globale du projet évaluée pour 10% de la note totale :
+-Note d'appréhension de l'équipe candidate par rapport au projet : présentation d'une première approche du projet mettant en valeur le respect du programme, la simplicité architecturale et technique avec pour objectif la réduction des coûts d'entretien et des charges locatives. 
+-Note justificative de la cohérence du budget envisagé avec le projet, avec proposition d'une méthodologie qui permet de tenir les contraintes budgétaires et les optimiser 
+CAH jugera si la compréhension des enjeux du projet, notamment concernant la cohérence du budget telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH.
+3.La Méthodologie et le délai de réalisation en phase conception évalués pour 15% de la note totale :
+-Répartition de chaque intervenant du groupement par phase et nombre d'heures des intervenants respectifs pour chaque phase 
+-Description des rôles et responsabilités de chaque membre de la MOE tout au long de la phase conception 
+-Capacité à s'inscrire dans des démarches de certification et labels pour au moins 4 expériences d'opérations livrées.
+CAH jugera si la compréhension de la méthodologie de travail en phase conception, telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH, notamment sur le plan des délais.
+4.La Méthodologie d'intervention en phase réalisation évaluée pour 10% de la note totale :
+-Proposition d'une méthodologie détaillée des moyens mis en oeuvre pour garantir les délais d'exécution et la qualité de réalisation des travaux, du démarrage des travaux jusqu'à la fin de la GPA avec une attention particulière sur l'intervention en milieu occupé et sur la levée des réserves. Précisions sur le nombre de visites chantier, en nombre d'heures par semaine, pour la mission DET (y compris la levée des réserves). Précision du/des interlocuteurs privilégiées de la MOA.
+-Méthodologie pour lever les réserves et engagement sur la fréquence de passage par semaine sur le chantier pendant cette période (nombre de visites / semaine).
+-Optimisation des délais de réalisation des phases de la mission. Cette optimisation doit être en cohérence avec les moyens humains mis à disposition.
+CAH jugera si la compréhension de la méthodologie de travail en phase réalisation, telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH, notamment sur le plan des délais et de la qualité de réalisation des travaux.
+5.Intégration d'une approche environnementale adaptée pour 5% de la note totale :
+-Proposition d'une méthodologie réduisant la consommation énergétique en phase chantier 
+-Méthodologie détaillant les matériaux privilégiés avec une attention particulière portée sur le cycle de vie du bâtiment (réemploi, recyclage..)
+-Proposition d'une méthodologie pour garantir la bonne gestion des déchets et des nuisances de chantier.
+CAH jugera si l'enjeu environnemental a bien été compris et intégré dans l'offre du candidat à travers des propositions effectuées, et la pertinence de celles-ci.
+Synthèse multicritères:
+La note finale du candidat est obtenue par l'addition des notes relatives aux deux critères pondérés(prix et qualité), et calculée sur 100 points. Le classement final des offres est établi en conséquence. L'offre retenue est celle qui obtient le plus de points. </cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2024_Gjt3YdNjhR</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">A exercer avant la signature du contrat
+-Un référé précontractuel (articles L.551-1 et suivants et R.551-1 et suivants du Code de justice administrative). Le juge du référé précontractuel du Tribunal administratif de Nice dont l'adresse est mentionnée à l'article 8 du présent règlement de consultation peut être saisi jusqu'à la signature du contrat.
+A exercer après la signature du contrat 
+-Un référé contractuel devant le Tribunal administratif de Nice (articles L. 551-13 et suivants et  R. 551-7 et suivants du Code de justice administrative). Il peut être exercé dans un délai de :
+• 31 jours, à compter de la publication d'un avis d'attribution du contrat ;
+• 6 mois, à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié ou si aucune notification de la conclusion du contrat n'a été effectuée.
+-Un recours de plein contentieux en contestation de validité contractuelle devant le Tribunal administratif de Nice, issu de la jurisprudence « Département de Tarn et Garonne » (CE, 4 avril 2014, n°358994). Le recours doit être exercé dans un délai de deux mois « à compter de l'accomplissement des mesures de publicité appropriées ». Cette condition de publicité peut être remplie « notamment au moyen d'un avis mentionnant à la fois la conclusion du contrat et les modalités de sa consultation dans le respect des secrets protégés par la loi ». Pour les marchés passés selon une procédure formalisée, la publication d'un avis d'attribution au JOUE suffit pour déclencher ce délai. En procédure adaptée, l'acheteur doit adapter sa publicité à l'objet et au montant du contrat.
+A exercer en cas de déclaration sans suite ou infructueuse de la procédure 
+-Un recours pour excès de pouvoir devant le Tribunal administratif de Nice, dirigé contre la décision d'abandonner la procédure en la déclarant infructueuse ou sans suite. Le délai est de deux mois à compter de la publication ou notification de la décision.
+</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>true</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-28+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2025 MOE Saint Georges</cbc:ID>
+                  <cbc:Name languageID="FRA">Mission de maîtrise d'oeuvre MOE pour la réhabilitation de 84 logements, Résidence Saint Georges, située au 15, rue de la Gendarmerie à Nice 06000</cbc:Name>
+                  <cbc:Description languageID="FRA">Mission de maîtrise d'oeuvre MOE pour la réhabilitation de 84 logements, Résidence Saint Georges, située au 15, rue de la Gendarmerie à Nice 06000.
+Elle comprend les éléments de mission suivants : 
+Mission de base : 
+-Études d'Avant-Projet AVP (APS+APD)
+-Études de Projet (PRO)
+-Assistance à la Passation des Contrats de Travaux (ACT)
+-Visa des Etudes d'Exécution et Synthèse (VISA)
+-Direction de l'Exécution des Travaux (DET)
+-Assistance aux Opérations de Réception et pendant la Garantie de Parfait Achèvement (AOR)
+Missions complémentaires :
+-Diagnostic (DIA)
+-Coordonnateur chantier vert (CCV) 
+
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">272160</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cbc:Description languageID="FRA">Le pouvoir adjudicateur informe les candidats que le dossier de consultation des entreprises
+(DCE) est dématérialisé. il ne pourra en aucun cas être remis sur support papier ou sur support physique électronique. 
+Les candidats devront télécharger les documents dématérialisés du dossier de consultation des entreprises (DCE), 
+documents et renseignements complémentaires ainsi que l'avis d'appel public à la concurrence le cas échéant, via 
+le profil acheteur : www.achatpublic.com lors du téléchargement du dossier de consultation, le candidat est invité à 
+renseigner le nom de l'organisme soumissionnaire, le nom de la personne physique téléchargeant les documents et 
+une adresse électronique permettant de façon certaine une correspondance électronique, afin qu'il puisse bénéficier 
+de toutes les informations complémentaires diffusées lors du déroulement de la présente consultation, en particulier
+les éventuelles précisions ou report de délais. le candidat ne pourra porter aucune réclamation s'il ne bénéficie pas 
+de toutes les informations complémentaires diffusées par la plateforme de dématérialisation lors du déroulement
+de la présente consultation, en raison d'une erreur qu'il aurait faite dans la saisie de son adresse électronique, 
+en cas de non identification de la personne lors du téléchargement, en cas de non-indication de la dite adresse 
+électronique, en cas de suppression de l'adresse ou en cas de téléchargement du DCE ailleurs que sur le profil 
+d'acheteur. en cas de difficulté quant au téléchargement du DCE ou lors de la remise de son pli, le candidat est invité
+à se rapprocher du support technique : achat public antony parc 2  10 place du général de gaulle  bp 20156  
+92186 antony cedex. téléphone: 01 79 06 76 00. mail:support@achatpublic.com en application de l'article r.21327
+du décret n° 20181075 du 3 décembre 2018 portant partie réglementaire du code de la commande publique, les 
+candidatures et offres devront être obligatoirement remises par voie électronique, via le profil acheteur. La signature
+électronique de l'Acte d'Engagement n'est pas exigée au stade du dépôt de l'offre. Cependant les candidats peuvent
+signer électroniquement leur Acte d'Engagement dès le dépôt de leur offre. L'Acte d'Engagement du marché sera
+uniquement signé, in fine, en version papier par l'attributaire et Côte d'Azur Habitat.</cbc:Description>
+                     <cac:Address>
+                        <cbc:CityName>Nice</cbc:CityName>
+                        <cbc:CountrySubentityCode listName="nuts">FRL03</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">44</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le marché ne fait pas l'objet de reconduction. Il ne comporte pas de tranches. Les prestations seront exécutées dans le délai global prévisionnel de 44 mois (y compris l'année de parfait achèvement), à compter de l'ordre de service de démarrage des prestations. Ce délai est toutefois indissociable et lié au déroulement de l'opération.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23900</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Côte d'Azur Habitat</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-04</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-07T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-05-03</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>06</DEP_PUBLICATION>
+         <RESUME_OBJET>Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23900 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23900 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>06</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23900</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e157">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Côte d'Azur Habitat</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Logement et équipements collectifs</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e217">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000. Elle comprend les éléments de mission suivants : Mission de base : -Études d'Avant-Projet AVP (APS+APD) -Études de Projet (PRO) -Assistance à la Passation des Contrats de Travaux (ACT) -Visa des Etudes d'Exécution et Synthèse (VISA) -Direction de l'Exécution des Travaux (DET) -Assistance aux Opérations de Réception et pendant la Garantie de Parfait Achèvement (AOR) Missions complémentaires : -Diagnostic (DIA) -Coordonnateur chantier vert (CCV). Le présent marché est passé selon la procédure d'appel d'offres ouvert, en application des articles L.2124-1 et L.2124-2 de l'ordonnance n° 2018-1074 du 26 novembre 2018 portant partie législative du Code de Commande Publique et des articles R.2124-1 et R.2124-2, R.2161-2 à 5 et R.2172-2 5° du décret n° 2018-1075 du 3 décembre 2018 portant partie réglementaire du Code de la Commande Publique. Les opérateurs économiques ont été expressément informés que l'acheteur a décidé de recourir à la procédure d'appel d'offres ouvert qui ne permet pas la négociation et donc sur le fait que l'offre remise ne pourra pas être améliorée en cours de procédure. Les opérateurs ont été invités à formuler leur meilleure offre.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>a97c11fb-23bc-4819-b115-1538971b46ae</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025 MOE Saint Georges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e217">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e245">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Nice</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Alpes-Maritimes</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRL03</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e217">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>272,160</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e217">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Si la procédure est annulée ou infructueuse, elle sera relancée</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e182">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Situation analogue à la faillite prévue dans la législation nationale</span>
+                  <span>:</span>
+                  <span>Se référer au cas mentionnés dans le règlement de la consultation.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e261">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre MOE pour la réhabilitation de 84 logements, Résidence Saint Georges, située au 15, rue de la Gendarmerie à Nice 06000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Mission de maîtrise d'oeuvre MOE pour la réhabilitation de 84 logements, Résidence Saint Georges, située au 15, rue de la Gendarmerie à Nice 06000. Elle comprend les éléments de mission suivants : Mission de base : -Études d'Avant-Projet AVP (APS+APD) -Études de Projet (PRO) -Assistance à la Passation des Contrats de Travaux (ACT) -Visa des Etudes d'Exécution et Synthèse (VISA) -Direction de l'Exécution des Travaux (DET) -Assistance aux Opérations de Réception et pendant la Garantie de Parfait Achèvement (AOR) Missions complémentaires : -Diagnostic (DIA) -Coordonnateur chantier vert (CCV)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025 MOE Saint Georges</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e564">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le marché ne fait pas l'objet de reconduction. Il ne comporte pas de tranches. Les prestations seront exécutées dans le délai global prévisionnel de 44 mois (y compris l'année de parfait achèvement), à compter de l'ordre de service de démarrage des prestations. Ce délai est toutefois indissociable et lié au déroulement de l'opération.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e590">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Nice</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Alpes-Maritimes</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRL03</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le pouvoir adjudicateur informe les candidats que le dossier de consultation des entreprises (DCE) est dématérialisé. il ne pourra en aucun cas être remis sur support papier ou sur support physique électronique. Les candidats devront télécharger les documents dématérialisés du dossier de consultation des entreprises (DCE), documents et renseignements complémentaires ainsi que l'avis d'appel public à la concurrence le cas échéant, via le profil acheteur : www.achatpublic.com lors du téléchargement du dossier de consultation, le candidat est invité à renseigner le nom de l'organisme soumissionnaire, le nom de la personne physique téléchargeant les documents et une adresse électronique permettant de façon certaine une correspondance électronique, afin qu'il puisse bénéficier de toutes les informations complémentaires diffusées lors du déroulement de la présente consultation, en particulier les éventuelles précisions ou report de délais. le candidat ne pourra porter aucune réclamation s'il ne bénéficie pas de toutes les informations complémentaires diffusées par la plateforme de dématérialisation lors du déroulement de la présente consultation, en raison d'une erreur qu'il aurait faite dans la saisie de son adresse électronique, en cas de non identification de la personne lors du téléchargement, en cas de non-indication de la dite adresse électronique, en cas de suppression de l'adresse ou en cas de téléchargement du DCE ailleurs que sur le profil d'acheteur. en cas de difficulté quant au téléchargement du DCE ou lors de la remise de son pli, le candidat est invité à se rapprocher du support technique : achat public antony parc 2 10 place du général de gaulle bp 20156 92186 antony cedex. téléphone: 01 79 06 76 00. mail:support@achatpublic.com en application de l'article r.21327 du décret n° 20181075 du 3 décembre 2018 portant partie réglementaire du code de la commande publique, les candidatures et offres devront être obligatoirement remises par voie électronique, via le profil acheteur. La signature électronique de l'Acte d'Engagement n'est pas exigée au stade du dépôt de l'offre. Cependant les candidats peuvent signer électroniquement leur Acte d'Engagement dès le dépôt de leur offre. L'Acte d'Engagement du marché sera uniquement signé, in fine, en version papier par l'attributaire et Côte d'Azur Habitat.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e610">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>44</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e577">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>272,160</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e261">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e266">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>1.Habilitation à exercer l'activité professionnelle, y compris exigences relatives à l'inscription au registre du commerce ou de la profession : 1)Déclaration sur l'honneur (modèle recommandé : déclaration jointe au Règlement de Consultation, datée et signée, ou formulaire DC1 joint au dossier de consultation, ou équivalent): (Article R.2143-3 du décret n° 2018-1075 du 3 décembre 2018 relatif aux marchés publics - Une déclaration sur l'honneur pour justifier qu'il n'entre dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-5 et L.2141-7 à L.2141-11 de l'ordonnance n° 2018-1074 du 26 novembre 2018 portant partie législative du Code de la Commande Publique susvisée et notamment qu'il est en règle au regard des articles L. 5212-1 à L. 5212-11 du code du travail concernant l'emploi des travailleurs handicapés.) 2)Lettre de candidature (DC1 dans sa dernière version en vigueur, ou équivalent) (en cas de candidature en groupement, cette lettre est commune) ; 3)En cas de sous-traitant, une déclaration de sous-traitance (modèle recommandé : formulaire DC4 joint au dossier de consultation) : les noms des sous-traitants susceptibles d'intervenir dans le cadre de l'exécution du marché, ainsi que la nature et le volume sous-traité doivent être précisés.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>2.Capacité économique et financière (formulaire DC2 ou équivalent) 1)Une déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les prestations objet du contrat, réalisés au cours des trois dernières années. 2)La preuve d'une assurance des risques professionnels pertinents. Conformément à l'article 2-II de l'arrêté du 22 mars 2019 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics, si, pour une raison justifiée, l'opérateur économique n'est pas en mesure de produire les renseignements et documents demandés par l'acheteur, il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par l'acheteur. En outre, une société créée récemment peut, pour justifier de ses capacités financières, demander que soient également prises en compte les capacités financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens qui existent entre elle et ces opérateurs (sous-traitant, filiale, société mère, entreprise tierce...). La société candidate doit alors justifier des capacités financières des opérateurs sur lesquels elle compte s'appuyer, en produisant les mêmes renseignements ou documents que ceux exigés d'elle et apporter la preuve qu'elle en disposera pour toute l'exécution du marché.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>1)Références principales de services similaires : Une liste des principaux services fournis au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. Les prestations de services sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique. 2)Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années (tableau fourni en annexe au RC) ; 3)Certificats de qualifications professionnelles : Des certificats de qualification professionnelle établis par des organismes indépendants attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat. Dans ce cas, l'acheteur accepte tout moyen de preuve ainsi que les certificats équivalents d'organismes établis dans d'autres Etats membres. Conformément à l'article 4 du RC, il est rappelé que l'équipe de Maitrise d'OEuvre doit être composée a minima d'un Architecte diplômé inscrit à l'Ordre des Architectes (avec attestation de l'Ordre des Architectes, ou équivalent pour les candidats étrangers), et d'un ou plusieurs Bureaux d'Etudes Techniques regroupant les compétences suivantes : Gros OEuvre, Second OEuvre, Thermique, Fluides, Electricité, pour être en mesure d'assurer l'ensemble de ses missions. Les candidats devront présenter ces compétences, justifiées au sein du candidat (qu'il s'agisse d'un candidat individuel ou en groupement) ou en sous-traitance NB : Pour les entreprises dont la création est récente, et qui sont dans l'impossibilité objective de produire certains de ces renseignements, le pouvoir adjudicateur admet que celles-ci justifient de leurs références professionnelles par tout autre moyen. Si, pour justifier de ses capacités, le candidat souhaite faire prévaloir les capacités professionnelles, techniques et financières d'un autre intervenant quel qu'il soit (sous-traitant notamment), il devra produire les pièces visées ci-dessus relatives à cet intervenant. Il devra également justifier qu'il disposera des capacités de cet intervenant pour l'exécution du présent marché.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e396">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le prix de l'offre sera évalué pour 40% de la note totale (40 points/100). Il sera apprécié sur le montant total de la proposition financière, indiquée dans l'Acte d'Engagement. La note maximale pouvant être obtenue sur ce critère est de 40.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>La qualité de l'offre : la valeur technique ou qualité de l'offre qui sera évaluée pour 60% (ramené à 60 points / 100) de la note totale et jugée sur la base du mémoire technique donnant l'ensemble des précisions permettant à CAH d'évaluer les points ci-dessous. La note maximale pouvant être obtenue sur ce critère est de 60. La qualité de l'offre sera évaluée au vu des éléments fournis et du contenu du mémoire technique explicatif à fournir : 1.Moyens humains dédiés à la réalisation de la mission et expérience du candidat évalués pour 20% de la note totale : -Moyens humains de l'équipe de Maîtrise d'OEuvre (architecte et bureau d'étude) dédiée à la réalisation du projet : CV, diplômes, qualifications et expériences -Au moins 4 références similaires au projet de réhabilitation, réalisées ou en cours d'achèvement, par l'équipe dédiée (architecte et bureau d'étude confondus), pour le compte de bailleurs sociaux. CAH appréciera la pertinence et de la suffisance des moyens humains et références tels que présentés dans la note méthodologique, pour répondre à ses besoins définis dans le CCTP et la note de programme. 2.L'approche globale du projet évaluée pour 10% de la note totale : -Note d'appréhension de l'équipe candidate par rapport au projet : présentation d'une première approche du projet mettant en valeur le respect du programme, la simplicité architecturale et technique avec pour objectif la réduction des coûts d'entretien et des charges locatives. -Note justificative de la cohérence du budget envisagé avec le projet, avec proposition d'une méthodologie qui permet de tenir les contraintes budgétaires et les optimiser CAH jugera si la compréhension des enjeux du projet, notamment concernant la cohérence du budget telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH. 3.La Méthodologie et le délai de réalisation en phase conception évalués pour 15% de la note totale : -Répartition de chaque intervenant du groupement par phase et nombre d'heures des intervenants respectifs pour chaque phase -Description des rôles et responsabilités de chaque membre de la MOE tout au long de la phase conception -Capacité à s'inscrire dans des démarches de certification et labels pour au moins 4 expériences d'opérations livrées. CAH jugera si la compréhension de la méthodologie de travail en phase conception, telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH, notamment sur le plan des délais. 4.La Méthodologie d'intervention en phase réalisation évaluée pour 10% de la note totale : -Proposition d'une méthodologie détaillée des moyens mis en oeuvre pour garantir les délais d'exécution et la qualité de réalisation des travaux, du démarrage des travaux jusqu'à la fin de la GPA avec une attention particulière sur l'intervention en milieu occupé et sur la levée des réserves. Précisions sur le nombre de visites chantier, en nombre d'heures par semaine, pour la mission DET (y compris la levée des réserves). Précision du/des interlocuteurs privilégiées de la MOA. -Méthodologie pour lever les réserves et engagement sur la fréquence de passage par semaine sur le chantier pendant cette période (nombre de visites / semaine). -Optimisation des délais de réalisation des phases de la mission. Cette optimisation doit être en cohérence avec les moyens humains mis à disposition. CAH jugera si la compréhension de la méthodologie de travail en phase réalisation, telle que décrite par le candidat est pertinente, suffisamment détaillée, et correspond à une bonne compréhension des attentes de CAH, notamment sur le plan des délais et de la qualité de réalisation des travaux. 5.Intégration d'une approche environnementale adaptée pour 5% de la note totale : -Proposition d'une méthodologie réduisant la consommation énergétique en phase chantier -Méthodologie détaillant les matériaux privilégiés avec une attention particulière portée sur le cycle de vie du bâtiment (réemploi, recyclage..) -Proposition d'une méthodologie pour garantir la bonne gestion des déchets et des nuisances de chantier. CAH jugera si l'enjeu environnemental a bien été compris et intégré dans l'offre du candidat à travers des propositions effectuées, et la pertinence de celles-ci. Synthèse multicritères: La note finale du candidat est obtenue par l'addition des notes relatives aux deux critères pondérés(prix et qualité), et calculée sur 100 points. Le classement final des offres est établi en conséquence. L'offre retenue est celle qui obtient le plus de points.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e263">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché sont officiellement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>28/03/2025</span>
+                  <span/>
+                  <span>à 12:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e261">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.achatpublic.com/sdm/ent2/gen/ficheCsl.action?PCSLID=CSL_2024_Gjt3YdNjhR</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les soumissionnaires peuvent présenter plusieurs offres</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>180</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>A exercer avant la signature du contrat -Un référé précontractuel (articles L.551-1 et suivants et R.551-1 et suivants du Code de justice administrative). Le juge du référé précontractuel du Tribunal administratif de Nice dont l'adresse est mentionnée à l'article 8 du présent règlement de consultation peut être saisi jusqu'à la signature du contrat. A exercer après la signature du contrat -Un référé contractuel devant le Tribunal administratif de Nice (articles L. 551-13 et suivants et R. 551-7 et suivants du Code de justice administrative). Il peut être exercé dans un délai de : • 31 jours, à compter de la publication d'un avis d'attribution du contrat ; • 6 mois, à compter du lendemain du jour de la conclusion du contrat, si aucun avis d'attribution n'a été publié ou si aucune notification de la conclusion du contrat n'a été effectuée. -Un recours de plein contentieux en contestation de validité contractuelle devant le Tribunal administratif de Nice, issu de la jurisprudence « Département de Tarn et Garonne » (CE, 4 avril 2014, n°358994). Le recours doit être exercé dans un délai de deux mois « à compter de l'accomplissement des mesures de publicité appropriées ». Cette condition de publicité peut être remplie « notamment au moyen d'un avis mentionnant à la fois la conclusion du contrat et les modalités de sa consultation dans le respect des secrets protégés par la loi ». Pour les marchés passés selon une procédure formalisée, la publication d'un avis d'attribution au JOUE suffit pour déclencher ce délai. En procédure adaptée, l'acheteur doit adapter sa publicité à l'objet et au montant du contrat. A exercer en cas de déclaration sans suite ou infructueuse de la procédure -Un recours pour excès de pouvoir devant le Tribunal administratif de Nice, dirigé contre la décision d'abandonner la procédure en la déclarant infructueuse ou sans suite. Le délai est de deux mois à compter de la publication ou notification de la décision.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e524">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e263">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Nice</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Côte d'Azur Habitat</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Côte d'Azur Habitat</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Côte d'Azur Habitat</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Côte d'Azur Habitat</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>49271391200011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>53, boulevard René Cassin</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nice</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>06200</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Alpes-Maritimes</span>
+               <span/>
+               <span>(</span>
+               <span>FRL03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>mc.borderes@cotedazurhabitat.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0493187502</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e79">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Nice</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17060005000026</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>18, avenue des Fleurs</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nice</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>06000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Alpes-Maritimes</span>
+               <span/>
+               <span>(</span>
+               <span>FRL03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.tanice@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0489978600</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>05fed738-3da8-4ea1-bfb2-c5610aa273bd</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 11:43</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Côte d'Azur Habitat : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>53, boulevard René Cassin Nice 06200 FRL03 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0493187502</li>
+                     <li><span class="fr-text--bold">Courriel : </span>mc.borderes@cotedazurhabitat.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.achatpublic.com/sdm/ent2/gen/index.jsp" target="_blank" title="Aller sur la page https://www.achatpublic.com/sdm/ent2/gen/index.jsp - nouvelle fenêtre"><span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence
+            Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Mission de Maitrise d'oeuvre MOE pour la réhabilitation de 84 logements Résidence
+            Saint Georges à Nice - 15, rue de la gendarmerie à Nice 06000. Elle comprend les éléments
+            de mission suivants : Mission de base : -Études d'Avant-Projet AVP (APS+APD) -Études
+            de Projet (PRO) -Assistance à la Passation des Contrats de Travaux (ACT) -Visa des
+            Etudes d'Exécution et Synthèse (VISA) -Direction de l'Exécution des Travaux (DET)
+            -Assistance aux Opérations de Réception et pendant la Garantie de Parfait Achèvement
+            (AOR) Missions complémentaires : -Diagnostic (DIA) -Coordonnateur chantier vert (CCV).
+            Le présent marché est passé selon la procédure d'appel d'offres ouvert, en application
+            des articles L.2124-1 et L.2124-2 de l'ordonnance n° 2018-1074 du 26 novembre 2018
+            portant partie législative du Code de Commande Publique et des articles R.2124-1 et
+            R.2124-2, R.2161-2 à 5 et R.2172-2 5° du décret n° 2018-1075 du 3 décembre 2018 portant
+            partie réglementaire du Code de la Commande Publique. Les opérateurs économiques ont
+            été expressément informés que l'acheteur a décidé de recourir à la procédure d'appel
+            d'offres ouvert qui ne permet pas la négociation et donc sur le fait que l'offre remise
+            ne pourra pas être améliorée en cours de procédure. Les opérateurs ont été invités
+            à formuler leur meilleure offre.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Mission de maîtrise d'oeuvre MOE pour la réhabilitation de 84 logements, Résidence
+                  Saint Georges, située au 15, rue de la Gendarmerie à Nice 06000</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

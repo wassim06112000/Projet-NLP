@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:Changes>
+                           <efbc:ChangedNoticeIdentifier>0905518f-8dad-4dca-883f-b1a94462031d-01</efbc:ChangedNoticeIdentifier>
+                           <efac:ChangeReason>
+                              <cbc:ReasonCode listName="change-corrig-justification">cor-buy</cbc:ReasonCode>
+                           </efac:ChangeReason>
+                        </efac:Changes>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">FRANCE TRAVAIL - Bretagne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>36 rue de Léon - CS 75301 </cbc:StreetName>
+                                    <cbc:CityName>Rennes cedex 9</cbc:CityName>
+                                    <cbc:PostalZone>35053</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRH03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000548108070</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0299352405</cbc:Telephone>
+                                    <cbc:ElectronicMail>achats.35076@francetravail.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">TRIBUNAL ADMINISTRATIF DE RENNES</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>RENNES</cbc:CityName>
+                                    <cbc:PostalZone>35044</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRH03</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17350005900014</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>02 23 21 28 28</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-rennes@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">52d56b82-1563-42cd-b0ce-bf25458bce0e</cbc:ID>
+            <cbc:ContractFolderID>1010f87e-b6c5-4295-80c0-d94827c2e81b</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>10:33:26+02:00</cbc:IssueTime>
+            <cbc:VersionID>02</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.marches-publics.gouv.fr/</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:ServiceProviderParty>
+                     <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                     <cac:Party>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:Party>
+                  </cac:ServiceProviderParty>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot . France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.6316-1 du code du travail ; 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots ;  3/ Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 ; 4/ La date limite de remise des offres est fixée au 27/03/2025 12H00 ; 5/ Les marchés sont  à conclure à compter du 16/06/2025, date de prise d'effet pour une période ferme de 2 ans et reconductible expressément 2 fois pour une période d'un an pour chaque reconduction. A titre indicatif, la date prévisionnelle de notification des marchés  est fixée au 16/05/2025; 6/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès de la directrice régionale  de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</cbc:Description>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">FRANCE TRAVAIL BRETAGNE ATC 2025 - Marché de services d'insertion professionnelle auprès des personnes à la recherche d'un emploi de type « Ateliers conseil » de la région BRETAGNE</cbc:Name>
+               <cbc:Description languageID="FRA">La consultation vise à la conclusion de marchés  ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus  avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre en charge fixés au présent avis pour chaque lot . La prestation « Ateliers conseil » a pour objet de répondre de manière ponctuelle à un besoin du bénéficiaire autour de sa recherche d'emploi et de son projet professionnel. Selon la thématique, la durée d'un atelier varie d'une demi-journée (3 heures) à une journée (6 heures), heures consécutives ou non, hors temps de restauration. 
+Les prestations sont mises en oeuvre dans des lieux d'intervention obligatoires (communes sur le territoire desquelles le Titulaire doit disposer de locaux pour l'exécution du marché) indiqués au présent avis pour chaque lot. Le Titulaire est également tenu d'exécuter des prestations dans des locaux affectés en cours d'exécution du marché conformément à l'article V.4.1.4. c) du Contrat, dans les locaux mis à disposition par France Travail ou à distance. 
+Les candidats ont la possibilité d'affecter à l'exécution du marché des locaux additionnels en dehors des lieux d'intervention obligatoires et dans des communes distinctes entre elles, ainsi que dans des lieux pour intervenir au plus près des bénéficiaires distincts des lieux d'intervention obligatoires et additionnels.
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot . France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.6316-1 du code du travail ; 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots ;  3/ Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 ; 4/ La date limite de remise des offres est fixée au 27/03/2025 12H00 ; 5/ Les marchés sont  à conclure à compter du 16/06/2025, date de prise d'effet pour une période ferme de 2 ans et reconductible expressément 2 fois pour une période d'un an pour chaque reconduction. A titre indicatif, la date prévisionnelle de notification des marchés  est fixée au 16/05/2025; 6/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès de la directrice régionale  de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.gouv.fr/</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-21+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-07+02:00</cbc:EndDate>
+                  </cac:AdditionalInformationRequestPeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:Name languageID="FRA">Lot 1 - Atelier Conseil - Départements 22 et 35</cbc:Name>
+                  <cbc:Description languageID="FRA">Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>www.marches-publics.gouv.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-21+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-03-07+02:00</cbc:EndDate>
+                  </cac:AdditionalInformationRequestPeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2</cbc:ID>
+                  <cbc:Name languageID="FRA">Lot 2 - Atelier Conseil - Départements 29 et 56</cbc:Name>
+                  <cbc:Description languageID="FRA">Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23279</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE/>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>25-19757</IDWEB>
+         </ANNONCE_ANTERIEUR>
+         <ANNONCE_ANTERIEUR>
+            <IDWEB>25-22028</IDWEB>
+         </ANNONCE_ANTERIEUR>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>FRANCE TRAVAIL - Bretagne</NOMORGANISME>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-21T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-03-27</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>274</CODE>
+               <LIBELLE>Prestations de services</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>35</DEP_PUBLICATION>
+         <DEP_PUBLICATION>22</DEP_PUBLICATION>
+         <DEP_PUBLICATION>29</DEP_PUBLICATION>
+         <DEP_PUBLICATION>56</DEP_PUBLICATION>
+         <RESUME_OBJET>FRANCE TRAVAIL BRETAGNE ATC 2025 - Marché de services d'insertion professionnelle auprès des personnes à la recherche d'un emploi de type « Ateliers conseil » de la région BRETAGNE</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23279 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23279 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>35, 22, 29, 56</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23279</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e162">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>FRANCE TRAVAIL - Bretagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e207">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>FRANCE TRAVAIL BRETAGNE ATC 2025 - Marché de services d'insertion professionnelle auprès des personnes à la recherche d'un emploi de type « Ateliers conseil » de la région BRETAGNE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre en charge fixés au présent avis pour chaque lot . La prestation « Ateliers conseil » a pour objet de répondre de manière ponctuelle à un besoin du bénéficiaire autour de sa recherche d'emploi et de son projet professionnel. Selon la thématique, la durée d'un atelier varie d'une demi-journée (3 heures) à une journée (6 heures), heures consécutives ou non, hors temps de restauration. Les prestations sont mises en oeuvre dans des lieux d'intervention obligatoires (communes sur le territoire desquelles le Titulaire doit disposer de locaux pour l'exécution du marché) indiqués au présent avis pour chaque lot. Le Titulaire est également tenu d'exécuter des prestations dans des locaux affectés en cours d'exécution du marché conformément à l'article V.4.1.4. c) du Contrat, dans les locaux mis à disposition par France Travail ou à distance. Les candidats ont la possibilité d'affecter à l'exécution du marché des locaux additionnels en dehors des lieux d'intervention obligatoires et dans des communes distinctes entre elles, ainsi que dans des lieux pour intervenir au plus près des bénéficiaires distincts des lieux d'intervention obligatoires et additionnels.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>1010f87e-b6c5-4295-80c0-d94827c2e81b</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot . France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.6316-1 du code du travail ; 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots ; 3/ Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 ; 4/ La date limite de remise des offres est fixée au 27/03/2025 12H00 ; 5/ Les marchés sont à conclure à compter du 16/06/2025, date de prise d'effet pour une période ferme de 2 ans et reconductible expressément 2 fois pour une période d'un an pour chaque reconduction. A titre indicatif, la date prévisionnelle de notification des marchés est fixée au 16/05/2025; 6/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès de la directrice régionale de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e207">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e207">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot . France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.6316-1 du code du travail ; 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots ; 3/ Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 ; 4/ La date limite de remise des offres est fixée au 27/03/2025 12H00 ; 5/ Les marchés sont à conclure à compter du 16/06/2025, date de prise d'effet pour une période ferme de 2 ans et reconductible expressément 2 fois pour une période d'un an pour chaque reconduction. A titre indicatif, la date prévisionnelle de notification des marchés est fixée au 16/05/2025; 6/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.551-1 du code de justice administrative ; b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.511-3 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat ; 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.521-1 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès de la directrice régionale de France Travail. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e228">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot 1 - Atelier Conseil - Départements 22 et 35</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e310">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e228">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e233">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e228">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.gouv.fr/</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>21/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e331">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot 2 - Atelier Conseil - Départements 29 et 56</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e413">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e331">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e336">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e331">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>www.marches-publics.gouv.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>21/03/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Autorisée</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e38">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>FRANCE TRAVAIL - Bretagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000548108070</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>36 rue de Léon - CS 75301</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Rennes cedex 9</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>35053</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Ille-et-Vilaine</span>
+               <span/>
+               <span>(</span>
+               <span>FRH03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>achats.35076@francetravail.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0299352405</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e86">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>TRIBUNAL ADMINISTRATIF DE RENNES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17350005900014</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>RENNES</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>35044</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Ille-et-Vilaine</span>
+               <span/>
+               <span>(</span>
+               <span>FRH03</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-rennes@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>02 23 21 28 28</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_10_d1e9">
+         <span class="fr-h5">Section 10 -</span>
+         <span class="fr-text--bold">Modification</span>
+         <div class="section">
+            <span class="fr-text--bold">Version de l’avis antérieur à modifier</span>
+            <span>:</span>
+            <span>0905518f-8dad-4dca-883f-b1a94462031d-01</span>
+         </div>
+         <div class="section">
+            <span class="fr-text--bold">Principale raison de la modification</span>
+            <span>:</span>
+            <span>Correction par l’acheteur</span>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>52d56b82-1563-42cd-b0ce-bf25458bce0e</span>
+               <span/>
+               <span>-</span>
+               <span>02</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché – régime assoupli</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 10:33</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">FRANCE TRAVAIL - Bretagne : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>36 rue de Léon - CS 75301 Rennes cedex 9 35053 FRH03 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0299352405</li>
+                     <li><span class="fr-text--bold">Courriel : </span>achats.35076@francetravail.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.marches-publics.gouv.fr/" target="_blank" title="Aller sur la page https://www.marches-publics.gouv.fr/ - nouvelle fenêtre"><span>https://www.marches-publics.gouv.fr/</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>FRANCE TRAVAIL BRETAGNE ATC 2025 - Marché de services d'insertion professionnelle
+            auprès des personnes à la recherche d'un emploi de type « Ateliers conseil » de la
+            région BRETAGNE</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre
+            de prestations de services d'insertion professionnelle auprès des demandeurs d'emploi
+            de type « Ateliers conseil ». Les marchés prennent la forme d'accords-cadres conclus
+            avec un Titulaire avec un maximum en quantité, définis en nombre de sessions à prendre
+            en charge fixés au présent avis pour chaque lot . La prestation « Ateliers conseil
+            » a pour objet de répondre de manière ponctuelle à un besoin du bénéficiaire autour
+            de sa recherche d'emploi et de son projet professionnel. Selon la thématique, la durée
+            d'un atelier varie d'une demi-journée (3 heures) à une journée (6 heures), heures
+            consécutives ou non, hors temps de restauration. Les prestations sont mises en oeuvre
+            dans des lieux d'intervention obligatoires (communes sur le territoire desquelles
+            le Titulaire doit disposer de locaux pour l'exécution du marché) indiqués au présent
+            avis pour chaque lot. Le Titulaire est également tenu d'exécuter des prestations dans
+            des locaux affectés en cours d'exécution du marché conformément à l'article V.4.1.4.
+            c) du Contrat, dans les locaux mis à disposition par France Travail ou à distance.
+            Les candidats ont la possibilité d'affecter à l'exécution du marché des locaux additionnels
+            en dehors des lieux d'intervention obligatoires et dans des communes distinctes entre
+            elles, ainsi que dans des lieux pour intervenir au plus près des bénéficiaires distincts
+            des lieux d'intervention obligatoires et additionnels.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Lot 1 - Atelier Conseil - Départements 22 et 35</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Lot 2 - Atelier Conseil - Départements 29 et 56</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

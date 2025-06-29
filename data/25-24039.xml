@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Communauté d'Agglomération Beaune Côte et Sud</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Beaune</cbc:CityName>
+                                    <cbc:PostalZone>21200</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRC11</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>20000668200013</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0380245720</cbc:Telephone>
+                                    <cbc:ElectronicMail>commandepublique@beaunecoteetsud.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de dijon</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Dijon</cbc:CityName>
+                                    <cbc:PostalZone>21000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRC11</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17210005900010</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">e9f6920e-d293-4c11-848d-db8d0bcf625e</cbc:ID>
+            <cbc:ContractFolderID>e3c8f0b6-a440-4f2b-af08-f16d990189b1</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:06:09+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+                  <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025C07</cbc:ID>
+               <cbc:Name languageID="FRA">FOURNITURE DE REPAS ET DE GOUTERS POUR LES RESTAURANTS D'ENFANTS PERI-EXTRASCOLAIRES
+ET POUR LES ETABLISSEMENTS D'ACCUEIL DU JEUNE ENFANT (EAJE) DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD</cbc:Name>
+               <cbc:Description languageID="FRA">Ce marché est passé sous la forme d'un accord-cadre mono-attributaire à bons de commande passé en procédure formalisée en application des articles L2125-1 1° et L2124-1, et des articles R2124-1 et R2124-2-1°, R2162-1 à R2162-6, et R2162-13 et R2162-14 du code de la commande publique.
+Le marché est conclu sans minimum et avec un maximum sur la durée du marché de :
+- 2 500 000 repas/goûters pour le lot 1
+- 260 000 déjeuners/goûters/soupers pour le lot 2
+
+Le marché prend effet à compter de la réunion de lancement du marché et se terminera à la fin de l'année scolaire 2028/2029.
+
+La date prévisionnelle du début de prestation est fixée au 1er septembre 2025.
+</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Le DCE est librement téléchargeable sur le profil acheteur https://www.achatpublic.com - référence : 2025C07
+PSE à réponse facultative : article 2-7-1 du RC. Dans la mesure du possible, il est attendu que le soumissionnaire propose un prix unitaire par site pour la prise en charge de la récupération et le traitement des contenants en précisant les modalités de stockage sur les sites le cas échéant et les fréquences de récupération par le prestataire.
+Contenu du dossier de consultation : article 3-1 du RC
+Modifications de détail au dossier de consultation : article 3-2 du RC
+Condition de participation : article 3-3 du RC. L'offre sera présentée par un seul candidat ou par un groupement solidaire ou conjoint avec mandataire solidaire. Le soumissionnaire peut répondre sur l'ensemble des lots.
+En revanche, il ne peut pas à la fois répondre en candidat seul et comme mandataire ou co-traitant d'un groupement.
+Pour autant, un co-traitant peut être présent dans plusieurs groupements.
+Documents à remettre au titre de la candidature : article 5-1 du RC. Conformément à l'article R2143-4 du Code de la Commande Publique, le candidat a également la possibilité de renseigner sa candidature sur le profil acheteur à l'aide du document unique de marché européen simplifié (DUME), en lieu et place de la déclaration sur l'honneur précitée et des renseignements demandés aux fins de vérification de la capacité économique et financières et des capacités techniques du candidat. 
+Au stade de la candidature, dans le cas où les pièces minimales demandées seraient absentes ou incomplètes, l'acheteur peut demander aux candidats de compléter leur candidature. Le dossier de candidature devra comprendre : 
+- Garanties techniques, professionnelles et financières de l'entreprise évaluées sur la base des éléments de la déclaration du candidat (Moyens techniques et humains, chiffres d'affaire des trois dernières années).
+-  A minima 3 références de moins de 3 ans en adéquation avec l'objet du marché ou pour les entreprises et sociétés nouvellement créées, toute preuve par équivalence et tout élément susceptible de permettre d'apprécier leurs moyens (humains, techniques, financiers) pour assurer les prestations. 
+- L'agrément sanitaire DDPP pour les cuisines de fabrication de repas sous peine de rejet de la candidature.
+- Uniquement pour le lot 1, les capacités de production de repas par jour de la cuisine centrale du candidat pour les prestations objet du marché (minimum 1 900 repas par jour) sous peine de rejet de la candidature.
+Documents à remettre au titre de l'offre pour chaque lot : article 5-2 du RC
+Critères de sélection : article 6-1 du RC. Le jugement des candidatures et des offres sera effectué dans les conditions prévues aux articles R2144-1 à R2144-7, R2152-6 à R2152-8, R2152-11 et R2152-12 du code de la commande publique. 
+Conformément aux articles L2152-2 et R2152-2 du code de la commande publique, au stade de l'analyse des offres, dans le cas où les informations minimales demandées seraient absentes ou incomplètes, l'acheteur peut demander aux candidats de régulariser leurs offres, sous réserve qu'elles ne soient pas anormalement basses. Cette régularisation d'offres ne constitue en aucun cas une négociation.
+L'absence de note méthodologique ou de proposition financière ne sera pas régularisée. L'offre sera déclarée irrégulière.
+Signature électronique de l'acte d'engagement obligatoire : article 6-2 du RC. L'acte d'engagement sera adressé au candidat retenu après attribution du marché : il devra être signé électroniquement.
+L'attributaire du marché devra obligatoirement détenir un certificat de signature électronique.
+Si l'attributaire n'est pas en mesure de signer électroniquement son acte d'engagement, son offre sera écartée et le marché sera attribué à l'entreprise classée en deuxième position au vu du rapport d'analyse des offres.
+Conditions d'envoi et de remise des offres : article 7 du RC
+Remise d'échantillons article 7 du RC : barquette de réchauffe (strict respect de la loi EGalim) avec exemple d'étiquette
+Les échantillons doivent être transmis sous pli cacheté pour chacun des lots AVANT LA DATE ET L'HEURE DE REMISE DES PLIS, adressés à M. le Président de la Communauté d'Agglomération Beaune Côte et Sud - Direction de la Commande Publique et des Achats 
+Les échantillons seront :
+- soit envoyés par voie postale ou chronopost ou déposés contre récépissé à l'adresse postale suivante : M. le Président de la Communauté d'agglomération BEAUNE, Côte et Sud - 14, rue Philippe Trinquet - BP 40288 - 21208 BEAUNE CEDEX
+Les échantillons qui seraient remis ou dont l'avis de réception serait délivré après la date et l'heure limites fixées en page de garde ne seront pas pris en compte. L'offre sera donc déclarée irrégulière.
+Communication avec les opérateurs économiques : article 8 du RC</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">15894210</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">cf article 6-1 du RC</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:NonOfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:NonOfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>2025C07</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.achatpublic.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">La décision pourra être déférée au tribunal administratif dans un délai de deux mois</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2025C07</cbc:ID>
+                  <cbc:Name languageID="FRA">Enfance</cbc:Name>
+                  <cbc:Description languageID="FRA">Le marché est conclu sans minimum et avec un maximum sur la durée du marché de 2 500 000 repas/goûters pour le lot 1.
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15894210</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+                     <cbc:EndDate>2029-08-31+02:00</cbc:EndDate>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">En application de l'article R2122-4 du code de la commande publique, un marché complémentaire pourra être conclu si nécessaire par l'acheteur. Lorsqu'un tel marché est passé, sa durée ne peut dépasser, sauf cas dûment justifié, trois ans, périodes de reconduction comprises.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">cf article 6-1 du RC</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:NonOfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:NonOfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>2025C07</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.achatpublic.com</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.achatpublic.com</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">180</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">La décision pourra être déférée au tribunal administratif dans un délai de deux mois. </cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2</cbc:ID>
+                  <cbc:Name languageID="FRA">Petite enfance</cbc:Name>
+                  <cbc:Description languageID="FRA">Le marché est conclu sans minimum et avec un maximum sur la durée du marché de 260 000 déjeuners/goûters/soupers pour le lot 2.
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">15894210</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-09-01+02:00</cbc:StartDate>
+                     <cbc:EndDate>2029-08-31+02:00</cbc:EndDate>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">En application de l'article R2122-4 du code de la commande publique, un marché complémentaire pourra être conclu si nécessaire par l'acheteur. Lorsqu'un tel marché est passé, sa durée ne peut dépasser, sauf cas dûment justifié, trois ans, périodes de reconduction comprises.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24039</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Communauté d'Agglomération Beaune Côte et Sud</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-04T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-04</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>304</CODE>
+               <LIBELLE>Repas, traiteur</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <FOURNITURES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>21</DEP_PUBLICATION>
+         <RESUME_OBJET>FOURNITURE DE REPAS ET DE GOUTERS POUR LES RESTAURANTS D'ENFANTS PERI-EXTRASCOLAIRES
+ET POUR LES ETABLISSEMENTS D'ACCUEIL DU JEUNE ENFANT (EAJE) DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-24039 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-24039 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>21</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24039</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e142">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e229">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>FOURNITURE DE REPAS ET DE GOUTERS POUR LES RESTAURANTS D'ENFANTS PERI-EXTRASCOLAIRES ET POUR LES ETABLISSEMENTS D'ACCUEIL DU JEUNE ENFANT (EAJE) DE LA COMMUNAUTE D'AGGLOMERATION BEAUNE COTE ET SUD</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Ce marché est passé sous la forme d'un accord-cadre mono-attributaire à bons de commande passé en procédure formalisée en application des articles L2125-1 1° et L2124-1, et des articles R2124-1 et R2124-2-1°, R2162-1 à R2162-6, et R2162-13 et R2162-14 du code de la commande publique. Le marché est conclu sans minimum et avec un maximum sur la durée du marché de : - 2 500 000 repas/goûters pour le lot 1 - 260 000 déjeuners/goûters/soupers pour le lot 2 Le marché prend effet à compter de la réunion de lancement du marché et se terminera à la fin de l'année scolaire 2028/2029. La date prévisionnelle du début de prestation est fixée au 1er septembre 2025.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>e3c8f0b6-a440-4f2b-af08-f16d990189b1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025C07</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e229">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15894210</span>
+                  <span/>
+                  <span>Repas pour écoles</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e229">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Le DCE est librement téléchargeable sur le profil acheteur https://www.achatpublic.com - référence : 2025C07 PSE à réponse facultative : article 2-7-1 du RC. Dans la mesure du possible, il est attendu que le soumissionnaire propose un prix unitaire par site pour la prise en charge de la récupération et le traitement des contenants en précisant les modalités de stockage sur les sites le cas échéant et les fréquences de récupération par le prestataire. Contenu du dossier de consultation : article 3-1 du RC Modifications de détail au dossier de consultation : article 3-2 du RC Condition de participation : article 3-3 du RC. L'offre sera présentée par un seul candidat ou par un groupement solidaire ou conjoint avec mandataire solidaire. Le soumissionnaire peut répondre sur l'ensemble des lots. En revanche, il ne peut pas à la fois répondre en candidat seul et comme mandataire ou co-traitant d'un groupement. Pour autant, un co-traitant peut être présent dans plusieurs groupements. Documents à remettre au titre de la candidature : article 5-1 du RC. Conformément à l'article R2143-4 du Code de la Commande Publique, le candidat a également la possibilité de renseigner sa candidature sur le profil acheteur à l'aide du document unique de marché européen simplifié (DUME), en lieu et place de la déclaration sur l'honneur précitée et des renseignements demandés aux fins de vérification de la capacité économique et financières et des capacités techniques du candidat. Au stade de la candidature, dans le cas où les pièces minimales demandées seraient absentes ou incomplètes, l'acheteur peut demander aux candidats de compléter leur candidature. Le dossier de candidature devra comprendre : - Garanties techniques, professionnelles et financières de l'entreprise évaluées sur la base des éléments de la déclaration du candidat (Moyens techniques et humains, chiffres d'affaire des trois dernières années). - A minima 3 références de moins de 3 ans en adéquation avec l'objet du marché ou pour les entreprises et sociétés nouvellement créées, toute preuve par équivalence et tout élément susceptible de permettre d'apprécier leurs moyens (humains, techniques, financiers) pour assurer les prestations. - L'agrément sanitaire DDPP pour les cuisines de fabrication de repas sous peine de rejet de la candidature. - Uniquement pour le lot 1, les capacités de production de repas par jour de la cuisine centrale du candidat pour les prestations objet du marché (minimum 1 900 repas par jour) sous peine de rejet de la candidature. Documents à remettre au titre de l'offre pour chaque lot : article 5-2 du RC Critères de sélection : article 6-1 du RC. Le jugement des candidatures et des offres sera effectué dans les conditions prévues aux articles R2144-1 à R2144-7, R2152-6 à R2152-8, R2152-11 et R2152-12 du code de la commande publique. Conformément aux articles L2152-2 et R2152-2 du code de la commande publique, au stade de l'analyse des offres, dans le cas où les informations minimales demandées seraient absentes ou incomplètes, l'acheteur peut demander aux candidats de régulariser leurs offres, sous réserve qu'elles ne soient pas anormalement basses. Cette régularisation d'offres ne constitue en aucun cas une négociation. L'absence de note méthodologique ou de proposition financière ne sera pas régularisée. L'offre sera déclarée irrégulière. Signature électronique de l'acte d'engagement obligatoire : article 6-2 du RC. L'acte d'engagement sera adressé au candidat retenu après attribution du marché : il devra être signé électroniquement. L'attributaire du marché devra obligatoirement détenir un certificat de signature électronique. Si l'attributaire n'est pas en mesure de signer électroniquement son acte d'engagement, son offre sera écartée et le marché sera attribué à l'entreprise classée en deuxième position au vu du rapport d'analyse des offres. Conditions d'envoi et de remise des offres : article 7 du RC Remise d'échantillons article 7 du RC : barquette de réchauffe (strict respect de la loi EGalim) avec exemple d'étiquette Les échantillons doivent être transmis sous pli cacheté pour chacun des lots AVANT LA DATE ET L'HEURE DE REMISE DES PLIS, adressés à M. le Président de la Communauté d'Agglomération Beaune Côte et Sud - Direction de la Commande Publique et des Achats Les échantillons seront : - soit envoyés par voie postale ou chronopost ou déposés contre récépissé à l'adresse postale suivante : M. le Président de la Communauté d'agglomération BEAUNE, Côte et Sud - 14, rue Philippe Trinquet - BP 40288 - 21208 BEAUNE CEDEX Les échantillons qui seraient remis ou dont l'avis de réception serait délivré après la date et l'heure limites fixées en page de garde ne seront pas pris en compte. L'offre sera donc déclarée irrégulière. Communication avec les opérateurs économiques : article 8 du RC</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pouvant être attribués à un soumissionnaire dans le cadre de marchés</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e167">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Accords avec d’autres opérateurs économiques en vue de fausser la concurrence</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Coupable de fausses déclarations, non-communication, n’a pas été en mesure de fournir les documents requis et a obtenu des informations confidentielles de la présente procédure</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Conflit d’intérêt créé par sa participation à la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Association directe ou indirecte à la préparation de cette procédure de passation de marché</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Paiement des cotisations de sécurité sociale</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>État de cessation d’activités</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Paiement d’impôts et taxes</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e253">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Enfance</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le marché est conclu sans minimum et avec un maximum sur la durée du marché de 2 500 000 repas/goûters pour le lot 1.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025C07</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e444">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15894210</span>
+                  <span/>
+                  <span>Repas pour écoles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>En application de l'article R2122-4 du code de la commande publique, un marché complémentaire pourra être conclu si nécessaire par l'acheteur. Lorsqu'un tel marché est passé, sa durée ne peut dépasser, sauf cas dûment justifié, trois ans, périodes de reconduction comprises.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e464">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>01/09/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date de fin de durée</span>
+                  <span>:</span>
+                  <span>31/08/2029</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e253">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e258">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>cf article 6-1 du RC</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e255">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché (ou leurs parties) sont officieusement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e253">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.achatpublic.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>04/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>180</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>La décision pourra être déférée au tribunal administratif dans un délai de deux mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e411">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e255">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de dijon</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e479">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Petite enfance</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le marché est conclu sans minimum et avec un maximum sur la durée du marché de 260 000 déjeuners/goûters/soupers pour le lot 2.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e664">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>15894210</span>
+                  <span/>
+                  <span>Repas pour écoles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>En application de l'article R2122-4 du code de la commande publique, un marché complémentaire pourra être conclu si nécessaire par l'acheteur. Lorsqu'un tel marché est passé, sa durée ne peut dépasser, sauf cas dûment justifié, trois ans, périodes de reconduction comprises.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e684">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>01/09/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date de fin de durée</span>
+                  <span>:</span>
+                  <span>31/08/2029</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e479">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e484">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>cf article 6-1 du RC</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e481">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché (ou leurs parties) sont officieusement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.achatpublic.com</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e479">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.achatpublic.com</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>04/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>180</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>La décision pourra être déférée au tribunal administratif dans un délai de deux mois.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e631">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e481">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de dijon</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Communauté d'Agglomération Beaune Côte et Sud</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>20000668200013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Beaune</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>21200</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Côte-d’Or</span>
+               <span/>
+               <span>(</span>
+               <span>FRC11</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>commandepublique@beaunecoteetsud.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0380245720</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e73">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de dijon</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17210005900010</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Dijon</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>21000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Côte-d’Or</span>
+               <span/>
+               <span>(</span>
+               <span>FRC11</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>e9f6920e-d293-4c11-848d-db8d0bcf625e</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 15:06</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Communauté d'Agglomération Beaune Côte et Sud : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Beaune 21200 FRC11 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0380245720</li>
+                     <li><span class="fr-text--bold">Courriel : </span>commandepublique@beaunecoteetsud.com</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.achatpublic.com/sdm/ent2/gen/index.jsp" target="_blank" title="Aller sur la page https://www.achatpublic.com/sdm/ent2/gen/index.jsp - nouvelle fenêtre"><span>https://www.achatpublic.com/sdm/ent2/gen/index.jsp</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>FOURNITURE DE REPAS ET DE GOUTERS POUR LES RESTAURANTS D'ENFANTS PERI-EXTRASCOLAIRES
+            ET POUR LES ETABLISSEMENTS D'ACCUEIL DU JEUNE ENFANT (EAJE) DE LA COMMUNAUTE D'AGGLOMERATION
+            BEAUNE COTE ET SUD</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Ce marché est passé sous la forme d'un accord-cadre mono-attributaire à bons de commande
+            passé en procédure formalisée en application des articles L2125-1 1° et L2124-1, et
+            des articles R2124-1 et R2124-2-1°, R2162-1 à R2162-6, et R2162-13 et R2162-14 du
+            code de la commande publique. Le marché est conclu sans minimum et avec un maximum
+            sur la durée du marché de : - 2 500 000 repas/goûters pour le lot 1 - 260 000 déjeuners/goûters/soupers
+            pour le lot 2 Le marché prend effet à compter de la réunion de lancement du marché
+            et se terminera à la fin de l'année scolaire 2028/2029. La date prévisionnelle du
+            début de prestation est fixée au 1er septembre 2025.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Enfance</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Petite enfance</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

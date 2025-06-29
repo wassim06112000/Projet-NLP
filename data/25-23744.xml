@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">20</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">FRANCE TRAVAIL - La Réunion</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Centre d'Affaires Cadjee Bât C 62 boulevard du Chaudron CS 52 008</cbc:StreetName>
+                                    <cbc:CityName>Saint-denis cedex 09</cbc:CityName>
+                                    <cbc:PostalZone>97744</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRY40</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000548117568</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>00000000000</cbc:Telephone>
+                                    <cbc:ElectronicMail>marches.97410@francetravail.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de la Réunion</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>27 Rue Felix Guyon CS 61107</cbc:StreetName>
+                                    <cbc:CityName>St-Denis Cedex</cbc:CityName>
+                                    <cbc:PostalZone>97404</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRY40</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17974005500019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">0c363b90-532f-4feb-8969-52da4bde587f</cbc:ID>
+            <cbc:ContractFolderID>69340a64-3120-4f47-81a4-9e28d7e97f0c</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-02+02:00</cbc:IssueDate>
+            <cbc:IssueTime>07:58:19+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-social</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.marches-publics.gouv.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">Les marchés sont passés selon une procédure adaptée selon des modalités librement définies par l'acheteur. Sous réserve de la recevabilité des offres, les marchés sont attribués, le cas échéant après conduite de négociations, sur la base des critères d'attribution fixés au Règlement de la consultation. La consultation se compose de deux lots géographiques.</cbc:Description>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Marché de services d'insertion professionnelle de type "Activ'Créa Emergence" destiné à des demandeurs d'emploi</cbc:Name>
+               <cbc:Description languageID="FRA">La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle de type " Activ'Créa Emergence" destinées aux personnes inscrites à France Travail. Les marchés prennent la forme d'accords-cadres conclus avec un unique Titulaire et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge fixé au présent avis pour chaque lot pour la période ferme d'exécution du marché. La prestation "Activ'Créa Emergence" a pour objet d'explorer l'opportunité de créer ou reprendre une entreprise, à partir de la situation du bénéficiaire et du marché du travail. Elle est d'une durée maximum de 2 mois</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot. France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.63161 du code du travail 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots. L'attention des candidats est attirée sur le fait qu'un même opérateur économique ne peut être mandataire de plus d'un groupement candidat à un même lot de la consultation. L'attention des candidats est également attirée sur le fait que, dans le cadre de la présente consultation et pour un même lot, un même opérateur économique n'est pas autorisé à candidater en qualité de mandataire d'un groupement et de candidat individuel. Ces lots sont attribués selon les modalités définies au Règlement de la consultation 3/ Une offre ne présentant pas de locaux dans un des lieux d'intervention obligatoires précisés au présent avis pour chaque lot ou un prix unitaire supérieur au prix plafond également précisé au présent avis pour chaque lot sera en particulier déclarée irrégulière. Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 4/ La date limite de remise des offres est fixée au 11/04/2025 à 12h00 en heure locale Ile de la Réunion 5/ Les marchés sont à conclure à compter du 01/07/2025, date de prise d'effet pour une période ferme de deux ans, reconductible expressément deux fois pour une période d'un an. A titre indicatif, la date prévisionnelle de notification des marchés est fixée au 10/06/2025  6/ Au titre de l'engagement d'insertion professionnelle, le Titulaire est tenu de réserver à des personnes rencontrant des difficultés d'insertion professionnelle le nombre d'heures annuel de travail précisé au présent avis pour chaque lot pour la période ferme d'exécution du marché dans les conditions fixées dans le Contrat 7/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.5511 du code de justice administrative b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.55113 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.5211 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès du directeur régional de France Travail La Réunion. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">80530000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AppealTerms>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:ProcurementProject>
+                  <cbc:ID>Lot n°1</cbc:ID>
+                  <cbc:Name languageID="FRA">Lot n°1 Activ'créa émergence Réunion- Arrondissements Nord et Est</cbc:Name>
+                  <cbc:Description languageID="FRA">Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">1/ Niveau minimum de capacité financière : 309 000 euros ; 
+2/ Lieux d'intervention obligatoires : Lieu 1 : Saint-Denis, Lieu 2 : Sainte-Marie, Lieu 3 : Saint-André et Lieu 4 : Saint-Benoît ;
+3/ Prix plafond : 578 euros ; 
+4/ Nombre maximum de bénéficiaires à prendre en charge : 3100 ;
+5/ Nombre annuel d'heures de travail à réaliser au titre de l'engagement d'insertion professionnelle : 342</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AppealTerms>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:ProcurementProject>
+                  <cbc:ID>Lot n°2</cbc:ID>
+                  <cbc:Name languageID="FRA">Lot n°2 Activ'créa émergence Réunion - Arrondissements Sud et Ouest</cbc:Name>
+                  <cbc:Description languageID="FRA">Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">1/ Niveau minimum de capacité financière : 588 000 euros ; 
+2/ Lieux d'intervention obligatoires : Lieu 1 : Le Port, Lieu 2 : Saint-Paul, Lieu 3 : Saint-Louis, Lieu 4 : Saint-Pierre,  Lieu 5 : Le Tampon et Lieu 6 : Saint-Joseph ;
+3/ Prix plafond : 585 euros ; 
+4/ Nombre maximum de bénéficiaires à prendre en charge : 5832 ; 
+5/ Nombre annuel d'heures de travail à réaliser au titre de l'engagement d'insertion professionnelle : 644</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">85312300</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23744</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE/>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>FRANCE TRAVAIL - La Réunion</NOMORGANISME>
+         <DATE_PUBLICATION>2025-03-04</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-04-11</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>274</CODE>
+               <LIBELLE>Prestations de services</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>974</DEP_PUBLICATION>
+         <RESUME_OBJET>Marché de services d'insertion professionnelle de type "Activ'Créa Emergence" destiné à des demandeurs d'emploi</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23744 du 02/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23744 du 02/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>974</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23744</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e146">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>FRANCE TRAVAIL - La Réunion</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e177">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Marché de services d'insertion professionnelle de type "Activ'Créa Emergence" destiné à des demandeurs d'emploi</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre de prestations de services d'insertion professionnelle de type " Activ'Créa Emergence" destinées aux personnes inscrites à France Travail. Les marchés prennent la forme d'accords-cadres conclus avec un unique Titulaire et avec un maximum en quantité, défini en nombre de bénéficiaires à prendre en charge fixé au présent avis pour chaque lot pour la période ferme d'exécution du marché. La prestation "Activ'Créa Emergence" a pour objet d'explorer l'opportunité de créer ou reprendre une entreprise, à partir de la situation du bénéficiaire et du marché du travail. Elle est d'une durée maximum de 2 mois</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>69340a64-3120-4f47-81a4-9e28d7e97f0c</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>Les marchés sont passés selon une procédure adaptée selon des modalités librement définies par l'acheteur. Sous réserve de la recevabilité des offres, les marchés sont attribués, le cas échéant après conduite de négociations, sur la base des critères d'attribution fixés au Règlement de la consultation. La consultation se compose de deux lots géographiques.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e177">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>80530000</span>
+                  <span/>
+                  <span>Services de formation professionnelle</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e177">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>1/Dans l'examen de la candidature, une attention particulière est portée au chiffre d'affaires : ne sont pas admises les candidatures des candidats dont le chiffre d'affaires global annuel moyen sur les 3 derniers exercices disponibles est strictement inférieur au niveau minimum de capacité financière précisé au présent avis pour chaque lot. France Travail s'assure par ailleurs de la capacité des candidats à dispenser une formation de qualité au travers de la détention de la certification prévue à l'article L.63161 du code du travail 2/ Les candidats peuvent présenter une offre pour un, plusieurs ou l'ensemble des lots. L'attention des candidats est attirée sur le fait qu'un même opérateur économique ne peut être mandataire de plus d'un groupement candidat à un même lot de la consultation. L'attention des candidats est également attirée sur le fait que, dans le cadre de la présente consultation et pour un même lot, un même opérateur économique n'est pas autorisé à candidater en qualité de mandataire d'un groupement et de candidat individuel. Ces lots sont attribués selon les modalités définies au Règlement de la consultation 3/ Une offre ne présentant pas de locaux dans un des lieux d'intervention obligatoires précisés au présent avis pour chaque lot ou un prix unitaire supérieur au prix plafond également précisé au présent avis pour chaque lot sera en particulier déclarée irrégulière. Sous peine d'irrégularité, la Proposition méthodologique est limitée à 100 pages en format A4, la taille de la police ne pouvant être inférieure à 10 4/ La date limite de remise des offres est fixée au 11/04/2025 à 12h00 en heure locale Ile de la Réunion 5/ Les marchés sont à conclure à compter du 01/07/2025, date de prise d'effet pour une période ferme de deux ans, reconductible expressément deux fois pour une période d'un an. A titre indicatif, la date prévisionnelle de notification des marchés est fixée au 10/06/2025 6/ Au titre de l'engagement d'insertion professionnelle, le Titulaire est tenu de réserver à des personnes rencontrant des difficultés d'insertion professionnelle le nombre d'heures annuel de travail précisé au présent avis pour chaque lot pour la période ferme d'exécution du marché dans les conditions fixées dans le Contrat 7/ Précisions concernant les délais d'introduction de recours : a. Avant la conclusion du contrat, recours sur la base de l'article L.5511 du code de justice administrative b. Après la conclusion du contrat : 1°) recours sur la base de l'article L.55113 du même code dans un délai de 31 jours à compter de la publication de l'avis d'attribution du contrat 2°) recours de pleine juridiction contestant la validité du contrat ou de certaines de ses clauses, dans un délai de 2 mois à compter de la publication de l'avis d'attribution du contrat, le cas échéant assorti d'une demande de suspension sur le fondement de l'article L.5211 du même code et/ou d'une demande indemnitaire. En cas de demande indemnitaire, un recours administratif préalable doit être exercé auprès du directeur régional de France Travail La Réunion. Un recours peut être formé dans un délai de 2 mois à compter de la date de la décision expresse ou implicite de rejet de la demande indemnitaire.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e205">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°1 Activ'créa émergence Réunion- Arrondissements Nord et Est</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Lot n°1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e272">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e205">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>1/ Niveau minimum de capacité financière : 309 000 euros ; 2/ Lieux d'intervention obligatoires : Lieu 1 : Saint-Denis, Lieu 2 : Sainte-Marie, Lieu 3 : Saint-André et Lieu 4 : Saint-Benoît ; 3/ Prix plafond : 578 euros ; 4/ Nombre maximum de bénéficiaires à prendre en charge : 3100 ; 5/ Nombre annuel d'heures de travail à réaliser au titre de l'engagement d'insertion professionnelle : 342</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e210">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e205">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e207">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de la Réunion</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e297">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Lot n°2 Activ'créa émergence Réunion - Arrondissements Sud et Ouest</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les informations spécifiques à ce lot sont précisées au point 5.1.6 à la rubrique "informations complémentaires"</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Lot n°2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e364">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>85312300</span>
+                  <span/>
+                  <span>Services d'orientation et de conseil professionnel</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e297">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>1/ Niveau minimum de capacité financière : 588 000 euros ; 2/ Lieux d'intervention obligatoires : Lieu 1 : Le Port, Lieu 2 : Saint-Paul, Lieu 3 : Saint-Louis, Lieu 4 : Saint-Pierre, Lieu 5 : Le Tampon et Lieu 6 : Saint-Joseph ; 3/ Prix plafond : 585 euros ; 4/ Nombre maximum de bénéficiaires à prendre en charge : 5832 ; 5/ Nombre annuel d'heures de travail à réaliser au titre de l'engagement d'insertion professionnelle : 644</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e302">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e297">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e299">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de la Réunion</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>FRANCE TRAVAIL - La Réunion</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000548117568</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Centre d'Affaires Cadjee Bât C 62 boulevard du Chaudron CS 52 008</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Saint-denis cedex 09</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>97744</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>La Réunion</span>
+               <span/>
+               <span>(</span>
+               <span>FRY40</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches.97410@francetravail.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>00000000000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e75">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de la Réunion</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17974005500019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>27 Rue Felix Guyon CS 61107</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>St-Denis Cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>97404</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>La Réunion</span>
+               <span/>
+               <span>(</span>
+               <span>FRY40</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>0c363b90-532f-4feb-8969-52da4bde587f</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché – régime assoupli</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>02/03/2025</span>
+               <span/>
+               <span>à 07:58</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>02/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">FRANCE TRAVAIL - La Réunion : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Centre d'Affaires Cadjee Bât C 62 boulevard du Chaudron CS 52 008 Saint-denis cedex
+                        09 97744 FRY40 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>00000000000</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches.97410@francetravail.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.marches-publics.gouv.fr" target="_blank" title="Aller sur la page https://www.marches-publics.gouv.fr - nouvelle fenêtre"><span>https://www.marches-publics.gouv.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Marché de services d'insertion professionnelle de type "Activ'Créa Emergence" destiné
+            à des demandeurs d'emploi</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>La consultation vise à la conclusion de marchés ayant pour objet la mise en oeuvre
+            de prestations de services d'insertion professionnelle de type " Activ'Créa Emergence"
+            destinées aux personnes inscrites à France Travail. Les marchés prennent la forme
+            d'accords-cadres conclus avec un unique Titulaire et avec un maximum en quantité,
+            défini en nombre de bénéficiaires à prendre en charge fixé au présent avis pour chaque
+            lot pour la période ferme d'exécution du marché. La prestation "Activ'Créa Emergence"
+            a pour objet d'explorer l'opportunité de créer ou reprendre une entreprise, à partir
+            de la situation du bénéficiaire et du marché du travail. Elle est d'une durée maximum
+            de 2 mois</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Lot n°1 Activ'créa émergence Réunion- Arrondissements Nord et Est</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Lot n°2 Activ'créa émergence Réunion - Arrondissements Sud et Ouest</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

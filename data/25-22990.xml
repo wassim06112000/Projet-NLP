@@ -1,0 +1,1261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.siaap.fr</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">SIAAP</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>2 rue Jules César</cbc:StreetName>
+                                    <cbc:CityName>Paris</cbc:CityName>
+                                    <cbc:PostalZone>75012</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>25755000400077</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>https://marchespublics.siaap.fr</cbc:Name>
+                                    <cbc:Telephone>+33 144754426</cbc:Telephone>
+                                    <cbc:ElectronicMail>marchesiaap@siaap.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://paris.tribunal-administratif.fr/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Paris</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>7 Rue de Jouy</cbc:StreetName>
+                                    <cbc:CityName>PARIS</cbc:CityName>
+                                    <cbc:PostalZone>75004</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>1</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+3344594400</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-paris@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">362f50ad-5ef5-4997-a5d3-88c48fa81af3</cbc:ID>
+            <cbc:ContractFolderID>bf09ee26-8f43-4ef0-97a2-50fd9ba6120b</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-27+01:00</cbc:IssueDate>
+            <cbc:IssueTime>15:20:07+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://marchespublics.siaap.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">env-pro</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Se référer aux documents de la consultation</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <ext:UBLExtensions>
+                  <ext:UBLExtension>
+                     <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                           <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                     </ext:ExtensionContent>
+                  </ext:UBLExtension>
+               </ext:UBLExtensions>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>25S0017</cbc:ID>
+               <cbc:Name languageID="FRA">Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</cbc:Name>
+               <cbc:Description languageID="FRA">Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:RequestedTenderTotal>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">3120000</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79511000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">79715000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Liste et description succincte des conditions :&#xD;
+- Soit le formulaire DC1- dernière version à jour -  " Lettre de candidature et habilitation du mandataire par ses cotraitants", dûment complété et signé, ou un document équivalent, et le formulaire DC2- dernière version à jour - " Déclaration du candidat individuel ou du membre du groupement ", dûment complété, ou un document équivalent&#xD;
+- Soit, conformément aux articles R2143-4 et R2143-16 du code de la commande publique, le pouvoir adjudicateur accepte que le candidat présente sa candidature sous la forme d'un DUME en lieu et place des documents mentionnés à l'article 5.1.1.1 du règlement de la consultation.&#xD;
+&#xD;
+Conformément aux articles R2143-5 à R2143-16 du code de la commande publique, le candidat retenu ne saurait être désigné définitivement comme titulaire de l'accord-cadre qu'à la condition de prouver qu'il ne se trouve dans aucun des cas d'interdiction de soumissionner prévus aux articles L2141-1 à L2141-5, L2141-7 à L2141-11, L2341-1 et L2341-5 du code de la commande publique.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Liste et description succincte des critères de sélection :&#xD;
+- Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du contrat, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ;&#xD;
+- Preuve d'une assurance des risques professionnels pertinents</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ;&#xD;
+- Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du contrat ;&#xD;
+- Une liste des principaux services effectuées au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé. Les livraisons sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;&#xD;
+- Des certificats de qualification professionnelle établis par des organismes indépendants. Sont acceptés tout moyen de preuve équivalent ainsi que les certificats équivalents d'organismes établis dans d'autres Etats membres ;&#xD;
+- Pour les entreprises nouvellement créées, les candidats devront fournir les éléments équivalents susceptibles de permettre d'apprécier leurs moyens (financiers, humains et matériels), ainsi que le cas échéant la liste des éventuelles prestations en cours en précisant pour chacune d'elles le montant et la nature des prestations exécutées.&#xD;
+- Le candidat doit produire, sous peine de rejet de sa candidature, les agréments du CNAPS des dirigeants, gérants ou associés de la personne morale.&#xD;
+- Le candidat doit produire, sous peine de rejet de sa candidature, l'autorisation d'exercice pour la personne morale ou pour l'exploitant individuel.</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DOC-1</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://marchespublics.siaap.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                     <cbc:Description languageID="FRA">La prestation est réservée à une profession déterminée : OUI</cbc:Description>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-mid</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Qualité de l'offre</cbc:Name>
+                           <cbc:Description languageID="FRA">Qualité de l'offre</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-mid</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Name languageID="FRA">Prix des prestations</cbc:Name>
+                           <cbc:Description languageID="FRA">Prix des prestations</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://marchespublics.siaap.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Précisions concernant les délais d'introduction de recours : &#xD;
+Référé précontractuel : Article L551-1 et s. du Code de justice administrative.&#xD;
+Référé contractuel : Article L551-13 et s. du Code de justice administrative.&#xD;
+Recours en contestation de la validité du contrat créé en de manière prétorienne par le Conseil d'Etat dans son arrêt Tarn-et-Garonne du 4 avril 2014&#xD;
+&#xD;
+Le recours de pleine juridiction en contestation de la validité du contrat peut être introduit par tout tiers à un contrat administratif susceptible d'être lésé dans ses intérêts de façon suffisamment directe et certaine par sa passation ou ses clauses dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité appropriées.&#xD;
+&#xD;
+Ou + Recours contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-03-28+01:00</cbc:EndDate>
+                     <cbc:EndTime>16:00:00+01:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:OpenTenderEvent>
+                     <cbc:OccurrenceDate>2025-03-31+02:00</cbc:OccurrenceDate>
+                     <cbc:OccurrenceTime>10:00:00+02:00</cbc:OccurrenceTime>
+                     <cbc:Description languageID="FRA">La présente consultation est lancée en Procédure adaptée conformément aux article R2123-1 3° du Code de la commande publique.&#xD;
+&#xD;
+Les prestations donnent lieu à un accord cadre mono-attributaire à prix mixtes sans montant minimum et avec un montant maximum annuel de 1 600 000 euros HT.&#xD;
+&#xD;
+La durée du marché court à partir de la date de notification du marché. &#xD;
+&#xD;
+Ce dernier est reconductible de manière tacite, 3 fois, pour une période de 1 An(s), soit une durée maximale de 4 An(s).&#xD;
+Les conditions de négociation sont les suivantes : Le pouvoir adjudicateur se réserve la possibilité de négocier avec les candidats ayant présenté les trois meilleures offres, et sous réserve d'un nombre suffisant d'offre.  &#xD;
+&#xD;
+Avance prévue : taux à 5%&#xD;
+Si le titulaire du marché est une entreprise référencée comme étant une petite ou moyenne entreprise (PME), et que l'avance est acceptée, le montant de celle-ci s'élèvera alors à 30 %.&#xD;
+&#xD;
+Modalités de financement des prestations : Les dépenses seront imputées sur la section 6282 du budget du syndicat, sur fonds propres.&#xD;
+L'attributaire pourra être une entreprise unique ou un groupement d'entreprises.&#xD;
+Aucune forme de groupement n'est imposée par le pouvoir adjudicateur.&#xD;
+Les groupements conjoints ou solidaires sont donc autorisés.&#xD;
+&#xD;
+Les critères de jugement des candidatures et des offres sont détaillés à l'article 6 du règlement de la consultation.&#xD;
+&#xD;
+Le dossier de consultation aux entreprises peut être téléchargé par voie électronique à l'adresse suivante : https://marchespublics.siaap.fr.&#xD;
+Les offres devront être remises obligatoirement par voie électronique et indiquer une date certaine de réception avec accusé de réception électronique à l'adresse suivante : https://marchespublics.siaap.fr&#xD;
+&#xD;
+Le fuseau horaire de référence est celui de Paris, Bruxelles, Copenhague, Madrid.&#xD;
+&#xD;
+L'attention des candidats est attirée sur le fait que l'adresse de messagerie qui aura servi au dépôt de l'offre électronique par le candidat servira d'adresse de référence pour le SIAAP, quelles que soient les éventuelles mentions contraires au sein de l'offre. Dès lors, cette adresse de messagerie sera utilisée par le SIAAP pour tous les échanges tels que demandes de complément de candidature, demande de précision sur l'offre, courrier aux candidats non retenus. Il est important que cette adresse de messagerie soit valide et joignable à tout moment au cours de la consultation par une personne compétente du candidat.&#xD;
+&#xD;
+Une copie de sauvegarde des plis remis par voie électronique peut être effectuée par les entreprises dans les conditions prévues à l'article R2132-11 du code de la commande publique.</cbc:Description>
+                  </cac:OpenTenderEvent>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:Name languageID="FRA">Sureté et sécurité des sites dépendants de la direction de Seine Centre</cbc:Name>
+                  <cbc:Description languageID="FRA">Sureté et sécurité des sites dépendants de la direction de Seine Centre</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">La valeur annuelle estimée sur la partie forfaitaire est de 710 000,00euros HT&#xD;
+La valeur annuelle estimée sur la partie unitaire est de 68 000,00euros HT&#xD;
+La valeur annuelle estimée sur l'ensemble du marché est de 780 000,00euros HT.</cbc:Note>
+                  <cac:RequestedTenderTotal>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">3120000</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79713000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79511000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79710000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79714000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">79715000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cbc:Description languageID="FRA">Lieu principal d'exécution : Sites de Seine Centre et La Cité de l'Eau</cbc:Description>
+                     <cac:Address>
+                        <cbc:CountrySubentityCode listName="nuts">FR101</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">12</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Ce marché peut faire l'objet d'une reconduction : OUI</cbc:OptionsDescription>
+                     <cbc:MaximumNumberNumeric>3</cbc:MaximumNumberNumeric>
+                     <cac:Renewal>
+                        <cac:Period>
+                           <cbc:Description languageID="FRA">Description des modalités ou du calendrier des reconductions : &#xD;
+Nombre de reconductions éventuelles : 3&#xD;
+Calendrier prévisionnel des marchés ultérieurs : 12 Mois (à compter de la date de notification)</cbc:Description>
+                        </cac:Period>
+                     </cac:Renewal>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-22990</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>SIAAP</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-01</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-03-28T16:00:00+01:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-03-28</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>138</CODE>
+               <LIBELLE>Gardiennage</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>75</DEP_PUBLICATION>
+         <DEP_PUBLICATION>92</DEP_PUBLICATION>
+         <RESUME_OBJET>Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-22990 du 27/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-22990 du 27/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>75, 92</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-22990</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e165">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>SIAAP</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Protection de l’environnement</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e225">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>bf09ee26-8f43-4ef0-97a2-50fd9ba6120b</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>25S0017</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e225">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79713000</span>
+                  <span/>
+                  <span>Services de gardiennage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79511000</span>
+                  <span/>
+                  <span>Services de standard téléphonique</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79710000</span>
+                  <span/>
+                  <span>Services de sécurité</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79714000</span>
+                  <span/>
+                  <span>Services de surveillance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79715000</span>
+                  <span/>
+                  <span>Services de patrouille</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e225">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>3,120,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e225">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e190">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>Se référer aux documents de la consultation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e276">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Sureté et sécurité des sites dépendants de la direction de Seine Centre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Sureté et sécurité des sites dépendants de la direction de Seine Centre</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e548">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79713000</span>
+                  <span/>
+                  <span>Services de gardiennage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79511000</span>
+                  <span/>
+                  <span>Services de standard téléphonique</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79710000</span>
+                  <span/>
+                  <span>Services de sécurité</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79714000</span>
+                  <span/>
+                  <span>Services de surveillance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>79715000</span>
+                  <span/>
+                  <span>Services de patrouille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Ce marché peut faire l'objet d'une reconduction : OUI</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e602">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Paris</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR101</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Lieu principal d'exécution : Sites de Seine Centre et La Cité de l'Eau</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e620">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>12</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e626">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>3</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">L’acheteur se réserve le droit d’effectuer des achats supplémentaires auprès du contractant, comme décrit ici</span>
+                  <span>:</span>
+                  <span>Description des modalités ou du calendrier des reconductions : Nombre de reconductions éventuelles : 3 Calendrier prévisionnel des marchés ultérieurs : 12 Mois (à compter de la date de notification)</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e565">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>3,120,000</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e276">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La valeur annuelle estimée sur la partie forfaitaire est de 710 000,00euros HT La valeur annuelle estimée sur la partie unitaire est de 68 000,00euros HT La valeur annuelle estimée sur l'ensemble du marché est de 780 000,00euros HT.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e281">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Liste et description succincte des conditions : - Soit le formulaire DC1- dernière version à jour - " Lettre de candidature et habilitation du mandataire par ses cotraitants", dûment complété et signé, ou un document équivalent, et le formulaire DC2- dernière version à jour - " Déclaration du candidat individuel ou du membre du groupement ", dûment complété, ou un document équivalent - Soit, conformément aux articles R2143-4 et R2143-16 du code de la commande publique, le pouvoir adjudicateur accepte que le candidat présente sa candidature sous la forme d'un DUME en lieu et place des documents mentionnés à l'article 5.1.1.1 du règlement de la consultation. Conformément aux articles R2143-5 à R2143-16 du code de la commande publique, le candidat retenu ne saurait être désigné définitivement comme titulaire de l'accord-cadre qu'à la condition de prouver qu'il ne se trouve dans aucun des cas d'interdiction de soumissionner prévus aux articles L2141-1 à L2141-5, L2141-7 à L2141-11, L2341-1 et L2341-5 du code de la commande publique.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Liste et description succincte des critères de sélection : - Déclaration concernant le chiffre d'affaires global du candidat et le chiffre d'affaires du domaine d'activité faisant l'objet du contrat, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ; - Preuve d'une assurance des risques professionnels pertinents</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années ; - Une description de l'outillage, du matériel et de l'équipement technique dont le candidat disposera pour la réalisation du contrat ; - Une liste des principaux services effectuées au cours des trois dernières années indiquant le montant, la date et le destinataire public ou privé. Les livraisons sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ; - Des certificats de qualification professionnelle établis par des organismes indépendants. Sont acceptés tout moyen de preuve équivalent ainsi que les certificats équivalents d'organismes établis dans d'autres Etats membres ; - Pour les entreprises nouvellement créées, les candidats devront fournir les éléments équivalents susceptibles de permettre d'apprécier leurs moyens (financiers, humains et matériels), ainsi que le cas échéant la liste des éventuelles prestations en cours en précisant pour chacune d'elles le montant et la nature des prestations exécutées. - Le candidat doit produire, sous peine de rejet de sa candidature, les agréments du CNAPS des dirigeants, gérants ou associés de la personne morale. - Le candidat doit produire, sous peine de rejet de sa candidature, l'autorisation d'exercice pour la personne morale ou pour l'exploitant individuel.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e379">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualité de l'offre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Qualité de l'offre</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, milieu d’une fourchette)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Prix des prestations</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix des prestations</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, milieu d’une fourchette)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e278">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://marchespublics.siaap.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e276">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://marchespublics.siaap.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>28/03/2025</span>
+                     <span/>
+                     <span>à 16:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>6</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives à l’ouverture publique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Date d'ouverture</span>
+                     <span>:</span>
+                     <span>31/03/2025</span>
+                     <span/>
+                     <span>à 10:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Informations complémentaires</span>
+                     <span>:</span>
+                     <span>La présente consultation est lancée en Procédure adaptée conformément aux article R2123-1 3° du Code de la commande publique. Les prestations donnent lieu à un accord cadre mono-attributaire à prix mixtes sans montant minimum et avec un montant maximum annuel de 1 600 000 euros HT. La durée du marché court à partir de la date de notification du marché. Ce dernier est reconductible de manière tacite, 3 fois, pour une période de 1 An(s), soit une durée maximale de 4 An(s). Les conditions de négociation sont les suivantes : Le pouvoir adjudicateur se réserve la possibilité de négocier avec les candidats ayant présenté les trois meilleures offres, et sous réserve d'un nombre suffisant d'offre. Avance prévue : taux à 5% Si le titulaire du marché est une entreprise référencée comme étant une petite ou moyenne entreprise (PME), et que l'avance est acceptée, le montant de celle-ci s'élèvera alors à 30 %. Modalités de financement des prestations : Les dépenses seront imputées sur la section 6282 du budget du syndicat, sur fonds propres. L'attributaire pourra être une entreprise unique ou un groupement d'entreprises. Aucune forme de groupement n'est imposée par le pouvoir adjudicateur. Les groupements conjoints ou solidaires sont donc autorisés. Les critères de jugement des candidatures et des offres sont détaillés à l'article 6 du règlement de la consultation. Le dossier de consultation aux entreprises peut être téléchargé par voie électronique à l'adresse suivante : https://marchespublics.siaap.fr. Les offres devront être remises obligatoirement par voie électronique et indiquer une date certaine de réception avec accusé de réception électronique à l'adresse suivante : https://marchespublics.siaap.fr Le fuseau horaire de référence est celui de Paris, Bruxelles, Copenhague, Madrid. L'attention des candidats est attirée sur le fait que l'adresse de messagerie qui aura servi au dépôt de l'offre électronique par le candidat servira d'adresse de référence pour le SIAAP, quelles que soient les éventuelles mentions contraires au sein de l'offre. Dès lors, cette adresse de messagerie sera utilisée par le SIAAP pour tous les échanges tels que demandes de complément de candidature, demande de précision sur l'offre, courrier aux candidats non retenus. Il est important que cette adresse de messagerie soit valide et joignable à tout moment au cours de la consultation par une personne compétente du candidat. Une copie de sauvegarde des plis remis par voie électronique peut être effectuée par les entreprises dans les conditions prévues à l'article R2132-11 du code de la commande publique.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Conditions relatives à l’exécution du contrat</span>
+                     <span>:</span>
+                     <span>La prestation est réservée à une profession déterminée : OUI</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Précisions concernant les délais d'introduction de recours : Référé précontractuel : Article L551-1 et s. du Code de justice administrative. Référé contractuel : Article L551-13 et s. du Code de justice administrative. Recours en contestation de la validité du contrat créé en de manière prétorienne par le Conseil d'Etat dans son arrêt Tarn-et-Garonne du 4 avril 2014 Le recours de pleine juridiction en contestation de la validité du contrat peut être introduit par tout tiers à un contrat administratif susceptible d'être lésé dans ses intérêts de façon suffisamment directe et certaine par sa passation ou ses clauses dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité appropriées. Ou + Recours contre une décision administrative prévu aux articles R. 421-1 à R. 421-7 du CJA, et pouvant être exercé dans les 2 mois suivant la notification ou publication de la décision de l'organisme.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e505">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e278">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>SIAAP</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Paris</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>SIAAP</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>25755000400077</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2 rue Jules César</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Paris</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75012</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>https://marchespublics.siaap.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marchesiaap@siaap.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 144754426</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.siaap.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://marchespublics.siaap.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e84">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Paris</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>7 Rue de Jouy</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>PARIS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>75004</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Paris</span>
+               <span/>
+               <span>(</span>
+               <span>FR101</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-paris@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+3344594400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://paris.tribunal-administratif.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>362f50ad-5ef5-4997-a5d3-88c48fa81af3</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>27/02/2025</span>
+               <span/>
+               <span>à 15:20</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>27/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">SIAAP : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>2 rue Jules César Paris 75012 FR101 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>https://marchespublics.siaap.fr</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 144754426</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marchesiaap@siaap.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.siaap.fr" target="_blank" title="Aller sur la page https://www.siaap.fr - nouvelle fenêtre"><span>https://www.siaap.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://marchespublics.siaap.fr" target="_blank" title="Aller sur la page https://marchespublics.siaap.fr - nouvelle fenêtre"><span>https://marchespublics.siaap.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Sureté et sécurité des installations de Seine Centre et de la Cité de l'Eau</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Sureté et sécurité des sites dépendants de la direction de Seine Centre</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

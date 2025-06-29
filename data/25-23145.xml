@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS>
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efbc:AcquiringCPBIndicator>false</efbc:AcquiringCPBIndicator>
+                              <efbc:AwardingCPBIndicator>false</efbc:AwardingCPBIndicator>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.marches-securises.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://www.chartres-metropole.fr/</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Chartres Métropole (28)</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Place des Halles</cbc:StreetName>
+                                    <cbc:Department>Commande publique</cbc:Department>
+                                    <cbc:CityName>Chartres cédex</cbc:CityName>
+                                    <cbc:PostalZone>28019</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRB02</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>20003318100013</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 237234064</cbc:Telephone>
+                                    <cbc:ElectronicMail>marches.publics@agglo-ville.chartres.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>http://orleans.tribunal-administratif.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://www.telerecours.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID>ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif d'Orléans</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>28 rue de la Bretonnerie</cbc:StreetName>
+                                    <cbc:Department>Greffe</cbc:Department>
+                                    <cbc:CityName>Orléans cedex 1</cbc:CityName>
+                                    <cbc:PostalZone>45057</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRB06</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17450005800022</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Greffe du Tribunal</cbc:Name>
+                                    <cbc:Telephone>+33 238775900</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-orleans@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">797292bf-5d09-46f8-9dda-8c7bb2360554</cbc:ID>
+            <cbc:ContractFolderID>36562a6f-1a33-444b-81a0-2b4745afdb96</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-27Z</cbc:IssueDate>
+            <cbc:IssueTime>17:45:56Z</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.marches-securises.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">grp-p-aut</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankr-nat</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">bankruptcy</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">corruption</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">cred-arran</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">crime-org</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">distorsion</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">envir-law</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">finan-laund</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">fraud</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">human-traffic</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">insolvency</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">liq-admin</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">misrepresent</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">partic-confl</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">prep-confl</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">prof-misconduct</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">sanction</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-law</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">socsec-pay</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">susp-act</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">tax-pay</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">terr-offence</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsAwardedNumeric>3</cbc:MaximumLotsAwardedNumeric>
+                  <cbc:MaximumLotsSubmittedNumeric>3</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">25A004 - Travaux de forage - Ressource en eau - Résilience 2050</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>Affaire 25A004</cbc:ID>
+               <cbc:Name languageID="FRA">Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</cbc:Name>
+               <cbc:Description languageID="FRA">Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">La procédure de passation utilisée est l'appel d'offres ouvert.
+Les prestations sont réparties en 3 lots. Il s'agit d'un marché à tranches. Celles-ci sont détaillées dans les parties 5.1.6 du présent avis. 
+
+Une visite sur site est obligatoire. L'offre d'un candidat qui n'a pas effectué cette visite sera déclarée irrégulière.
+Une première visite est programmée le vendredi 7 mars 2025, à partir de 9h. Les modalités sont indiquées au règlement de la consultation.
+Une seconde visite pourra être fixée ultérieurement.
+
+Le marché est conclu à compter de sa notification jusqu’à l’expiration du délai de garantie de parfait achèvement prévue au marché de la dernière tranche affermie.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">45262200</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">45120000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">76431500</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+               <cac:RealizedLocation>
+                  <cbc:Description languageID="FRA">Sur le territoire de Chartres Métropole</cbc:Description>
+                  <cac:Address>
+                     <cbc:CountrySubentityCode listName="nuts">FRB02</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Critères tels que mentionnés dans les documents de la consultation</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-securises.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Règlement : par mandat administratif en 30 jours maximum.						
+Financement : ressources propres
+Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique : Sous-critères détaillés dans les pièces de la consultation</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Prix des prestations</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-securises.fr</cbc:EndpointID>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderEvaluationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderEvaluationParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.
+Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA.
+Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées.
+Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>Portail profil acheteur territoire communautaire</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cbc:AccessToolsURI>https://www.c-chartres-marches.fr</cbc:AccessToolsURI>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-14+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>25A004-01</cbc:ID>
+                  <cbc:Name languageID="FRA">Travaux et diagnostic de forages</cbc:Name>
+                  <cbc:Description languageID="FRA">La nature et quantité et les besoins sont indiqués dans le cahier des charges</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Tranche ferme : travaux et diagnostics du forage AEP « M1 » (BSS000TUVT) situé à Bailleau-l’Évêque et du forage agricole BSS000TUXU situé à Berchères-Saint-Germain,
+
+Tranche optionnelle n°1 : travaux et diagnostic du forage de reconnaissance BSS000TWBD de Saint-Léger-des-Aubées.
+
+Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45120000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45262200</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">76431500</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>Chartres</cbc:CityName>
+                        <cbc:PostalZone>28000</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRB02</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Critères tels que mentionnés dans les documents de la consultation</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-securises.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Règlement : par mandat administratif en 30 jours maximum.						
+Financement : ressources propres
+Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique : Sous-critères détaillés dans les pièces de la consultation</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Prix des prestations</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-securises.fr</cbc:EndpointID>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderEvaluationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderEvaluationParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.
+Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA.
+Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées.
+Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>Portail profil acheteur territoire communautaire</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cbc:AccessToolsURI>https://www.c-chartres-marches.fr</cbc:AccessToolsURI>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-14+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>25A004-02</cbc:ID>
+                  <cbc:Name languageID="FRA">Création de forages exploitant la nappe de l'Albien</cbc:Name>
+                  <cbc:Description languageID="FRA">La nature et quantité et les besoins sont indiqués dans le cahier des charges</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Tranche ferme : Création d’un forage de reconnaissance captant la nappe de l’Albien;
+
+Tranche optionnelle 1 : Télescopage 219 mm
+
+Tranche optionnelle 2 : Alésage par underreamer 219 mm
+
+
+Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45120000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45262200</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">76431500</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>Chartres</cbc:CityName>
+                        <cbc:PostalZone>28000</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRB02</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0003</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Critères tels que mentionnés dans les documents de la consultation</cbc:Name>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>_DEFAULT_VALUE_CHANGE_ME_</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-securises.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Règlement : par mandat administratif en 30 jours maximum.						
+Financement : ressources propres
+Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">false</cbc:CompanyLegalFormCode>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">yes</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>60</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Valeur technique : Sous-critères détaillés dans les pièces de la consultation</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">per-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>40</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Prix des prestations</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:AdditionalInformationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:AdditionalInformationParty>
+                  <cac:DocumentProviderParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:DocumentProviderParty>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-securises.fr</cbc:EndpointID>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderEvaluationParty>
+                     <cac:PartyIdentification>
+                        <cbc:ID>ORG-0001</cbc:ID>
+                     </cac:PartyIdentification>
+                  </cac:TenderEvaluationParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">5</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat.
+Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA.
+Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées.
+Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>true</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>Portail profil acheteur territoire communautaire</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cbc:AccessToolsURI>https://www.c-chartres-marches.fr</cbc:AccessToolsURI>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-14+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AdditionalInformationRequestPeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:AdditionalInformationRequestPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>25A004-03</cbc:ID>
+                  <cbc:Name languageID="FRA">Création de forages exploitant la nappe de la Craie</cbc:Name>
+                  <cbc:Description languageID="FRA">La nature et quantité et les besoins sont indiqués dans le cahier des charges</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">works</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Tranche ferme : Création des forages de reconnaissance sur les sites 4.1, 4.2, 5.1, 5.2, 6 et 8;
+
+Tranche optionnelle 1 : Création du forage d’exploitation du site 2 (Berchères Saint-Germain);
+
+Tranche optionnelle 2 : Création du forage d’exploitation du site 3 (Saint-Léger des Aubées);
+
+Tranche optionnelle 3 : Transformation de 2 des 3 forages de reconnaissance du site 4 (Nogent-le-Phaye) en forages d’exploitation;
+
+Tranche optionnelle 4 : Transformation du forage de reconnaissance du site 5.1 (Maintenon) en forage d’exploitation;
+
+Tranche optionnelle 5 : Transformation du forage de reconnaissance du site 5.2 (Houx) en forage d’exploitation;
+
+Tranche optionnelle 6 : Transformation du forage de reconnaissance du site 6 (Roinville) en forage d’exploitation;
+
+Tranche optionnelle 7 : Transformation du forage de reconnaissance du site 8 (Saint-Georges-sur-Eure) en forage d’exploitation;
+
+Tranche optionnelle 8 : Création des piézomètres;
+
+Tranche optionnelle 9 : Comblement des forages non conservés.
+
+
+Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</cbc:Note>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="environmental-impact">other</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45120000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45262200</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">76431500</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>Chartres</cbc:CityName>
+                        <cbc:PostalZone>28000</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FRB02</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23145</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Chartres Métropole (28)</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-01</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-14T15:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-14</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>48</CODE>
+               <LIBELLE>Canalisations</LIBELLE>
+            </DESCRIPTEUR>
+            <DESCRIPTEUR>
+               <CODE>132</CODE>
+               <LIBELLE>Forage</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <TRAVAUX/>
+         </NATURE_MARCHE>
+         <CRITERES_SOCIAUX_ENV>
+            <SOCIAUX/>
+            <ENVIRONNEMENTAUX/>
+         </CRITERES_SOCIAUX_ENV>
+         <DEP_PUBLICATION>28</DEP_PUBLICATION>
+         <RESUME_OBJET>25A004 - Travaux de forage - Ressource en eau - Résilience 2050</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23145 du 27/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23145 du 27/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>28</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23145</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e173">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Chartres Métropole (28)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Groupement d’autorités publiques</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e368">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>36562a6f-1a33-444b-81a0-2b4745afdb96</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>Affaire 25A004</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>25A004 - Travaux de forage - Ressource en eau - Résilience 2050</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e368">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45262200</span>
+                  <span/>
+                  <span>Travaux de fondation et forage de puits de captage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45120000</span>
+                  <span/>
+                  <span>Travaux de sondage et de forage de reconnaissance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>76431500</span>
+                  <span/>
+                  <span>Services de suivi de forage de puits</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e408">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Eure-et-Loir</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRB02</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Sur le territoire de Chartres Métropole</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e368">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La procédure de passation utilisée est l'appel d'offres ouvert. Les prestations sont réparties en 3 lots. Il s'agit d'un marché à tranches. Celles-ci sont détaillées dans les parties 5.1.6 du présent avis. Une visite sur site est obligatoire. L'offre d'un candidat qui n'a pas effectué cette visite sera déclarée irrégulière. Une première visite est programmée le vendredi 7 mars 2025, à partir de 9h. Les modalités sont indiquées au règlement de la consultation. Une seconde visite pourra être fixée ultérieurement. Le marché est conclu à compter de sa notification jusqu’à l’expiration du délai de garantie de parfait achèvement prévue au marché de la dernière tranche affermie.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pouvant être attribués à un soumissionnaire dans le cadre de marchés</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e198">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Situation analogue à la faillite prévue dans la législation nationale</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Faillite</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Corruption</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Concordat</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Participation à une organisation criminelle</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Accords avec d’autres opérateurs économiques en vue de fausser la concurrence</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Manquement aux obligations dans le domaine du droit environnemental</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Blanchiment de capitaux ou financement du terrorisme</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Fraude</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Travail des enfants et autres formes de traite des êtres humains</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Insolvabilité</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Manquement aux obligations dans le domaine du droit du travail</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Biens administrés par un liquidateur</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Coupable de fausses déclarations, non-communication, n’a pas été en mesure de fournir les documents requis et a obtenu des informations confidentielles de la présente procédure</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Conflit d’intérêt créé par sa participation à la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Association directe ou indirecte à la préparation de cette procédure de passation de marché</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Coupable d’une faute professionnelle grave</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Résiliation, dommages et intérêts ou autres sanctions comparables</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Manquement aux obligations dans le domaine du droit social</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Paiement des cotisations de sécurité sociale</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>État de cessation d’activités</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Paiement d’impôts et taxes</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span>Infractions terroristes ou infractions liées aux activités terroristes</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e422">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Travaux et diagnostic de forages</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La nature et quantité et les besoins sont indiqués dans le cahier des charges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>25A004-01</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e715">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45120000</span>
+                  <span/>
+                  <span>Travaux de sondage et de forage de reconnaissance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45262200</span>
+                  <span/>
+                  <span>Travaux de fondation et forage de puits de captage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>76431500</span>
+                  <span/>
+                  <span>Services de suivi de forage de puits</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e756">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Chartres</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>28000</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Eure-et-Loir</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRB02</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e775">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Autre durée</span>
+                  <span>:</span>
+                  <span>Inconnu</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e422">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés</span>
+                  <span>:</span>
+                  <span>Non requises</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Tranche ferme : travaux et diagnostics du forage AEP « M1 » (BSS000TUVT) situé à Bailleau-l’Évêque et du forage agricole BSS000TUXU situé à Berchères-Saint-Germain, Tranche optionnelle n°1 : travaux et diagnostic du forage de reconnaissance BSS000TWBD de Saint-Léger-des-Aubées. Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e715">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e427">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Critères tels que mentionnés dans les documents de la consultation</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e510">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique : Sous-critères détaillés dans les pièces de la consultation</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix des prestations</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e424">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>04/04/2025</span>
+                  <span/>
+                  <span>à 15:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-securises.fr</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Portail profil acheteur territoire communautaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">URL</span>
+                     <span>:</span>
+                     <span>https://www.c-chartres-marches.fr</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e422">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-securises.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>14/04/2025</span>
+                     <span/>
+                     <span>à 15:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>5</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Règlement : par mandat administratif en 30 jours maximum. Financement : ressources propres Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA. Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées. Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e659">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e424">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e790">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Création de forages exploitant la nappe de l'Albien</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La nature et quantité et les besoins sont indiqués dans le cahier des charges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>25A004-02</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1083">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45120000</span>
+                  <span/>
+                  <span>Travaux de sondage et de forage de reconnaissance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45262200</span>
+                  <span/>
+                  <span>Travaux de fondation et forage de puits de captage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>76431500</span>
+                  <span/>
+                  <span>Services de suivi de forage de puits</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e1124">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Chartres</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>28000</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Eure-et-Loir</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRB02</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1143">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Autre durée</span>
+                  <span>:</span>
+                  <span>Inconnu</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e790">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés</span>
+                  <span>:</span>
+                  <span>Non requises</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Tranche ferme : Création d’un forage de reconnaissance captant la nappe de l’Albien; Tranche optionnelle 1 : Télescopage 219 mm Tranche optionnelle 2 : Alésage par underreamer 219 mm Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e1083">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e795">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Critères tels que mentionnés dans les documents de la consultation</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e878">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique : Sous-critères détaillés dans les pièces de la consultation</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix des prestations</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e792">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>04/04/2025</span>
+                  <span/>
+                  <span>à 15:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-securises.fr</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Portail profil acheteur territoire communautaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">URL</span>
+                     <span>:</span>
+                     <span>https://www.c-chartres-marches.fr</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e790">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-securises.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>14/04/2025</span>
+                     <span/>
+                     <span>à 15:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>5</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Règlement : par mandat administratif en 30 jours maximum. Financement : ressources propres Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA. Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées. Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1027">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e792">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e1159">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Création de forages exploitant la nappe de la Craie</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>La nature et quantité et les besoins sont indiqués dans le cahier des charges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>25A004-03</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e1452">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Marché de travaux</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45120000</span>
+                  <span/>
+                  <span>Travaux de sondage et de forage de reconnaissance</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45262200</span>
+                  <span/>
+                  <span>Travaux de fondation et forage de puits de captage</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>76431500</span>
+                  <span/>
+                  <span>Services de suivi de forage de puits</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Le pouvoir adjudicateur pourra confier au titulaire du marché, en application de la procédure négociée sans publicité ni mise en concurrence préalable des Articles L. 2122-1 et R. 2122-7 du Code de la commande publique, un ou plusieurs nouveaux marchés ayant pour objet la réalisation de prestations similaires.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e1493">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Chartres</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>28000</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Eure-et-Loir</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRB02</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e1512">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Autre durée</span>
+                  <span>:</span>
+                  <span>Inconnu</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e1159">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés</span>
+                  <span>:</span>
+                  <span>Non requises</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Tranche ferme : Création des forages de reconnaissance sur les sites 4.1, 4.2, 5.1, 5.2, 6 et 8; Tranche optionnelle 1 : Création du forage d’exploitation du site 2 (Berchères Saint-Germain); Tranche optionnelle 2 : Création du forage d’exploitation du site 3 (Saint-Léger des Aubées); Tranche optionnelle 3 : Transformation de 2 des 3 forages de reconnaissance du site 4 (Nogent-le-Phaye) en forages d’exploitation; Tranche optionnelle 4 : Transformation du forage de reconnaissance du site 5.1 (Maintenon) en forage d’exploitation; Tranche optionnelle 5 : Transformation du forage de reconnaissance du site 5.2 (Houx) en forage d’exploitation; Tranche optionnelle 6 : Transformation du forage de reconnaissance du site 6 (Roinville) en forage d’exploitation; Tranche optionnelle 7 : Transformation du forage de reconnaissance du site 8 (Saint-Georges-sur-Eure) en forage d’exploitation; Tranche optionnelle 8 : Création des piézomètres; Tranche optionnelle 9 : Comblement des forages non conservés. Des délais d'exécution maximums sont indiqués dans l'acte d'engagement par le pouvoir adjudicateur. Le candidat devra proposer des délais d'exécution inférieurs.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e1452">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Méthode utilisée pour réduire l’incidence environnementale</span>
+                  <span>:</span>
+                  <span>Autre</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e1164">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Critères tels que mentionnés dans les documents de la consultation</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e1247">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Valeur technique : Sous-critères détaillés dans les pièces de la consultation</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>60</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix des prestations</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (pourcentage, valeur exacte)</span>
+                     <span>:</span>
+                     <span>40</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e1161">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date limite de demande d’informations complémentaires</span>
+                  <span>:</span>
+                  <span>04/04/2025</span>
+                  <span/>
+                  <span>à 15:00</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-securises.fr</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Portail profil acheteur territoire communautaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">URL</span>
+                     <span>:</span>
+                     <span>https://www.c-chartres-marches.fr</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e1159">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-securises.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>14/04/2025</span>
+                     <span/>
+                     <span>à 15:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>5</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">oui</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Règlement : par mandat administratif en 30 jours maximum. Financement : ressources propres Si avance : Obligation de fournir une garantie à première demande (ou caution personnelle et solidaire) pour recevoir l’avance</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Référé pré contractuel : articles L551-1 à 12 et R551-6 du code de justice administrative (CJA), et pouvant être exercé avant la signature du contrat. Référé contractuel : articles L551- 13 et suivants et R551-7 à 10 CJA, et pouvant être exercé dans les délais du R551-7 CJA. Recours en contestation de validité du contrat - jurisprudence "Tarn et Garonne" pouvant être exercé par les tiers au contrat, sans considération de qualité, dans un délai de 2 mois à compter des mesures de publicité appropriées. Le tribunal administratif peut être saisi par l’application informatique "Télérecours citoyens" accessible par le site Internet http://www.telerecours.fr ».</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e1396">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e1161">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif d'Orléans</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+                  <span>:</span>
+                  <span>Chartres Métropole (28)</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Chartres Métropole (28)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>20003318100013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>Commande publique</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place des Halles</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Chartres cédex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>28019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Eure-et-Loir</span>
+               <span/>
+               <span>(</span>
+               <span>FRB02</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marches.publics@agglo-ville.chartres.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 237234064</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.marches-securises.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://www.chartres-metropole.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.marches-securises.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des informations complémentaires sur la procédure de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit un accès hors ligne aux documents de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui reçoit les demandes de participation</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui traite les offres</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e86">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif d'Orléans</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17450005800022</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>Greffe</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>28 rue de la Bretonnerie</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Orléans cedex 1</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>45057</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Loiret</span>
+               <span/>
+               <span>(</span>
+               <span>FRB06</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Greffe du Tribunal</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-orleans@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 238775900</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>http://orleans.tribunal-administratif.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://www.telerecours.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>797292bf-5d09-46f8-9dda-8c7bb2360554</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>27/02/2025</span>
+               <span/>
+               <span>à 17:45</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>27/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Chartres Métropole (28) : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Place des Halles Commande publique Chartres cédex 28019 FRB02 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 237234064</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marches.publics@agglo-ville.chartres.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.marches-securises.fr" target="_blank" title="Aller sur la page https://www.marches-securises.fr - nouvelle fenêtre"><span>https://www.marches-securises.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.marches-securises.fr" target="_blank" title="Aller sur la page https://www.marches-securises.fr - nouvelle fenêtre"><span>https://www.marches-securises.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Affaire 25A004 - Travaux de forage - Ressource en eau - Résilience 2050</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Travaux et diagnostic de forages</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Création de forages exploitant la nappe de l'Albien</li>
+               <li><span class="fr-text--bold">Lot 3 : </span>Création de forages exploitant la nappe de la Craie</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

@@ -1,0 +1,1338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://mpe.mairie-marseille.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>https://mpe.mairie-marseille.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">VILLE DE MARSEILLE</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:Department>Bouches du Rhône</cbc:Department>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>13233 Cedex 20</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21130055300016</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0491551111</cbc:Telephone>
+                                    <cbc:ElectronicMail>guichet-dmp@marseille.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://marseille.tribunal-administratif.fr/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Marseille</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Marseille</cbc:CityName>
+                                    <cbc:PostalZone>Ville de Marseille</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRL04</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>171 300 056 00024</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>04 91 13 48 13</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-marseille@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">5208981d-573a-4d68-b42d-50fecede5477</cbc:ID>
+            <cbc:ContractFolderID>d433155c-57ed-4909-8d68-44f4d91da369</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:39:52+02:00</cbc:IssueTime>
+            <cbc:VersionID>03</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+               <cac:LotDistribution>
+                  <cbc:MaximumLotsAwardedNumeric>2</cbc:MaximumLotsAwardedNumeric>
+                  <cbc:MaximumLotsSubmittedNumeric>2</cbc:MaximumLotsSubmittedNumeric>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille</cbc:Name>
+               <cbc:Description languageID="FRA">Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">77320000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant la situation juridique du candidat</cbc:Name>
+                                 <cbc:Description languageID="FRA">Lettre de candidature (pouvant prendra la forme du DC1) dûment remplie et comprenant la déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles L2141-1 à 11 du Code de la commande publique. Le cas échéant, en cas de
+redressement judiciaire, la copie du ou des jugements prononcés à cet effet
+justifiant que le candidat a bien été habilité à poursuivre son activité pendant la
+durée prévisible d'exécution du marché.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant la capacité économique et financière de l'entreprise</cbc:Name>
+                                 <cbc:Description languageID="FRA"> - Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du marché, réalisés au cours des trois derniers exercices disponibles. 
+Les entreprises nouvellement créées ne pouvant produire les chiffres d'affaires des trois derniers exercices devront fournir :
+- une copie certifiée du récépissé de dépôt du centre de formalités des entreprises (pour vérifier la date de création de l'entreprise),
+- le montant de leur capital social (pour justifier de leurs capacités économiques et financières).
+
+La capacité à réaliser le marché sera appréciée en fonction de la moyenne du chiffre d'affaires relatif aux prestations liées à l'objet du marché sur les trois derniers exercices qui devra être au moins égale à 
+1 000 000 Euros HT. </cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant les références professionnelles et la capacité technique du candidat</cbc:Name>
+                                 <cbc:Description languageID="FRA">- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années
+- L'attention de chaque candidat est attirée sur le fait qu'il sera tenu compte d'un effectif minimum, sur le dernier exercice, de 3 personnes d'exécution technique dédiées aux prestations objet du marché.
+
+- Certificats de qualifications professionnelles établis par des organismes indépendants en rapport avec les prestations demandées :
+Certificats de qualification haute tension pour chaque technicien 
+
+Toutefois, l'acheteur accepte tout moyen de preuve équivalent ainsi que les certificats équivalents d'organismes établis dans d'autres états membres. 
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Le jugement des offres sera effectué sur les critères pondérés suivants :
+
+1°) Prix de l'offre 60 %
+2°) Valeur technique de l'offre 40 %
+
+Le détail des sous-critères est décrit à l'article 6.2 du RC. </cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>UNIQUE</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://mpe.mairiemarseille.fr/entreprise</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://mpe.mairiemarseille.fr/entreprise</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>16:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>lot 1</cbc:ID>
+                  <cbc:Name languageID="FRA">Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 1er, 6e, 7e, 8e, 9e, 10e, 11e et 12e arrondissements</cbc:Name>
+                  <cbc:Description languageID="FRA"> Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 1er, 6e, 7e, 8e, 9e, 10e, 11e et 12e arrondissements</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">La durée du marché se définit comme suit : 
+Le marché est conclu pour une période initiale d'un an à compter de la date de notification. 
+Le marché est reconductible par période d'un an à compter de la date anniversaire du marché, dans la limite de trois reconductions. 
+
+La reconduction du marché se fera de manière tacite.
+
+En cas de décision de non reconduction du marché, le représentant du pouvoir adjudicateur transmet sa décision au titulaire par lettre recommandée avec accusé de réception au plus tard 1 mois avant la fin de la durée de validité du marché.
+
+Les bons de commande émis en fin de marché ne pourront voir leur exécution se prolonger de plus de 3 mois après la date d'expiration du marché.
+
+Les bons de commandes doivent être émis avant le début des prestations et ils pourront être émis jusqu'au dernier jour de la période de validité du marché. Lorsque le montant maximum annuel est atteint avant la fin de la période, le pouvoir adjudicateur pourra exécuter par anticipation la nouvelle période d'exécution. La durée totale du marché sera réduite d'autant. 
+
+Le nombre d'heures d'insertion à réaliser dans l'exécution de la prestation est le suivant : 
+- Lot 1 : 350 heures annuelles
+
+Le jugement des offres sera effectué sur les critères pondérés suivants :
+
+1°) Prix de l'offre 60 %
+2°) Valeur technique de l'offre 40 %
+Le détail des sous-critères est indiqué à l'article 6.2 du RC. 
+
+
+
+</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">77320000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">48</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant la situation juridique du candidat</cbc:Name>
+                                 <cbc:Description languageID="FRA">Lettre de candidature (pouvant prendra la forme du DC1) dûment remplie et comprenant la déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles L2141-1 à 11 du Code de la commande publique.
+
+Le cas échéant, en cas de redressement judiciaire, la copie du ou des jugements prononcés à cet effet justifiant que le candidat a bien été habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant la capacité économique et financière de l'entreprise</cbc:Name>
+                                 <cbc:Description languageID="FRA">- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du marché, réalisés au cours des trois derniers exercices disponibles. 
+Les entreprises nouvellement créées ne pouvant produire les chiffres d'affaires des trois derniers exercices devront fournir :
+- une copie certifiée du récépissé de dépôt du centre de formalités des entreprises (pour vérifier la date de création de l'entreprise),
+- le montant de leur capital social (pour justifier de leurs capacités économiques et financières).
+La capacité à réaliser le marché sera appréciée en fonction du chiffre d'affaires relatif aux prestations liées à l'objet du marché sur le dernier exercice, qui devra être au moins égal à 
+200 000 Euros H.T pour l'obtention d'un lot et à 400 000 Euros H.T pour l'obtention des deux lots. </cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Renseignements concernant les références professionnelles et la capacité technique du candidat</cbc:Name>
+                                 <cbc:Description languageID="FRA"> A défaut des certificats de qualification, la capacité du candidat pourra être apportée par tout moyen, notamment par la présentation d'une liste détaillée de prestations exécutées et significatives par rapport aux chiffres d'affaires déclarés pour l'objet du marché, au cours des 3 dernières années, en indiquant le montant, la date, le lieu d'exécution des travaux et les coordonnées des maîtres d'ouvrages. Cette liste peut être appuyée d'attestations de bonne exécution pour les prestations les plus importantes.
+- Qualifications :
+Qualisport 850 - Maintenance terrain grand jeu gazon naturel, stabilisé et synthétique
+- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.
+Niveaux minimaux de capacité exigés : l'attention de chaque candidat est attirée sur le fait qu'il sera tenu compte d'un effectif minimum de 6 personnels d'exécution et un personnel encadrant pour l'obtention d'un lot et de 12 personnels d'exécution et 2 personnels encadrants pour l'obtention de deux lots. </cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>UNIQUE</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://mpe.mairiemarseille.fr/entreprise</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://mpe.mairiemarseille.fr/entreprise</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="MONTH">6</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>false</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>16:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-wo-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>lot 2</cbc:ID>
+                  <cbc:Name languageID="FRA">Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 2e, 3e, 4e, 5e, 13e, 14e, 15e, 16e arrondissements et équipements rattachés</cbc:Name>
+                  <cbc:Description languageID="FRA">Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 2e, 3e, 4e, 5e, 13e, 14e, 15e, 16e arrondissements et équipements rattachés</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">La durée du marché se définit comme suit : 
+Le marché est conclu pour une période initiale d'un an à compter de la date de notification. 
+Le marché est reconductible par période d'un an à compter de la date anniversaire du marché, dans la limite de trois reconductions. 
+
+La reconduction du marché se fera de manière tacite.
+
+En cas de décision de non reconduction du marché, le représentant du pouvoir adjudicateur transmet sa décision au titulaire par lettre recommandée avec accusé de réception au plus tard 1 mois avant la fin de la durée de validité du marché.
+
+Les bons de commande émis en fin de marché ne pourront voir leur exécution se prolonger de plus de 3 mois après la date d'expiration du marché.
+
+Les bons de commandes doivent être émis avant le début des prestations et ils pourront être émis jusqu'au dernier jour de la période de validité du marché. Lorsque le montant maximum annuel est atteint avant la fin de la période, le pouvoir adjudicateur pourra exécuter par anticipation la nouvelle période d'exécution. La durée totale du marché sera réduite d'autant. 
+
+Le nombre d'heures d'insertion à réaliser dans l'exécution de la prestation est le suivant : 
+- Lot 1 : 350 heures annuelles
+
+Le jugement des offres sera effectué sur les critères pondérés suivants :
+
+1°) Prix de l'offre 60 %
+2°) Valeur technique de l'offre 40 %
+Le détail des sous-critères est indiqué à l'article 6.2 du RC. 
+
+</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">77320000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:PlannedPeriod>
+                     <cbc:DescriptionCode listName="timeperiod">UNKNOWN</cbc:DescriptionCode>
+                  </cac:PlannedPeriod>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23553</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>VILLE DE MARSEILLE</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-07T16:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-04</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>116</CODE>
+               <LIBELLE>Espaces verts</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>13</DEP_PUBLICATION>
+         <RESUME_OBJET>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23553 du 28/02/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23553 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>13</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23553</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e159">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>VILLE DE MARSEILLE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e207">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>d433155c-57ed-4909-8d68-44f4d91da369</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e207">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>77320000</span>
+                  <span/>
+                  <span>Entretien de pelouses sportives</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e207">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.5_d1e9">
+               <span>2.1.5</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pour lesquels un soumissionnaire peut présenter une offre</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de lots pouvant être attribués à un soumissionnaire dans le cadre de marchés</span>
+                     <span>:</span>
+                     <span>2</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e182">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e225">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 1er, 6e, 7e, 8e, 9e, 10e, 11e et 12e arrondissements</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 1er, 6e, 7e, 8e, 9e, 10e, 11e et 12e arrondissements</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>lot 1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e418">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>77320000</span>
+                  <span/>
+                  <span>Entretien de pelouses sportives</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e441">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>48</span>
+                  <span/>
+                  <span class="fr-text--bold">Mois</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e225">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La durée du marché se définit comme suit : Le marché est conclu pour une période initiale d'un an à compter de la date de notification. Le marché est reconductible par période d'un an à compter de la date anniversaire du marché, dans la limite de trois reconductions. La reconduction du marché se fera de manière tacite. En cas de décision de non reconduction du marché, le représentant du pouvoir adjudicateur transmet sa décision au titulaire par lettre recommandée avec accusé de réception au plus tard 1 mois avant la fin de la durée de validité du marché. Les bons de commande émis en fin de marché ne pourront voir leur exécution se prolonger de plus de 3 mois après la date d'expiration du marché. Les bons de commandes doivent être émis avant le début des prestations et ils pourront être émis jusqu'au dernier jour de la période de validité du marché. Lorsque le montant maximum annuel est atteint avant la fin de la période, le pouvoir adjudicateur pourra exécuter par anticipation la nouvelle période d'exécution. La durée totale du marché sera réduite d'autant. Le nombre d'heures d'insertion à réaliser dans l'exécution de la prestation est le suivant : - Lot 1 : 350 heures annuelles Le jugement des offres sera effectué sur les critères pondérés suivants : 1°) Prix de l'offre 60 % 2°) Valeur technique de l'offre 40 % Le détail des sous-critères est indiqué à l'article 6.2 du RC.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e230">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant la situation juridique du candidat</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Lettre de candidature (pouvant prendra la forme du DC1) dûment remplie et comprenant la déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles L2141-1 à 11 du Code de la commande publique. Le cas échéant, en cas de redressement judiciaire, la copie du ou des jugements prononcés à cet effet justifiant que le candidat a bien été habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant la capacité économique et financière de l'entreprise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du marché, réalisés au cours des trois derniers exercices disponibles. Les entreprises nouvellement créées ne pouvant produire les chiffres d'affaires des trois derniers exercices devront fournir : - une copie certifiée du récépissé de dépôt du centre de formalités des entreprises (pour vérifier la date de création de l'entreprise), - le montant de leur capital social (pour justifier de leurs capacités économiques et financières). La capacité à réaliser le marché sera appréciée en fonction de la moyenne du chiffre d'affaires relatif aux prestations liées à l'objet du marché sur les trois derniers exercices qui devra être au moins égale à 1 000 000 Euros HT.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant les références professionnelles et la capacité technique du candidat</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années - L'attention de chaque candidat est attirée sur le fait qu'il sera tenu compte d'un effectif minimum, sur le dernier exercice, de 3 personnes d'exécution technique dédiées aux prestations objet du marché. - Certificats de qualifications professionnelles établis par des organismes indépendants en rapport avec les prestations demandées : Certificats de qualification haute tension pour chaque technicien Toutefois, l'acheteur accepte tout moyen de preuve équivalent ainsi que les certificats équivalents d'organismes établis dans d'autres états membres.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Le jugement des offres sera effectué sur les critères pondérés suivants : 1°) Prix de l'offre 60 % 2°) Valeur technique de l'offre 40 % Le détail des sous-critères est décrit à l'article 6.2 du RC.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e227">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://mpe.mairiemarseille.fr/entreprise</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e225">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://mpe.mairiemarseille.fr/entreprise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 16:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>6</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e385">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e227">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Marseille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>VILLE DE MARSEILLE</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e449">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 2e, 3e, 4e, 5e, 13e, 14e, 15e, 16e arrondissements et équipements rattachés</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et aires de réception du patrimoine de la Ville de Marseille dans les 2e, 3e, 4e, 5e, 13e, 14e, 15e, 16e arrondissements et équipements rattachés</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>lot 2</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e633">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>77320000</span>
+                  <span/>
+                  <span>Entretien de pelouses sportives</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e656">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Autre durée</span>
+                  <span>:</span>
+                  <span>Inconnu</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e449">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La durée du marché se définit comme suit : Le marché est conclu pour une période initiale d'un an à compter de la date de notification. Le marché est reconductible par période d'un an à compter de la date anniversaire du marché, dans la limite de trois reconductions. La reconduction du marché se fera de manière tacite. En cas de décision de non reconduction du marché, le représentant du pouvoir adjudicateur transmet sa décision au titulaire par lettre recommandée avec accusé de réception au plus tard 1 mois avant la fin de la durée de validité du marché. Les bons de commande émis en fin de marché ne pourront voir leur exécution se prolonger de plus de 3 mois après la date d'expiration du marché. Les bons de commandes doivent être émis avant le début des prestations et ils pourront être émis jusqu'au dernier jour de la période de validité du marché. Lorsque le montant maximum annuel est atteint avant la fin de la période, le pouvoir adjudicateur pourra exécuter par anticipation la nouvelle période d'exécution. La durée totale du marché sera réduite d'autant. Le nombre d'heures d'insertion à réaliser dans l'exécution de la prestation est le suivant : - Lot 1 : 350 heures annuelles Le jugement des offres sera effectué sur les critères pondérés suivants : 1°) Prix de l'offre 60 % 2°) Valeur technique de l'offre 40 % Le détail des sous-critères est indiqué à l'article 6.2 du RC.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e454">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant la situation juridique du candidat</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Lettre de candidature (pouvant prendra la forme du DC1) dûment remplie et comprenant la déclaration sur l'honneur justifiant qu'il n'entre dans aucun des cas d'interdiction de soumissionner obligatoires prévus aux articles L2141-1 à 11 du Code de la commande publique. Le cas échéant, en cas de redressement judiciaire, la copie du ou des jugements prononcés à cet effet justifiant que le candidat a bien été habilité à poursuivre son activité pendant la durée prévisible d'exécution du marché.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant la capacité économique et financière de l'entreprise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires du domaine d'activité faisant l'objet du marché, réalisés au cours des trois derniers exercices disponibles. Les entreprises nouvellement créées ne pouvant produire les chiffres d'affaires des trois derniers exercices devront fournir : - une copie certifiée du récépissé de dépôt du centre de formalités des entreprises (pour vérifier la date de création de l'entreprise), - le montant de leur capital social (pour justifier de leurs capacités économiques et financières). La capacité à réaliser le marché sera appréciée en fonction du chiffre d'affaires relatif aux prestations liées à l'objet du marché sur le dernier exercice, qui devra être au moins égal à 200 000 Euros H.T pour l'obtention d'un lot et à 400 000 Euros H.T pour l'obtention des deux lots.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Renseignements concernant les références professionnelles et la capacité technique du candidat</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>A défaut des certificats de qualification, la capacité du candidat pourra être apportée par tout moyen, notamment par la présentation d'une liste détaillée de prestations exécutées et significatives par rapport aux chiffres d'affaires déclarés pour l'objet du marché, au cours des 3 dernières années, en indiquant le montant, la date, le lieu d'exécution des travaux et les coordonnées des maîtres d'ouvrages. Cette liste peut être appuyée d'attestations de bonne exécution pour les prestations les plus importantes. - Qualifications : Qualisport 850 - Maintenance terrain grand jeu gazon naturel, stabilisé et synthétique - Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années. Niveaux minimaux de capacité exigés : l'attention de chaque candidat est attirée sur le fait qu'il sera tenu compte d'un effectif minimum de 6 personnels d'exécution et un personnel encadrant pour l'obtention d'un lot et de 12 personnels d'exécution et 2 personnels encadrants pour l'obtention de deux lots.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e451">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://mpe.mairiemarseille.fr/entreprise</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e449">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://mpe.mairiemarseille.fr/entreprise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 16:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>6</span>
+                     <span/>
+                     <span class="fr-text--bold">Mois</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e600">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, sans remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e451">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Marseille</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>VILLE DE MARSEILLE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>VILLE DE MARSEILLE</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21130055300016</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>Bouches du Rhône</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>13233 Cedex 20</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>guichet-dmp@marseille.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0491551111</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://mpe.mairie-marseille.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>https://mpe.mairie-marseille.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e80">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>171 300 056 00024</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>Ville de Marseille</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Bouches-du-Rhône</span>
+               <span/>
+               <span>(</span>
+               <span>FRL04</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-marseille@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>04 91 13 48 13</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://marseille.tribunal-administratif.fr/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>5208981d-573a-4d68-b42d-50fecede5477</span>
+               <span/>
+               <span>-</span>
+               <span>03</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 15:39</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">VILLE DE MARSEILLE : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Bouches du Rhône Marseille 13233 Cedex 20 FRL04 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0491551111</li>
+                     <li><span class="fr-text--bold">Courriel : </span>guichet-dmp@marseille.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://mpe.mairie-marseille.fr" target="_blank" title="Aller sur la page https://mpe.mairie-marseille.fr - nouvelle fenêtre"><span>https://mpe.mairie-marseille.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et
+            aires de réception du patrimoine de la Ville de Marseille</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et
+            aires de réception du patrimoine de la Ville de Marseille</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et
+                  aires de réception du patrimoine de la Ville de Marseille dans les 1er, 6e, 7e, 8e,
+                  9e, 10e, 11e et 12e arrondissements</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Maintenance et travaux d'entretien des gazons synthétiques, pistes d'athlétismes et
+                  aires de réception du patrimoine de la Ville de Marseille dans les 2e, 3e, 4e, 5e,
+                  13e, 14e, 15e, 16e arrondissements et équipements rattachés</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

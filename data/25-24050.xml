@@ -1,0 +1,1562 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">18</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.marches-publics.gouv.fr</cbc:WebsiteURI>
+                                 <cbc:EndpointID>www.marchés-publics.gouv.fr</cbc:EndpointID>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">MINARM - TERRE - SIMMT</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>Route des Docks CS30704</cbc:StreetName>
+                                    <cbc:Department>Yvelines</cbc:Department>
+                                    <cbc:CityName>Versailles</cbc:CityName>
+                                    <cbc:PostalZone>78013</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>13000918600011</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0139672532</cbc:Telephone>
+                                    <cbc:ElectronicMail>simmt-ddc.ach.fct@intradef.gouv.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">4d29c2ce-9f34-41da-9d99-dbb13e398ca7</cbc:ID>
+            <cbc:ContractFolderID>27e54901-53d5-4163-8180-2360cc232d29</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>15:16:06+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32009L0081</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>www.marches-publics.gouv.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">cga</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">defence</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:LotDistribution>
+                  <cac:LotsGroup>
+                     <cbc:LotsGroupID>GLO-0001</cbc:LotsGroupID>
+                     <cac:ProcurementProjectLotReference>
+                        <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+                     </cac:ProcurementProjectLotReference>
+                     <cac:ProcurementProjectLotReference>
+                        <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+                     </cac:ProcurementProjectLotReference>
+                  </cac:LotsGroup>
+               </cac:LotDistribution>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <ext:UBLExtensions>
+                  <ext:UBLExtension>
+                     <ext:ExtensionContent>
+                        <efext:EformsExtension>
+                           <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                        </efext:EformsExtension>
+                     </ext:ExtensionContent>
+                  </ext:UBLExtension>
+               </ext:UBLExtensions>
+               <cbc:Description languageID="FRA">Procédure négociée avec publicité préalable (article R2324-1, R2324-3,  R2361-8 à R2361-12 du code de la commande publique</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">neg-w-call</cbc:ProcedureCode>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>23M80144</cbc:ID>
+               <cbc:Name languageID="FRA">Renouvellement du parc des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</cbc:Name>
+               <cbc:Description languageID="FRA">Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T) (lot n°1). Acquisition et installation des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T) (lot n°2)</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">Les candidats peuvent présenter une candidature pour un lot et les deux lots. Les candidats ne pourront se voir attribuer qu'un seul lot. L'ensemble des documents du dossier candidatures doit être rédigé en langue française. Si le candidat transmet des documents en langue étrangère, il doit impérativement joindre une traduction en langue française. En conformité avec l'article L2342-2 du CCP, dans le cas où le candidat voudrait se prévaloir des capacités professionnelles, techniques et financières d'autres opérateurs économiques, il fournit leur chiffre d'affaires global réalisé au cours des trois derniers exercices disponibles ainsi que les documents demandés aux candidats ( pièces n°3 à 7 pour le lot n°1 et pièces n°3 à 6 pour le lot n°2 indiquées dans la rubrique "Critères de sélection" de chaque lot. justifiant les capacités professionnelles et techniques sur lesquelles les candidats s'appuient. En outre, pour justifier qu'il dispose de leurs capacités pour l'exécution de l'accord-cadre, le candidat produit un engagement écrit et signé des opérateurs économiques. Cet engagement doit être signé par une personne habilitée à engager la société.. Conformément à l'arrêté du 22 mars 2019 fixant la liste des renseignements et des documents pouvant être demandés au candidat aux marchés publics. Si le candidat n'est pas en mesure pour une raison justifiée de produire les documents et les références demandés, il est autorisé à prouver sa capacité économique, financière, techniques professionnelle par tout autre moyen considéré comme approprié par l'acheteur. L'acheteur vérifié que que l'ensemble des documents demandés au titre de la candidature ont été transmis. Au cas où les pièces sont absentes ou incomplètes, l'acheteur peut demander au candidat de compléter son dossier de candidature  ou d'expliquer les documents justificatifs et les moyens de preuve fournis et obtenus. L'acheteur élimine les candidats dont les documents exigés n'ont pas été produits dans le délai fixé. Récapitulatif des cas de rejet d'une candidature :
+- dossier de candidature transmis selon des modalités ne respectant pas celles fixées à l'annexe de l'avis d'appel public à la concurrence, ne permettant pas notamment de déterminer de façon certaine la date et l'heure de leur réception et d'en garantir la confidentialité (exemple : transmission par courriel hors "PLACE") ;
+- candidat faisant l'objet d'une interdiction de soumissionner à un marché en application des dispositions des articles L2341-1à L2341-3 et L2341-5 du CCP ;
+-candidature ne comportant pas toutes les pièces mentionnées dans les conditions de participation ou comportant des pièces incomplètes, ou rédigées en langue étrangère sans traduction en langue française ;
+- dossier de candidature comportant un virus et si aucune copie de sauvegarde n'a été transmise ;
+- candidat ne présentant manifestement pas les capacités financières, techniques et professionnelles suffisantes pour exécuter l'accord-cadre. Modalités de  communication et de transmission des plis pour la consultation : le candidat doit préciser dans son dossier de candidature au sein du DC1 (pièce n°1 lettre de candidature) ou équivalent, une adresse de courrier électronique valide, et doit prendre régulièrement connaissance du contenu de cette messagerie en cours de procédure. Il est tenu d'informer l'acheteur de toute modification de cette adresse de courrier électronique en cours de procédure. En effet, pour ses échanges avec les opérateurs économiques, les éventuelles demandes de complément de dossier et l'information des candidats retenus et non retenus, l'acheteur communique exclusivement via la messagerie sécurisée de la PLACE. Les courriels sont envoyés via la PLACE depuis l'adresse nepasrépondre-prod@marches-publics.gouv.fr. L'opérateur économique doit donc prendre le soin de vérifier au préalable que cette adresse électronique soit accessible ou inscrite sur liste blanche pour passer les filtres éventuellement mis en place (serveurs, clients de messagerie, logiciels tiers, antispam). Les modalités de transmission des plis électroniques sont précisées dans un notice d'information en annexe à l'avis d'appel public à la concurrence. Pour accéder à l'interface de questions sur le site : https://www.marchés-publics.gouv.fr indiquer la référence de la consultation dans la case "recherche avancée". En cas de difficultés, les opérateurs économiques disposent de guides tutoriels téléchargeables sur la PLACE, d'une FAQ et d'une assistance téléphonique après génération d'un ticket le cas échéant, destinés :
+- à les guider et les aider à utiliser les fonctionnalités de la PLACE ;
+- les aider à déposer leurs plis de candidature et leurs documents sur cette plateforme.
+</cbc:Note>
+               <cac:ProcurementAdditionalType>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               </cac:ProcurementAdditionalType>
+               <cac:RequestedTenderTotal>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:FrameworkMaximumAmount currencyID="EUR">19327985</efbc:FrameworkMaximumAmount>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:EstimatedOverallContractAmount currencyID="EUR">16106654</cbc:EstimatedOverallContractAmount>
+               </cac:RequestedTenderTotal>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">39236000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Les documents exigés de la part des candidats sont obligatoires sous peine de rejet de la candidature de l'opérateur économique (en outre la candidature d'un opérateur économique ou d'un groupement d'opérateurs économiques ne paraissant pas posséder les capacités suffisantes pour obtenir le marché, pourra être rejetée). Le dossier de candidature comprendra les pièces ci-après : 
+- Pièce n°1 : La lettre de candidature : imprimé DC1 modèle du 1er avril 2019 dûment renseigné  par le candidat se présentant seul ou, en cas de groupement d'opérateurs économiques)par l'ensemble des membres du groupement.
+Pièce n°2 : La déclaration du candidat : imprimé DC 2 modèle du 1er avril 2019 dûment rempli par le candidat se présentant seul ou, en cas de candidature groupée, un DC 2 rempli par chaque membre du groupement, en prenant soin de renseigner l'ensemble des rubriques
+Pièce n°3 : la copie du ou des jugements prononcés si le candidat est en redressement judiciaire
+Pièce n°4 : Description de l'équipement technique, ou de tout autre type de ressources (capacités de transport, de stockage, de manutention et d'enlèvement des déchets) du candidat individuel ou de chaque membre du groupement
+Pièce n°5 : Liste des principales prestations effectuées au cours des trois dernières années en lien avec l'objet du lot n°1 (démantèlement des cabines de peinture existantes et de laboratoires de préparation) indiquant le montant, la date et le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique.
+Pièce n°6 : certification ISO 14001 pour le traitement des déchets dangereux notamment l'amiante. Si le candidat n'a pas encore cette certification, il doit attester sur l'honneur qu'une demande de certification de sa société est en cours et qu'il en disposera à la notification du premier marché subséquent pour le lot n°1
+Pièce n°7 : Annexe II au présent avis de marché "Engagement se traçabilité de l'enlèvement des déchets" (lot n°1)à remplir et signer par le candidat. Cette annexe constitue un engagement à respecter les exigences de traçabilité, d'accès aux données et à l'historique des traitements dans le cadre de l'exécution des marchés subséquents pour le lot n°1.Lors des marchés subséquents pour la société titulaire , comme pour ses sous-traitants, ce niveau de traçabilité devra être respecté.
+Nota : Les imprimés demandés en pièces n°1 et 2 peuvent être remplacés par des documents contenant les mêmes informations. La numérotation des pièces contenues dans le dossier de candidature devra être prévue par le candidat.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:TenderSubcontractingRequirements>
+                                 <efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">shar-subc</efbc:TenderSubcontractingRequirementsCode>
+                              </efac:TenderSubcontractingRequirements>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:RequiredFinancialGuarantee>
+                     <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+                  </cac:RequiredFinancialGuarantee>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des Armées. L'avance, les acomptes et les versements à titre de règlement partiel ou de soldes sont précisés dans le cahier des clauses administratives particulières (CCAP) du dossier de consultation.  Le délai glmobal de paiement est de 30 jours.</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+                     <cbc:CompanyLegalForm languageID="FRA">En cas de groupement d'opérateurs économiques au sens de l'article R2342-12 du code de la commande publique, la forme juridique  du groupement n'est pas imposée. Toutefois si le candidat  se présente sous la forme d'un groupement conjoint, le mandataire devra être solidaire, pour l'exécution de l'accord-cadre, de chacun des membres du groupement, pour ses obligations contractuelles à l'égard du pouvoir adjudicateur.</cbc:CompanyLegalForm>
+                  </cac:TendererQualificationRequest>
+                  <cac:AllowedSubcontractTerms>
+                     <cbc:SubcontractingConditionsCode listName="subcontracting-obligation">subc-chng</cbc:SubcontractingConditionsCode>
+                  </cac:AllowedSubcontractTerms>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                     <cbc:Description languageID="FRA">Se référer au CCAP</cbc:Description>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Référé précontractuel  (avant la conclusion du marché)   articles L551-1 à et L551-10 à 12 du Code de la Justice Administrative (CJA). Référé contractuel : articles L551-13 à 23 du CJA (après la conclusion du marché  dans un délai de 31 jours  à compter de la publication de l'avis d'attribution, en l'absence de repect du délai de suspension de signature de 11 jours , recours à exercer dans un délai de 6 mois à compter du lendemain du jour de conclusion de l'accord-cadre. Recours de pleine juridiction en contestation de la validité du contrat dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché (jurisprudence du consil d'Etat du 4 avril 2014 "Département du Tarn et Garonne" n°358994)</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealInformationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealInformationParty>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+                  <cac:SecurityClearanceTerm>
+                     <cbc:Code listName="required">false</cbc:Code>
+                  </cac:SecurityClearanceTerm>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>Plateforme des achats de l'Etat (PLACE)</efbc:AccessToolName>
+                              <efbc:ProcedureRelaunchIndicator>false</efbc:ProcedureRelaunchIndicator>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+                  <cbc:AccessToolsURI>https://www.marches-publics.gouv.fr</cbc:AccessToolsURI>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>23M80144 lot 1</cbc:ID>
+                  <cbc:Name languageID="FRA">Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</cbc:Name>
+                  <cbc:Description languageID="FRA">Tous les composants de l'équipement actuel doivent être démontés et enlevés par le titulaire, ainsi que tous les déchets générés par cette opération de démantèlement. Les prestations de démantèlement comprennent :
+- le démontage, enlèvement des cabines de peinture existantes et de laboratoires de préparation ;
+- l'évacuation des déchets dans le respect des directives relatives à la protection de l'environnement. Les cabines de peinture et les laboratoires de préparation sont situés sur différents sites en France. La présence éventuelle d'amiante dans ces équipements n'est pas connue et devra être prise en compte par le soumissionnaire dans ses offres pour les marchés subséquents avec le personnel en charge du dossier du site.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Les documents du dossier de candidature pour le lot n°1 sont indiqués dans les critères de sélection du lot n°1. Les modalités de constitution et de transmission du dossier de candidature pour le lott n°1sont indiquées dans l'article "Informations générales" de la procédure.</cbc:Note>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efbc:FrameworkMaximumAmount currencyID="EUR">19327985</efbc:FrameworkMaximumAmount>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">1899780</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">39236000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>Versailles</cbc:CityName>
+                        <cbc:PostalZone>78013</cbc:PostalZone>
+                        <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-09-22+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="YEAR">7</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="LotsGroup">GLO-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">cost</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Les critères d'attribution seront précisés dans la consultation de lancement des marchés subséquents </cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cac:FrameworkAgreement>
+                     <cbc:EstimatedMaximumValueAmount currencyID="EUR">19327985</cbc:EstimatedMaximumValueAmount>
+                  </cac:FrameworkAgreement>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>23M80144</cbc:ID>
+                  <cbc:Name languageID="FRA">Renouvellement du parc des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</cbc:Name>
+                  <cbc:Description languageID="FRA">Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)
+Acquisition et installation de cabines de peinture et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</cbc:Description>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:RequestedTenderTotal>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efbc:FrameworkMaximumAmount currencyID="EUR">19327985</efbc:FrameworkMaximumAmount>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">16106654</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0002</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Les documents exigés de la part des candidats sont obligatoires sous peine de rejet de la candidature de l'opérateur économique (en outre la candidature d'un opérateur économique ou d'un groupement d'opérateurs économiques ne paraissant pas posséder les capacités suffisantes pour obtenir le marché, pourra être rejetée). Le dossier de candidature comprendra les pièces ci-après :
+Pièce n°1 : La lettre de candidatures : imprimé DC 1 modèle du 1er avril 2019 dûment renseigné par le candidat se présentant seul ou en cas de groupement d'opérateurs économiques, par l'ensemble des membres du groupement
+Pièce n°2 : La déclaration du candidat : imprimé DC 2 modèle du 1er avril 2019dûment rempli par le candidat se présentant seul ou, en cas de candidature groupée, un DC 2 rempli par chaque membre du groupement , en prenant soin de renseigner l'ensemble des rubriques.
+Pièce n°3 : la copie du ou des jugements prononcés si le candidat est en redressement judiciaire
+Pièce n°4 : Description de l'équipement technique, ou de tout autre type de ressources (capacités de transport, de stockage et de manutention) du candidat individuel ou de chaque membre du groupement
+Pièce n°5 : Liste des principales prestations effectuées au cours des trois dernières années en lien avec l'objet du lot n°2 (acquisition et installation de cabines de peinture et de laboratoires de préparation) indiquent le montant, la date et le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique
+Pièce n°6 : Annexe III au présent avis de marché "Engagement à disposer d'une installation classée pour la protection de l'environnement" (lot n°2) à remplir et signé par le candidat. Cette annexe constitue un engagement d'exploiter les cabines de peinture en tant qu'installation classée pour la protection de l'environnement (ICPE). Lors des marchés subséquents pour la société titulaire, comme pour ses sous-traitants, des documents officiels (attestations) devront être fournis prouvant la possibilité d'exploiter les cabines de peinture en tant qu'ICPE. 
+Nota : Les imprimés demandés en pièces n°1 et 2 sont joints au dossier de consultation. Ils peuvent être remplacés par des documents contenant les mêmes informations. La numérotation des pièces contenues dans le dossier de candidature doit être prévue par le candidat.</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:TenderSubcontractingRequirements>
+                                 <efbc:TenderSubcontractingRequirementsCode listName="subcontracting-indication">shar-subc</efbc:TenderSubcontractingRequirementsCode>
+                              </efac:TenderSubcontractingRequirements>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:RequiredCurriculaCode listName="requirement-stage">not-requ</cbc:RequiredCurriculaCode>
+                  <cbc:RecurringProcurementIndicator>false</cbc:RecurringProcurementIndicator>
+                  <cac:RequiredFinancialGuarantee>
+                     <cbc:GuaranteeTypeCode listName="tender-guarantee-required">false</cbc:GuaranteeTypeCode>
+                  </cac:RequiredFinancialGuarantee>
+                  <cac:PaymentTerms>
+                     <cbc:Note languageID="FRA">Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des Armées. L'avance, les acomptes et les versements à titre de règlement partiel sont précisés dans le cahier des clauses administratives particulières (CCAP) du dossier de consultation. Le délai global de paiement est de 30 jours.</cbc:Note>
+                  </cac:PaymentTerms>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:TendererQualificationRequest>
+                     <cbc:CompanyLegalFormCode listName="required">true</cbc:CompanyLegalFormCode>
+                     <cbc:CompanyLegalForm languageID="FRA"> En cas de groupement d'opérateurs économiques au sens de l'article R2342-12 de la commande publique, la forme juridique du groupement n'est pas imposée. Toutefois, si le candidat se présente sous la forme d'un groupement conjoint, le mandataire devra être solidaire, pour l'exécution de l'accord-cadre, de chacun des membres du groupement, pour ses obligations contractuelles à l'égard du pouvoir adjudicateur.</cbc:CompanyLegalForm>
+                  </cac:TendererQualificationRequest>
+                  <cac:AllowedSubcontractTerms>
+                     <cbc:SubcontractingConditionsCode listName="subcontracting-obligation">subc-chng</cbc:SubcontractingConditionsCode>
+                  </cac:AllowedSubcontractTerms>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">true</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="nda">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                     <cbc:Description languageID="FRA">Se référer au CCAP</cbc:Description>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Référé précontractuel  (avant la conclusion du marché)   articles L551-1 à et L551-10 à 12 du Code de la Justice Administrative (CJA). Référé contractuel : articles L551-13 à 23 du CJA (après la conclusion du marché  dans un délai de 31 jours  à compter de la publication de l'avis d'attribution, en l'absence de respect du délai de suspension de signature de 11 jours , recours à exercer dans un délai de 6 mois à compter du lendemain du jour de conclusion de l'accord-cadre. Recours de pleine juridiction en contestation de la validité du contrat dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché (jurisprudence du consil d'Etat du 4 avril 2014 "Département du Tarn et Garonne" n°358994)</cbc:Description>
+                     </cac:PresentationPeriod>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+                  <cac:SecurityClearanceTerm>
+                     <cbc:Code listName="required">false</cbc:Code>
+                  </cac:SecurityClearanceTerm>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>false</cbc:CandidateReductionConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-11+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">fa-w-rc</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>23M80144</cbc:ID>
+                  <cbc:Name languageID="FRA">Acquisition et installation de cabines de peinture et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</cbc:Name>
+                  <cbc:Description languageID="FRA">Les cabines de peinture seront à installer sur différents sites en France (y compris la Corse).  Il s'agit d'emprises militaires. Des contrôles de sécurité du personnel amené à intervenir sur site sont nécessaires.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">supplies</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Les documents du dossier candidature pour le lot n°2 sont mentionnées dans les critères de sélection du lot n°2. Les modalités de constitution et de transmission du dossier de candidature pour les lots n°1 et 2 sont indiquées dans l'article "Informations générales" dans la rubrique "Procédure".</cbc:Note>
+                  <cbc:SMESuitableIndicator>true</cbc:SMESuitableIndicator>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:RequestedTenderTotal>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efbc:FrameworkMaximumAmount currencyID="EUR">19327985</efbc:FrameworkMaximumAmount>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:EstimatedOverallContractAmount currencyID="EUR">14206874</cbc:EstimatedOverallContractAmount>
+                  </cac:RequestedTenderTotal>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">39236000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">45111300</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CityName>Versailles</cbc:CityName>
+                        <cbc:CountrySubentityCode listName="nuts">FR103</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-09-22+02:00</cbc:StartDate>
+                     <cbc:DurationMeasure unitCode="YEAR">7</cbc:DurationMeasure>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:MaximumNumberNumeric>0</cbc:MaximumNumberNumeric>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24050</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-81/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>MINARM - TERRE - SIMMT</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <NEGOCIE/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-03-31</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>46</CODE>
+               <LIBELLE>Cabine de peinture</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <FOURNITURES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>78</DEP_PUBLICATION>
+         <RESUME_OBJET>Renouvellement du parc des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-24050 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-24050 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>78</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24050</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e113">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MINARM - TERRE - SIMMT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Autorité publique centrale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Défense</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e190">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Renouvellement du parc des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T) (lot n°1). Acquisition et installation des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T) (lot n°2)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>27e54901-53d5-4163-8180-2360cc232d29</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>23M80144</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Négociée avec publication préalable d’un appel à la concurrence / concurrentielle avec négociation</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La procédure est accélérée</span>
+               <span>:</span>
+               <span class="fr-text--bold">non</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>Procédure négociée avec publicité préalable (article R2324-1, R2324-3, R2361-8 à R2361-12 du code de la commande publique</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e190">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nature supplémentaire du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>39236000</span>
+                  <span/>
+                  <span>Cabines de peinture</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45111300</span>
+                  <span/>
+                  <span>Travaux de démantèlement</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.3_d1e190">
+               <span>2.1.3</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>16,106,654</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>19,327,985</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e190">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Les candidats peuvent présenter une candidature pour un lot et les deux lots. Les candidats ne pourront se voir attribuer qu'un seul lot. L'ensemble des documents du dossier candidatures doit être rédigé en langue française. Si le candidat transmet des documents en langue étrangère, il doit impérativement joindre une traduction en langue française. En conformité avec l'article L2342-2 du CCP, dans le cas où le candidat voudrait se prévaloir des capacités professionnelles, techniques et financières d'autres opérateurs économiques, il fournit leur chiffre d'affaires global réalisé au cours des trois derniers exercices disponibles ainsi que les documents demandés aux candidats ( pièces n°3 à 7 pour le lot n°1 et pièces n°3 à 6 pour le lot n°2 indiquées dans la rubrique "Critères de sélection" de chaque lot. justifiant les capacités professionnelles et techniques sur lesquelles les candidats s'appuient. En outre, pour justifier qu'il dispose de leurs capacités pour l'exécution de l'accord-cadre, le candidat produit un engagement écrit et signé des opérateurs économiques. Cet engagement doit être signé par une personne habilitée à engager la société.. Conformément à l'arrêté du 22 mars 2019 fixant la liste des renseignements et des documents pouvant être demandés au candidat aux marchés publics. Si le candidat n'est pas en mesure pour une raison justifiée de produire les documents et les références demandés, il est autorisé à prouver sa capacité économique, financière, techniques professionnelle par tout autre moyen considéré comme approprié par l'acheteur. L'acheteur vérifié que que l'ensemble des documents demandés au titre de la candidature ont été transmis. Au cas où les pièces sont absentes ou incomplètes, l'acheteur peut demander au candidat de compléter son dossier de candidature ou d'expliquer les documents justificatifs et les moyens de preuve fournis et obtenus. L'acheteur élimine les candidats dont les documents exigés n'ont pas été produits dans le délai fixé. Récapitulatif des cas de rejet d'une candidature : - dossier de candidature transmis selon des modalités ne respectant pas celles fixées à l'annexe de l'avis d'appel public à la concurrence, ne permettant pas notamment de déterminer de façon certaine la date et l'heure de leur réception et d'en garantir la confidentialité (exemple : transmission par courriel hors "PLACE") ; - candidat faisant l'objet d'une interdiction de soumissionner à un marché en application des dispositions des articles L2341-1à L2341-3 et L2341-5 du CCP ; -candidature ne comportant pas toutes les pièces mentionnées dans les conditions de participation ou comportant des pièces incomplètes, ou rédigées en langue étrangère sans traduction en langue française ; - dossier de candidature comportant un virus et si aucune copie de sauvegarde n'a été transmise ; - candidat ne présentant manifestement pas les capacités financières, techniques et professionnelles suffisantes pour exécuter l'accord-cadre. Modalités de communication et de transmission des plis pour la consultation : le candidat doit préciser dans son dossier de candidature au sein du DC1 (pièce n°1 lettre de candidature) ou équivalent, une adresse de courrier électronique valide, et doit prendre régulièrement connaissance du contenu de cette messagerie en cours de procédure. Il est tenu d'informer l'acheteur de toute modification de cette adresse de courrier électronique en cours de procédure. En effet, pour ses échanges avec les opérateurs économiques, les éventuelles demandes de complément de dossier et l'information des candidats retenus et non retenus, l'acheteur communique exclusivement via la messagerie sécurisée de la PLACE. Les courriels sont envoyés via la PLACE depuis l'adresse nepasrépondre-prod@marches-publics.gouv.fr. L'opérateur économique doit donc prendre le soin de vérifier au préalable que cette adresse électronique soit accessible ou inscrite sur liste blanche pour passer les filtres éventuellement mis en place (serveurs, clients de messagerie, logiciels tiers, antispam). Les modalités de transmission des plis électroniques sont précisées dans un notice d'information en annexe à l'avis d'appel public à la concurrence. Pour accéder à l'interface de questions sur le site : https://www.marchés-publics.gouv.fr indiquer la référence de la consultation dans la case "recherche avancée". En cas de difficultés, les opérateurs économiques disposent de guides tutoriels téléchargeables sur la PLACE, d'une FAQ et d'une assistance téléphonique après génération d'un ticket le cas échéant, destinés : - à les guider et les aider à utiliser les fonctionnalités de la PLACE ; - les aider à déposer leurs plis de candidature et leurs documents sur cette plateforme.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2009/81/CE</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_4_d1e9">
+         <span class="fr-h5">Section 4 -</span>
+         <span class="fr-text--bold">Groupe de lots</span>
+         <div class="section" id="section_4.1_d1e553">
+            <span>4.1</span>
+            <span class="fr-text--bold">Identifiant de groupe</span>
+            <span>:</span>
+            <span>GLO-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Lots inclus</span>
+               <span>:</span>
+               <span>LOT-0001, LOT-0002</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Renouvellement du parc des cabines de peinture et des laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T) Acquisition et installation de cabines de peinture et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>23M80144</span>
+            </div>
+            <div class="section" id="section_4.1.1_d1e555">
+               <span>4.1.1</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>16,106,654</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>19,327,985</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre dans le groupe de lots</span>
+                  <span>:</span>
+                  <span>19,327,985</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_4.1.3_d1e562">
+               <span>4.1.3</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Coût</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les critères d'attribution seront précisés dans la consultation de lancement des marchés subséquents</span>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e247">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Tous les composants de l'équipement actuel doivent être démontés et enlevés par le titulaire, ainsi que tous les déchets générés par cette opération de démantèlement. Les prestations de démantèlement comprennent : - le démontage, enlèvement des cabines de peinture existantes et de laboratoires de préparation ; - l'évacuation des déchets dans le respect des directives relatives à la protection de l'environnement. Les cabines de peinture et les laboratoires de préparation sont situés sur différents sites en France. La présence éventuelle d'amiante dans ces équipements n'est pas connue et devra être prise en compte par le soumissionnaire dans ses offres pour les marchés subséquents avec le personnel en charge du dossier du site.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>23M80144 lot 1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e460">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nature supplémentaire du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>39236000</span>
+                  <span/>
+                  <span>Cabines de peinture</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45111300</span>
+                  <span/>
+                  <span>Travaux de démantèlement</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e518">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Versailles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>78013</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Yvelines</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR103</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e538">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>22/09/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>7</span>
+                  <span/>
+                  <span class="fr-text--bold">An</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e546">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>0</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e485">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>1,899,780</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>19,327,985</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e247">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés</span>
+                  <span>:</span>
+                  <span>Non requises</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Les documents du dossier de candidature pour le lot n°1 sont indiqués dans les critères de sélection du lot n°1. Les modalités de constitution et de transmission du dossier de candidature pour le lott n°1sont indiquées dans l'article "Informations générales" de la procédure.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e252">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les documents exigés de la part des candidats sont obligatoires sous peine de rejet de la candidature de l'opérateur économique (en outre la candidature d'un opérateur économique ou d'un groupement d'opérateurs économiques ne paraissant pas posséder les capacités suffisantes pour obtenir le marché, pourra être rejetée). Le dossier de candidature comprendra les pièces ci-après : - Pièce n°1 : La lettre de candidature : imprimé DC1 modèle du 1er avril 2019 dûment renseigné par le candidat se présentant seul ou, en cas de groupement d'opérateurs économiques)par l'ensemble des membres du groupement. Pièce n°2 : La déclaration du candidat : imprimé DC 2 modèle du 1er avril 2019 dûment rempli par le candidat se présentant seul ou, en cas de candidature groupée, un DC 2 rempli par chaque membre du groupement, en prenant soin de renseigner l'ensemble des rubriques Pièce n°3 : la copie du ou des jugements prononcés si le candidat est en redressement judiciaire Pièce n°4 : Description de l'équipement technique, ou de tout autre type de ressources (capacités de transport, de stockage, de manutention et d'enlèvement des déchets) du candidat individuel ou de chaque membre du groupement Pièce n°5 : Liste des principales prestations effectuées au cours des trois dernières années en lien avec l'objet du lot n°1 (démantèlement des cabines de peinture existantes et de laboratoires de préparation) indiquant le montant, la date et le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique. Pièce n°6 : certification ISO 14001 pour le traitement des déchets dangereux notamment l'amiante. Si le candidat n'a pas encore cette certification, il doit attester sur l'honneur qu'une demande de certification de sa société est en cours et qu'il en disposera à la notification du premier marché subséquent pour le lot n°1 Pièce n°7 : Annexe II au présent avis de marché "Engagement se traçabilité de l'enlèvement des déchets" (lot n°1)à remplir et signer par le candidat. Cette annexe constitue un engagement à respecter les exigences de traçabilité, d'accès aux données et à l'historique des traitements dans le cadre de l'exécution des marchés subséquents pour le lot n°1.Lors des marchés subséquents pour la société titulaire , comme pour ses sous-traitants, ce niveau de traçabilité devra être respecté. Nota : Les imprimés demandés en pièces n°1 et 2 peuvent être remplacés par des documents contenant les mêmes informations. La numérotation des pièces contenues dans le dossier de candidature devra être prévue par le candidat.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e249">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Plateforme des achats de l'Etat (PLACE)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">URL</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.gouv.fr</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e247">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Indication obligatoire de la sous-traitance</span>
+                     <span>:</span>
+                     <span>La part du marché que le soumissionnaire a l’intention de sous-traiter</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La signature ou le cachet électronique avancé(e) ou qualifié(e) [au sens du règlement (UE) № 910/2014] est requis(e)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Conditions relatives à l’exécution du contrat</span>
+                     <span>:</span>
+                     <span>Se référer au CCAP</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Un accord de confidentialité est requis</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué</span>
+                     <span>:</span>
+                     <span>En cas de groupement d'opérateurs économiques au sens de l'article R2342-12 du code de la commande publique, la forme juridique du groupement n'est pas imposée. Toutefois si le candidat se présente sous la forme d'un groupement conjoint, le mandataire devra être solidaire, pour l'exécution de l'accord-cadre, de chacun des membres du groupement, pour ses obligations contractuelles à l'égard du pouvoir adjudicateur.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des Armées. L'avance, les acomptes et les versements à titre de règlement partiel ou de soldes sont précisés dans le cahier des clauses administratives particulières (CCAP) du dossier de consultation. Le délai glmobal de paiement est de 30 jours.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Sous-traitance</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span>Le contractant doit indiquer tout changement de sous-traitant(s) au cours de l’exécution du marché.</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Référé précontractuel (avant la conclusion du marché) articles L551-1 à et L551-10 à 12 du Code de la Justice Administrative (CJA). Référé contractuel : articles L551-13 à 23 du CJA (après la conclusion du marché dans un délai de 31 jours à compter de la publication de l'avis d'attribution, en l'absence de repect du délai de suspension de signature de 11 jours , recours à exercer dans un délai de 6 mois à compter du lendemain du jour de conclusion de l'accord-cadre. Recours de pleine juridiction en contestation de la validité du contrat dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché (jurisprudence du consil d'Etat du 4 avril 2014 "Département du Tarn et Garonne" n°358994)</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e409">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, avec remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e249">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>MINARM - TERRE - SIMMT</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>MINARM - TERRE - SIMMT</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+                  <span>:</span>
+                  <span>MINARM - TERRE - SIMMT</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_5.1_d1e621">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Acquisition et installation de cabines de peinture et de laboratoires de préparation au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Les cabines de peinture seront à installer sur différents sites en France (y compris la Corse). Il s'agit d'emprises militaires. Des contrôles de sécurité du personnel amené à intervenir sur site sont nécessaires.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>23M80144</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e799">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Fournitures</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nature supplémentaire du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>39236000</span>
+                  <span/>
+                  <span>Cabines de peinture</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>45111300</span>
+                  <span/>
+                  <span>Travaux de démantèlement</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e857">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Versailles</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Yvelines</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR103</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e875">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>22/09/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Durée</span>
+                  <span>:</span>
+                  <span>7</span>
+                  <span/>
+                  <span class="fr-text--bold">An</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.4_d1e883">
+               <span>5.1.4</span>
+               <span class="fr-text--bold">Renouvellement</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nombre maximal de renouvellements</span>
+                  <span>:</span>
+                  <span>0</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.5_d1e824">
+               <span>5.1.5</span>
+               <span class="fr-text--bold">Valeur</span>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur estimée hors TVA</span>
+                  <span>:</span>
+                  <span>14,206,874</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Valeur maximale de l’accord-cadre</span>
+                  <span>:</span>
+                  <span>19,327,985</span>
+                  <span/>
+                  <span class="fr-text--bold">Euro</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e621">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Les noms et les qualifications professionnelles du personnel chargé de l’exécution du marché doivent être mentionnés</span>
+                  <span>:</span>
+                  <span>Non requises</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché en question convient aussi aux petites et moyennes entreprises (PME)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Les documents du dossier candidature pour le lot n°2 sont mentionnées dans les critères de sélection du lot n°2. Les modalités de constitution et de transmission du dossier de candidature pour les lots n°1 et 2 sont indiquées dans l'article "Informations générales" dans la rubrique "Procédure".</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e626">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les documents exigés de la part des candidats sont obligatoires sous peine de rejet de la candidature de l'opérateur économique (en outre la candidature d'un opérateur économique ou d'un groupement d'opérateurs économiques ne paraissant pas posséder les capacités suffisantes pour obtenir le marché, pourra être rejetée). Le dossier de candidature comprendra les pièces ci-après : Pièce n°1 : La lettre de candidatures : imprimé DC 1 modèle du 1er avril 2019 dûment renseigné par le candidat se présentant seul ou en cas de groupement d'opérateurs économiques, par l'ensemble des membres du groupement Pièce n°2 : La déclaration du candidat : imprimé DC 2 modèle du 1er avril 2019dûment rempli par le candidat se présentant seul ou, en cas de candidature groupée, un DC 2 rempli par chaque membre du groupement , en prenant soin de renseigner l'ensemble des rubriques. Pièce n°3 : la copie du ou des jugements prononcés si le candidat est en redressement judiciaire Pièce n°4 : Description de l'équipement technique, ou de tout autre type de ressources (capacités de transport, de stockage et de manutention) du candidat individuel ou de chaque membre du groupement Pièce n°5 : Liste des principales prestations effectuées au cours des trois dernières années en lien avec l'objet du lot n°2 (acquisition et installation de cabines de peinture et de laboratoires de préparation) indiquent le montant, la date et le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique Pièce n°6 : Annexe III au présent avis de marché "Engagement à disposer d'une installation classée pour la protection de l'environnement" (lot n°2) à remplir et signé par le candidat. Cette annexe constitue un engagement d'exploiter les cabines de peinture en tant qu'installation classée pour la protection de l'environnement (ICPE). Lors des marchés subséquents pour la société titulaire, comme pour ses sous-traitants, des documents officiels (attestations) devront être fournis prouvant la possibilité d'exploiter les cabines de peinture en tant qu'ICPE. Nota : Les imprimés demandés en pièces n°1 et 2 sont joints au dossier de consultation. Ils peuvent être remplacés par des documents contenant les mêmes informations. La numérotation des pièces contenues dans le dossier de candidature doit être prévue par le candidat.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e621">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Indication obligatoire de la sous-traitance</span>
+                     <span>:</span>
+                     <span>La part du marché que le soumissionnaire a l’intention de sous-traiter</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La signature ou le cachet électronique avancé(e) ou qualifié(e) [au sens du règlement (UE) № 910/2014] est requis(e)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>11/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Conditions relatives à l’exécution du contrat</span>
+                     <span>:</span>
+                     <span>Se référer au CCAP</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Un accord de confidentialité est requis</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Forme juridique que doit revêtir un groupe de soumissionnaires auquel un marché est attribué</span>
+                     <span>:</span>
+                     <span>En cas de groupement d'opérateurs économiques au sens de l'article R2342-12 de la commande publique, la forme juridique du groupement n'est pas imposée. Toutefois, si le candidat se présente sous la forme d'un groupement conjoint, le mandataire devra être solidaire, pour l'exécution de l'accord-cadre, de chacun des membres du groupement, pour ses obligations contractuelles à l'égard du pouvoir adjudicateur.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Montage financier</span>
+                     <span>:</span>
+                     <span>Le financement est assuré exclusivement par des ressources budgétaires propres au ministère des Armées. L'avance, les acomptes et les versements à titre de règlement partiel sont précisés dans le cahier des clauses administratives particulières (CCAP) du dossier de consultation. Le délai global de paiement est de 30 jours.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Sous-traitance</span>
+                     <span>:</span>
+                     <div class="section">
+                        <span>Le contractant doit indiquer tout changement de sous-traitant(s) au cours de l’exécution du marché.</span>
+                     </div>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Référé précontractuel (avant la conclusion du marché) articles L551-1 à et L551-10 à 12 du Code de la Justice Administrative (CJA). Référé contractuel : articles L551-13 à 23 du CJA (après la conclusion du marché dans un délai de 31 jours à compter de la publication de l'avis d'attribution, en l'absence de respect du délai de suspension de signature de 11 jours , recours à exercer dans un délai de 6 mois à compter du lendemain du jour de conclusion de l'accord-cadre. Recours de pleine juridiction en contestation de la validité du contrat dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché (jurisprudence du consil d'Etat du 4 avril 2014 "Département du Tarn et Garonne" n°358994)</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e766">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Accord-cadre, avec remise en concurrence</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>MINARM - TERRE - SIMMT</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>13000918600011</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Département</span>
+               <span>:</span>
+               <span>Yvelines</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Route des Docks CS30704</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Versailles</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>78013</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Yvelines</span>
+               <span/>
+               <span>(</span>
+               <span>FR103</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>simmt-ddc.ach.fct@intradef.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0139672532</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de terminaison pour l’échange d’informations (URL)</span>
+               <span>:</span>
+               <span>www.marchés-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>www.marches-publics.gouv.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation qui fournit des précisions concernant l’introduction des recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>4d29c2ce-9f34-41da-9d99-dbb13e398ca7</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 15:16</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">MINARM - TERRE - SIMMT : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>Route des Docks CS30704 Yvelines Versailles 78013 FR103 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0139672532</li>
+                     <li><span class="fr-text--bold">Courriel : </span>simmt-ddc.ach.fct@intradef.gouv.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.marches-publics.gouv.fr" target="_blank" title="Aller sur la page https://www.marches-publics.gouv.fr - nouvelle fenêtre"><span>https://www.marches-publics.gouv.fr</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="www.marches-publics.gouv.fr" target="_blank" title="Aller sur la page www.marches-publics.gouv.fr - nouvelle fenêtre"><span>www.marches-publics.gouv.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Renouvellement du parc des cabines de peinture et des laboratoires de préparation
+            au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires
+            de préparation au profit du maintien en condition opérationnelle des matériels terrestres
+            (MCO-T) (lot n°1). Acquisition et installation des cabines de peinture et des laboratoires
+            de préparation au profit du maintien en condition opérationnelle des matériels terrestres
+            (MCO-T) (lot n°2)</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Démantèlement (démontage et enlèvement) des cabines de peinture existantes et de laboratoires
+                  de préparation au profit du maintien en condition opérationnelle des matériels terrestres
+                  (MCO-T)</li>
+               <li><span class="fr-text--bold">Lot 2 : </span>Acquisition et installation de cabines de peinture et de laboratoires de préparation
+                  au profit du maintien en condition opérationnelle des matériels terrestres (MCO-T)</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

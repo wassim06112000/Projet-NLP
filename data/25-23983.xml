@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Nantes Métropole</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>2 cours du champ de mars</cbc:StreetName>
+                                    <cbc:CityName>Nantes cedex 9</cbc:CityName>
+                                    <cbc:PostalZone>44923</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>24440040400129</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Camille Goutany</cbc:Name>
+                                    <cbc:Telephone>+33 240415118</cbc:Telephone>
+                                    <cbc:ElectronicMail>contact.marches@nantesmetropole.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0005</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Nantes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>6, allée de l'Ile Gloriette CS 24111</cbc:StreetName>
+                                    <cbc:CityName>Nantes cedex</cbc:CityName>
+                                    <cbc:PostalZone>44041</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17440005100010</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">aaf6b3a8-7780-430a-9a36-bee120086b5f</cbc:ID>
+            <cbc:ContractFolderID>f590be9a-4a24-4e32-952d-2eb2ec2f7818</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>13:55:06+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025NM0000027</cbc:ID>
+               <cbc:Name languageID="FRA">Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</cbc:Name>
+               <cbc:Description languageID="FRA">Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Pertinence de la composition et complémentarité de l'équipe proposée pour mener à bien le projet</cbc:Name>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Capacité économique et financière à réaliser une opération de complexité similaire</cbc:Name>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Qualité architecturale, technique et environnementale des références produites et adéquation de
+celles-ci avec le projet (nature et complexité équivalente, projets construits, références récentes)</cbc:Name>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>2025NM000002</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://marchespublics.nantesmetropole.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                     <cac:Prize>
+                        <cbc:RankCode>1</cbc:RankCode>
+                        <cbc:ValueAmount currencyID="EUR">22500</cbc:ValueAmount>
+                        <cbc:Description languageID="FRA">Le montant de la prime prévue pour chaque concurrent admis à participer au concours (y compris le ou les
+lauréats) est fixé au maximum à 22 500 Euros HT.
+L'acheteur pourra, conformément aux propositions éventuelles du jury, décider de réduire ou supprimer la
+prime d'un concurrent dont les prestations ne seraient pas strictement conformes au règlement de concours
+ou ne répondraient pas de manière jugée sérieuse aux besoins, exigences et contraintes de l'opération.
+Dans l'hypothèse où le non-respect du règlement conduirait à écarter d'emblée les prestations d'un
+concurrent sans les présenter au jury, la prime pourra être, sur proposition du jury, complètement supprimée.
+Il est précisé que la prime sera versée au mandataire du groupement, charge à lui de la répartir entre les
+membres du groupement</cbc:Description>
+                     </cac:Prize>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://marchespublics.nantesmletropole.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Il est possible d'exercer devant le tribunal
+administratif compétent : soit un référé précontractuel avant la conclusion du marché
+(articles L551-1 à -12 et R551-1 à -6 du Code de justice administrative), soit un référé
+contractuel : à défaut de publication d 'un avis d'attribution et du respect du délai de
+suspension de signature, action à exercer dans un délai de 6 mois à compter du
+lendemain du jour de la conclusion du marché (article L551-13 à -23 et R551-7 à -10 du
+CJA), soit un recours de plein contentieux : dans un délai de 2 mois à compter de
+l'accomplissement des mesures de publicité concernant l'attribution du marché (sur le
+fondement de la jurisprudence du Conseil d'État, 4 avril 2014 "Département du Tarn et
+Garonne", n°358994).
+</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0005</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-04+02:00</cbc:EndDate>
+                     <cbc:EndTime>12:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>2025NM000002</cbc:ID>
+                  <cbc:Name languageID="FRA">Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS
+</cbc:Name>
+                  <cbc:Description languageID="FRA">L'UFR STAPS a emménagé sur son site actuel au 25 bis boulevard Guy Mollet, dans un bâtiment neuf, à la fin des années 90, avec des effectifs de 500 à 600 étudiants qui
+ont rapidement augmenté. L'augmentation des effectifs a induit l'extension du bâtiment d'origine avec un 
+hall, un amphithéâtre et des salles d'enseignement supplémentaires en 2004 puis un nouvel amphithéâtre
+de 300 places en 2006 dans un bâtiment modulaire, livré pour une durée de vie limitée.
+Parallèlement, la recherche à l'UFR STAPS s'est structurée à partir de 2000, avec la création du laboratoire
+MIP (Motricité, Interactions, Performance), en s'installant provisoirement dans une salle de travaux
+pratiques. Elle s'est progressivement étendue jusqu'à occuper la quasi-totalité des salles de cours d'une aile
+de l'étage. L'évolution des effectifs étudiants induit une augmentation du nombre d'espaces d'enseignement qui a été
+réévalué ainsi qu'une augmentation des effectifs et locaux tertiaires de l'équipe administrative et
+pédagogique. En parallèle, il y a un besoin spécifique en locaux de recherche et bureaux
+chercheurs afin d'accompagner le développement des sections de recherche, et plus particulièrement du
+MIP, temporairement implanté dans le bâtiment F0 du site Tertre ; site qui devra être libéré et remis à
+disposition afin d'accueillir le département GEA de l'IUT de Nantes de façon définitive.
+Dès lors, une opération de densification du site de l'UFR STAPS afin de notamment permettre un
+relogement définitif de la recherche au sein de l'UFR STAPS et du MIP est nécessaire et financé par le
+CPER 2017-2027 objet de l'opération.
+L'opération comprend deux phases :1. La construction d'un bâtiment neuf implantée devant le bâtiment principal pour accueillir les locaux
+de recherche du MIP. 2.Le réaménagement du R+1 de l'aile ouest du bâtiment existant afin de créer 7 salles
+d'enseignement complémentaires et la création de deux bureaux administratifs accueillant 5 postes
+de travail au RDC.
+La partie de l'enveloppe financière prévisionnelle arrêtée par le maître d'ouvrage affectée aux travaux est de
+5 000 000 Euros HT - valeur février 2025</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">Missions confiées au maître d'oeuvre 
+Tranche Ferme :
+- Mission de base
+-Missions complémentaires :
+-SSI
+-Qualité environnementale :
+- Adaptation du projet aux enjeux de réemploi
+- Etudes de Facteur Lumière du Jour (FLJ)
+- Simulation Energétique Dynamique (en phases APS, APD, PRO)
+- Etude de Faisabilité d'Approvisionnement en Energie (EFAE)
+- Analyse du cycle de vie (ACV)
+- Calcul biosourcés/géosourcés
+- Réemploi
+- Chantier à faible impact environnemental
+Tranches optionnelles :
+- Mission de synthèse
+- Ordonnancement Pilotage et Coordination (O.P.C)
+- Élaboration des quantitatifs (QUANT)
+- Assistance à la mise en oeuvre d'un 1 % artistique
+Le maître d'ouvrage intégrera dans le c
+
+Compétences attendues: Architecture (l'architecte sera mandataire du groupement), Aménagement paysager, Structures (béton armé, bois, géosourcés, biosourcés) et fondations, Fluides (électricité, courants faibles, CVC, plomberie, sécurité incendie) compris thermicien, Voirie et réseaux divers, Économie de la construction, Ordonnancement, pilotage et coordination, Acoustique, Énergie et environnement (Energie Carbone, SED, biosourcés, FLJ, ACV, confort thermique…), SSI, Réemploi
+L'architecte devra être inscrit à l'ordre des architectes (ou équivalent pour les candidats non établis en
+France). Le candidat est libre de s'entourer de compétences complémentaires qu'il juge utile à la parfaite exécution de sa mission.
+Les critères de recevabilité des candidatures sont l'aptitude à exercer l'activité professionnelle, les capacités économiques et financières, les capacités techniques et professionnelles.
+Les critères de sélection des candidatures : au cas où le nombre de candidatures admises serait supérieur à 3, les candidatures seront sélectionnées
+selon les critères suivants : Pertinence de la composition et complémentarité de l'équipe proposée pour mener à bien le projet, Capacité économique et financière à réaliser une opération de complexité similaire, Qualité architecturale, technique et environnementale des références produites et adéquation de
+celles-ci avec le projet (nature et complexité équivalente, projets construits, références récentes).
+
+Les éléments à fournir par les candidats à l'appui des candidatures :
+- Dossier administratif (outre les pièces administratives réglementaires)
+- Lettre de candidature que la candidature soit présentée à titre individuel ou en groupement (DC1) et déclaration du candidat (DC2). En cas de groupement, ces pièces sont à fournir par chaque opérateur économique excepté l'imprimé DC1.
+Nota : les candidats sont invités à retranscrire clairement toutes les compétences listées à l'article D du formulaire DC1, ainsi que les éventuelles compétences complémentaires proposées (article E - Identification des membres du groupement et répartition des prestations).
+- Copie de l'inscription à l'Ordre des Architectes (ou équivalent en Europe).
+- Dossier technique :
+- Présentation synthétique des membres du groupement et de l'ensemble des sous-traitants déclarés : composition, preuve des titres d'études, compétences, répartition des tâches, moyens humains (joindre les CV). (4 pages maximum, hors CV)
+La preuve des compétences peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle type OPQIBI ou des références attestant de la compétence de l'entreprise à réaliser la prestation de maîtrise d'oeuvre pour laquelle il se porte candidat.
+-  1 tableau de synthèse de candidature à remplir par les candidats (suivant annexe fourni par le maître d'ouvrage à remplir au format Excel - attention, deux onglets à compléter (annexes 1 et 2)) présentant pour chacun des membres du groupement :
+- l'adresse,
+- le chiffre d'affaires, global et spécifique, sur les trois derniers exercices,
+- Les effectifs sur les trois dernières années
+- 3 références maximum pour l'architecte, le BE environnement et BE structure (soit 9 références au total), de moins de 5 ans (date de livraison) détaillant le maître d'ouvrage, le projet et la mission effectuée, la date, la surface, le montant des travaux et les éléments de complexité. Les références présentées devront dater de moins de 5 ans et être jugées pertinentes par rapport à la présente consultation, dont au moins 1 dans le domaine se rapprochant de l'opération et dont au moins 1 d'importance et de complexité équivalente (montant des travaux, surfaces…), il est précisé qu'une même référence peut répondre à ces 2 exigences.
+- 1 affiche A3 recto simple au format paysage et en pdf, présentant graphiquement 3 références au total du ou des architecte(s) du groupement. Si l'équipe est composée d'un architecte mandataire et d'un architecte co-traitant, 1 des 3 références mises en avant pourra appartenir à l'architecte co-traitant et sera identifiée clairement. Aucun modèle de mise en page n'est imposé hormis la taille du document (A3 recto simple) et son format (pdf). Cette fiche sera
+présentée au jury. Elle doit impérativement être remise au format numérique.
+Pour chacune des références seront indiqués sur l'affiche A3 :
+✗ l'intitule de l'opération (en correspondance avec la fiche de synthèse)
+✗ le nom de l'architecte mandataire,
+✗ le nom de l'architecte associé le cas échéant,
+✗ le nom du maître d'ouvrage
+✗ le type de bâtiment (ERP, équipement sportif,...),
+✗ la nature du projet (construction neuve, réhabilitation…)
+✗ l'année de la livraison (si le bâtiment a été livré),
+Tout document de références complémentaires présenté dans la candidature, autre que ceux précités, ne sera pas analysé.</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71200000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CountrySubentityCode listName="nuts">FRG01</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23983</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Nantes Métropole</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-04</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-04T12:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-04</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>44</DEP_PUBLICATION>
+         <RESUME_OBJET>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-23983 du 03/03/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-23983 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>44</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23983</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e148">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Nantes Métropole</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e189">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>f590be9a-4a24-4e32-952d-2eb2ec2f7818</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025NM0000027</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e189">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71200000</span>
+                  <span/>
+                  <span>Services d'architecture</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e189">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e171">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e209">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>L'UFR STAPS a emménagé sur son site actuel au 25 bis boulevard Guy Mollet, dans un bâtiment neuf, à la fin des années 90, avec des effectifs de 500 à 600 étudiants qui ont rapidement augmenté. L'augmentation des effectifs a induit l'extension du bâtiment d'origine avec un hall, un amphithéâtre et des salles d'enseignement supplémentaires en 2004 puis un nouvel amphithéâtre de 300 places en 2006 dans un bâtiment modulaire, livré pour une durée de vie limitée. Parallèlement, la recherche à l'UFR STAPS s'est structurée à partir de 2000, avec la création du laboratoire MIP (Motricité, Interactions, Performance), en s'installant provisoirement dans une salle de travaux pratiques. Elle s'est progressivement étendue jusqu'à occuper la quasi-totalité des salles de cours d'une aile de l'étage. L'évolution des effectifs étudiants induit une augmentation du nombre d'espaces d'enseignement qui a été réévalué ainsi qu'une augmentation des effectifs et locaux tertiaires de l'équipe administrative et pédagogique. En parallèle, il y a un besoin spécifique en locaux de recherche et bureaux chercheurs afin d'accompagner le développement des sections de recherche, et plus particulièrement du MIP, temporairement implanté dans le bâtiment F0 du site Tertre ; site qui devra être libéré et remis à disposition afin d'accueillir le département GEA de l'IUT de Nantes de façon définitive. Dès lors, une opération de densification du site de l'UFR STAPS afin de notamment permettre un relogement définitif de la recherche au sein de l'UFR STAPS et du MIP est nécessaire et financé par le CPER 2017-2027 objet de l'opération. L'opération comprend deux phases :1. La construction d'un bâtiment neuf implantée devant le bâtiment principal pour accueillir les locaux de recherche du MIP. 2.Le réaménagement du R+1 de l'aile ouest du bâtiment existant afin de créer 7 salles d'enseignement complémentaires et la création de deux bureaux administratifs accueillant 5 postes de travail au RDC. La partie de l'enveloppe financière prévisionnelle arrêtée par le maître d'ouvrage affectée aux travaux est de 5 000 000 Euros HT - valeur février 2025</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025NM000002</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e354">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71200000</span>
+                  <span/>
+                  <span>Services d'architecture</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e377">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Loire-Atlantique</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRG01</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e209">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>Missions confiées au maître d'oeuvre Tranche Ferme : - Mission de base -Missions complémentaires : -SSI -Qualité environnementale : - Adaptation du projet aux enjeux de réemploi - Etudes de Facteur Lumière du Jour (FLJ) - Simulation Energétique Dynamique (en phases APS, APD, PRO) - Etude de Faisabilité d'Approvisionnement en Energie (EFAE) - Analyse du cycle de vie (ACV) - Calcul biosourcés/géosourcés - Réemploi - Chantier à faible impact environnemental Tranches optionnelles : - Mission de synthèse - Ordonnancement Pilotage et Coordination (O.P.C) - Élaboration des quantitatifs (QUANT) - Assistance à la mise en oeuvre d'un 1 % artistique Le maître d'ouvrage intégrera dans le c Compétences attendues: Architecture (l'architecte sera mandataire du groupement), Aménagement paysager, Structures (béton armé, bois, géosourcés, biosourcés) et fondations, Fluides (électricité, courants faibles, CVC, plomberie, sécurité incendie) compris thermicien, Voirie et réseaux divers, Économie de la construction, Ordonnancement, pilotage et coordination, Acoustique, Énergie et environnement (Energie Carbone, SED, biosourcés, FLJ, ACV, confort thermique…), SSI, Réemploi L'architecte devra être inscrit à l'ordre des architectes (ou équivalent pour les candidats non établis en France). Le candidat est libre de s'entourer de compétences complémentaires qu'il juge utile à la parfaite exécution de sa mission. Les critères de recevabilité des candidatures sont l'aptitude à exercer l'activité professionnelle, les capacités économiques et financières, les capacités techniques et professionnelles. Les critères de sélection des candidatures : au cas où le nombre de candidatures admises serait supérieur à 3, les candidatures seront sélectionnées selon les critères suivants : Pertinence de la composition et complémentarité de l'équipe proposée pour mener à bien le projet, Capacité économique et financière à réaliser une opération de complexité similaire, Qualité architecturale, technique et environnementale des références produites et adéquation de celles-ci avec le projet (nature et complexité équivalente, projets construits, références récentes). Les éléments à fournir par les candidats à l'appui des candidatures : - Dossier administratif (outre les pièces administratives réglementaires) - Lettre de candidature que la candidature soit présentée à titre individuel ou en groupement (DC1) et déclaration du candidat (DC2). En cas de groupement, ces pièces sont à fournir par chaque opérateur économique excepté l'imprimé DC1. Nota : les candidats sont invités à retranscrire clairement toutes les compétences listées à l'article D du formulaire DC1, ainsi que les éventuelles compétences complémentaires proposées (article E - Identification des membres du groupement et répartition des prestations). - Copie de l'inscription à l'Ordre des Architectes (ou équivalent en Europe). - Dossier technique : - Présentation synthétique des membres du groupement et de l'ensemble des sous-traitants déclarés : composition, preuve des titres d'études, compétences, répartition des tâches, moyens humains (joindre les CV). (4 pages maximum, hors CV) La preuve des compétences peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle type OPQIBI ou des références attestant de la compétence de l'entreprise à réaliser la prestation de maîtrise d'oeuvre pour laquelle il se porte candidat. - 1 tableau de synthèse de candidature à remplir par les candidats (suivant annexe fourni par le maître d'ouvrage à remplir au format Excel - attention, deux onglets à compléter (annexes 1 et 2)) présentant pour chacun des membres du groupement : - l'adresse, - le chiffre d'affaires, global et spécifique, sur les trois derniers exercices, - Les effectifs sur les trois dernières années - 3 références maximum pour l'architecte, le BE environnement et BE structure (soit 9 références au total), de moins de 5 ans (date de livraison) détaillant le maître d'ouvrage, le projet et la mission effectuée, la date, la surface, le montant des travaux et les éléments de complexité. Les références présentées devront dater de moins de 5 ans et être jugées pertinentes par rapport à la présente consultation, dont au moins 1 dans le domaine se rapprochant de l'opération et dont au moins 1 d'importance et de complexité équivalente (montant des travaux, surfaces…), il est précisé qu'une même référence peut répondre à ces 2 exigences. - 1 affiche A3 recto simple au format paysage et en pdf, présentant graphiquement 3 références au total du ou des architecte(s) du groupement. Si l'équipe est composée d'un architecte mandataire et d'un architecte co-traitant, 1 des 3 références mises en avant pourra appartenir à l'architecte co-traitant et sera identifiée clairement. Aucun modèle de mise en page n'est imposé hormis la taille du document (A3 recto simple) et son format (pdf). Cette fiche sera présentée au jury. Elle doit impérativement être remise au format numérique. Pour chacune des références seront indiqués sur l'affiche A3 : ✗ l'intitule de l'opération (en correspondance avec la fiche de synthèse) ✗ le nom de l'architecte mandataire, ✗ le nom de l'architecte associé le cas échéant, ✗ le nom du maître d'ouvrage ✗ le type de bâtiment (ERP, équipement sportif,...), ✗ la nature du projet (construction neuve, réhabilitation…) ✗ l'année de la livraison (si le bâtiment a été livré), Tout document de références complémentaires présenté dans la candidature, autre que ceux précités, ne sera pas analysé.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e214">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Pertinence de la composition et complémentarité de l'équipe proposée pour mener à bien le projet</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière à réaliser une opération de complexité similaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Qualité architecturale, technique et environnementale des références produites et adéquation de celles-ci avec le projet (nature et complexité équivalente, projets construits, références récentes)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e211">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://marchespublics.nantesmetropole.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e209">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Prix</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Valeur de la prime</span>
+                        <span>:</span>
+                        <span>22,500</span>
+                        <span/>
+                        <span class="fr-text--bold">Euro</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Lieu de réception de la prime</span>
+                        <span>:</span>
+                        <span>1</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Informations complémentaires</span>
+                        <span>:</span>
+                        <span>Le montant de la prime prévue pour chaque concurrent admis à participer au concours (y compris le ou les lauréats) est fixé au maximum à 22 500 Euros HT. L'acheteur pourra, conformément aux propositions éventuelles du jury, décider de réduire ou supprimer la prime d'un concurrent dont les prestations ne seraient pas strictement conformes au règlement de concours ou ne répondraient pas de manière jugée sérieuse aux besoins, exigences et contraintes de l'opération. Dans l'hypothèse où le non-respect du règlement conduirait à écarter d'emblée les prestations d'un concurrent sans les présenter au jury, la prime pourra être, sur proposition du jury, complètement supprimée. Il est précisé que la prime sera versée au mandataire du groupement, charge à lui de la répartir entre les membres du groupement</span>
+                     </div>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://marchespublics.nantesmletropole.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>04/04/2025</span>
+                     <span/>
+                     <span>à 12:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Il est possible d'exercer devant le tribunal administratif compétent : soit un référé précontractuel avant la conclusion du marché (articles L551-1 à -12 et R551-1 à -6 du Code de justice administrative), soit un référé contractuel : à défaut de publication d 'un avis d'attribution et du respect du délai de suspension de signature, action à exercer dans un délai de 6 mois à compter du lendemain du jour de la conclusion du marché (article L551-13 à -23 et R551-7 à -10 du CJA), soit un recours de plein contentieux : dans un délai de 2 mois à compter de l'accomplissement des mesures de publicité concernant l'attribution du marché (sur le fondement de la jurisprudence du Conseil d'État, 4 avril 2014 "Département du Tarn et Garonne", n°358994).</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e211">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Nantes</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Nantes Métropole</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>24440040400129</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2 cours du champ de mars</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nantes cedex 9</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>44923</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Loire-Atlantique</span>
+               <span/>
+               <span>(</span>
+               <span>FRG01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Camille Goutany</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>contact.marches@nantesmetropole.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 240415118</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e77">
+            <span>8.1</span>
+            <span>ORG-0005</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Nantes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17440005100010</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>6, allée de l'Ile Gloriette CS 24111</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Nantes cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>44041</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Loire-Atlantique</span>
+               <span/>
+               <span>(</span>
+               <span>FRG01</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>aaf6b3a8-7780-430a-9a36-bee120086b5f</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 13:55</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Nantes Métropole : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>2 cours du champ de mars Nantes cedex 9 44923 FRG01 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>Camille Goutany</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 240415118</li>
+                     <li><span class="fr-text--bold">Courriel : </span>contact.marches@nantesmetropole.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Concours restreint de maîtrise d'oeuvre pour l'extension de l'UFR STAPS</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

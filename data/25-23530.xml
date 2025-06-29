@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Avenue-Web Systèmes</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:CityName>Seyssinet-Pariset</cbc:CityName>
+                                    <cbc:PostalZone>38170</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRK24</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">014E323C-F11F-73EB-7DF47857A4EF2136</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33480041260</cbc:Telephone>
+                                    <cbc:ElectronicMail>publications-joue@aws-france.com</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cbc:WebsiteURI>https://www.marches-publics.info/</cbc:WebsiteURI>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Mairie de Brive</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:Postbox>80433</cbc:Postbox>
+                                    <cbc:StreetName>Place Jean Charbonnel</cbc:StreetName>
+                                    <cbc:CityName>Brive</cbc:CityName>
+                                    <cbc:PostalZone>19312</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRI21</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">60170</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Soulier Frédéric</cbc:Name>
+                                    <cbc:JobTitle>Maire</cbc:JobTitle>
+                                    <cbc:Telephone>0555923939</cbc:Telephone>
+                                    <cbc:ElectronicMail>marchespublics@agglodebrive.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Limoges</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>1, cours Vergniaud</cbc:StreetName>
+                                    <cbc:CityName>Limoges</cbc:CityName>
+                                    <cbc:PostalZone>87000</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRI23</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID schemeName="eu">014E325B-90A0-7F30-7294A2EA41B4515E</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0555339155</cbc:Telephone>
+                                    <cbc:Telefax>0555339160</cbc:Telefax>
+                                    <cbc:ElectronicMail>greffe.ta-limoges@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.10</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">d6d3031e-1dda-46ae-9888-4d1e065cfa2c</cbc:ID>
+            <cbc:ContractFolderID>b7ee5203-0cfe-4e8c-93ac-3ab3900bd267</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-02-28+01:00</cbc:IssueDate>
+            <cbc:IssueTime>15:20:35+01:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode>FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://www.marches-publics.info/</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:ServiceProviderParty>
+                     <cbc:ServiceTypeCode listName="organisation-role">ted-esen</cbc:ServiceTypeCode>
+                     <cac:Party>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:Party>
+                  </cac:ServiceProviderParty>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">« Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l’un des cas d’exclusion de la procédure de passation prévus par le code de la commande publique.</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode languageID="FRA" listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:ID>2025 02 04 1609</cbc:ID>
+               <cbc:Name languageID="FRA">Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal.
+La mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra, en missions complémentaires, la mission Coordination Système de Sécurité Incendie (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</cbc:Name>
+               <cbc:Description languageID="FRA">Concours de maîtrise d'oeuvre sur &amp;amp;quot;esquisse +&amp;amp;quot;.
+Le Dojo actuel construit dans les années 80 ne répond plus aux besoins des utilisateurs tant en termes d'usage avec seulement 2 aires de combats mais aussi du point de vue de la capacité d'accueil avec près de 700 adhérents actuellement.
+Pour cela, la collectivité a décidé de construire un nouveau dojo en lieu et place de l'existant.
+Le nouveau dojo comprendra notamment :
+- Une aire principale de pratique sportive avec 4 aires de combats de 650 m² et un espace de 200 m² dédié à l'échauffement.
+- Un espace pour juges et officiels de 130 m².
+- Une tribune d'environ 400 places, environ 280 m² de surface utile.
+- Un espace préparation et récupération physique (salle de musculation avec vestiaires et sanitaires) de 180 m² accessible aux différents clubs du dojo et de la patinoire.
+- Des espaces dédiés aux clubs (bureaux, club house, office, salle de réunion, locaux de stockage) pour 225 m²
+- Des locaux administratifs et techniques (sanitaires, infirmerie, espaces d'accueil, locaux techniques pour 400 m².
+  Soit une surface utile totale estimée à 2600 m².
+L'enveloppe prévisionnelle affectée aux travaux est de 5 900 000  euro(s)  H.T. (valeur décembre 2024)</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">L'appel à candidature est réservé à des équipes pluridisciplinaires de maîtrise d'oeuvre comportant obligatoirement :
+- un architecte ou un groupement d'architectes inscrit à l'ordre des Architectes Français (ou équivalent pour les architectes non établis en France) ;
+- un bureau d'études techniques ou groupement de Bet (fluides, structure, Vrd).
+- un économiste de la construction.
+- un acousticien</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:AdditionalCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+               </cac:AdditionalCommodityClassification>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0000</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement.
+(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)
+- Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants.
+(disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat)
+- Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels.
+- Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé.
+- Certificats de qualifications professionnelles.
+La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat
+- Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années.
+- En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise.
+Voir le règlement de candidature</cbc:Description>
+                                 <cbc:CalculationExpressionCode listName="usage">used</cbc:CalculationExpressionCode>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>1602666</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cbc:LanguageID>FRA</cbc:LanguageID>
+                     <cbc:DocumentStatusCode listName="linguistic-status">official</cbc:DocumentStatusCode>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1602666</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="esignature-submission">false</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                     <cac:Prize>
+                        <cbc:RankCode>1</cbc:RankCode>
+                        <cbc:Description languageID="FRA">Chacun des 3 candidats ayant remis une esquisse de projet bénéficiera d'une prime s'élevant à 18000,00  euro(s)  HT  par candidat. L'indemnité perçue par le lauréat est considérée comme  une avance sur ses honoraires</cbc:Description>
+                     </cac:Prize>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1602666</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:AppealTerms>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efbc:AccessToolName>AW Solutions</efbc:AccessToolName>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-02+02:00</cbc:EndDate>
+                     <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID schemeName="InternalID">S-PF-1602666</cbc:ID>
+                  <cbc:Name languageID="FRA">Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal.
+La mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra, en missions complémentaires, la mission Coordination Système de Sécurité Incendie (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</cbc:Name>
+                  <cbc:Description languageID="FRA">Concours de maîtrise d'oeuvre sur &amp;amp;quot;esquisse +&amp;amp;quot;.
+Le Dojo actuel construit dans les années 80 ne répond plus aux besoins des utilisateurs tant en termes d'usage avec seulement 2 aires de combats mais aussi du point de vue de la capacité d'accueil avec près de 700 adhérents actuellement.
+Pour cela, la collectivité a décidé de construire un nouveau dojo en lieu et place de l'existant.
+Le nouveau dojo comprendra notamment :
+- Une aire principale de pratique sportive avec 4 aires de combats de 650 m² et un espace de 200 m² dédié à l'échauffement.
+- Un espace pour juges et officiels de 130 m².
+- Une tribune d'environ 400 places, environ 280 m² de surface utile.
+- Un espace préparation et récupération physique (salle de musculation avec vestiaires et sanitaires) de 180 m² accessible aux différents clubs du dojo et de la patinoire.
+- Des espaces dédiés aux clubs (bureaux, club house, office, salle de réunion, locaux de stockage) pour 225 m²
+- Des locaux administratifs et techniques (sanitaires, infirmerie, espaces d'accueil, locaux techniques pour 400 m².
+  Soit une surface utile totale estimée à 2600 m².
+L'enveloppe prévisionnelle affectée aux travaux est de 5 900 000  euro(s)  H.T. (valeur décembre 2024)</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:AdditionalCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71240000</cbc:ItemClassificationCode>
+                  </cac:AdditionalCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23530</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Mairie de Brive</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-02</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-02T17:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-02</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>197</CODE>
+               <LIBELLE>Maîtrise d'oeuvre</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>19</DEP_PUBLICATION>
+         <RESUME_OBJET>Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal.
+La mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra, en missions compléme</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-23530 du 28/02/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-23530 du 28/02/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>19</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23530</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e133">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Mairie de Brive</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e168">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal. La mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra, en missions complémentaires, la mission Coordination Système de Sécurité Incendie (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Concours de maîtrise d'oeuvre sur &amp;amp;quot;esquisse +&amp;amp;quot;. Le Dojo actuel construit dans les années 80 ne répond plus aux besoins des utilisateurs tant en termes d'usage avec seulement 2 aires de combats mais aussi du point de vue de la capacité d'accueil avec près de 700 adhérents actuellement. Pour cela, la collectivité a décidé de construire un nouveau dojo en lieu et place de l'existant. Le nouveau dojo comprendra notamment : - Une aire principale de pratique sportive avec 4 aires de combats de 650 m² et un espace de 200 m² dédié à l'échauffement. - Un espace pour juges et officiels de 130 m². - Une tribune d'environ 400 places, environ 280 m² de surface utile. - Un espace préparation et récupération physique (salle de musculation avec vestiaires et sanitaires) de 180 m² accessible aux différents clubs du dojo et de la patinoire. - Des espaces dédiés aux clubs (bureaux, club house, office, salle de réunion, locaux de stockage) pour 225 m² - Des locaux administratifs et techniques (sanitaires, infirmerie, espaces d'accueil, locaux techniques pour 400 m². Soit une surface utile totale estimée à 2600 m². L'enveloppe prévisionnelle affectée aux travaux est de 5 900 000 euro(s) H.T. (valeur décembre 2024)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>b7ee5203-0cfe-4e8c-93ac-3ab3900bd267</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>2025 02 04 1609</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e168">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e168">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>L'appel à candidature est réservé à des équipes pluridisciplinaires de maîtrise d'oeuvre comportant obligatoirement : - un architecte ou un groupement d'architectes inscrit à l'ordre des Architectes Français (ou équivalent pour les architectes non établis en France) ; - un bureau d'études techniques ou groupement de Bet (fluides, structure, Vrd). - un économiste de la construction. - un acousticien</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e156">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>« Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l’un des cas d’exclusion de la procédure de passation prévus par le code de la commande publique.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e184">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0000</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal. La mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra, en missions complémentaires, la mission Coordination Système de Sécurité Incendie (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Concours de maîtrise d'oeuvre sur &amp;amp;quot;esquisse +&amp;amp;quot;. Le Dojo actuel construit dans les années 80 ne répond plus aux besoins des utilisateurs tant en termes d'usage avec seulement 2 aires de combats mais aussi du point de vue de la capacité d'accueil avec près de 700 adhérents actuellement. Pour cela, la collectivité a décidé de construire un nouveau dojo en lieu et place de l'existant. Le nouveau dojo comprendra notamment : - Une aire principale de pratique sportive avec 4 aires de combats de 650 m² et un espace de 200 m² dédié à l'échauffement. - Un espace pour juges et officiels de 130 m². - Une tribune d'environ 400 places, environ 280 m² de surface utile. - Un espace préparation et récupération physique (salle de musculation avec vestiaires et sanitaires) de 180 m² accessible aux différents clubs du dojo et de la patinoire. - Des espaces dédiés aux clubs (bureaux, club house, office, salle de réunion, locaux de stockage) pour 225 m² - Des locaux administratifs et techniques (sanitaires, infirmerie, espaces d'accueil, locaux techniques pour 400 m². Soit une surface utile totale estimée à 2600 m². L'enveloppe prévisionnelle affectée aux travaux est de 5 900 000 euro(s) H.T. (valeur décembre 2024)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>S-PF-1602666</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e275">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature supplémentaire</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71240000</span>
+                  <span/>
+                  <span>Services d'architecture, d'ingénierie et de planification</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e184">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e187">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Formulaire Dc2, Déclaration du candidat individuel ou du membre du groupement. (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) - Formulaire Dc1, Lettre de candidature _ Habilitation du mandataire par ses co-traitants. (disponible à l'adresse suivante : http://www.economie.gouv.fr/daj/formulaires-declaration-du-candidat) - Copie du ou des jugements prononcés, si le candidat est en redressement judiciaire</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Déclaration appropriée de banques ou preuve d'une assurance pour les risques professionnels. - Déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, services ou travaux objet du marché, réalisés au cours des trois derniers exercices disponibles</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Présentation d'une liste des principales fournitures ou des principaux services effectués au cours des trois dernières années, indiquant le montant, la date et le destinataire public ou privé. - Certificats de qualifications professionnelles. La preuve de la capacité du candidat peut être apportée par tout moyen, notamment par des certificats d'identité professionnelle ou des références de travaux attestant de la compétence de l'opérateur économique à réaliser la prestation pour laquelle il se porte candidat - Déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune des trois dernières années. - En matière de fournitures et services, une description de l'équipement technique, des mesures employées par l'opérateur économique pour s'assurer de la qualité et des moyens d'étude et de recherche de son entreprise. Voir le règlement de candidature</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e185">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=dematEnt.login&amp;amp;type=DCE&amp;amp;IDM=1602666</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Canal de communication ad hoc</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>AW Solutions</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e184">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Prix</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Lieu de réception de la prime</span>
+                        <span>:</span>
+                        <span>1</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Informations complémentaires</span>
+                        <span>:</span>
+                        <span>Chacun des 3 candidats ayant remis une esquisse de projet bénéficiera d'une prime s'élevant à 18000,00 euro(s) HT par candidat. L'indemnité perçue par le lauréat est considérée comme une avance sur ses honoraires</span>
+                     </div>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://www.marches-publics.info/mpiaws/index.cfm?fuseaction=demat.termes&amp;amp;IDM=1602666</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>02/04/2025</span>
+                     <span/>
+                     <span>à 17:00</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e185">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Limoges</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+                  <span>:</span>
+                  <span>Avenue-Web Systèmes</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e23">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Avenue-Web Systèmes</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>014E323C-F11F-73EB-7DF47857A4EF2136</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Seyssinet-Pariset</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>38170</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Isère</span>
+               <span/>
+               <span>(</span>
+               <span>FRK24</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>publications-joue@aws-france.com</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33480041260</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">TED eSender</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e51">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Mairie de Brive</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>60170</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>Place Jean Charbonnel</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Brive</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>19312</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Corrèze</span>
+               <span/>
+               <span>(</span>
+               <span>FRI21</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Soulier Frédéric</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>marchespublics@agglodebrive.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0555923939</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse internet</span>
+               <span>:</span>
+               <span>https://www.marches-publics.info/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://www.marches-publics.info/</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e84">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Limoges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>014E325B-90A0-7F30-7294A2EA41B4515E</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>1, cours Vergniaud</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Limoges</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>87000</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Haute-Vienne</span>
+               <span/>
+               <span>(</span>
+               <span>FRI23</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-limoges@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0555339155</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Télécopieur</span>
+               <span>:</span>
+               <span>0555339160</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>d6d3031e-1dda-46ae-9888-4d1e065cfa2c</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>28/02/2025</span>
+               <span/>
+               <span>à 15:20</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>28/02/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Mairie de Brive : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>80433Place Jean CharbonnelBrive19312FRI21FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>Soulier Frédéric</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0555923939</li>
+                     <li><span class="fr-text--bold">Courriel : </span>marchespublics@agglodebrive.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="https://www.marches-publics.info/" target="_blank" title="Aller sur la page https://www.marches-publics.info/ - nouvelle fenêtre"><span>https://www.marches-publics.info/</span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://www.marches-publics.info/" target="_blank" title="Aller sur la page https://www.marches-publics.info/ - nouvelle fenêtre"><span>https://www.marches-publics.info/</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal. La
+            mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra,
+            en missions complémentaires, la mission Coordination Système de Sécurité Incendie
+            (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Concours de maîtrise d'oeuvre sur &amp;amp;quot;esquisse +&amp;amp;quot;. Le Dojo actuel construit
+            dans les années 80 ne répond plus aux besoins des utilisateurs tant en termes d'usage
+            avec seulement 2 aires de combats mais aussi du point de vue de la capacité d'accueil
+            avec près de 700 adhérents actuellement. Pour cela, la collectivité a décidé de construire
+            un nouveau dojo en lieu et place de l'existant. Le nouveau dojo comprendra notamment
+            : - Une aire principale de pratique sportive avec 4 aires de combats de 650 m² et
+            un espace de 200 m² dédié à l'échauffement. - Un espace pour juges et officiels de
+            130 m². - Une tribune d'environ 400 places, environ 280 m² de surface utile. - Un
+            espace préparation et récupération physique (salle de musculation avec vestiaires
+            et sanitaires) de 180 m² accessible aux différents clubs du dojo et de la patinoire.
+            - Des espaces dédiés aux clubs (bureaux, club house, office, salle de réunion, locaux
+            de stockage) pour 225 m² - Des locaux administratifs et techniques (sanitaires, infirmerie,
+            espaces d'accueil, locaux techniques pour 400 m². Soit une surface utile totale estimée
+            à 2600 m². L'enveloppe prévisionnelle affectée aux travaux est de 5 900 000 euro(s)
+            H.T. (valeur décembre 2024)</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Concours de maîtrise d'oeuvre pour la construction d'un nouveau dojo municipal. La
+                  mission de Maîtrise d'oeuvre sera une mission de base avec EXE totale. Elle comprendra,
+                  en missions complémentaires, la mission Coordination Système de Sécurité Incendie
+                  (CSSI) et la mission Ordonnancement, Pilotage et Coordination (OPC)</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

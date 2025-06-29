@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">16</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Ville d'Issy-les-Moulineaux</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>62 rue du Général Leclerc</cbc:StreetName>
+                                    <cbc:CityName>Issy-les-Moulineaux</cbc:CityName>
+                                    <cbc:PostalZone>92130</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>21920040900015</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0146292958</cbc:Telephone>
+                                    <cbc:ElectronicMail>anne.cario@seineouest.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0003</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal Administratif de Cergy Pontoise</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>2-4, boulevard de l'Hautil BP 30322, F-95027 Cergy-Pontoise cedex. </cbc:StreetName>
+                                    <cbc:CityName>Cergy Pontoise </cbc:CityName>
+                                    <cbc:PostalZone>95027</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FR108</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17950702500015</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>0130173400</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-cergy-pontoise@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">fa894075-053c-4c9d-b769-093eca206035</cbc:ID>
+            <cbc:ContractFolderID>4210d755-e552-42db-9b02-3c725e81eabe</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>13:50:02+02:00</cbc:IssueTime>
+            <cbc:VersionID>02</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-standard</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cbc:BuyerProfileURI>https://marches.maximilien.fr</cbc:BuyerProfileURI>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl-la</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">gen-pub</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0002</cbc:ID>
+                  </cac:PartyIdentification>
+                  <cac:ServiceProviderParty>
+                     <cbc:ServiceTypeCode listName="organisation-role">serv-prov</cbc:ServiceTypeCode>
+                     <cac:Party>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:Party>
+                  </cac:ServiceProviderParty>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">labour-law</cbc:TendererRequirementTypeCode>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:ProcedureCode listName="procurement-procedure-type">open</cbc:ProcedureCode>
+               <cac:ProcessJustification>
+                  <cbc:ProcessReasonCode listName="accelerated-procedure">false</cbc:ProcessReasonCode>
+               </cac:ProcessJustification>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux </cbc:Name>
+               <cbc:Description languageID="FRA">Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux </cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">50750000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cbc:Description languageID="FRA">La consultation est dématérialisée. La Ville impose que les offres soient déposées par voie électronique en passant par https://marches.maximilien.fr. Les offres déposées sur la plateforme Maximilien n'auront pas à être signées électroniquement à ce stade de la procédure. Par la seule remise de son offre, le candidat confirme son intention de soumissionner à l'attribution du marché. Les renseignements complémentaires sur les documents de la consultation sollicités en temps utile par les candidats seront communiqués, via la plateforme, à tous les candidats ayant retiré un dossier et qui se sont fait connaitre et dont les coordonnées sont exactes. Les autres devront récupérer les informations par leur propres moyens. Critères de sélection des candidatures : Adéquation des capacités professionnelles à l'objet du marché : moyens matériels et humains (sur les 3 dernières années) ; Adéquation des capacités techniques à l'objet du marché :références, qualifications techniques (sur les 3 dernières années); Adéquation des capacités financières à l'objet du marché : chiffre d'affaires (montant et évolution sur les 3 dernières années). La forme juridique du groupement choisie pourra être le groupement d'entreprises solidaire ou conjoint. Le groupement pourra être conjoint à la condition que les membres du groupement s'engagent à exécuter des prestations détaillées et précisées dans le contrat et que le mandataire du groupement soit solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard de la personne publique.
+
+
+Objet principal : 50750000-7 Services d'entretien d'ascenseurs 
+Objet secondaire : 45313100-5 Travaux d'installation d'ascenseurs
+Pas de visite. Pas de possibilité de négocier avec les candidats. 
+La durée de validité des offres est fixée à 150 jours à compter de la date limite de remise des offres. 
+Le budget de la ville financera les dépenses afférentes au marché. La ville ne percevra pas de subventions pour le financement de la prestation, objet du marché. Modalités de règlement : cf RC.
+
+Adresse auprès de laquelle des renseignements d'ordre administratif et technique peuvent être obtenus : Correspondant : Mme Anne Cario , Ville d'Issy-les-Moulineaux, 62 rue du Général Leclerc, 92130 Issy-les-Moulineaux, tél. : 01 46 29 29 58, adresse internet : https://marches.maximilien.fr Adresse auprès de laquelle les documents peuvent être obtenus : https://marches.maximilien.fr Adresse à laquelle les offres/candidatures/projets/demandes de participation doivent être envoyés : https://marches.maximilien.fr
+</cbc:Description>
+                  <cac:Address>
+                     <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">
+Adéquation des capacités professionnelles à l'objet du marché : moyens matériels et humains (sur les 3 dernières années) ; 
+Adéquation des capacités techniques à l'objet du marché : références, qualifications techniques (sur les 3 dernières années)
+</cbc:Name>
+                                 <cbc:Description languageID="FRA">Les pièces relatives à la candidature
+
+En application de l'article R.2143-13 du Code de la commande publique, les candidats ne sont pas tenus de fournir les documents justificatifs et moyens de preuve que le pouvoir adjudicateur peut obtenir directement par le biais d'un système électronique de mise à disposition d'informations administré par un organisme officiel ou d'un espace de stockage numérique, à condition que figurent dans le dossier de candidature toutes les informations nécessaires à la consultation de ce système ou de cet espace et que l'accès à ceux-ci soit gratuit. Le candidat est autorisé à présenter sa candidature sous la forme d'un document unique de marché européen (DUME) en français, établi conformément au modèle fixé par le règlement de la Commission européenne établissant le formulaire type pour le document unique de marché européen en lieu et place des documents définis ci-dessus. Le DUME sous format électronique est accepté.
+
+I. Lettre de candidature, sous une forme libre ou la forme de la dernière version de l'imprimé DC1 ou de tout document libre sur papier à en-tête, datée et signée par le candidat individuel ou en cas de groupement par l'ensemble de ses membres. Cette lettre doit comporter notamment les informations suivantes :
+ Objet de la consultation ;
+ Objet de la candidature ;
+Présentation du candidat : le candidat précise s'il se présente seul (coordonnées du candidat) ou en groupement solidaire ou conjoint avec mandataire solidaire (coordonnées de chaque membre du groupement) ; En cas de groupement, les membres du groupement désignent et habilitent le mandataire.
+Conformément aux articles R.2143-3 à R.2143-6 et R.2143-8 à R.2143-16 du Code de la commande publique, le candidat individuel ou chaque membre du groupement ne doit pas entrer dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-14 du Code de la commande publique et doit notamment être en règle au regard des articles L.5212-1 à L.5212-11 du Code du travail concernant l'emploi des travailleurs handicapés. 
+
+II. Déclaration du candidat ou du membre du groupement sous une forme libre ou la forme de la dernière version de l'imprimé DC2 ou de tout document libre. En cas de groupement, chaque membre du groupement fournit cette déclaration. Cette déclaration inclut les informations suivantes :
+Identification du candidat ou du membre du groupement : coordonnées du siège social, coordonnées de l'unité ou établissement qui exécutera les prestations, forme juridique du candidat ou du membre du groupement, nom, prénom et qualité de la personne physique ayant le pouvoir d'engager le candidat ou le membre du groupement ;
+
+En application des articles R.2143-3 et suivants du Code de la commande publique et son annexe n°9 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics :
+
+La déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant  les fournitures, les services objet du marché, réalisés au cours de ces trois dernières années disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ;
+
+La déclaration appropriée des banques ou preuve d'une assurance pour les risques professionnels ;
+
+La déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune de ces trois dernières années ;
+
+ La présentation d'une liste des principales prestations, objet du marché, effectuées au cours de ces trois dernières années, indiquant le montant, la date, le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ;
+
+La déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour l'exécution du marché ;
+
+Certificats de qualifications professionnelles éventuels établis par des organismes indépendants ou équivalents ;
+
+Pour justifier de ses capacités professionnelles, techniques et financières, le candidat même, s'il s'agit d'un groupement, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existant entre ces opérateurs et lui. Dans ce cas, il justifie des capacités de ce ou ces opérateurs et apporte la preuve qu'il en disposera pour l'exécution du marché. Pour justifier des capacités professionnelles, techniques et financières d'autres opérateurs économiques sur lesquels il s'appuie pour présenter sa candidature, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par le pouvoir adjudicateur. En outre pour justifier qu'il dispose des capacités de cet opérateur économique pour l'exécution du marché, le candidat produit un engagement écrit de l'opérateur économique.
+
+Le candidat est autorisé à présenter sa candidature sous la forme d'un document unique de marché européen (DUME) en français, établi conformément au modèle fixé par le règlement de la Commission européenne établissant le formulaire type pour le document unique de marché européen en lieu et place des documents définis ci-dessus.
+</cbc:Description>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Adéquation des capacités financières à l'objet du marché : chiffre d'affaires (montant et évolution sur les 3 dernières années)</cbc:Name>
+                                 <cbc:Description languageID="FRA">Les pièces relatives à la candidature : cf point précédent.</cbc:Description>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cbc:RecurringProcurementIndicator>true</cbc:RecurringProcurementIndicator>
+                  <cac:CallForTendersDocumentReference>
+                     <ext:UBLExtensions>
+                        <ext:UBLExtension>
+                           <ext:ExtensionContent>
+                              <efext:EformsExtension>
+                                 <efac:NonOfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:NonOfficialLanguages>
+                                 <efac:OfficialLanguages>
+                                    <cac:Language>
+                                       <cbc:ID>FRA</cbc:ID>
+                                    </cac:Language>
+                                 </efac:OfficialLanguages>
+                              </efext:EformsExtension>
+                           </ext:ExtensionContent>
+                        </ext:UBLExtension>
+                     </ext:UBLExtensions>
+                     <cbc:ID>https://marches.maximilien.fr</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://marches.maximilien.fr</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:TendererQualificationRequest>
+                     <cac:SpecificTendererRequirement>
+                        <cbc:TendererRequirementTypeCode listName="reserved-procurement">none</cbc:TendererRequirementTypeCode>
+                     </cac:SpecificTendererRequirement>
+                  </cac:TendererQualificationRequest>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="ecatalog-submission">not-allowed</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="reserved-execution">no</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="conditions">performance</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:ContractExecutionRequirement>
+                     <cbc:ExecutionRequirementCode listName="einvoicing">required</cbc:ExecutionRequirementCode>
+                  </cac:ContractExecutionRequirement>
+                  <cac:AwardingTerms>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>55</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">
+1/ Valeur technique - 55 points
+
+- Moyens humains et matériels affectés (qualification et expérience de l'interlocuteur unique, nombre de personnes dans l'équipe dédiée, qualifications et expérience de l'équipe dédiée, outillage et équipements disponibles) - 15 points
+- Organisation administrative et technique pour la maintenance et la vérification annuelle (méthodologie mise en place pour les prestations d'entretien, plannings de réalisation des visites périodiques d'entretien, modèles de bilan d'exploitation, outils de suivi des prestations pour la Ville) - 20 points
+- Organisation administrative et technique pour les dépannages et la réalisation de travaux (gestion des appels et télésurveillance, organisation des interventions : préparation et suivi, rapports d'intervention, outils de suivi des interventions, délai de désincarcération et délai de dépannage) - 20 points
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <ext:UBLExtensions>
+                              <ext:UBLExtension>
+                                 <ext:ExtensionContent>
+                                    <efext:EformsExtension>
+                                       <efac:AwardCriterionParameter>
+                                          <efbc:ParameterCode listName="number-weight">poi-exa</efbc:ParameterCode>
+                                          <efbc:ParameterNumeric>45</efbc:ParameterNumeric>
+                                       </efac:AwardCriterionParameter>
+                                    </efext:EformsExtension>
+                                 </ext:ExtensionContent>
+                              </ext:UBLExtension>
+                           </ext:UBLExtensions>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">price</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">Prix des prestations, sur DQE - 45 points
+
+Le DQE intégrera le forfait annuel et les quantités estimées de la part à BC.
+
+
+Il est précisé que le D.Q.E. n'est pas contractuel et n'engage donc pas les candidats. Il ne sert qu'à l'analyse du prix. En conséquence, afin d'avoir une analyse du prix du DQE juste et reflétant bien la réalité de l'offre de prix, si la ville détecte des erreurs dans le DQE d'un candidat (report de prix du BPU erroné, erreur de calcul quantité/prix, etc.), elle fera les rectifications d'autorité.
+
+</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                  </cac:AwardingTerms>
+                  <cac:TenderRecipientParty>
+                     <cbc:EndpointID>https://marches.maximilien.fr</cbc:EndpointID>
+                  </cac:TenderRecipientParty>
+                  <cac:TenderValidityPeriod>
+                     <cbc:DurationMeasure unitCode="DAY">150</cbc:DurationMeasure>
+                  </cac:TenderValidityPeriod>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">Instance chargée des procédures de recours : Tribunal Administratif de Cergy-Pontoise, 2-4, boulevard de l'Hautil BP 30322, F-95027 Cergy-Pontoise cedex. Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Service auprès duquel des renseignements peuvent être obtenus sur l'introduction de recours : Greffe du Tribunal Administratif de Cergy-Pontoise, 2-4,boulevard de l'Hautil BP 30322, F - 95027 Cergy-Pontoise, Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Le tribunal administratif peut être saisi via la plateforme informatique Télérecours Citoyens accessible par le site internet www.telerecours.fr.Informations relatives aux délais de recours: Instance chargée des procédures de recours : Tribunal Administratif
+de CergyPontoise, 24, boulevard de l'Hautil BP 30322, F95027 CergyPontoise cedex. Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Service auprès duquel 
+des renseignements peuvent être obtenus sur l'introduction de recours : Greffe du Tribunal Administratif de
+CergyPontoise, 24,boulevard de l'Hautil BP 30322, F  95027 CergyPontoise, Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Le tribunal administratif peut être saisi 
+via la plateforme informatique Télérecours Citoyens accessible par le site internet www.telerecours.fr</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0003</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+                  <cac:PostAwardProcess>
+                     <cbc:ElectronicOrderUsageIndicator>false</cbc:ElectronicOrderUsageIndicator>
+                     <cbc:ElectronicPaymentUsageIndicator>false</cbc:ElectronicPaymentUsageIndicator>
+                  </cac:PostAwardProcess>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:GovernmentAgreementConstraintIndicator>true</cbc:GovernmentAgreementConstraintIndicator>
+                  <cac:TenderSubmissionDeadlinePeriod>
+                     <cbc:EndDate>2025-04-10+02:00</cbc:EndDate>
+                     <cbc:EndTime>17:00:00+02:00</cbc:EndTime>
+                  </cac:TenderSubmissionDeadlinePeriod>
+                  <cac:AuctionTerms>
+                     <cbc:AuctionConstraintIndicator>false</cbc:AuctionConstraintIndicator>
+                  </cac:AuctionTerms>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="framework-agreement">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+                  <cac:ContractingSystem>
+                     <cbc:ContractingSystemTypeCode listName="dps-usage">none</cbc:ContractingSystemTypeCode>
+                  </cac:ContractingSystem>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:ID>1</cbc:ID>
+                  <cbc:Name languageID="FRA">Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux </cbc:Name>
+                  <cbc:Description languageID="FRA">Le marché est passé sous la forme d'une procédure d'appel d'offres ouvert conformément aux dispositions des articles L.2120-1-3, L2124-2 et R.2124-2-1 du Code de la commande publique.
+Le marché est un accord-cadre mono-attributaire de services, traité à prix mixtes :
+Il est à prix forfaitaire annuel pour les prestations suivantes effectuées dans les bâtiments:
+Entretien préventif et contrôle du bon fonctionnement des installations (visite périodique)
+Télésurveillance des cabines,
+Entretien curatif (dépannages et déplacements),
+Remplacement de petits équipements,
+Visites réglementaires.
+Il est à bons de commande sur la base de prix unitaires forfaitisés annuels pour les mêmes prestations pour les installations intégrées en cours de marché et de prix unitaires pour la fourniture d'équipements structurels et les travaux d'installation, de modification et d'amélioration des équipements effectuées dans les bâtiments communaux, sur la base de prix détaillés dans le bordereau des prix sans montant minimum annuel et avec un montant maximum annuel de 1 200 000 Euros HT en application des articles L.2125-1-1, R. 2162-2, 2162-4-2 à R. 2162-6, R.2162-13 et R.2162-14 du Code de la commande publique.
+
+
+Le marché n'est pas alloti au sens des articles L.2113-11 et R.2113-3 du Code de la commande publique car l'objet ne permet pas l'identification de prestations distinctes. Le marché n'est pas un marché à tranches. Les variantes sont interdites. Le marché ne comporte pas d'option. Le marché prendra effet à compter du 30 juin 2025 ou de sa date de notification si celle-ci est postérieure pour une durée d'un (1) an renouvelable trois (3) fois par reconduction tacite, soit une durée maximale de quatre (4) ans.
+</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="strategic-procurement">none</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:ProcurementAdditionalType>
+                     <cbc:ProcurementTypeCode listName="gpp-criteria">none</cbc:ProcurementTypeCode>
+                  </cac:ProcurementAdditionalType>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">50750000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+                  <cac:RealizedLocation>
+                     <cac:Address>
+                        <cbc:CountrySubentityCode listName="nuts">FR105</cbc:CountrySubentityCode>
+                        <cac:Country>
+                           <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                        </cac:Country>
+                     </cac:Address>
+                  </cac:RealizedLocation>
+                  <cac:PlannedPeriod>
+                     <cbc:StartDate>2025-06-30+02:00</cbc:StartDate>
+                     <cbc:EndDate>2029-06-29+02:00</cbc:EndDate>
+                  </cac:PlannedPeriod>
+                  <cac:ContractExtension>
+                     <cbc:OptionsDescription languageID="FRA">Calendrier prévisionnel de publication du prochain avis : Début 2029.
+</cbc:OptionsDescription>
+                  </cac:ContractExtension>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-23981</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <STANDARD/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Ville d'Issy-les-Moulineaux</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <OUVERT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-04</DATE_PUBLICATION>
+         <DATE_LIMITE_REPONSE>2025-04-10T17:00:00+02:00</DATE_LIMITE_REPONSE>
+         <DATE_FIN_DIFFUSION>2025-04-10</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>17</CODE>
+               <LIBELLE>Ascenseur</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>92</DEP_PUBLICATION>
+         <RESUME_OBJET>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux </RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de marché - Avis n° 25-23981 du 03/03/2025</title>
+      <meta name="subject" content="Avis de marché"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de marché - Avis n° 25-23981 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de marché</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>92</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-23981</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e153">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville d'Issy-les-Moulineaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public, contrôlé par une autorité locale</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Services d’administration générale</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e216">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>4210d755-e552-42db-9b02-3c725e81eabe</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Ouverte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">La procédure est accélérée</span>
+               <span>:</span>
+               <span class="fr-text--bold">non</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e216">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>50750000</span>
+                  <span/>
+                  <span>Services d'entretien d'ascenseurs</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e238">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Hauts-de-Seine</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR105</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La consultation est dématérialisée. La Ville impose que les offres soient déposées par voie électronique en passant par https://marches.maximilien.fr. Les offres déposées sur la plateforme Maximilien n'auront pas à être signées électroniquement à ce stade de la procédure. Par la seule remise de son offre, le candidat confirme son intention de soumissionner à l'attribution du marché. Les renseignements complémentaires sur les documents de la consultation sollicités en temps utile par les candidats seront communiqués, via la plateforme, à tous les candidats ayant retiré un dossier et qui se sont fait connaitre et dont les coordonnées sont exactes. Les autres devront récupérer les informations par leur propres moyens. Critères de sélection des candidatures : Adéquation des capacités professionnelles à l'objet du marché : moyens matériels et humains (sur les 3 dernières années) ; Adéquation des capacités techniques à l'objet du marché :références, qualifications techniques (sur les 3 dernières années); Adéquation des capacités financières à l'objet du marché : chiffre d'affaires (montant et évolution sur les 3 dernières années). La forme juridique du groupement choisie pourra être le groupement d'entreprises solidaire ou conjoint. Le groupement pourra être conjoint à la condition que les membres du groupement s'engagent à exécuter des prestations détaillées et précisées dans le contrat et que le mandataire du groupement soit solidaire de chacun des membres du groupement pour ses obligations contractuelles à l'égard de la personne publique. Objet principal : 50750000-7 Services d'entretien d'ascenseurs Objet secondaire : 45313100-5 Travaux d'installation d'ascenseurs Pas de visite. Pas de possibilité de négocier avec les candidats. La durée de validité des offres est fixée à 150 jours à compter de la date limite de remise des offres. Le budget de la ville financera les dépenses afférentes au marché. La ville ne percevra pas de subventions pour le financement de la prestation, objet du marché. Modalités de règlement : cf RC. Adresse auprès de laquelle des renseignements d'ordre administratif et technique peuvent être obtenus : Correspondant : Mme Anne Cario , Ville d'Issy-les-Moulineaux, 62 rue du Général Leclerc, 92130 Issy-les-Moulineaux, tél. : 01 46 29 29 58, adresse internet : https://marches.maximilien.fr Adresse auprès de laquelle les documents peuvent être obtenus : https://marches.maximilien.fr Adresse à laquelle les offres/candidatures/projets/demandes de participation doivent être envoyés : https://marches.maximilien.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e216">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e192">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Manquement aux obligations dans le domaine du droit du travail</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e252">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité et de fiabilité des ascenseurs des bâtiments communaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Le marché est passé sous la forme d'une procédure d'appel d'offres ouvert conformément aux dispositions des articles L.2120-1-3, L2124-2 et R.2124-2-1 du Code de la commande publique. Le marché est un accord-cadre mono-attributaire de services, traité à prix mixtes : Il est à prix forfaitaire annuel pour les prestations suivantes effectuées dans les bâtiments: Entretien préventif et contrôle du bon fonctionnement des installations (visite périodique) Télésurveillance des cabines, Entretien curatif (dépannages et déplacements), Remplacement de petits équipements, Visites réglementaires. Il est à bons de commande sur la base de prix unitaires forfaitisés annuels pour les mêmes prestations pour les installations intégrées en cours de marché et de prix unitaires pour la fourniture d'équipements structurels et les travaux d'installation, de modification et d'amélioration des équipements effectuées dans les bâtiments communaux, sur la base de prix détaillés dans le bordereau des prix sans montant minimum annuel et avec un montant maximum annuel de 1 200 000 Euros HT en application des articles L.2125-1-1, R. 2162-2, 2162-4-2 à R. 2162-6, R.2162-13 et R.2162-14 du Code de la commande publique. Le marché n'est pas alloti au sens des articles L.2113-11 et R.2113-3 du Code de la commande publique car l'objet ne permet pas l'identification de prestations distinctes. Le marché n'est pas un marché à tranches. Les variantes sont interdites. Le marché ne comporte pas d'option. Le marché prendra effet à compter du 30 juin 2025 ou de sa date de notification si celle-ci est postérieure pour une durée d'un (1) an renouvelable trois (3) fois par reconduction tacite, soit une durée maximale de quatre (4) ans.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant interne</span>
+               <span>:</span>
+               <span>1</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e516">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>50750000</span>
+                  <span/>
+                  <span>Services d'entretien d'ascenseurs</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Options</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Description des options</span>
+                     <span>:</span>
+                     <span>Calendrier prévisionnel de publication du prochain avis : Début 2029.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.2_d1e548">
+               <span>5.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Hauts-de-Seine</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FR105</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span/>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.3_d1e563">
+               <span>5.1.3</span>
+               <span class="fr-text--bold">Durée estimée</span>
+               <div class="section">
+                  <span class="fr-text--bold">Date de début</span>
+                  <span>:</span>
+                  <span>30/06/2025</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Date de fin de durée</span>
+                  <span>:</span>
+                  <span>29/06/2029</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e252">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Il s’agit d’un marché récurrent</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Participation réservée</span>
+                  <span>:</span>
+                  <span>La participation n’est pas réservée.</span>
+               </div>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Le marché relève de l’accord sur les marchés publics (AMP)</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">oui</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.7_d1e516">
+               <span>5.1.7</span>
+               <span class="fr-text--bold">Marché public stratégique</span>
+               <div class="section">
+                  <span class="fr-text--bold">Objectif du marché public stratégique</span>
+                  <span>:</span>
+                  <span>Pas de passation de marché stratégique</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critères marchés publics écologiques</span>
+                  <span>:</span>
+                  <span>Pas de critères applicables aux marchés publics écologiques</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e257">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Adéquation des capacités professionnelles à l'objet du marché : moyens matériels et humains (sur les 3 dernières années) ; Adéquation des capacités techniques à l'objet du marché : références, qualifications techniques (sur les 3 dernières années)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les pièces relatives à la candidature En application de l'article R.2143-13 du Code de la commande publique, les candidats ne sont pas tenus de fournir les documents justificatifs et moyens de preuve que le pouvoir adjudicateur peut obtenir directement par le biais d'un système électronique de mise à disposition d'informations administré par un organisme officiel ou d'un espace de stockage numérique, à condition que figurent dans le dossier de candidature toutes les informations nécessaires à la consultation de ce système ou de cet espace et que l'accès à ceux-ci soit gratuit. Le candidat est autorisé à présenter sa candidature sous la forme d'un document unique de marché européen (DUME) en français, établi conformément au modèle fixé par le règlement de la Commission européenne établissant le formulaire type pour le document unique de marché européen en lieu et place des documents définis ci-dessus. Le DUME sous format électronique est accepté. I. Lettre de candidature, sous une forme libre ou la forme de la dernière version de l'imprimé DC1 ou de tout document libre sur papier à en-tête, datée et signée par le candidat individuel ou en cas de groupement par l'ensemble de ses membres. Cette lettre doit comporter notamment les informations suivantes : Objet de la consultation ; Objet de la candidature ; Présentation du candidat : le candidat précise s'il se présente seul (coordonnées du candidat) ou en groupement solidaire ou conjoint avec mandataire solidaire (coordonnées de chaque membre du groupement) ; En cas de groupement, les membres du groupement désignent et habilitent le mandataire. Conformément aux articles R.2143-3 à R.2143-6 et R.2143-8 à R.2143-16 du Code de la commande publique, le candidat individuel ou chaque membre du groupement ne doit pas entrer dans aucun des cas mentionnés aux articles L.2141-1 à L.2141-14 du Code de la commande publique et doit notamment être en règle au regard des articles L.5212-1 à L.5212-11 du Code du travail concernant l'emploi des travailleurs handicapés. II. Déclaration du candidat ou du membre du groupement sous une forme libre ou la forme de la dernière version de l'imprimé DC2 ou de tout document libre. En cas de groupement, chaque membre du groupement fournit cette déclaration. Cette déclaration inclut les informations suivantes : Identification du candidat ou du membre du groupement : coordonnées du siège social, coordonnées de l'unité ou établissement qui exécutera les prestations, forme juridique du candidat ou du membre du groupement, nom, prénom et qualité de la personne physique ayant le pouvoir d'engager le candidat ou le membre du groupement ; En application des articles R.2143-3 et suivants du Code de la commande publique et son annexe n°9 fixant la liste des renseignements et des documents pouvant être demandés aux candidats aux marchés publics : La déclaration concernant le chiffre d'affaires global et le chiffre d'affaires concernant les fournitures, les services objet du marché, réalisés au cours de ces trois dernières années disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles ; La déclaration appropriée des banques ou preuve d'une assurance pour les risques professionnels ; La déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pour chacune de ces trois dernières années ; La présentation d'une liste des principales prestations, objet du marché, effectuées au cours de ces trois dernières années, indiquant le montant, la date, le destinataire public ou privé. Les prestations sont prouvées par des attestations du destinataire ou, à défaut, par une déclaration de l'opérateur économique ; La déclaration indiquant l'outillage, le matériel et l'équipement technique dont le candidat dispose pour l'exécution du marché ; Certificats de qualifications professionnelles éventuels établis par des organismes indépendants ou équivalents ; Pour justifier de ses capacités professionnelles, techniques et financières, le candidat même, s'il s'agit d'un groupement, peut demander que soient également prises en compte les capacités professionnelles, techniques et financières d'autres opérateurs économiques, quelle que soit la nature juridique des liens existant entre ces opérateurs et lui. Dans ce cas, il justifie des capacités de ce ou ces opérateurs et apporte la preuve qu'il en disposera pour l'exécution du marché. Pour justifier des capacités professionnelles, techniques et financières d'autres opérateurs économiques sur lesquels il s'appuie pour présenter sa candidature, le candidat produit les mêmes documents concernant cet opérateur économique que ceux qui lui sont exigés par le pouvoir adjudicateur. En outre pour justifier qu'il dispose des capacités de cet opérateur économique pour l'exécution du marché, le candidat produit un engagement écrit de l'opérateur économique. Le candidat est autorisé à présenter sa candidature sous la forme d'un document unique de marché européen (DUME) en français, établi conformément au modèle fixé par le règlement de la Commission européenne établissant le formulaire type pour le document unique de marché européen en lieu et place des documents définis ci-dessus.</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Adéquation des capacités financières à l'objet du marché : chiffre d'affaires (montant et évolution sur les 3 dernières années)</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Les pièces relatives à la candidature : cf point précédent.</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e379">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>1/ Valeur technique - 55 points - Moyens humains et matériels affectés (qualification et expérience de l'interlocuteur unique, nombre de personnes dans l'équipe dédiée, qualifications et expérience de l'équipe dédiée, outillage et équipements disponibles) - 15 points - Organisation administrative et technique pour la maintenance et la vérification annuelle (méthodologie mise en place pour les prestations d'entretien, plannings de réalisation des visites périodiques d'entretien, modèles de bilan d'exploitation, outils de suivi des prestations pour la Ville) - 20 points - Organisation administrative et technique pour les dépannages et la réalisation de travaux (gestion des appels et télésurveillance, organisation des interventions : préparation et suivi, rapports d'intervention, outils de suivi des interventions, délai de désincarcération et délai de dépannage) - 20 points</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>55</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Prix</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Prix des prestations, sur DQE - 45 points Le DQE intégrera le forfait annuel et les quantités estimées de la part à BC. Il est précisé que le D.Q.E. n'est pas contractuel et n'engage donc pas les candidats. Il ne sert qu'à l'analyse du prix. En conséquence, afin d'avoir une analyse du prix du DQE juste et reflétant bien la réalité de l'offre de prix, si la ville détecte des erreurs dans le DQE d'un candidat (report de prix du BPU erroné, erreur de calcul quantité/prix, etc.), elle fera les rectifications d'autorité.</span>
+                  </div>
+                  <div class="section">
+                     <span>Pondération (points, valeur exacte)</span>
+                     <span>:</span>
+                     <span>45</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e254">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché sont officiellement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Langues dans lesquelles les documents de marché (ou leurs parties) sont officieusement disponibles</span>
+                  <span>:</span>
+                  <span>français</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://marches.maximilien.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e252">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Adresse de présentation</span>
+                     <span>:</span>
+                     <span>https://marches.maximilien.fr</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Catalogue électronique</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des offres</span>
+                     <span>:</span>
+                     <span>10/04/2025</span>
+                     <span/>
+                     <span>à 17:00</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de validité de l’offre</span>
+                     <span>:</span>
+                     <span>150</span>
+                     <span/>
+                     <span class="fr-text--bold">Jour</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du marché</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Le marché doit être exécuté dans le cadre de programmes d’emplois protégés</span>
+                     <span>:</span>
+                     <span>Non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Facturation en ligne</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La commande en ligne sera utilisée</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Le paiement en ligne sera utilisé</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>Instance chargée des procédures de recours : Tribunal Administratif de Cergy-Pontoise, 2-4, boulevard de l'Hautil BP 30322, F-95027 Cergy-Pontoise cedex. Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Service auprès duquel des renseignements peuvent être obtenus sur l'introduction de recours : Greffe du Tribunal Administratif de Cergy-Pontoise, 2-4,boulevard de l'Hautil BP 30322, F - 95027 Cergy-Pontoise, Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Le tribunal administratif peut être saisi via la plateforme informatique Télérecours Citoyens accessible par le site internet www.telerecours.fr.Informations relatives aux délais de recours: Instance chargée des procédures de recours : Tribunal Administratif de CergyPontoise, 24, boulevard de l'Hautil BP 30322, F95027 CergyPontoise cedex. Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Service auprès duquel des renseignements peuvent être obtenus sur l'introduction de recours : Greffe du Tribunal Administratif de CergyPontoise, 24,boulevard de l'Hautil BP 30322, F 95027 CergyPontoise, Courriel : greffe.ta-cergy-pontoise@juradm.fr. Téléphone : 01 30 17 34 00 Télécopie : 01 30 17 34 59. Le tribunal administratif peut être saisi via la plateforme informatique Télérecours Citoyens accessible par le site internet www.telerecours.fr</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.15_d1e483">
+               <span>5.1.15</span>
+               <span class="fr-text--bold">Techniques</span>
+               <div class="section">
+                  <span class="fr-text--bold">Accord-cadre</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas d’accord-cadre</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur le système d’acquisition dynamique</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span>Pas de système d’acquisition dynamique</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Enchère électronique</span>
+                  <span>:</span>
+                  <span class="fr-text--bold">non</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e254">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Cergy Pontoise</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Prestataire de services de passation de marché</span>
+                  <span>:</span>
+                  <span>Tribunal Administratif de Cergy Pontoise</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Ville d'Issy-les-Moulineaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>21920040900015</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>62 rue du Général Leclerc</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Issy-les-Moulineaux</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>92130</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Hauts-de-Seine</span>
+               <span/>
+               <span>(</span>
+               <span>FR105</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>anne.cario@seineouest.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0146292958</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Profil de l’acheteur</span>
+               <span>:</span>
+               <span>https://marches.maximilien.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e75">
+            <span>8.1</span>
+            <span>ORG-0003</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal Administratif de Cergy Pontoise</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17950702500015</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>2-4, boulevard de l'Hautil BP 30322, F-95027 Cergy-Pontoise cedex.</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Cergy Pontoise</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>95027</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Val-d’Oise</span>
+               <span/>
+               <span>(</span>
+               <span>FR108</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-cergy-pontoise@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>0130173400</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Prestataire de services de passation de marché</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>fa894075-053c-4c9d-b769-093eca206035</span>
+               <span/>
+               <span>-</span>
+               <span>02</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de marché ou de concession – régime ordinaire</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 13:50</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Ville d'Issy-les-Moulineaux : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>62 rue du Général Leclerc Issy-les-Moulineaux 92130 FR105 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span></li>
+                     <li><span class="fr-text--bold">Téléphone : </span>0146292958</li>
+                     <li><span class="fr-text--bold">Courriel : </span>anne.cario@seineouest.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="https://marches.maximilien.fr" target="_blank" title="Aller sur la page https://marches.maximilien.fr - nouvelle fenêtre"><span>https://marches.maximilien.fr</span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité
+            et de fiabilité des ascenseurs des bâtiments communaux</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité
+            et de fiabilité des ascenseurs des bâtiments communaux</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Entretien, télésurveillance et travaux neufs et de mise en conformité, de sécurité
+                  et de fiabilité des ascenseurs des bâtiments communaux</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>

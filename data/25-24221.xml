@@ -1,0 +1,1073 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jo:ann xmlns:jo="http://boamp.journal-officiel.gouv.fr/XML/3.2.5">
+   <DONNEES>
+      <EFORMS xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <ContractNotice xmlns:cac="urn:boamp:names:specification:ubl:schema:xsd:CommonAggregateComponents-2"
+                         xmlns:cbc="urn:boamp:names:specification:ubl:schema:xsd:CommonBasicComponents-2"
+                         xmlns:efac="http://data.europa.eu/p27/eforms-ubl-extension-aggregate-components/1"
+                         xmlns:efbc="http://data.europa.eu/p27/eforms-ubl-extension-basic-components/1"
+                         xmlns:efext="http://data.europa.eu/p27/eforms-ubl-extensions/1"
+                         xmlns:ext="urn:boamp:names:specification:ubl:schema:xsd:CommonExtensionComponents-2">
+            <ext:UBLExtensions>
+               <ext:UBLExtension>
+                  <ext:ExtensionContent>
+                     <efext:EformsExtension>
+                        <efac:NoticeSubType>
+                           <cbc:SubTypeCode listName="notice-subtype">23</cbc:SubTypeCode>
+                        </efac:NoticeSubType>
+                        <efac:Organizations>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0001</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du Groupement Hospitalier Universitaire de Champagne (GHUC)</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>45, rue Cognacq Jay</cbc:StreetName>
+                                    <cbc:CityName>Reims cedex</cbc:CityName>
+                                    <cbc:PostalZone>51092</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRF23</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>26510005700487</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Name>Cellule des marchés publics</cbc:Name>
+                                    <cbc:Telephone>+33 310736039</cbc:Telephone>
+                                    <cbc:ElectronicMail>cellulemarches@chureims.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                           <efac:Organization>
+                              <efac:Company>
+                                 <cac:PartyIdentification>
+                                    <cbc:ID schemeName="organization">ORG-0002</cbc:ID>
+                                 </cac:PartyIdentification>
+                                 <cac:PartyName>
+                                    <cbc:Name languageID="FRA">Tribunal administratif de Châlons-en-Champagne</cbc:Name>
+                                 </cac:PartyName>
+                                 <cac:PostalAddress>
+                                    <cbc:StreetName>25, rue du Lycée</cbc:StreetName>
+                                    <cbc:CityName>Châlons-en-champagne cedex</cbc:CityName>
+                                    <cbc:PostalZone>51036</cbc:PostalZone>
+                                    <cbc:CountrySubentityCode listName="nuts">FRF23</cbc:CountrySubentityCode>
+                                    <cac:Country>
+                                       <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                                    </cac:Country>
+                                 </cac:PostalAddress>
+                                 <cac:PartyLegalEntity>
+                                    <cbc:CompanyID>17510005600019</cbc:CompanyID>
+                                 </cac:PartyLegalEntity>
+                                 <cac:Contact>
+                                    <cbc:Telephone>+33 326668687</cbc:Telephone>
+                                    <cbc:ElectronicMail>greffe.ta-chalons-en-champagne@juradm.fr</cbc:ElectronicMail>
+                                 </cac:Contact>
+                              </efac:Company>
+                           </efac:Organization>
+                        </efac:Organizations>
+                     </efext:EformsExtension>
+                  </ext:ExtensionContent>
+               </ext:UBLExtension>
+            </ext:UBLExtensions>
+            <cbc:UBLVersionID>2.3</cbc:UBLVersionID>
+            <cbc:CustomizationID>eforms-sdk-1.11</cbc:CustomizationID>
+            <cbc:ID schemeName="notice-id">947a6505-c3d7-4443-8b51-5bd516f69efe</cbc:ID>
+            <cbc:ContractFolderID>4ec5aa25-640d-44e3-8a42-5c8887cea7a5</cbc:ContractFolderID>
+            <cbc:IssueDate>2025-03-03+02:00</cbc:IssueDate>
+            <cbc:IssueTime>18:04:45+02:00</cbc:IssueTime>
+            <cbc:VersionID>01</cbc:VersionID>
+            <cbc:RegulatoryDomain>32014L0024</cbc:RegulatoryDomain>
+            <cbc:NoticeTypeCode listName="competition">cn-desg</cbc:NoticeTypeCode>
+            <cbc:NoticeLanguageCode listName="language">FRA</cbc:NoticeLanguageCode>
+            <cac:ContractingParty>
+               <cac:ContractingPartyType>
+                  <cbc:PartyTypeCode listName="buyer-legal-type">body-pl</cbc:PartyTypeCode>
+               </cac:ContractingPartyType>
+               <cac:ContractingActivity>
+                  <cbc:ActivityTypeCode listName="authority-activity">health</cbc:ActivityTypeCode>
+               </cac:ContractingActivity>
+               <cac:Party>
+                  <cac:PartyIdentification>
+                     <cbc:ID>ORG-0001</cbc:ID>
+                  </cac:PartyIdentification>
+               </cac:Party>
+            </cac:ContractingParty>
+            <cac:TenderingTerms>
+               <cac:TendererQualificationRequest>
+                  <cac:SpecificTendererRequirement>
+                     <cbc:TendererRequirementTypeCode listName="exclusion-ground">nati-ground</cbc:TendererRequirementTypeCode>
+                     <cbc:Description languageID="FRA">Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l'un des cas d'exclusion de la procédure de passation prévus par le Code de la commande publique.</cbc:Description>
+                  </cac:SpecificTendererRequirement>
+               </cac:TendererQualificationRequest>
+            </cac:TenderingTerms>
+            <cac:TenderingProcess>
+               <cbc:Description languageID="FRA">A l'issue du concours, des négociations sont engagées avec le(s) lauréat(s) en vue de la passation du marché de maîtrise d'oeuvre dont le contenu et les modalités d'exécution sont définis dans le cahier des clauses administratives particulières (CCAP), le cahier des clauses techniques particulières (CCTP) et, le cas échéant, dans l'acte d'engagement. Au terme des négociations, le marché est attribué par la personne signataire du marché, qui conserve la possibilité de ne donner aucune suite au concours.</cbc:Description>
+               <cbc:ProcedureCode listName="procurement-procedure-type">restricted</cbc:ProcedureCode>
+            </cac:TenderingProcess>
+            <cac:ProcurementProject>
+               <cbc:Name languageID="FRA">Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</cbc:Name>
+               <cbc:Description languageID="FRA">Concours restreint sur "esquisse" relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne. Le montant de l'enveloppe financière prévisionnelle affectée aux travaux est de 24 905 000 Euros HT (novembre 2024). La durée globale prévisionnelle du marché de maîtrise d'oeuvre est de 6 ans, toutes tranches comprises, hors année de parfait achèvement.</cbc:Description>
+               <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+               <cbc:Note languageID="FRA">La procédure s'inscrit dans le cadre de la fonction achat mutualisée du Groupement Hospitalier Universitaire de Champagne (GHUC). Le Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du GHUC, est compétent pour assurer la passation, la signature et la notification des marchés, ainsi que les éventuelles modifications, reconductions ou non-reconduction et résiliation. Le ou les établissements parties bénéficiaires assure(nt), à titre individuel, l'exécution des marchés et réalise(nt) notamment les opérations suivantes : commandes, vérifications, liquidation et mandatement des factures et toute autre mesure relevant des opérations d'exécution.
+-----
+Le candidat proposera impérativement les compétences minimales suivantes :
+-- Architecte inscrit à l'ordre des architectes ou possédant un diplôme reconnu au titre de la directive 2005/36/CE. 
+-- Un bureau d'étude pluridisciplinaire ou plusieurs bureaux d'études d'ingénierie couvrant l'ensemble des techniques suivantes :
+- Structure,
+- Chauffage Ventilation Climatisation (CVC) / Thermique,
+- Plomberie Sanitaire,
+- Fluides médicaux,
+- Electricité (CFO-CFA),
+- Coordination des Systèmes de Sécurité Incendie (CSSI),
+- Voirie Réseaux Divers (VRD).
+-- Autres compétences spécifiques : 
+- Ordonnancement, Pilotage et Coordination (OPC),
+- Economie de la construction et coût global / coût Exploitation Maintenance,
+- Acoustique,
+- Signalétique et/ou architecte d'intérieur,
+- Logistique de flux,
+- BIM,
+- Etudes de micro-implantation des équipements et mobiliers.
+En cas de groupement, le mandataire doit être architecte.
+-----
+FORME DU GROUPEMENT : 
+En application des dispositions des articles R.2142-19 et R.2142-20 du Code de la commande publique, les groupements d'opérateurs économiques peuvent participer aux procédures de passation de marchés sous forme de groupement solidaire ou de groupement conjoint.
+En application des dispositions des articles R.2142-22 et R.2142-24 du Code de la commande publique, dans les deux formes de groupements, l'un des opérateurs économiques membres du groupement, désigné dans la candidature et dans l'offre comme mandataire, représente l'ensemble des membres vis-à-vis de l'acheteur et coordonne les prestations des membres du groupement.
+En application de l'article R.2142-22 du Code de la commande publique, à l'issue de l'attribution du marché, le groupement attributaire devra adopter la forme du groupement conjoint avec mandataire solidaire financièrement. 
+-----
+PRÉSENTATION DE PLUSIEURS CANDIDATURES ET OFFRES :
+En application des dispositions de l'article R.2142-21 du Code de la commande publique, il est fait interdiction aux candidats de présenter pour le marché plusieurs candidatures et offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements, ainsi qu'en qualité de membres de plusieurs groupements.
+Dans le cas où des candidats présentent pour le marché plusieurs offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements ainsi qu'en qualité de membres de plusieurs groupements, alors toutes les candidatures/offres concernées seront éliminées.
+En conséquence, un candidat ne peut valablement faire deux candidatures et offres à titre individuel, ni faire une première offre à titre individuel et une seconde candidature et offre en qualité de membre d'un groupement (et inversement), ni faire une première candidature et offre en qualité de membre d'un groupement et une seconde offre en qualité de membre d'un autre groupement, et ce, y compris en tant que sous-traitant, à l'exception toutefois des sociétés portant exclusivement une ou plusieurs des compétences suivantes : 
+- OPC, 
+- Acoustique,
+- Logistique de flux,
+- BIM Mangement,
+- Micro-implantation.
+Le non-respect de cette obligation entrainera l'élimination de toutes les candidatures concernées.
+-----
+La candidature devra impérativement contenir tous les documents et renseignements stipulés dans le règlement de la consultation de la phase candidatures. 
+----- 
+Les personnes morales sont tenues d'indiquer les noms et qualifications professionnelles des membres du personnel chargés de la prestation.
+-----
+VISITE OBLIGATOIRE : Une visite obligatoire sera organisée après la sélection des candidats admis à concourir. Les modalités seront précisées dans le règlement de consultation relatif à la phase offres.</cbc:Note>
+               <cac:MainCommodityClassification>
+                  <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+               </cac:MainCommodityClassification>
+               <cac:RealizedLocation>
+                  <cac:Address>
+                     <cbc:StreetName>Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne </cbc:StreetName>
+                     <cbc:AdditionalStreetName>51, Rue du Commandant Derrien </cbc:AdditionalStreetName>
+                     <cbc:CityName>Châlons-en-Champagne</cbc:CityName>
+                     <cbc:PostalZone>51000</cbc:PostalZone>
+                     <cbc:CountrySubentityCode listName="nuts">FRF23</cbc:CountrySubentityCode>
+                     <cac:Country>
+                        <cbc:IdentificationCode listName="country">FRA</cbc:IdentificationCode>
+                     </cac:Country>
+                  </cac:Address>
+               </cac:RealizedLocation>
+            </cac:ProcurementProject>
+            <cac:ProcurementProjectLot>
+               <cbc:ID schemeName="Lot">LOT-0001</cbc:ID>
+               <cac:TenderingTerms>
+                  <ext:UBLExtensions>
+                     <ext:UBLExtension>
+                        <ext:ExtensionContent>
+                           <efext:EformsExtension>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">other</cbc:CriterionTypeCode>
+                                 <cbc:Name languageID="FRA">Situation juridique des candidats</cbc:Name>
+                                 <cbc:Description languageID="FRA">Pour un candidat se présentant seul ou pour chaque membre du groupement d'opérateurs économiques, sont fournis les déclarations et renseignements requis dans la lettre de candidature et de désignation du mandataire par ses cotraitants (formulaire DC1 dans la version du 01/04/2019 ou forme libre ou DUME) et notamment :
+a) La présentation du candidat, seul ou en groupement d'entreprises (avec désignation du mandataire, de la forme du groupement, le cas échéant du rôle du mandataire du groupement conjoint, et de la répartition des prestations).
+b) La déclaration sur l'honneur du candidat individuel ou de chaque membre du groupement pour justifier qu'il n'entre dans aucun des cas d'exclusions prévus aux articles L.2141-1 à L.2141-5 et aux articles L.2141-7 à L.2141-10 du Code de la commande publique.
+c) Pour chaque sous-traitant éventuellement identifié dès le stade de la candidature, une preuve que le groupement candidat en disposera pour l'exécution du marché (la preuve peut être apportée par tout moyen approprié, tel qu'un engagement écrit du sous-traitant) et une déclaration sur l'honneur que le sous-traitant n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles L.2141-1 à
+L.2141-5 ou aux articles L.2141-7 à L.2141-10 du Code de la commande publique.
+d) Les pouvoirs de la personne habilitée à engager la candidature et à représenter chacun des membres du groupement candidat.</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">tp-abil</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">- Certificats de qualification professionnelle : Afin de participer à la justification des capacités minimales exigées, les candidats transmettront tous les certificats de qualification professionnelle établis par des organismes indépendants tels que l'Organisme Professionnel de Qualification de l'Ingénierie Bâtiment Industrie (OPQIBI) ou équivalent, en leur possession.
+Pour toutes les compétences autres que la compétence en architecture, le Centre Hospitalier Universitaire acceptera tout moyen de preuve (attestation de formation diplômes ou références projets).
+- Présentation générale - Fiche synthétique de présentation (annexe n° 1 au RC) à compléter selon les conditions fixées au RC.
+- Présentation graphique des références - Cadre de présentation graphique (annexe n° 2 au RC) à compléter selon conditions fixées au RC.</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">ef-stand</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Pour un candidat se présentant seul ou pour chaque membre du groupement d'opérateurs économiques, sont fournis les renseignements et documents suivants :
+- Une déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles.
+- Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années.
+- L'indication des titres d'études et professionnels du candidat ou des cadres de l'entreprise, et notamment des responsables de prestation de services de même nature que celle du marché. La transmission de CV est exigée selon les conditions fixées au RC.
+- Les déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents.
+Si, pour une raison justifiée, l'opérateur économique n'est pas en mesure de produire les renseignements et documents demandés concernant la capacité économique et financière il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par le Centre Hospitalier Universitaire.
+</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                              <efac:SelectionCriteria>
+                                 <cbc:CriterionTypeCode listName="selection-criterion">sui-act</cbc:CriterionTypeCode>
+                                 <cbc:Description languageID="FRA">Pour chaque membre du groupement portant la compétence en architecture une attestation d'inscription à l'ordre des architectes datant de moins de 6 mois, ou un diplôme reconnu au titre de la directive 2005/36/CE pour les candidats étrangers.</cbc:Description>
+                                 <efbc:SecondStageIndicator>true</efbc:SecondStageIndicator>
+                              </efac:SelectionCriteria>
+                           </efext:EformsExtension>
+                        </ext:ExtensionContent>
+                     </ext:UBLExtension>
+                  </ext:UBLExtensions>
+                  <cbc:VariantConstraintCode listName="permission">not-allowed</cbc:VariantConstraintCode>
+                  <cbc:FundingProgramCode listName="eu-funded">no-eu-funds</cbc:FundingProgramCode>
+                  <cac:CallForTendersDocumentReference>
+                     <cbc:ID>DCE</cbc:ID>
+                     <cbc:DocumentType>non-restricted-document</cbc:DocumentType>
+                     <cac:Attachment>
+                        <cac:ExternalReference>
+                           <cbc:URI>https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;id=2717828&amp;orgAcronyme=x7c</cbc:URI>
+                        </cac:ExternalReference>
+                     </cac:Attachment>
+                  </cac:CallForTendersDocumentReference>
+                  <cac:AwardingTerms>
+                     <cbc:FollowupContractIndicator>true</cbc:FollowupContractIndicator>
+                     <cbc:BindingOnBuyerIndicator>false</cbc:BindingOnBuyerIndicator>
+                     <cac:AwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">1) Qualités fonctionnelles du projet et qualité de la réponse au programme</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">5) Qualités architecturales du projet et intégration dans le site</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">4) Qualité technique et environnementale du projet</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">3) Economie générale du projet et compatibilité avec l'enveloppe financière prévisionnelle affectée aux travaux</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                        <cac:SubordinateAwardingCriterion>
+                           <cbc:AwardingCriterionTypeCode listName="award-criterion-type">quality</cbc:AwardingCriterionTypeCode>
+                           <cbc:Description languageID="FRA">2) Pertinence du phasage des travaux et du planning prévisionnel proposé</cbc:Description>
+                        </cac:SubordinateAwardingCriterion>
+                     </cac:AwardingCriterion>
+                     <cac:Prize>
+                        <cbc:RankCode>51000</cbc:RankCode>
+                        <cbc:ValueAmount currencyID="EUR">140000</cbc:ValueAmount>
+                        <cbc:Description languageID="FRA">Conformément à l'article R.2172-4 du Code de la commande publique, le maître d'ouvrage allouera une prime à chacun des 3 concurrents, qui aura remis un projet conforme aux exigences du Règlement de consultation et sous réserve que ces derniers aient remis dans les délais réglementaires les prestations décrites dans le Règlement de consultation, conformément aux propositions du Jury. Le Jury se réserve en effet le droit de proposer, de réduire ou de supprimer cette prime pour les concurrents dont les prestations ne répondraient pas aux caractéristiques énoncées dans le Règlement de consultation ou dont les prestations ne correspondraient pas à l'évidence au niveau de prestation demandé. La prime sera versée sur proposition du Jury et sur présentation de factures.</cbc:Description>
+                     </cac:Prize>
+                  </cac:AwardingTerms>
+                  <cac:AppealTerms>
+                     <cac:PresentationPeriod>
+                        <cbc:Description languageID="FRA">- Référé précontractuel : article L551-1 et suivants du Code de Justice Administrative (CJA), 
+- Référé contractuel : article L551-13 et suivants du CJA, 
+- Recours en contestation de validité du contrat en application de la jurisprudence du Conseil d'Etat, 4 avril 2014, Département de Tarn et Garonne.</cbc:Description>
+                     </cac:PresentationPeriod>
+                     <cac:AppealReceiverParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:AppealReceiverParty>
+                     <cac:MediationParty>
+                        <cac:PartyIdentification>
+                           <cbc:ID>ORG-0002</cbc:ID>
+                        </cac:PartyIdentification>
+                     </cac:MediationParty>
+                  </cac:AppealTerms>
+                  <cac:Language>
+                     <cbc:ID>FRA</cbc:ID>
+                  </cac:Language>
+               </cac:TenderingTerms>
+               <cac:TenderingProcess>
+                  <cbc:SubmissionMethodCode listName="esubmission">required</cbc:SubmissionMethodCode>
+                  <cbc:CandidateReductionConstraintIndicator>true</cbc:CandidateReductionConstraintIndicator>
+                  <cac:ParticipationRequestReceptionPeriod>
+                     <cbc:EndDate>2025-04-07+02:00</cbc:EndDate>
+                     <cbc:EndTime>15:00:00+02:00</cbc:EndTime>
+                  </cac:ParticipationRequestReceptionPeriod>
+                  <cac:EconomicOperatorShortList>
+                     <cbc:LimitationDescription>true</cbc:LimitationDescription>
+                     <cbc:MaximumQuantity>3</cbc:MaximumQuantity>
+                     <cbc:MinimumQuantity>3</cbc:MinimumQuantity>
+                  </cac:EconomicOperatorShortList>
+               </cac:TenderingProcess>
+               <cac:ProcurementProject>
+                  <cbc:Name languageID="FRA">Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</cbc:Name>
+                  <cbc:Description languageID="FRA">TRANCHE FERME : Éléments de mission de base : 
+- ESQ : Adaptation des études d'Esquisse, 
+- APS : Etudes d'Avant-Projet Sommaire, 
+- APD : Etudes d'Avant-Projet Définitif, 
+- PRO-DCE : Etudes de Projet, y compris le Dossier de Consultation des Entreprises avec détails quantitatifs estimatifs (DQE) et décomposition du prix global et forfaitaire (DPGF), 
+- ACT : Assistance apportée au maître d'ouvrage pour la passation des marchés publics de Travaux, - VISA : Examen de la conformité au projet des études d'exécution et leur Visa, 
+- DET : Direction de l'Exécution des marchés publics de Travaux, 
+- AOR-GPA : Assistance apportée au maître d'ouvrage lors des opérations de réception et pendant la période de garantie de parfait achèvement. 
+Eléments de missions complémentaires : 
+- OPC : Ordonnancement, Pilotage et Coordination des missions ESQ, 
+- SYN : Synthèse des études d'exécution faites par les entreprises, 
+- CSSI : Coordination des Systèmes de Sécurité Incendie. 
+TRANCHES OPTIONNELLES : 
+- Tranche optionnelle n° 1 - OPC : Ordonnancement, Pilotage et Coordination des missions APS à AOR, 
+- Tranche optionnelle n° 2 - MIE : Micro-implantation des équipements biomédicaux, logistiques, et mobiliers et des interfaces associées, 
+- Tranche optionnelle n° 3 - BIM : BIM Management.</cbc:Description>
+                  <cbc:ProcurementTypeCode listName="contract-nature">services</cbc:ProcurementTypeCode>
+                  <cbc:Note languageID="FRA">CRITERES DE SÉLECTION DES CANDIDATURES :
+Pour la sélection des candidats, le jury procèdera au vote selon les critères suivants : 
+- Critère 1 - La capacité professionnelle, 
+- Critère 2 - La capacité technique des membres du groupement, 
+- Critère 3 : Les capacités économique et financière.
+-----
+RÉALISATION DES PRESTATIONS SIMILAIRES /
+En application de l'article R.2122-7 du Code de la commande publique, le maître d'ouvrage se réserve la possibilité de conclure avec le maître d'oeuvre un marché passé sans publicité ni mise en concurrence préalables pour la réalisation de prestations similaires.
+La durée pendant laquelle le nouveau marché peut être conclu ne peut dépasser trois ans à compter de la notification du marché faisant suite au présent concours.</cbc:Note>
+                  <cac:MainCommodityClassification>
+                     <cbc:ItemClassificationCode listName="cpv">71000000</cbc:ItemClassificationCode>
+                  </cac:MainCommodityClassification>
+               </cac:ProcurementProject>
+            </cac:ProcurementProjectLot>
+         </ContractNotice>
+      </EFORMS>
+   </DONNEES>
+   <GESTION>
+      <REFERENCE>
+         <IDWEB>25-24221</IDWEB>
+         <TYPE_AVIS>
+            <FAMILLE>
+               <JOUE/>
+            </FAMILLE>
+            <PERIMETRE>
+               <DIRECTIVE-24/>
+            </PERIMETRE>
+            <NATURE>
+               <APPEL_OFFRE>
+                  <CONCOURS/>
+               </APPEL_OFFRE>
+            </NATURE>
+            <STATUT>
+               <INITIAL/>
+            </STATUT>
+         </TYPE_AVIS>
+      </REFERENCE>
+      <INDEXATION>
+         <SCHEMA>3.2.5</SCHEMA>
+         <NOMORGANISME>Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du Groupement Hospitalier Universitaire de Champagne (GHUC)</NOMORGANISME>
+         <TYPE_PROCEDURE>
+            <RESTREINT/>
+         </TYPE_PROCEDURE>
+         <DATE_PUBLICATION>2025-03-05</DATE_PUBLICATION>
+         <DATE_FIN_DIFFUSION>2025-07-03</DATE_FIN_DIFFUSION>
+         <DESCRIPTEURS>
+            <DESCRIPTEUR>
+               <CODE>33</CODE>
+               <LIBELLE>Bâtiment</LIBELLE>
+            </DESCRIPTEUR>
+         </DESCRIPTEURS>
+         <NATURE_MARCHE>
+            <SERVICES/>
+         </NATURE_MARCHE>
+         <DEP_PUBLICATION>51</DEP_PUBLICATION>
+         <RESUME_OBJET>Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</RESUME_OBJET>
+      </INDEXATION>
+   </GESTION>
+   <HTML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="FR">
+   <head>
+      <style type="text/css">.fr-h4 { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem!important; font-size: 1.4rem !important; line-height: 2rem !important; } .fr-h5, .fr-h5 + .fr-text--bold { font-weight: 700 !important; margin: 0.5rem 0 0.5rem 0rem !important; font-size: 1.3rem !important; line-height: 2rem !important; } .section { padding: 6px 6px 6px 36px; } .fr-text--bold { font-weight: bold; } .center { text-align: center; }
+                </style>
+      <title>Avis de concours - Avis n° 25-24221 du 03/03/2025</title>
+      <meta name="subject" content="Avis de concours"/>
+      <meta name="author"
+            content="Direction de l’information légale et administrative (DILA)"/>
+      <meta name="description"
+            content="Avis de concours - Avis n° 25-24221 du 03/03/2025 sur le site Boamp.fr"/>
+   </head>
+   <body>
+      <div class="center">
+         <div class="fr-h4" id="doc_titre">Avis de concours</div>
+      </div>
+      <div>Département(s) de publication :<span>
+            <strong>51</strong>
+         </span>
+      </div>
+      <div>
+         <span>Annonce n°</span>
+         <strong>25-24221</strong>
+      </div>
+      <hr/>
+      <div id="section_1_d1e9">
+         <span class="fr-h5">Section 1 -</span>
+         <span class="fr-text--bold">Acheteur</span>
+         <div class="section" id="section_1.1_d1e155">
+            <span>1.1</span>
+            <span class="fr-text--bold">Acheteur</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du Groupement Hospitalier Universitaire de Champagne (GHUC)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Forme juridique de l’acheteur</span>
+               <span>:</span>
+               <span>Organisme de droit public</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Activité du pouvoir adjudicateur</span>
+               <span>:</span>
+               <span>Santé</span>
+            </div>
+         </div>
+      </div>
+      <div id="section_2_d1e9">
+         <span class="fr-h5">Section 2 -</span>
+         <span class="fr-text--bold">Procédure</span>
+         <div class="section" id="section_2.1_d1e202">
+            <span>2.1</span>
+            <span class="fr-text--bold">Procédure</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>Concours restreint sur "esquisse" relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne. Le montant de l'enveloppe financière prévisionnelle affectée aux travaux est de 24 905 000 Euros HT (novembre 2024). La durée globale prévisionnelle du marché de maîtrise d'oeuvre est de 6 ans, toutes tranches comprises, hors année de parfait achèvement.</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant de la procédure</span>
+               <span>:</span>
+               <span>4ec5aa25-640d-44e3-8a42-5c8887cea7a5</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de procédure</span>
+               <span>:</span>
+               <span>Restreinte</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Principales caractéristiques de la procédure</span>
+               <span>:</span>
+               <span>A l'issue du concours, des négociations sont engagées avec le(s) lauréat(s) en vue de la passation du marché de maîtrise d'oeuvre dont le contenu et les modalités d'exécution sont définis dans le cahier des clauses administratives particulières (CCAP), le cahier des clauses techniques particulières (CCTP) et, le cas échéant, dans l'acte d'engagement. Au terme des négociations, le marché est attribué par la personne signataire du marché, qui conserve la possibilité de ne donner aucune suite au concours.</span>
+            </div>
+            <div class="section" id="section_2.1.1_d1e202">
+               <span>2.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.2_d1e225">
+               <span>2.1.2</span>
+               <span class="fr-text--bold">Lieu d’exécution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse postale</span>
+                  <span>:</span>
+                  <span>Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</span>
+                  <span/>
+                  <span>51, Rue du Commandant Derrien</span>
+                  <span/>
+                  <span/>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Ville</span>
+                  <span>:</span>
+                  <span>Châlons-en-Champagne</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Code postal</span>
+                  <span>:</span>
+                  <span>51000</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+                  <span>:</span>
+                  <span>Marne</span>
+                  <span/>
+                  <span>(</span>
+                  <span>FRF23</span>
+                  <span>)</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Pays</span>
+                  <span>:</span>
+                  <span>France</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.4_d1e202">
+               <span>2.1.4</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>La procédure s'inscrit dans le cadre de la fonction achat mutualisée du Groupement Hospitalier Universitaire de Champagne (GHUC). Le Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du GHUC, est compétent pour assurer la passation, la signature et la notification des marchés, ainsi que les éventuelles modifications, reconductions ou non-reconduction et résiliation. Le ou les établissements parties bénéficiaires assure(nt), à titre individuel, l'exécution des marchés et réalise(nt) notamment les opérations suivantes : commandes, vérifications, liquidation et mandatement des factures et toute autre mesure relevant des opérations d'exécution. ----- Le candidat proposera impérativement les compétences minimales suivantes : -- Architecte inscrit à l'ordre des architectes ou possédant un diplôme reconnu au titre de la directive 2005/36/CE. -- Un bureau d'étude pluridisciplinaire ou plusieurs bureaux d'études d'ingénierie couvrant l'ensemble des techniques suivantes : - Structure, - Chauffage Ventilation Climatisation (CVC) / Thermique, - Plomberie Sanitaire, - Fluides médicaux, - Electricité (CFO-CFA), - Coordination des Systèmes de Sécurité Incendie (CSSI), - Voirie Réseaux Divers (VRD). -- Autres compétences spécifiques : - Ordonnancement, Pilotage et Coordination (OPC), - Economie de la construction et coût global / coût Exploitation Maintenance, - Acoustique, - Signalétique et/ou architecte d'intérieur, - Logistique de flux, - BIM, - Etudes de micro-implantation des équipements et mobiliers. En cas de groupement, le mandataire doit être architecte. ----- FORME DU GROUPEMENT : En application des dispositions des articles R.2142-19 et R.2142-20 du Code de la commande publique, les groupements d'opérateurs économiques peuvent participer aux procédures de passation de marchés sous forme de groupement solidaire ou de groupement conjoint. En application des dispositions des articles R.2142-22 et R.2142-24 du Code de la commande publique, dans les deux formes de groupements, l'un des opérateurs économiques membres du groupement, désigné dans la candidature et dans l'offre comme mandataire, représente l'ensemble des membres vis-à-vis de l'acheteur et coordonne les prestations des membres du groupement. En application de l'article R.2142-22 du Code de la commande publique, à l'issue de l'attribution du marché, le groupement attributaire devra adopter la forme du groupement conjoint avec mandataire solidaire financièrement. ----- PRÉSENTATION DE PLUSIEURS CANDIDATURES ET OFFRES : En application des dispositions de l'article R.2142-21 du Code de la commande publique, il est fait interdiction aux candidats de présenter pour le marché plusieurs candidatures et offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements, ainsi qu'en qualité de membres de plusieurs groupements. Dans le cas où des candidats présentent pour le marché plusieurs offres en agissant à la fois en qualité de candidats individuels et de membres d'un ou plusieurs groupements ainsi qu'en qualité de membres de plusieurs groupements, alors toutes les candidatures/offres concernées seront éliminées. En conséquence, un candidat ne peut valablement faire deux candidatures et offres à titre individuel, ni faire une première offre à titre individuel et une seconde candidature et offre en qualité de membre d'un groupement (et inversement), ni faire une première candidature et offre en qualité de membre d'un groupement et une seconde offre en qualité de membre d'un autre groupement, et ce, y compris en tant que sous-traitant, à l'exception toutefois des sociétés portant exclusivement une ou plusieurs des compétences suivantes : - OPC, - Acoustique, - Logistique de flux, - BIM Mangement, - Micro-implantation. Le non-respect de cette obligation entrainera l'élimination de toutes les candidatures concernées. ----- La candidature devra impérativement contenir tous les documents et renseignements stipulés dans le règlement de la consultation de la phase candidatures. ----- Les personnes morales sont tenues d'indiquer les noms et qualifications professionnelles des membres du personnel chargés de la prestation. ----- VISITE OBLIGATOIRE : Une visite obligatoire sera organisée après la sélection des candidats admis à concourir. Les modalités seront précisées dans le règlement de consultation relatif à la phase offres.</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Base juridique</span>
+                  <span>:</span>
+               </div>
+               <div class="section">
+                  <span>Directive 2014/24/UE</span>
+               </div>
+            </div>
+            <div class="section" id="section_2.1.6_d1e178">
+               <span>2.1.6</span>
+               <span class="fr-text--bold">Motifs d’exclusion</span>
+               <div class="section">
+                  <span>Motifs d’exclusion purement nationaux</span>
+                  <span>:</span>
+                  <span>Le candidat individuel, ou chaque membre du groupement, ne doit pas entrer dans l'un des cas d'exclusion de la procédure de passation prévus par le Code de la commande publique.</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_5_d1e9">
+         <span class="fr-h5">Section 5 -</span>
+         <span class="fr-text--bold">Lot</span>
+         <div class="section" id="section_5.1_d1e248">
+            <span>5.1</span>
+            <span class="fr-text--bold">Identifiant technique du lot</span>
+            <span>:</span>
+            <span>LOT-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Titre</span>
+               <span>:</span>
+               <span>Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Description</span>
+               <span>:</span>
+               <span>TRANCHE FERME : Éléments de mission de base : - ESQ : Adaptation des études d'Esquisse, - APS : Etudes d'Avant-Projet Sommaire, - APD : Etudes d'Avant-Projet Définitif, - PRO-DCE : Etudes de Projet, y compris le Dossier de Consultation des Entreprises avec détails quantitatifs estimatifs (DQE) et décomposition du prix global et forfaitaire (DPGF), - ACT : Assistance apportée au maître d'ouvrage pour la passation des marchés publics de Travaux, - VISA : Examen de la conformité au projet des études d'exécution et leur Visa, - DET : Direction de l'Exécution des marchés publics de Travaux, - AOR-GPA : Assistance apportée au maître d'ouvrage lors des opérations de réception et pendant la période de garantie de parfait achèvement. Eléments de missions complémentaires : - OPC : Ordonnancement, Pilotage et Coordination des missions ESQ, - SYN : Synthèse des études d'exécution faites par les entreprises, - CSSI : Coordination des Systèmes de Sécurité Incendie. TRANCHES OPTIONNELLES : - Tranche optionnelle n° 1 - OPC : Ordonnancement, Pilotage et Coordination des missions APS à AOR, - Tranche optionnelle n° 2 - MIE : Micro-implantation des équipements biomédicaux, logistiques, et mobiliers et des interfaces associées, - Tranche optionnelle n° 3 - BIM : BIM Management.</span>
+            </div>
+            <div class="section" id="section_5.1.1_d1e457">
+               <span>5.1.1</span>
+               <span class="fr-text--bold">Objet</span>
+               <div class="section">
+                  <span class="fr-text--bold">Nature du marché</span>
+                  <span>:</span>
+                  <span>Services</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Nomenclature principale</span>
+                  <span/>
+                  <span>(</span>
+                  <span>cpv</span>
+                  <span>):</span>
+                  <span>71000000</span>
+                  <span/>
+                  <span>Services d'architecture, services de construction, services d'ingénierie et services d'inspection</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.6_d1e248">
+               <span>5.1.6</span>
+               <span class="fr-text--bold">Informations générales</span>
+               <div class="section">
+                  <span>Projet de passation de marché non financé par des fonds de l’UE</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations complémentaires</span>
+                  <span>:</span>
+                  <span>CRITERES DE SÉLECTION DES CANDIDATURES : Pour la sélection des candidats, le jury procèdera au vote selon les critères suivants : - Critère 1 - La capacité professionnelle, - Critère 2 - La capacité technique des membres du groupement, - Critère 3 : Les capacités économique et financière. ----- RÉALISATION DES PRESTATIONS SIMILAIRES / En application de l'article R.2122-7 du Code de la commande publique, le maître d'ouvrage se réserve la possibilité de conclure avec le maître d'oeuvre un marché passé sans publicité ni mise en concurrence préalables pour la réalisation de prestations similaires. La durée pendant laquelle le nouveau marché peut être conclu ne peut dépasser trois ans à compter de la notification du marché faisant suite au présent concours.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.9_d1e253">
+               <span>5.1.9</span>
+               <span class="fr-text--bold">Critères de sélection</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Autre</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nom</span>
+                     <span>:</span>
+                     <span>Situation juridique des candidats</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Pour un candidat se présentant seul ou pour chaque membre du groupement d'opérateurs économiques, sont fournis les déclarations et renseignements requis dans la lettre de candidature et de désignation du mandataire par ses cotraitants (formulaire DC1 dans la version du 01/04/2019 ou forme libre ou DUME) et notamment : a) La présentation du candidat, seul ou en groupement d'entreprises (avec désignation du mandataire, de la forme du groupement, le cas échéant du rôle du mandataire du groupement conjoint, et de la répartition des prestations). b) La déclaration sur l'honneur du candidat individuel ou de chaque membre du groupement pour justifier qu'il n'entre dans aucun des cas d'exclusions prévus aux articles L.2141-1 à L.2141-5 et aux articles L.2141-7 à L.2141-10 du Code de la commande publique. c) Pour chaque sous-traitant éventuellement identifié dès le stade de la candidature, une preuve que le groupement candidat en disposera pour l'exécution du marché (la preuve peut être apportée par tout moyen approprié, tel qu'un engagement écrit du sous-traitant) et une déclaration sur l'honneur que le sous-traitant n'entre dans aucun des cas d'interdiction de soumissionner mentionnés aux articles L.2141-1 à L.2141-5 ou aux articles L.2141-7 à L.2141-10 du Code de la commande publique. d) Les pouvoirs de la personne habilitée à engager la candidature et à représenter chacun des membres du groupement candidat.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité technique et professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>- Certificats de qualification professionnelle : Afin de participer à la justification des capacités minimales exigées, les candidats transmettront tous les certificats de qualification professionnelle établis par des organismes indépendants tels que l'Organisme Professionnel de Qualification de l'Ingénierie Bâtiment Industrie (OPQIBI) ou équivalent, en leur possession. Pour toutes les compétences autres que la compétence en architecture, le Centre Hospitalier Universitaire acceptera tout moyen de preuve (attestation de formation diplômes ou références projets). - Présentation générale - Fiche synthétique de présentation (annexe n° 1 au RC) à compléter selon les conditions fixées au RC. - Présentation graphique des références - Cadre de présentation graphique (annexe n° 2 au RC) à compléter selon conditions fixées au RC.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Capacité économique et financière</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Pour un candidat se présentant seul ou pour chaque membre du groupement d'opérateurs économiques, sont fournis les renseignements et documents suivants : - Une déclaration concernant le chiffre d'affaires global du candidat et, le cas échéant, le chiffre d'affaires du domaine d'activité faisant l'objet du marché, portant au maximum sur les trois derniers exercices disponibles en fonction de la date de création de l'entreprise ou du début d'activité de l'opérateur économique, dans la mesure où les informations sur ces chiffres d'affaires sont disponibles. - Une déclaration indiquant les effectifs moyens annuels du candidat et l'importance du personnel d'encadrement pendant les trois dernières années. - L'indication des titres d'études et professionnels du candidat ou des cadres de l'entreprise, et notamment des responsables de prestation de services de même nature que celle du marché. La transmission de CV est exigée selon les conditions fixées au RC. - Les déclarations appropriées de banques ou, le cas échéant, preuve d'une assurance des risques professionnels pertinents. Si, pour une raison justifiée, l'opérateur économique n'est pas en mesure de produire les renseignements et documents demandés concernant la capacité économique et financière il est autorisé à prouver sa capacité économique et financière par tout autre moyen considéré comme approprié par le Centre Hospitalier Universitaire.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Aptitude à exercer l’activité professionnelle</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>Pour chaque membre du groupement portant la compétence en architecture une attestation d'inscription à l'ordre des architectes datant de moins de 6 mois, ou un diplôme reconnu au titre de la directive 2005/36/CE pour les candidats étrangers.</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Les critères seront appliqués pour sélectionner les candidats à convoquer pour la seconde étape de la procédure</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations sur la seconde étape d’une procédure en deux étapes</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre minimal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Nombre maximal de candidats à convoquer pour la seconde étape de la procédure</span>
+                     <span>:</span>
+                     <span>3</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">La procédure se déroulera en plusieurs étapes. À chaque étape, certains participants peuvent être éliminés</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.10_d1e341">
+               <span>5.1.10</span>
+               <span class="fr-text--bold">Critères d’attribution</span>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>1) Qualités fonctionnelles du projet et qualité de la réponse au programme</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>5) Qualités architecturales du projet et intégration dans le site</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>4) Qualité technique et environnementale du projet</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>3) Economie générale du projet et compatibilité avec l'enveloppe financière prévisionnelle affectée aux travaux</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Critère</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Type</span>
+                     <span>:</span>
+                     <span>Qualité</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Description</span>
+                     <span>:</span>
+                     <span>2) Pertinence du phasage des travaux et du planning prévisionnel proposé</span>
+                  </div>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.11_d1e250">
+               <span>5.1.11</span>
+               <span class="fr-text--bold">Documents de marché</span>
+               <div class="section">
+                  <span class="fr-text--bold">Adresse des documents de marché</span>
+                  <span>:</span>
+                  <span>https://www.marches-publics.gouv.fr/?page=Entreprise.EntrepriseAdvancedSearch&amp;AllCons&amp;id=2717828&amp;orgAcronyme=x7c</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.12_d1e248">
+               <span>5.1.12</span>
+               <span class="fr-text--bold">Conditions du marché public</span>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions du régime du concours</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">La décision du jury est contraignante pour l’acheteur</span>
+                     <span>:</span>
+                     <span class="fr-text--bold">non</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Prix</span>
+                     <div class="section">
+                        <span class="fr-text--bold">Valeur de la prime</span>
+                        <span>:</span>
+                        <span>140,000</span>
+                        <span/>
+                        <span class="fr-text--bold">Euro</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Lieu de réception de la prime</span>
+                        <span>:</span>
+                        <span>51000</span>
+                     </div>
+                     <div class="section">
+                        <span class="fr-text--bold">Informations complémentaires</span>
+                        <span>:</span>
+                        <span>Conformément à l'article R.2172-4 du Code de la commande publique, le maître d'ouvrage allouera une prime à chacun des 3 concurrents, qui aura remis un projet conforme aux exigences du Règlement de consultation et sous réserve que ces derniers aient remis dans les délais réglementaires les prestations décrites dans le Règlement de consultation, conformément aux propositions du Jury. Le Jury se réserve en effet le droit de proposer, de réduire ou de supprimer cette prime pour les concurrents dont les prestations ne répondraient pas aux caractéristiques énoncées dans le Règlement de consultation ou dont les prestations ne correspondraient pas à l'évidence au niveau de prestation demandé. La prime sera versée sur proposition du Jury et sur présentation de factures.</span>
+                     </div>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Tout marché de services faisant suite au concours sera attribué à l’un des lauréats du concours</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Conditions de présentation</span>
+                  <span>:</span>
+                  <div class="section">
+                     <span class="fr-text--bold">Présentation par voie électronique</span>
+                     <span>:</span>
+                     <span>Requise</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Langues dans lesquelles les offres ou demandes de participation peuvent être présentées</span>
+                     <span>:</span>
+                     <span>français</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Variantes</span>
+                     <span>:</span>
+                     <span>Non autorisée</span>
+                  </div>
+                  <div class="section">
+                     <span class="fr-text--bold">Date limite de réception des demandes de participation</span>
+                     <span>:</span>
+                     <span>07/04/2025</span>
+                     <span/>
+                     <span>à 15:00</span>
+                  </div>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Informations relatives aux délais de recours</span>
+                  <span>:</span>
+                  <span>- Référé précontractuel : article L551-1 et suivants du Code de Justice Administrative (CJA), - Référé contractuel : article L551-13 et suivants du CJA, - Recours en contestation de validité du contrat en application de la jurisprudence du Conseil d'Etat, 4 avril 2014, Département de Tarn et Garonne.</span>
+               </div>
+            </div>
+            <div class="section" id="section_5.1.16_d1e250">
+               <span>5.1.16</span>
+               <span class="fr-text--bold">Informations complémentaires, médiation et réexamen</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Châlons-en-Champagne</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+                  <span>:</span>
+                  <span>Tribunal administratif de Châlons-en-Champagne</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_8_d1e9">
+         <span class="fr-h5">Section 8 -</span>
+         <span class="fr-text--bold">Organisations</span>
+         <div class="section" id="section_8.1_d1e27">
+            <span>8.1</span>
+            <span>ORG-0001</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du Groupement Hospitalier Universitaire de Champagne (GHUC)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>26510005700487</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>45, rue Cognacq Jay</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Reims cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>51092</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Marne</span>
+               <span/>
+               <span>(</span>
+               <span>FRF23</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Point de contact</span>
+               <span>:</span>
+               <span>Cellule des marchés publics</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>cellulemarches@chureims.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 310736039</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Acheteur</span>
+               </div>
+            </div>
+         </div>
+         <div class="section" id="section_8.1_d1e77">
+            <span>8.1</span>
+            <span>ORG-0002</span>
+            <div class="section">
+               <span class="fr-text--bold">Nom officiel</span>
+               <span>:</span>
+               <span>Tribunal administratif de Châlons-en-Champagne</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Numéro d’enregistrement</span>
+               <span>:</span>
+               <span>17510005600019</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse postale</span>
+               <span>:</span>
+               <span>25, rue du Lycée</span>
+               <span/>
+               <span/>
+               <span/>
+               <span/>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Ville</span>
+               <span>:</span>
+               <span>Châlons-en-champagne cedex</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Code postal</span>
+               <span>:</span>
+               <span>51036</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Subdivision pays (NUTS)</span>
+               <span>:</span>
+               <span>Marne</span>
+               <span/>
+               <span>(</span>
+               <span>FRF23</span>
+               <span>)</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Pays</span>
+               <span>:</span>
+               <span>France</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Adresse électronique</span>
+               <span>:</span>
+               <span>greffe.ta-chalons-en-champagne@juradm.fr</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Téléphone</span>
+               <span>:</span>
+               <span>+33 326668687</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Rôles de cette organisation</span>
+               <span>:</span>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de recours</span>
+               </div>
+               <div class="section">
+                  <span class="fr-text--bold">Organisation chargée des procédures de médiation</span>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="section_11_d1e9">
+         <span class="fr-h5">Section 11 -</span>
+         <span class="fr-text--bold">Informations relatives à l’avis</span>
+         <div class="section" id="section_11.1_d1e9">
+            <span>11.1</span>
+            <span class="fr-text--bold">Informations relatives à l’avis</span>
+            <div class="section">
+               <span class="fr-text--bold">Identifiant/version de l’avis</span>
+               <span>:</span>
+               <span>947a6505-c3d7-4443-8b51-5bd516f69efe</span>
+               <span/>
+               <span>-</span>
+               <span>01</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type de formulaire</span>
+               <span>:</span>
+               <span>Mise en concurrence</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Type d’avis</span>
+               <span>:</span>
+               <span>Avis de concours</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Date d’envoi de l’avis</span>
+               <span>:</span>
+               <span>03/03/2025</span>
+               <span/>
+               <span>à 18:04</span>
+            </div>
+            <div class="section">
+               <span class="fr-text--bold">Langues dans lesquelles l’avis en question est officiellement disponible</span>
+               <span>:</span>
+               <span>français</span>
+               <span/>
+               <span/>
+            </div>
+         </div>
+         <div class="section" id="section_11.2_d1e9">
+            <span>11.2</span>
+            <span class="fr-text--bold">Informations relatives à la publication</span>
+         </div>
+      </div>
+      <hr/>
+      <div>
+         <span class="fr-text--bold">Date d'envoi du présent avis à la publication : </span>03/03/2025</div>
+   </body>
+</html>
+]]></HTML>
+   <HTMLSYNTHESE><![CDATA[<!DOCTYPE HTML>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   </head>
+   <body>
+      <h3>L’essentiel du marché</h3>
+      <ul>
+         <li><span>Acheteur(s) : </span><ul>
+               <li><span class="fr-text--bold">Centre Hospitalier Universitaire de Reims, en qualité d'établissement support du Groupement
+                     Hospitalier Universitaire de Champagne (GHUC) : </span><ul>
+                     <li><span class="fr-text--bold">Adresse : </span>45, rue Cognacq Jay Reims cedex 51092 FRF23 FRA</li>
+                     <li><span class="fr-text--bold">Point(s) de contact : </span>Cellule des marchés publics</li>
+                     <li><span class="fr-text--bold">Téléphone : </span>+33 310736039</li>
+                     <li><span class="fr-text--bold">Courriel : </span>cellulemarches@chureims.fr</li>
+                     <li><span class="fr-text--bold">Adresse internet : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                     <li><span class="fr-text--bold">Adresse internet du profil d'acheteur : </span><a href="" target="_blank" title="Aller sur la page  - nouvelle fenêtre"><span></span></a></li>
+                  </ul>
+               </li>
+            </ul>
+         </li>
+         <li><span class="fr-text--bold">Titre du marché : </span>Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du
+            Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</li>
+         <li><span class="fr-text--bold">Objet du marché : </span>Concours restreint sur "esquisse" relatif à la restructuration et à la construction
+            du Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne. Le
+            montant de l'enveloppe financière prévisionnelle affectée aux travaux est de 24 905
+            000 Euros HT (novembre 2024). La durée globale prévisionnelle du marché de maîtrise
+            d'oeuvre est de 6 ans, toutes tranches comprises, hors année de parfait achèvement.</li>
+         <li><span class="fr-text--bold">Renseignements relatifs aux lots :</span><ul>
+               <li><span class="fr-text--bold">Lot 1 : </span>Concours de Maîtrise d'oeuvre relatif à la restructuration et à la construction du
+                  Nouvel Hôpital du Centre Hospitalier Léon Bourgeois de Châlons-en-Champagne</li>
+            </ul>
+         </li>
+      </ul>
+   </body>
+</html>]]></HTMLSYNTHESE>
+</jo:ann>
